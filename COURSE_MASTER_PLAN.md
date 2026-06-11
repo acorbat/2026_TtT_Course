@@ -356,22 +356,28 @@ The course should generate a network of trainers, not an isolated event.
 - Image processing fundamentals
 - Pedagogy module: how to teach concepts to mixed audiences
 
+### Day 1 - Tools (afternoon)
+- GUI vs Macro vs Coding-based
+- Integration of tools
+- Design of courses/workshops from GUI to coding or coding to GUI
+
 ### Day 2 — Segmentation and measurement
 - Segmentation strategies and validation
 - Quantitative analysis and common pitfalls
 - Workshop: building exercises from real microscopy examples
 
 ### Day 3 — Workflows and reproducibility
-- Fiji, Python, napari ecosystem overview
+- Fiji, Python, QuPath, napari ecosystem overview (BIIF to cover one?)
 - Reproducible analysis design
 - Workshop: converting examples into teachable workflows
 
-### Day 4 — ML and deep learning
+### Day 4 — ML and deep learning (Enzo Ferrante?)
 - ML concepts for bioimage analysis
 - Deep-learning segmentation: opportunities and limitations
 - Workshop: how to teach ML responsibly without overselling it
 
 ### Day 5 — Teaching practice and replication
+- Rocco to present model training schools?
 - Assessment design
 - Participant mini teach-backs
 - Institutional adaptation plans
