@@ -449,8 +449,8 @@ The course should generate a network of trainers, not an isolated event.
 - career stage,
 - previous bioimage analysis experience,
 - software background,
-- current teaching / mentoring / training responsibilities,
-- previous teaching or workshop experience,
+- current teaching / mentoring / training responsibilities, 
+- previous teaching or workshop experience, 
 - work environment and opportunities to continue teaching or supporting trainees,
 - motivation for attending,
 - topics of strongest expertise,
@@ -473,12 +473,15 @@ The course should generate a network of trainers, not an isolated event.
    - advanced
    - advanced trainer / specialist
 10. Which tools have you used? (check all that apply)
-    - Fiji / ImageJ
+    - Fiji / ImageJ (Point-and-click)
+    - Fiji / ImageJ (Macros)
+    - QuPath (Point-and-click)
     - Python
     - napari
     - ilastik
     - Cellpose / StarDist / related tools
     - deep-learning workflows
+    - R
     - other
 11. Briefly describe the kinds of image-analysis problems you work on most often.
 12. Have you taught, co-taught, mentored, or supported training in bioimage analysis, microscopy, image processing, or related topics?
