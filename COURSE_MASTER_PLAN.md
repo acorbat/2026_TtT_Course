@@ -92,7 +92,7 @@ gantt
 - [x] Confirm course dates: **2026-08-03 to 2026-08-07**.
 - [x] Confirm working language: **English**.
 - [x] Confirm target participant count: **24**.
-- [ ] Update the budget to reflect that only **AR$ 2.000.000** is available for now from the requested FUNDACEN support.
+- [ ] Update the budget to reflect that only **AR$ 1.000.000** is available for now from the requested FUNDACEN support.
 - [ ] Decide which budget lines this first tranche should protect: invited professors, coffee breaks, or participant support.
 - [ ] Prepare and send invitations to priority guest professors.
 - [ ] Invite local instructors/facilitators formally starting one week later than previously planned, and confirm their availability.
@@ -610,8 +610,7 @@ For the **Análisis de Bioimágenes / Train-the-Trainer** workshop, the FUNDACEN
 
 ### Current funding status
 - **Requested from FUNDACEN (broader proposal):** AR$ 10.004.000
-- **Currently available from FUNDACEN for now:** **AR$ 2.000.000**
-- **Confirmed external contribution:** **Zeiss Argentina AR$ 1.040.000** (for the Electron Microscopy workshop, not directly for this course)
+- **Currently available from FUNDACEN for now:** **AR$ 1.000.000**
 - **Expected income from registrations across the broader proposal:** **AR$ 4.254.000**
 - **Implication for this course:** the bioimage-analysis workshop still has a substantial funding gap, especially for invited professors and participant support
 
