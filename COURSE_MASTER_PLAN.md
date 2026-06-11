@@ -621,12 +621,14 @@ For the **Análisis de Bioimágenes / Train-the-Trainer** workshop, the FUNDACEN
 | Coffee breaks (+ ideally social dinner, and lunches if feasible) | 1.775.000 | Medium | Important for participant experience; prioritize including the social dinner, and include lunches only if budget and vendor options allow |
 | Participant travel / hotel support | 4.136.000 | High | Critical for federal participation, but may need a smaller number of bursaries |
 
-### Suggested use of the currently available AR$ 2.000.000
+### Suggested use of currently available
 | Option | Description | Pros | Risks |
 |---|---|---|---|
 | Option A | Prioritize one regional invited professor + minimal coffee breaks | Protects academic quality and external visibility | Reduces inclusion support |
 | Option B | Prioritize participant support bursaries | Improves federal access and inclusion | Harder to bring international experts in person |
 | Option C | Mixed strategy: regional professor + limited bursaries + partial catering | Balanced approach | No budget line fully covered |
+
+**Decision**: We went for option B. So we need to look into local experts that can cover topics. We also need to invite international professors to virtually present.
 
 ### Funding model to build
 | Cost category | Primary proposed source | Backup source | Status |
@@ -651,10 +653,14 @@ The broader proposal uses a differentiated fee scheme and includes waivers for F
 
 ## Open questions and decisions needed
 1. Given the current partial funding, is there enough budget to bring one European invited professor in person?
-2. How should the currently available **AR$ 2.000.000** be allocated?
+- No, even though their trip might be covered. Hotal rooms for a week already cost about the same that available fuinding.
+2. How should the currently available **AR$ 1.000.000** be allocated?
+-  This will be mostly allocated to student bursaries. Consider **AR$ 100.000-200.000** per student.
 3. Will the course issue certificates, and who signs them?
 4. Will registration fees be charged in local currency, USD equivalent, or through institutional payment channels?
+- Local currency
 5. What exact prerequisites should be required to keep the course at an advanced but teachable level?
+Consider applicants that have already delivered courses and/or worked **professionally** on pipelines.
 6. Which local instructors can commit the required **7-11 hours** of preparation time before the course?
 7. How will completion of the required pre-course lectures be tracked and enforced?
 
