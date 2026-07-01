@@ -13,7 +13,7 @@ To avoid text clutter in social media posts, the accompanying image should serve
 ### Essential Text on the Image:
 *   **Main Title:** *Train-the-Trainer Course on Bioimage Analysis (LATAM)*
 *   **Dates:** August 3–7, 2026 (2026-08-03 to 2026-08-07)
-*   **Venue:** Aula 1306, Pabellón 0+Infinito, FCEN-UBA, Buenos Aires, Argentina
+*   **Venue:** Pabellón 0+Infinito, FCEN-UBA, Buenos Aires, Argentina
 *   **Format:** On-site only (Presencial) + required pre-course asynchronous lectures
 *   **Target Audience:** Postgraduate students, researchers, facility staff, and image analysts in LATAM
 *   **Application Deadline:** July 16, 2026 (2026-07-16)
@@ -21,7 +21,7 @@ To avoid text clutter in social media posts, the accompanying image should serve
     *   Focus on teaching pedagogy & exercise design
     *   Travel support and registration waivers available for selected regional participants
 *   **Actionable Elements:** A prominent QR code linking directly to the registration form.
-*   **Logos:** FCEN-UBA, FUNDACEN, and relevant partner institutions.
+*   **Logos:** CMA and FCEN-UBA.
 
 ---
 
@@ -31,20 +31,20 @@ To avoid text clutter in social media posts, the accompanying image should serve
 
 ### Spanish Version
 ```text
-Subject: Convocatoria abierta: Curso de Formación de Formadores en Análisis de Bioimágenes (LATAM 2026)
+Subject: Inscripcion abierta: Taller de Fundamentos en Análisis de Bioimágenes (Train-the-Trainer)
 
-Estimados/as colegas,
+Estimados,
 
-Nos complace invitarlos a postularse al curso "Formación de Formadores en Análisis de Bioimágenes" (Train-the-Trainer Course on Bioimage Analysis), que se llevará a cabo de forma presencial del 3 al 7 de agosto de 2026 en el Aula 1306, Pabellón 0+Infinito, FCEN-UBA, Buenos Aires, Argentina.
+Nos complace invitarlos a inscribirse al taller de "Fundamentos en Análisis de Bioimágenes (Train-the-Trainer)", que se llevará a cabo de forma presencial del 3 al 7 de agosto de 2026 en el Pabellón 0+Infinito, FCEN-UBA, Buenos Aires, Argentina.
 
-Este curso intensivo está especialmente dirigido a estudiantes de posgrado, investigadores, analistas de imágenes y personal técnico de laboratorios y servicios de microscopía (core facilities) de Argentina y Latinoamérica. El objetivo principal no es solo impartir conocimientos técnicos avanzados, sino brindar herramientas pedagógicas para que los participantes puedan replicar y adaptar estos entrenamientos en sus respectivas instituciones de origen.
+Este curso intensivo está especialmente dirigido a estudiantes de posgrado, investigadores, analistas de imágenes y personal técnico de laboratorios y servicios de microscopía de Argentina y Latinoamérica. El objetivo principal no es solo impartir conocimientos técnicos avanzados, sino brindar herramientas pedagógicas para que los participantes puedan replicar y adaptar estos entrenamientos en sus respectivas instituciones de origen.
 
 Detalles clave:
 - Fechas del curso presencial: 2026-08-03 al 2026-08-07.
 - Modalidad: Presencial, con una etapa previa obligatoria de estudio asincrónico (videos y lecturas teóricas) a partir de mediados de julio.
 - Idioma: El curso se dictará principalmente en español, con material y presentaciones seleccionadas en inglés (se requiere comprensión de lectura en inglés).
-- Temario: Fundamentos de procesamiento, segmentación y validación cuantitativa, flujos reproducibles (Fiji, Python, napari), Machine/Deep Learning, y diseño de estrategias pedagógicas.
-- Costo y becas: La inscripción cuenta con un arancel diferenciado. Gracias al apoyo parcial de FUNDACEN y fondos institucionales, disponemos de becas de ayuda económica (bursaries para viaje/alojamiento) y exenciones de arancel (waivers).
+- Temario: Fundamentos de procesamiento, segmentación y cuantitatición, flujos reproducibles (Fiji, Python, napari), Machine/Deep Learning, y diseño de estrategias pedagógicas.
+- Costo y becas: La inscripción cuenta con un arancel diferenciado. Gracias al apoyo parcial de FUNDACEN y fondos institucionales, disponemos de becas de ayuda económica y exenciones de arancel.
 
 Cronograma de inscripción:
 - Cierre de postulaciones: 16 de julio de 2026 (2026-07-16).
@@ -56,39 +56,8 @@ Los interesados pueden encontrar más detalles y acceder al formulario de postul
 Agradecemos la difusión de esta convocatoria entre sus contactos y colaboradores.
 
 Atentamente,
-Comité Organizador (Agustin Corbat, Lorena Sigaut, Lia Pietrasanta)
-Contacto: [Insertar Correo Electrónico]
-```
-
-### English Version
-```text
-Subject: Call for Applications: Bioimage Analysis Train-the-Trainer Course (LATAM 2026)
-
-Dear colleagues,
-
-We are pleased to invite applications for the upcoming "Train-the-Trainer Course on Bioimage Analysis", which will take place in-person from August 3 to August 7, 2026, at Aula 1306, Pabellón 0+Infinito, FCEN-UBA, Buenos Aires, Argentina.
-
-This intensive course is tailored for graduate students, researchers, image analysts, and microscopy facility staff in Argentina and Latin America. The primary goal is to empower participants not only with bioimage analysis concepts but also with the pedagogical tools necessary to replicate and adapt this training at their home institutions.
-
-Key Details:
-- On-site Dates: 2026-08-03 to 2026-08-07.
-- Format: In-person only, with a mandatory asynchronous pre-course study phase (theoretical videos and software setup) starting mid-July.
-- Language: English/Spanish (reading comprehension in English is required; sessions will be delivered primarily in Spanish with selected materials in English).
-- Topics: Image processing fundamentals, segmentation & validation, reproducible workflows (Fiji, Python, napari), Machine/Deep Learning, and training design.
-- Financial Support: Differentiated registration fees apply. We offer travel support bursaries and registration fee waivers for selected regional participants.
-
-Timeline:
-- Application Deadline: July 16, 2026 (2026-07-16).
-- Selection Results & Support Allocation: From July 17, 2026.
-
-For more information and to apply, please visit:
-[Insert Link to Form / Website]
-
-Please feel free to forward this announcement to your departments and networks.
-
-Best regards,
-Organizing Committee (Agustin Corbat, Lorena Sigaut, Lia Pietrasanta)
-Contact: [Insert Email Address]
+Comité Organizador (Dr. Agustin Corbat, Dra. Lorena Sigaut, Dra. Lia Pietrasanta)
+Contacto: cma.taller.ab@gmail.com
 ```
 
 ---
@@ -98,7 +67,7 @@ Contact: [Insert Email Address]
 
 ### Spanish Version
 ```text
-📢 *¡CONVOCATORIA ABIERTA! Curso de Formación de Formadores en Análisis de Bioimágenes (LATAM 2026)* 🔬💻
+📢 *INSCRIPCIÓN ABIERTA! Taller de Fundamentos Análisis de Bioimágenes (Train-the-Trainer)* 🔬💻
 
 ¿Trabajás en microscopía o análisis de imágenes en Latinoamérica y querés aprender a enseñar estas herramientas en tu institución? 🎓
 
