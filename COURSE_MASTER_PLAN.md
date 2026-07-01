@@ -91,9 +91,9 @@ gantt
 - [x] Confirm delivery format: **fully on-site, no virtual option**.
 - [x] Confirm course dates: **2026-08-03 to 2026-08-07**.
 - [x] Confirm working language: **English**.
-- [x] Confirm target participant count: **24**.
-- [ ] Update the budget to reflect that only **AR$ 1.000.000** is available for now from the requested FUNDACEN support.
-- [ ] Decide which budget lines this first tranche should protect: invited professors, coffee breaks, or participant support.
+- [ ] Confirm target participant count: **24**.
+- [x] Update the budget to reflect that only **AR$ 1.000.000** is available for now from the requested FUNDACEN support.
+- [x] Decide which budget lines this first tranche should protect: invited professors, coffee breaks, or participant support.
 - [ ] Prepare and send invitations to priority guest professors.
 - [ ] Invite local instructors/facilitators formally starting one week later than previously planned, and confirm their availability.
 - [ ] Estimate required coordination time per local instructor under the lighter prep model and block the single rehearsal in the calendar.
@@ -219,7 +219,7 @@ Participants need a common language for images, sampling, noise, contrast, filte
 **Candidate tools**
 - Fiji/ImageJ
 - napari
-- Python notebooks
+- Python Jupyter notebooks
 
 **Planned future file**
 - `03_topics/image-processing-fundamentals.md`
