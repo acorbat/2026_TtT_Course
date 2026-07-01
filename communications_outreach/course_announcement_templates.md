@@ -85,62 +85,93 @@ Contacto: cma.taller.ab@gmail.com
 
 ---
 
-## 4. X (formerly Twitter) Template
-*   **Format:** Strictly under 280 characters to fit standard posting limits. Designed to be eye-catching and direct.
+## 4. X (formerly Twitter) Template — Thread in Spanish
+*   **Format:** Strictly under 280 characters per post to fit standard Twitter limits. Designed as a concatenated thread.
 
 ```text
-📢 Applications are open for the Bioimage Analysis Train-the-Trainer Course (LATAM 2026) in Buenos Aires! 🔬💻
+[POST 1]
+📢 ¡Inscripción abierta! Taller de Fundamentos Análisis de Bioimágenes (Train-the-Trainer) 🔬💻
 
-Target: postgraduate students, analysts & facility staff looking to teach bioimage analysis.
-✈️ Travel support & waivers available!
-📅 Aug 3-7
-⏳ Apply by July 16: [Link]
+Para estudiantes, investigadores y personal de centros de servicios que quieran mejorar y enseñar análisis de imágenes en sus instituciones.
+
+📅 3-7 de agosto
+⏳ Cierre: 16 de julio
+👇🧵
+
+[POST 2]
+2/4 ✈️ ¿Necesitás apoyo? Contamos con becas de ayuda económica para viaje/alojamiento y exenciones de arancel para los participantes seleccionados, gracias a FUNDACEN.
+
+📍 Lugar: Pabellón 0+Infinito, FCEN-UBA, Buenos Aires.
+
+[POST 3]
+3/4 🛠️ ¿Qué cubriremos?
+- Fundamentos de procesamiento y validación cuantitativa
+- Flujos de trabajo reproducibles (Fiji, Python, napari)
+- Machine Learning y Deep Learning
+- Diseño pedagógico de ejercicios y clases de bioimágenes
+
+[POST 4]
+4/4 📚 El curso incluye una etapa obligatoria de preparación teórica online asincrónica la segunda mitad de julio.
+
+🔗 ¡No te quedes afuera! Toda la información y postulación aquí: [Insertar Enlace Corto]
 ```
 
 ---
 
-## 5. LinkedIn Announcement Template
+## 5. LinkedIn Announcement Template in Spanish
 *   **Format:** Professional, narrative-driven, focusing on career development, regional capacity building, and community multiplication.
 
 ```text
-🔬 Bioimage analysis is a cornerstone of modern biology, but multiplying training capacity sustainably across Latin America is key. 
+🔬 El análisis de bioimágenes es un pilar de la investigación biológica moderna, pero para que sea sostenible en Latinoamérica necesitamos multiplicar las capacidades locales, incluso la enseñanza.
 
-We are thrilled to announce that applications are now open for the **Train-the-Trainer Course on Bioimage Analysis (LATAM 2026)**!
+¡Nos alegra anunciar que abrimos la inscripción para el **Taller de Fundamentos Análisis de Bioimágenes (Train-the-Trainer)**!
 
-This intensive, in-person workshop will take place from **August 3rd to 7th, 2026** at the Pabellón 0+Infinito (FCEN-UBA) in Buenos Aires, Argentina.
+Este taller intensivo y presencial se dictará del **3 al 7 de agosto de 2026** en el Pabellón 0+Infinito, FCEN-UBA, en Buenos Aires, Argentina.
 
-🎓 **Who is it for?**
-Postgraduate students, researchers, facility staff, and image analysts in LATAM who want to gain advanced bioimage informatics skills AND learn how to design, assess, and deliver training sessions in their home institutions.
+🎓 **¿A quién está dirigido?**
+Estudiantes de posgrado, investigadores, analistas de imágenes y personal técnico de laboratorios y microscopios de servicio de LATAM que deseen consolidar sus bases teóricas y, fundamentalmente, adquirir herramientas pedagógicas para diseñar y dictar entrenamientos en sus instituciones.
 
-🛠️ **What will we cover?**
-- Image processing fundamentals & validation
-- Reproducible workflows (Fiji, Python, napari)
-- Machine Learning & Deep Learning foundations
-- Educational pedagogy, exercise design, and course evaluation
+🛠️ **Temario principal:**
+- Fundamentos de procesamiento y validación cuantitativa de imágenes.
+- Flujos de trabajo reproducibles (Fiji, Python, napari).
+- Introducción teórica a Machine Learning y Deep Learning aplicados a bioimágenes (con Enzo Ferrante).
+- Diseño pedagógico de actividades prácticas, evaluaciones y adaptaciones a contextos locales.
 
-✈️ **Financial Support:**
-Thanks to FUNDACEN and host institutions, travel support bursaries and registration waivers are available to help regional participants attend.
+✈️ **Asistencia económica:**
+Gracias al apoyo parcial de FUNDACEN y de las instituciones asociadas, disponemos de becas de ayuda financiera para viaje/alojamiento y exención de aranceles de registro para participantes seleccionados de la región.
 
-📅 **Application Deadline:** July 16, 2026.
-🔗 Learn more and apply here: [Insert Link]
+📅 **Fecha límite de postulación:** 16 de julio de 2026.
+🔗 Encontrá más información y completá tu formulario de postulación acá: [Insertar Enlace]
 
-Organized by Agustin Corbat, Lorena Sigaut, and Lia Pietrasanta.
+Organizado por Dr. Agustin Corbat, Dra. Lorena Sigaut y Dra. Lia Pietrasanta del Centro de Microscopías Avanzadas, FCEN, UBA.
 
-#BioimageAnalysis #Biophysics #Microscopy #TrainTheTrainer #LATAMscience #Fiji #Python #DeepLearning #ResearchInfrastructure
+#BioimageAnalysis #Microscopy #TrainTheTrainer #LATAMscience #Fiji #Python #DeepLearning #ResearchInfrastructure #FCENUBA #FUNDACEN
 ```
 
 ---
 
-## 6. Bluesky Template
-*   **Format:** Under 300 characters, utilizing similar formatting to X.
+## 6. Bluesky Template — Thread in Spanish
+*   **Format:** Under 300 characters per post, utilizing similar formatting to X.
 
 ```text
-📢 Applications open: Bioimage Analysis Train-the-Trainer Course (LATAM 2026)! 🔬💻
+[POST 1]
+📢 ¡Inscripción abierta! Taller de Fundamentos Análisis de Bioimágenes (Train-the-Trainer) 🔬💻
 
-For LATAM researchers, analysts & facility staff looking to build teaching skills.
-✈️ Travel support & waivers available.
-📅 August 3-7, Buenos Aires
-⏳ Apply by July 16: [Link]
+Para investigadores, estudiantes de posgrado y staff de microscopía de LATAM que busquen mejorar y enseñar análisis de imágenes.
+
+📅 3-7 de agosto, Buenos Aires
+⏳ Límite: 16 de julio
+👇🧵
+
+[POST 2]
+2/3 ✈️ Becas y financiamiento: Contamos con ayuda económica para pasajes/alojamiento y exenciones de arancel gracias al apoyo de FUNDACEN.
+
+📍 Sede: Aula 1306, Pabellón 0+Infinito, FCEN-UBA.
+
+[POST 3]
+3/3 🛠️ Temario: Procesamiento básico, workflows reproducibles (Fiji, Python, napari), Machine & Deep Learning, y estrategias pedagógicas.
+
+🔗 Detalles y postulación: [Insertar Enlace]
 
 #BioimageAnalysis #LATAMscience
 ```
