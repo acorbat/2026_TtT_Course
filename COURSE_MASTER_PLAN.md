@@ -11,9 +11,15 @@ This document is the **working master plan** for organizing a **Train-the-Traine
 - **Primary goal:** train participants not only to use bioimage analysis methods, but also to **teach them effectively** and replicate training in their home institutions
 - **Participant count:** 24 participants
 - **Regional scope:** Argentina and LATAM, with invited contributions from Uruguay, Sweden, and international bioimage-analysis networks
-- **Current funding reality:** the broader FUNDACEN proposal requested **AR$ 10.004.000**, but only **AR$ 2.000.000** is available for now; this makes prioritization essential
-- **Priority constraints:** invited-professor travel, participant support, local instructor preparation time, required pre-course lecture production/curation, catering, and funding allocation
-- **Recent confirmed planning updates (2026-05-22):** registration timeline moved one week earlier; catering provider decision should be closed within two weeks; catering should ideally include the social dinner, while lunches are desirable but lower priority; local instructor invitations shift one week later, with no dedicated pedagogy onboarding and a single rehearsal
+- **Current funding reality:** the broader FUNDACEN proposal requested **AR$ 10.004.000**, but only **AR$ 1.000.000** is available for now from FUNDACEN; this makes prioritization essential. Additional funding from the electron microscopy course is still to be determined.
+- **Priority constraints:** participant travel assistance and waivers, local instructor preparation, required pre-course lecture curation, and potential travel support of up to AR$ 300.000 for Dr. Federico Lecumberry.
+- **Recent confirmed planning updates (2026-07-01):**
+  - **Organizing Committee:** Agustin Corbat, Lorena Sigaut, and Lia Pietrasanta are confirmed.
+  - **Budget & Catering:** Professional catering is cancelled. We will make coffee and buy food ourselves. Budget focus is on travel assistance, waivers, and regional speaker travel (Federico Lecumberry).
+  - **Registration Timeline:** Delayed to open from **July 1st to July 16th**. Consequently, travel support allocation and participant notifications are pushed to after July 16th.
+  - **Speakers & Local Instructors:** Enzo Ferrante confirmed a 2-hour deep learning theory lecture. Federico Lecumberry is looking into traveling for full-time support. Confirmed local instructors/facilitators include Mauro Silberberg, Ignacio Sallaberry, Alejandra Fernandez, Elizabeth Samaniego Onofre, Gina Ayelen Alongi, and Lorena Sigaut.
+  - **Course Materials:** Pre-course lectures preparation is delayed by two weeks (target mid-July). Local instructors will co-prepare practical exercises. The day-by-day program is in progress and will be finished by next week.
+
 
 **Primary outputs of the project**
 1. A coherent course program with topic leads and teaching rationale
@@ -36,47 +42,47 @@ gantt
 
     section Immediate organization
     Update master plan and core decisions         :done, plan, 2026-05-21, 2026-05-23
-    Confirm organizing team roles                 :active, roles, 2026-05-21, 2026-05-30
-    Rebuild budget after partial funding result   :active, budget, 2026-05-21, 2026-05-30
-    Confirm participant selection workflow        :selectionflow, 2026-05-26, 2026-06-03
+    Confirm organizing team roles                 :done, roles, 2026-05-21, 2026-07-01
+    Rebuild budget after partial funding result   :active, budget, 2026-05-21, 2026-07-15
+    Confirm participant selection workflow        :done, selectionflow, 2026-05-26, 2026-06-03
 
     section Academic program
-    Confirm core topics and session order         :topics, 2026-05-21, 2026-05-30
-    Identify lecturers and facilitators           :lecturers, 2026-05-23, 2026-06-06
-    Finalize pre-course lecture list              :prelist, 2026-05-26, 2026-06-10
-    Prepare or curate required lectures           :prework, 2026-06-02, 2026-07-03
-    Finalize day-by-day program                   :program, 2026-06-09, 2026-06-20
+    Confirm core topics and session order         :done, topics, 2026-05-21, 2026-05-30
+    Identify lecturers and facilitators           :done, lecturers, 2026-05-23, 2026-06-06
+    Finalize pre-course lecture list              :done, prelist, 2026-05-26, 2026-06-10
+    Prepare or curate required lectures           :active, prework, 2026-06-16, 2026-07-17
+    Finalize day-by-day program                   :active, program, 2026-06-09, 2026-07-08
 
     section Local instructors
-    Invite and confirm local instructors          :localinvite, 2026-05-28, 2026-06-06
-    Assign topics and responsibilities            :localroles, 2026-06-04, 2026-06-17
-    Session co-design and materials review        :localcodesign, 2026-06-18, 2026-07-17
+    Invite and confirm local instructors          :done, localinvite, 2026-05-28, 2026-07-01
+    Assign topics and responsibilities            :done, localroles, 2026-06-04, 2026-06-17
+    Agree on practical exercises preparation      :localexercises, 2026-07-01, 2026-07-15
+    Session co-design and materials review        :localcodesign, 2026-06-18, 2026-07-24
     Single instructor rehearsal / dry run         :milestone, localrehearsal, 2026-07-31, 1d
 
     section Invitations and travel
-    Send invitations to guest professors          :invite, 2026-05-21, 2026-05-29
-    Receive confirmations                         :confirm, 2026-05-26, 2026-06-12
-    Book international travel                     :travel, 2026-06-09, 2026-06-27
-    Reserve hotel rooms                           :hotel, 2026-06-16, 2026-06-27
+    Send invitations to guest professors          :done, invite, 2026-05-21, 2026-05-29
+    Receive confirmations                         :done, confirm, 2026-05-26, 2026-07-01
+    Book international travel (Federico L.)       :travel, 2026-07-01, 2026-07-15
+    Reserve hotel rooms                           :hotel, 2026-07-01, 2026-07-15
 
     section Logistics
     Classroom booked (Aula 1306)                  :done, classroom, 2026-05-21, 2026-05-21
-    Select caterer and obtain quote               :caterer, 2026-05-22, 2026-06-05
-    Pay catering deposit                          :milestone, cateringpay, 2026-06-12, 1d
-    Confirm coffee breaks and lunches             :cateringfinal, 2026-07-20, 2026-07-24
+    Check food supplies & dietary restrictions    :milestone, cateringcheck, 2026-07-15, 1d
+    Purchase coffee and food supplies             :cateringpurchase, 2026-07-27, 2026-07-31
     Confirm room setup and local signage          :roomfinal, 2026-07-20, 2026-07-31
 
     section Registration
-    Publish call and registration form            :milestone, call, 2026-06-02, 1d
-    Registration open                             :regopen, 2026-06-02, 2026-06-23
-    Participant selection and notifications       :selection, 2026-06-24, 2026-06-27
-    Registration fee payment window               :payment, 2026-06-27, 2026-07-04
-    Travel support allocation                     :support, 2026-06-27, 2026-07-04
-    Pre-course lecture completion window          :lecturewindow, 2026-06-29, 2026-07-31
+    Publish call and registration form            :milestone, call, 2026-07-01, 1d
+    Registration open                             :regopen, 2026-07-01, 2026-07-16
+    Participant selection and notifications       :selection, 2026-07-17, 2026-07-20
+    Registration fee payment window               :payment, 2026-07-20, 2026-07-27
+    Travel support allocation                     :support, 2026-07-20, 2026-07-27
+    Pre-course lecture completion window          :lecturewindow, 2026-07-20, 2026-07-31
 
     section Final delivery
-    Final participant packet                      :packet, 2026-07-06, 2026-07-15
-    Confirm datasets and software instructions    :software, 2026-07-06, 2026-07-24
+    Final participant packet                      :packet, 2026-07-20, 2026-07-28
+    Confirm datasets and software instructions    :software, 2026-07-20, 2026-07-31
     Course week                                   :milestone, course, 2026-08-03, 5d
     Post-course follow-up and survey              :followup, 2026-08-10, 2026-08-21
 ```
@@ -86,18 +92,19 @@ gantt
 ## Priority to-do list
 
 ### Immediate next actions
-- [ ] Confirm the **organizing committee** and assign one owner for logistics, one for program, one for budget, and one for communications.
+- [x] Confirm the **organizing committee**: Agustin Corbat, Lorena Sigaut, and Lia Pietrasanta.
 - [x] Confirm classroom booking: **Aula 1306, Pabellón 0+Infinito, FCEN-UBA**.
 - [x] Confirm delivery format: **fully on-site, no virtual option**.
 - [x] Confirm course dates: **2026-08-03 to 2026-08-07**.
 - [x] Confirm working language: **English**.
 - [ ] Confirm target participant count: **24**.
 - [x] Update the budget to reflect that only **AR$ 1.000.000** is available for now from the requested FUNDACEN support.
-- [x] Decide which budget lines this first tranche should protect: invited professors, coffee breaks, or participant support.
-- [ ] Prepare and send invitations to priority guest professors.
-- [ ] Invite local instructors/facilitators formally starting one week later than previously planned, and confirm their availability.
-- [ ] Estimate required coordination time per local instructor under the lighter prep model and block the single rehearsal in the calendar.
-- [ ] Finalize the list of **required pre-course lectures** and define how completion will be tracked.
+- [x] Decide which budget lines this first tranche should protect: allocated mostly to student bursaries/waivers, with up to AR$ 300.000 reserved for Dr. Federico Lecumberry's travel.
+- [x] Prepare and send invitations to priority guest professors (Enzo Ferrante confirmed DL lecture, Federico Lecumberry to confirm travel/full-time support).
+- [x] Invite local instructors/facilitators formally and confirm their availability (Mauro Silberberg, Ignacio Sallaberry, Alejandra Fernandez, Elizabeth Samaniego Onofre, Gina Ayelen Alongi confirmed).
+- [x] Estimate required coordination time per local instructor under the lighter prep model and block the single rehearsal in the calendar.
+- [ ] Finalize the list of **required pre-course lectures** and define how completion will be tracked (delayed for two weeks, target: July 17).
+- [ ] Agree with local instructors on preparing practical exercises for the course (target: July 15).
 
 ### Program and content
 - [ ] Approve the core list of topics.
@@ -106,13 +113,19 @@ gantt
 - [ ] Define expected prerequisites for participants.
 - [ ] Decide on the balance between ImageJ/Fiji, Python, napari, and deep-learning tools.
 - [ ] Build an internal training plan so local instructors can co-teach confidently.
+- [ ] Finish the day-by-day program (in progress, target: next week / July 8).
 
 ### Logistics and administration
-- [ ] Request catering quotes for coffee breaks, the ideally included social dinner, and optional lunches; close the provider decision within two weeks.
+- [x] Cancel professional catering (decided to make coffee and buy food ourselves to save costs).
+- [ ] Check coffee and food supplies (cookies, fruit) and participant dietary restrictions (target: around July 15).
+- [ ] Purchase coffee and food supplies (late July).
 - [ ] Define registration categories and fee waivers.
 - [ ] Decide whether hotel booking will be centralized or reimbursed.
 - [ ] Define reimbursement workflow for invited professors.
-- [ ] Finalize the registration form and participant selection rubric for publication one week earlier.
+- [x] Finalize the registration form and participant selection rubric (form published July 1st).
+- [ ] Run registration window (July 1st - July 16th).
+- [ ] Select participants and allocate travel assistance/waivers (after July 16th, once funding from the electron microscopy course is clarified).
+- [ ] Confirm travel support / travel booking for Federico Lecumberry (AR$ 300.000 max travel budget).
 - [ ] Confirm room layout and daily operational needs for Aula 1306.
 
 ### Communications
@@ -120,7 +133,8 @@ gantt
 - [ ] Prepare a save-the-date announcement.
 - [ ] Identify mailing lists, societies, and networks for outreach.
 - [ ] Define the official contact email and response owner.
-- [ ] Draft invitation/coordination email for local instructors and facilitators.
+- [x] Draft invitation/coordination email for local instructors and facilitators.
+
 
 ---
 
@@ -566,41 +580,43 @@ The FUNDACEN materials make clear that **local teaching staff are a major in-kin
 ### Priority invited professors
 | Name / group | Institution and country | Proposed role | Status | Rough expense estimate | Proposed funding source | Notes |
 |---|---|---|---|---:|---|---|
-| Dr. Federico Lecumberry | Universidad de la República, Uruguay | invited expert in bioimage analysis; possible contribution in segmentation / ML and advanced discussion | In management / to confirm | Included in invited-professor pool | FUNDACEN invited-professor budget + registration income if needed | Regional in-person speaker; should be prioritized if funding is limited |
-| BIIF representative (1-2) | BioImage Informatics Facility (BIIF), Sweden | train-the-trainer perspective, workflows, good practices, international expertise | In management / to confirm | Included in invited-professor pool | external support if available; otherwise only if budget allows | High-value but expensive in-person participation |
-| GloBIAS representative (e.g. Rocco D'Antuno) | Global BioImaging Analytical Support | global/community perspective; in-person contribution only if travel can be supported | In management / to confirm | To be confirmed if invited on-site | would require dedicated travel support | No virtual participation track is planned |
-| Dr. Enzo Ferrante | Local participation | local expert contribution, potentially ML / DL or program support | Expected local participation | Low local cost | local institutional support | No major travel burden anticipated |
+| Dr. Federico Lecumberry | Universidad de la República, Uruguay | Invited expert; possible contribution in segmentation/ML and full-time in-person support | To confirm (looking into traveling) | AR$ 300.000 (travel/accommodation) | Travel budget (allocating AR$ 300.000 max) | High priority to bring in person if travel confirms |
+| Dr. Enzo Ferrante | Universidad Nacional del Litoral / CONICET, Argentina | Theory lecture in Deep Learning foundations | Confirmed (delivering 2-hour virtual/in-person theory lecture) | Low local cost | local/virtual support | Agreed to participate; no major travel cost expected |
+| BIIF representative (1-2) | BioImage Informatics Facility (BIIF), Sweden | train-the-trainer perspective, workflows, good practices | Cancelled / Virtual presentation only | - | None (funding constraints) | Will look into virtual presentation options |
+| GloBIAS representative (e.g. Rocco D'Antuno) | Global BioImaging Analytical Support | global/community perspective | Cancelled / Virtual presentation only | - | None (funding constraints) | Will look into virtual presentation options |
 
 ### Local instructors / facilitators
 | Name | Institutional role | Expected course role | Status | Estimated preparation time | Notes |
 |---|---|---|---|---|---|
-| Lorena Sigaut | Jefe de Trabajos Prácticos con dedicación exclusiva, Departamento de Física | docente / local instructor | To invite formally / likely available | 9-11 h | should be involved early in session design and teaching coordination |
-| Alejandra Fernández | Estudiante de doctorado | facilitadora de talleres | To invite formally | 7-10 h | can support hands-on exercises and participant guidance |
-| Mauro Silberberg | Estudiante de doctorado | facilitador de talleres | To invite formally | 7-10 h | can support practical sessions and technical troubleshooting |
-| Ignacio Sallaberry | Estudiante de doctorado | facilitador de talleres | To invite formally | 7-10 h | topic allocation and support role to confirm |
-| Candela Szischik | Estudiante de doctorado | facilitadora de talleres | To invite formally | 7-10 h | can support pedagogical activities and exercise facilitation |
+| Lorena Sigaut | Jefe de Trabajos Prácticos con dedicación exclusiva, Departamento de Física | Docente / local instructor & Organizing Committee | Confirmed | 9-11 h | Involved in organizing committee, co-design, and teaching coordination |
+| Alejandra Fernández | Estudiante de doctorado | Facilitadora de talleres & exercise prep | Confirmed | 7-10 h | Agreed to participate; co-preparing practical exercises |
+| Mauro Silberberg | Estudiante de doctorado | Facilitador de talleres & exercise prep | Confirmed | 7-10 h | Agreed to participate; co-preparing practical exercises |
+| Ignacio Sallaberry | Estudiante de doctorado | Facilitador de talleres & exercise prep | Confirmed | 7-10 h | Agreed to participate; co-preparing practical exercises |
+| Elizabeth Samaniego Onofre | Estudiante de doctorado | Facilitadora de talleres | Confirmed | 7-10 h | Agreed to participate |
+| Gina Ayelen Alongi | Estudiante de doctorado | Facilitadora de talleres | Confirmed | 7-10 h | Agreed to participate |
+| Candela Szischik | Estudiante de doctorado | Facilitadora de talleres | To confirm / status pending | 7-10 h | Status not yet verified as of July 1st |
 
 ### Invitation strategy
-1. Invite one **regional in-person guest** first.
-2. Invite one **high-value international guest** only if the updated budget allows.
-3. If travel support is not feasible, deprioritize those invitations rather than planning remote participation.
-4. Ensure each invited guest has a clearly defined teaching role, not just a research seminar slot.
-5. In parallel, invite all local instructors early enough to allow meaningful co-design, materials review, and the single rehearsal.
+1. Prioritize travel funding (up to AR$ 300.000) for regional speaker (Federico Lecumberry) to attend in person and provide full-time support.
+2. Invite international speakers (BIIF, GloBIAS) to present virtually instead of on-site due to budget constraints.
+3. Coordinate with confirmed local instructors to co-design and prepare practical exercises.
 
 ### Local instructor preparation milestones
-- Formal invitation sent: **by 2026-06-06**
-- Availability confirmed: **by 2026-06-13**
-- Topic assigned: **by 2026-06-17**
-- Coordination kickoff completed: **by 2026-06-27**
-- Materials reviewed: **by 2026-07-17**
+- Formal invitation sent: **by 2026-06-06** (Done)
+- Availability confirmed: **by 2026-07-01** (Done for Mauro, Ignacio, Alejandra, Elizabeth, Gina)
+- Topic assigned: **by 2026-07-05** (In progress)
+- Coordination kickoff completed: **by 2026-07-08**
+- Practical exercises prepared: **by 2026-07-15**
+- Materials reviewed: **by 2026-07-24**
 - Single rehearsal completed: **by 2026-07-31**
 
-### Booking deadlines for invited professors
-- Invitation sent: **no later than 2026-05-29**
-- Confirmation received: **no later than 2026-06-12**
-- Flight booking: **by 2026-06-27**
-- Hotel booking: **by 2026-06-27**
-- Final talk/session title: **by 2026-07-10**
+### Booking and confirmation deadlines
+- Dr. Enzo Ferrante confirmation: **2026-07-01** (Done)
+- Dr. Federico Lecumberry travel confirmation: **by 2026-07-10**
+- Travel/flight booking (Lecumberry): **by 2026-07-15**
+- Hotel booking (Lecumberry): **by 2026-07-15**
+- Final talk/session title: **by 2026-07-20**
+
 
 ---
 
@@ -619,58 +635,52 @@ For the **Análisis de Bioimágenes / Train-the-Trainer** workshop, the FUNDACEN
 
 ### Current funding status
 - **Requested from FUNDACEN (broader proposal):** AR$ 10.004.000
-- **Currently available from FUNDACEN for now:** **AR$ 1.000.000**
-- **Expected income from registrations across the broader proposal:** **AR$ 4.254.000**
-- **Implication for this course:** the bioimage-analysis workshop still has a substantial funding gap, especially for invited professors and participant support
+- **Currently available from FUNDACEN:** **AR$ 1.000.000**
+- **Pending potential additional funding:** Funding from the electron microscopy course is still to be determined.
+- **Expected income from registrations across the broader proposal:** AR$ 4.254.000
+- **Implication for this course:** A substantial funding gap remains. We must rely primarily on local instructors, invite international guest lecturers to present virtually, and run a self-catering model to prioritize student support.
 
 ### Bioimage-analysis workshop priority budget lines under constrained funding
 | Budget line | Amount (AR$) | Priority under current constraints | Notes |
 |---|---:|---|---|
-| Invited professors | 4.020.000 | High | Protect at least one regional in-person guest; additional guests depend on on-site travel support |
-| Coffee breaks (+ ideally social dinner, and lunches if feasible) | 1.775.000 | Medium | Important for participant experience; prioritize including the social dinner, and include lunches only if budget and vendor options allow |
-| Participant travel / hotel support | 4.136.000 | High | Critical for federal participation, but may need a smaller number of bursaries |
+| Invited professors | 300.000 | Medium-High | Allocating up to AR$ 300.000 for Dr. Federico Lecumberry's travel/lodging from Uruguay if he confirms. Other speakers are virtual/local. |
+| Catering (Coffee breaks & social dinner) | - | Cancelled | Professional catering cancelled. We will make coffee and purchase food (cookies, fruit) ourselves to save costs. |
+| Participant travel / hotel support | Remaining funds | High | Critical for federal participation; focused on travel assistance and waivers. |
 
-### Suggested use of currently available
-| Option | Description | Pros | Risks |
-|---|---|---|---|
-| Option A | Prioritize one regional invited professor + minimal coffee breaks | Protects academic quality and external visibility | Reduces inclusion support |
-| Option B | Prioritize participant support bursaries | Improves federal access and inclusion | Harder to bring international experts in person |
-| Option C | Mixed strategy: regional professor + limited bursaries + partial catering | Balanced approach | No budget line fully covered |
+### Selected funding strategy
+**Decision**: Option B (Prioritize participant support bursaries and waivers). International guest professors (like BIIF and GloBIAS representatives) will present virtually, and Enzo Ferrante will deliver a 2-hour deep learning theory lecture. 
 
-**Decision**: We went for option B. So we need to look into local experts that can cover topics. We also need to invite international professors to virtually present.
-
-### Funding model to build
+### Funding model
 | Cost category | Primary proposed source | Backup source | Status |
 |---|---|---|---|
-| Invited professors | partial FUNDACEN + registration income | external sponsor / reduced invited-speaker slate | Urgent review needed |
-| Coffee breaks | registration fees | institutional event support | Needs update |
-| Participant support | FUNDACEN partial support | sponsor / reduced bursary model | Needs update |
-| Local materials and operations | host institution in kind | registration fees | FCEN support expected |
-| Local teaching staff time | FCEN in-kind contribution | not budgeted separately yet | Track explicitly as institutional contribution |
+| Invited professors | AR$ 300.000 from FUNDACEN (for Lecumberry) | Virtual presentations for international guests | Confirmed virtual slots; Lecumberry travel to confirm |
+| Coffee breaks & snacks | Self-catering from registration fees / local pool | Host institution support | Cancelled professional caterer; self-catering planned |
+| Participant support | FUNDACEN (approx. AR$ 700.000 + pending EM course funds) | Registration waivers | To be allocated after July 16th |
+| Local materials and operations | Host institution in kind | Registration fees | FCEN support expected |
+| Local teaching staff time | FCEN in-kind contribution | - | Tracked as institutional contribution (7-11 hours per instructor) |
 
 ### Registration-fee model from FUNDACEN materials
-The broader proposal uses a differentiated fee scheme and includes waivers for FCEN students. For this course, fee categories should be aligned with the approved institutional mechanism before publication.
+The broader proposal uses a differentiated fee scheme and includes waivers for FCEN students. Registration fees will be charged in local currency.
 
 ### Budget decisions still needed
-- How should the current **AR$ 2.000.000** be allocated across invited professors, coffee breaks, and participant support?
-- Will invited-professor costs be covered centrally or should the invited-speaker slate be reduced to fit an on-site-only format?
-- Will participant travel support be a fixed number of grants or a reimbursement ceiling?
-- Can sponsors support coffee breaks, dinner, or travel bursaries?
-- Is there any additional local or international funding still pending (e.g. Company of Biologists or other calls)?
+- What is the exact amount of additional funding we will receive from the electron microscopy course?
+- Will we have enough local funds from registration fees to cover the self-catering food supplies (coffee, fruit, cookies) check on July 15th?
+- How many student bursaries can we award once the registration closes on July 16th?
 
 ---
 
 ## Open questions and decisions needed
 1. Given the current partial funding, is there enough budget to bring one European invited professor in person?
-- No, even though their trip might be covered. Hotal rooms for a week already cost about the same that available fuinding.
+- No, hotel rooms alone for a week would consume the entire budget. They will present virtually.
 2. How should the currently available **AR$ 1.000.000** be allocated?
--  This will be mostly allocated to student bursaries. Consider **AR$ 100.000-200.000** per student.
+-  Mostly allocated to student travel bursaries (approx. **AR$ 100.000-200.000** per student) and waivers, with up to **AR$ 300.000** reserved for Federico Lecumberry's travel.
 3. Will the course issue certificates, and who signs them?
 4. Will registration fees be charged in local currency, USD equivalent, or through institutional payment channels?
-- Local currency
+- Local currency.
 5. What exact prerequisites should be required to keep the course at an advanced but teachable level?
-Consider applicants that have already delivered courses and/or worked **professionally** on pipelines.
+- Consider applicants that have already delivered courses and/or worked **professionally** on pipelines.
 6. Which local instructors can commit the required **7-11 hours** of preparation time before the course?
+- Mauro Silberberg, Ignacio Sallaberry, Alejandra Fernandez, Elizabeth Samaniego Onofre, Gina Ayelen Alongi, and Lorena Sigaut have confirmed.
 7. How will completion of the required pre-course lectures be tracked and enforced?
 
 ---
@@ -693,6 +703,13 @@ Consider applicants that have already delivered courses and/or worked **professi
 | 2026-05-22 | Close catering provider selection within two weeks due to limited options | Done |
 | 2026-05-22 | Prioritize including the social dinner in catering if feasible; treat lunches as desirable but lower priority | Done |
 | 2026-05-22 | Delay local instructor invitations by one week and simplify preparation to coordination + one rehearsal, with no pedagogy onboarding | Done |
+| 2026-07-01 | Establish organizing committee: Agustin Corbat, Lorena Sigaut, Lia Pietrasanta | Done |
+| 2026-07-01 | Adjust available FUNDACEN funding to AR$ 1.000.000, focused on travel support and waivers | Done |
+| 2026-07-01 | Cancel professional catering to save costs and shift to self-catering model | Done |
+| 2026-07-01 | Invite international professors (BIIF, GloBIAS) to present virtually due to budget constraints | Done |
+| 2026-07-01 | Delay registration window to July 1 - July 16 | Done |
+| 2026-07-01 | Confirm local instructors (Mauro, Ignacio, Alejandra, Elizabeth, Gina) and agree to co-prepare practical exercises | Done |
+| 2026-07-01 | Delay pre-course lectures preparation/curation by two weeks | Done |
 
 ---
 
@@ -713,8 +730,8 @@ When new information arrives, update these sections first:
 - Working language: **English**.
 - Confirmed venue: **Aula 1306, Pabellón 0+Infinito, FCEN-UBA**.
 - Participant count: **24**.
-- FUNDACEN documents estimate this workshop at **AR$ 9.931.000**; only **AR$ 2.000.000** is currently available for now from the broader FUNDACEN request, so budget prioritization is urgent.
-- Confirmed/identified local instructors now include Lorena Sigaut, Alejandra Fernández, Mauro Silberberg, Ignacio Sallaberry, and Candela Szischik.
+- FUNDACEN documents estimate this workshop at **AR$ 9.931.000**; only **AR$ 1.000.000** is currently available from the broader FUNDACEN request (with additional funding from the electron microscopy course pending), so budget prioritization is focused on student bursaries/waivers and regional speaker travel.
+- Confirmed/identified local instructors now include Lorena Sigaut, Alejandra Fernández, Mauro Silberberg, Ignacio Sallaberry, Elizabeth Samaniego Onofre, and Gina Ayelen Alongi. They will co-prepare practical exercises.
 - Local instructor preparation should be planned explicitly at roughly **7-11 hours per person**, with a single rehearsal and no dedicated pedagogy onboarding.
-- Main operational workstreams: program, invited professors, local instructor coordination, logistics, registration, budget, communications, and pre-course lecture preparation.
+- Main operational workstreams: program, invited professors, local instructor coordination (including practical exercise co-preparation), logistics (self-catering), registration, budget, communications, and pre-course lecture preparation.
 - Folder structure is planned conceptually but intentionally not created yet.
