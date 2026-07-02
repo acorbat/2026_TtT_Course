@@ -13,6 +13,8 @@ This document is the **working master plan** for organizing a **Train-the-Traine
 - **Regional scope:** Argentina and LATAM, with invited contributions from Uruguay, Sweden, and international bioimage-analysis networks
 - **Current funding reality:** the broader FUNDACEN proposal requested **AR$ 10.004.000**, but only **AR$ 1.000.000** is available for now from FUNDACEN; this makes prioritization essential. Additional funding from the electron microscopy course is still to be determined.
 - **Priority constraints:** participant travel assistance and waivers, local instructor preparation, required pre-course lecture curation, and potential travel support of up to AR$ 300.000 for Dr. Federico Lecumberry.
+- **Recent confirmed planning updates (2026-07-02):**
+  - **Registration & Outreach:** Registration has officially opened, and the call was published across X, BlueSky, LinkedIn, emails, and WhatsApp. The application window is open from **July 2nd to July 16th**.
 - **Recent confirmed planning updates (2026-07-01):**
   - **Organizing Committee:** Agustin Corbat, Lorena Sigaut, and Lia Pietrasanta are confirmed.
   - **Budget & Catering:** Professional catering is cancelled. We will make coffee and buy food ourselves. Budget focus is on travel assistance, waivers, and regional speaker travel (Federico Lecumberry).
@@ -73,8 +75,8 @@ gantt
     Confirm room setup and local signage          :roomfinal, 2026-07-20, 2026-07-31
 
     section Registration
-    Publish call and registration form            :milestone, call, 2026-07-01, 1d
-    Registration open                             :regopen, 2026-07-01, 2026-07-16
+    Publish call and registration form            :done, milestone, call, 2026-07-02, 0d
+    Registration open                             :active, regopen, 2026-07-02, 2026-07-16
     Participant selection and notifications       :selection, 2026-07-17, 2026-07-20
     Registration fee payment window               :payment, 2026-07-20, 2026-07-27
     Travel support allocation                     :support, 2026-07-20, 2026-07-27
@@ -123,7 +125,7 @@ gantt
 - [x] Decide whether hotel booking will be centralized or reimbursed.
 - [ ] Define reimbursement workflow for invited professors.
 - [x] Finalize the registration form and participant selection rubric (form published July 1st).
-- [ ] Run registration window (July 1st - July 16th).
+- [ ] Run registration window (July 2nd - July 16th) -- IN PROGRESS.
 - [ ] Select participants and allocate travel assistance/waivers (after July 16th, once funding from the electron microscopy course is clarified).
 - [ ] Confirm travel support / travel booking for Federico Lecumberry (AR$ 300.000 max travel budget).
 - [ ] Confirm room layout and daily operational needs for Aula 1306.
@@ -134,6 +136,7 @@ gantt
 - [x] Identify mailing lists, societies, and networks for outreach.
 - [x] Define the official contact email and response owner.
 - [x] Draft invitation/coordination email for local instructors and facilitators.
+- [x] Publish the registration call across X, BlueSky, LinkedIn, emails, and WhatsApp (2026-07-02).
 
 
 ---
@@ -710,6 +713,7 @@ The broader proposal uses a differentiated fee scheme and includes waivers for F
 | 2026-07-01 | Delay registration window to July 1 - July 16 | Done |
 | 2026-07-01 | Confirm local instructors (Mauro, Ignacio, Alejandra, Elizabeth, Gina) and agree to co-prepare practical exercises | Done |
 | 2026-07-01 | Delay pre-course lectures preparation/curation by two weeks | Done |
+| 2026-07-02 | Open registration and publish call across X, BlueSky, LinkedIn, emails, and WhatsApp | Done |
 
 ---
 
@@ -733,5 +737,5 @@ When new information arrives, update these sections first:
 - FUNDACEN documents estimate this workshop at **AR$ 9.931.000**; only **AR$ 1.000.000** is currently available from the broader FUNDACEN request (with additional funding from the electron microscopy course pending), so budget prioritization is focused on student bursaries/waivers and regional speaker travel.
 - Confirmed/identified local instructors now include Lorena Sigaut, Alejandra Fernández, Mauro Silberberg, Ignacio Sallaberry, Elizabeth Samaniego Onofre, and Gina Ayelen Alongi. They will co-prepare practical exercises.
 - Local instructor preparation should be planned explicitly at roughly **7-11 hours per person**, with a single rehearsal and no dedicated pedagogy onboarding.
-- Main operational workstreams: program, invited professors, local instructor coordination (including practical exercise co-preparation), logistics (self-catering), registration, budget, communications, and pre-course lecture preparation.
+- Main operational workstreams: program, invited professors, local instructor coordination (including practical exercise co-preparation), logistics (self-catering), registration (open July 2nd to July 16th), budget, communications, and pre-course lecture preparation.
 - Folder structure is planned conceptually but intentionally not created yet.
