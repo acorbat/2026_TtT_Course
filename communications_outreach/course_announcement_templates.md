@@ -10,7 +10,7 @@ As these posts will be accompanied by a promotional image/flyer, we first define
 
 To avoid text clutter in social media posts, the accompanying image should serve as the primary visual anchor and contain the following essential details:
 
-### Essential Text on the Image:
+### Essential Text on the Image (English):
 
 * **Main Title:** *Train-the-Trainer Course on Bioimage Analysis (LATAM)*  
 * **Dates:** August 3–7, 2026 (2026-08-03 to 2026-08-07)  
@@ -23,6 +23,25 @@ To avoid text clutter in social media posts, the accompanying image should serve
   * Travel support and registration waivers available for selected regional participants  
 * **Actionable Elements:** A prominent QR code linking directly to the registration form.  
 * **Logos:** CMA and FCEN-UBA.
+
+### Spanish Copy for the Flyer (Texto en Español para el Folleto):
+
+* **Título Principal:** *Curso Train-the-Trainer en Análisis de Bioimágenes (LATAM)*  
+* **Llamado a la Acción / Invitación:**  
+  ¿Querés potenciar tus habilidades en análisis de imágenes y aprender a enseñar estas herramientas en tu institución?  
+* **Destacados del Contenido / ¿Para quién es?**  
+  * **Mejorá tus habilidades técnicas:** Procesamiento, cuantificación, flujos de trabajo reproducibles (Fiji, Python, Napari) e introducción a Machine/Deep Learning.  
+  * **Aprendé a enseñar:** Herramientas pedagógicas, diseño de ejercicios prácticos y metodologías de enseñanza activa para futuros instructores.  
+* **Detalles Clave:**  
+  * **Fechas:** 3 al 7 de agosto de 2026  
+  * **Lugar:** Aula 1306, Pabellón 0+Infinito, FCEN-UBA, Buenos Aires, Argentina  
+  * **Modalidad:** Presencial (con etapa virtual asincrónica obligatoria a partir de mediados de julio)  
+  * **Destinatarios:** Estudiantes de posgrado, investigadores, personal de facilities y analistas de imágenes de LATAM  
+  * **Cierre de Postulaciones:** 16 de julio de 2026  
+  * **Becas:** Ayuda económica para traslado/alojamiento y exención de aranceles para seleccionados de la región.  
+* **Elementos de Acción:**  
+  * Código QR: "¡Escaneá para postularte!"  
+  * Logos: CMA y FCEN-UBA.
 
 ---
 
