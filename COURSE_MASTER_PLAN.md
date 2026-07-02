@@ -107,7 +107,7 @@ gantt
 - [ ] Agree with local instructors on preparing practical exercises for the course (target: July 15).
 
 ### Program and content
-- [ ] Approve the core list of topics.
+- [x] Approve the core list of topics.
 - [ ] Decide which topics need pre-recorded lectures versus live workshop review.
 - [ ] Identify topic leads for each session.
 - [ ] Define expected prerequisites for participants.
@@ -120,7 +120,7 @@ gantt
 - [ ] Check coffee and food supplies (cookies, fruit) and participant dietary restrictions (target: around July 15).
 - [ ] Purchase coffee and food supplies (late July).
 - [ ] Define registration categories and fee waivers.
-- [ ] Decide whether hotel booking will be centralized or reimbursed.
+- [x] Decide whether hotel booking will be centralized or reimbursed.
 - [ ] Define reimbursement workflow for invited professors.
 - [x] Finalize the registration form and participant selection rubric (form published July 1st).
 - [ ] Run registration window (July 1st - July 16th).
@@ -129,10 +129,10 @@ gantt
 - [ ] Confirm room layout and daily operational needs for Aula 1306.
 
 ### Communications
-- [ ] Draft course description for dissemination.
-- [ ] Prepare a save-the-date announcement.
-- [ ] Identify mailing lists, societies, and networks for outreach.
-- [ ] Define the official contact email and response owner.
+- [x] Draft course description for dissemination.
+- [x] Prepare a save-the-date announcement.
+- [x] Identify mailing lists, societies, and networks for outreach.
+- [x] Define the official contact email and response owner.
 - [x] Draft invitation/coordination email for local instructors and facilitators.
 
 
