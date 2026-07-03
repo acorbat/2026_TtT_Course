@@ -80,7 +80,7 @@ Cronograma de inscripción:
 
 Los interesados pueden encontrar más detalles y acceder al formulario de postulación en el siguiente enlace:
 
-\[Insertar Enlace al Formulario / Sitio Web\]
+[https://forms.gle/Ym27rxzptfaWMsrN7](https://forms.gle/Ym27rxzptfaWMsrN7)
 
 Agradecemos la difusión de esta convocatoria entre sus contactos y colaboradores.
 
@@ -112,11 +112,9 @@ Contacto: **cma.taller.ab@gmail.com**
 
 🎟️ \*Becas disponibles:\* Ayuda para viajes/alojamiento y exención de aranceles) para participantes seleccionados.
 
-⚠️ \*Cierre de postulaciones:\* 16 de julio de 2026\.
+⚠️ \*Cierre de Inscripción:\* 16 de julio de 2026\.
 
-🔗 \*¡Postulate acá:\* \[Insertar Enlace Corto\]
-
-🗺️ \_(Ver folleto adjunto para más detalles de fecha y sede)\_
+🔗 \*¡Postulate acá:\* [https://forms.gle/Ym27rxzptfaWMsrN7](https://forms.gle/Ym27rxzptfaWMsrN7)
 
 ---
 
@@ -158,7 +156,7 @@ Para estudiantes, investigadores y personal de centros de servicios que quieran 
 
 4/4 📚 El curso incluye una etapa obligatoria de preparación teórica online asincrónica la segunda mitad de julio.
 
-🔗 ¡No te quedes afuera\! Toda la información y postulación aquí: \[Insertar Enlace Corto\]
+🔗 ¡No te quedes afuera\! Toda la información y postulación aquí: https://forms.gle/Ym27rxzptfaWMsrN7
 
 ---
 
@@ -192,7 +190,7 @@ Gracias al apoyo parcial de FUNDACEN disponemos de becas de ayuda financiera par
 
 📅 \*\*Fecha límite de postulación:\*\* 16 de julio de 2026\.
 
-🔗 Encontrá más información y completá tu formulario de postulación acá: \[Insertar Enlace\]
+🔗 Encontrá más información y completá tu formulario de postulación acá: https://forms.gle/Ym27rxzptfaWMsrN7
 
 Organizado por el Dr. Agustín Corbat, Dra. Lorena Sigaut y Dra. Lía Pietrasanta del Centro de Microscopías Avanzadas, FCEN, UBA.
 
@@ -220,12 +218,12 @@ Para investigadores, estudiantes de posgrado y personal de microscopía de LATAM
 
 2/3 ✈️ Becas y financiamiento: Contamos con ayuda económica para pasajes/alojamiento y exenciones de aranceles gracias al apoyo de FUNDACEN.
 
-📍 Sede: Aula 1306, Pabellón 0+Infinito, FCEN-UBA.
+📍 Sede: Pabellón 0+Infinito, FCEN-UBA.
 
 \[POST 3\]
 
 3/3 🛠️ Temario: Procesamiento básico, workflows reproducibles (Fiji, Python, Napari), Machine & Deep Learning, y estrategias pedagógicas.
 
-🔗 Detalles y postulación: \[Insertar Enlace\]
+🔗 Detalles y postulación: https://forms.gle/Ym27rxzptfaWMsrN7
 
-\#BioimageAnalysis \#LATAMscience  
+\#BioimageAnalysis \#LATAMscience
