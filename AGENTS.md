@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Project goal
-Organize a **Train-the-Trainer course on Bioimage Analysis** for LATAM, with a strong focus on:
+Organize the **Taller de Análisis de Bioimágenes (Train-the-Trainer)**, a Train-the-Trainer course on Bioimage Analysis for LATAM, with a strong focus on:
 - technical bioimage analysis content,
 - pedagogy for training future instructors,
 - logistics, budget, and invited-professor coordination,
@@ -12,6 +12,8 @@ Organize a **Train-the-Trainer course on Bioimage Analysis** for LATAM, with a s
 - `curso_train_the_trainer_bioimagenes.md` — inspiration/source notes from the initial concept; preserve as reference.
 - `fundacen_cursos.md` — FUNDACEN application context, scope, instructors, and consolidated budget references.
 - `preguntas_presupuesto_fundacen.md` — FUNDACEN budget wording and budget-line details.
+- `_quarto.yml` — configuration file for the Quarto-based course website.
+- `index.md` — homepage of the course website.
 
 ## Planned folder structure only — do not create unless explicitly requested
 Use this structure as the organizational plan for future work:
@@ -111,7 +113,17 @@ For each local instructor or facilitator, track:
   - to-do list,
   - relevant detailed section.
 
+## Course website (Quarto)
+The project now holds the official course website, which is configured and built using **Quarto**.
+- **Configuration**: The website structure, navigation sidebar, theme, and output options are managed via `_quarto.yml`.
+- **Render Exclusion**: Internal planning documents like `COURSE_MASTER_PLAN.md`, `AGENTS.md`, and `README.md` are excluded from the site render list in `_quarto.yml`.
+- **Local Development**:
+  - The Quarto CLI is managed via Pixi in the `quarto` feature environment.
+  - To preview changes locally, run: `pixi run -e quarto quarto preview`
+  - To render the final static pages into the `_site/` directory, run: `pixi run -e quarto quarto render`
+
 ## Compact project snapshot
+- Workshop name: **Taller de Análisis de Bioimágenes (Train-the-Trainer)**.
 - Course type: Train-the-Trainer in Bioimage Analysis for LATAM.
 - Confirmed course dates: **2026-08-03 to 2026-08-07**.
 - Confirmed format: **on-site only**, with required pre-course lectures and in-person Q&A/pedagogy workshops.
