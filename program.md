@@ -7,7 +7,7 @@
 - 09:00--10:00 - Bienvenida, expectativas de los participantes y presentación de objetivos.
   * *¿Por qué un formato Train-the-Trainer en Latinoamérica?* Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)
 - 10:15--11:00 - 🧠 [Qué es el Análisis de Bioimágenes](lectures/que_es_bia.md) (Agustin Corbat)
-- 11:00--12:30 - 🖥️ [Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)](practicals/workshop_2d_images.md) (Lorena Sigaut)
+- 11:00--12:30 - 🖥️ [Images in Fiji vs Python | File Formats?](practicals/workshop_2d_images.md) (Lorena Sigaut)
 
 ### 🥗 Lunch break (12:30--13:30)
 
@@ -17,41 +17,38 @@
 - 14:30--15:00 - ☕ **Coffee Break**
 - 15:00--17:30 - [Segmentación y Cuantificación](practicals/segmentation_quantification.md) (Agustin Corbat/Lorena Sigaut)
 
-## 🗓️ Día 2: Machine learning y Workflows reproducibles (Martes 4 de Agosto)
+## 🗓️ Día 2: Workflows reproducibles (Martes 4 de Agosto)
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 09:00--10:00 - 🧠 [Machine Learning](lectures/machine_learning.md) (Agustin Corbat)
-- 10:00--12:00 - 🖥️ [Taller de Git y Pixi](practicals/machine_learning.md) (Agustin Corbat)
+- 9:00--10:00 - 🧠 [Workflows reproducibles](lectures/workflows.md) (Anna Klemm?)
+- 10:00--10:30 - ☕ **Coffee Break**
+- 11:00--13:00 - 🖥️ [Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)](practicals/interfaces.md) (Agustin Corbat)
 
-### 🥗 Lunch break (12:00--13:00)
+### 🥗 Lunch break (13:00--14:00)
 
-### 🌇 Tarde (13:00–17:00)
+### 🌇 Tarde (14:00–17:00)
 
-- 13:00--14:00 - 🧠 [Workflows reproducibles](lectures/workflows.md) (Anna Klemm?)
-- 14:00--14:30 - ☕ **Coffee Break**
-- 14:30--17:00 - 🖥️ [Taller de Git y Pixi](practicals/workflows.md) (Mauro Silberberg)
+- 14:00--16:00 - 🖥️ [Taller de Git y Pixi](practicals/workflows.md) (Mauro Silberberg)
+- 16:00--17:00 - 🖥️ [Taller de Napari?](practicals/workflows.md) (Agustin Corbat)
 
 ## 🗓️ Day 3: (Miércoles 5 de Agosto)
 
-- 11:00--11:45 - [Object-classification, dimensionality reduction and clustering](practicals/practical_object_classification/index.md) ()
-
 ### 🌅 Mañana (09:00--12:00)
 
 - 09:00--10:00 - 🧠 [Machine Learning](lectures/machine_learning.md) (Agustin Corbat)
-- 10:00--12:00 - 🖥️ [Taller de Git y Pixi](practicals/machine_learning.md) (Agustin Corbat)
+  * *Machine Learning aplicado a segmentacion y a clasificacion de objetos*
+- 10:00--10:30 - ☕ **Coffee Break**
+- 10:30--12:30 - 🖥️ [Machine Learning](practicals/machine_learning.md) (Agustin Corbat)
 
-### 🥗 Lunch break (12:00--13:00)
+### 🥗 Lunch break (12:30--13:30)
 
-### 🌇 Tarde (13:00–17:00)
+### 🌇 Tarde (13:30–17:00)
 
-- 13:00--14:00 - 🧠 [Workflows reproducibles](lectures/workflows.md) (Anna Klemm?)
-- 14:00--14:30 - ☕ **Coffee Break**
-- 14:30--17:00 - 🖥️ [Taller de Git y Pixi](practicals/workflows.md) (Mauro Silberberg)
+- 13:30--15:00 - [Object-classification, dimensionality reduction and clustering](practicals/object_classification.md) (??)
+- 14:30--15:00 - ☕ **Coffee Break**
+- 15:00--17:00 - [Other Tools](practicals/other_tools.md) (??)
 
-
-- 11:45--12:30 - [3D Deep Learning Segmentation](practicals/practical_deep_learning_segmentation/index.md) (Agustín)
-- 12:30--13:00 - Talk from Bruker
 
 ### 🥗 Lunch break (13:00--14:00)
 
@@ -86,9 +83,7 @@
 
 ### 🌇 Tarde (14:00–17:00)
 
-- 14:00--14:45 - 🧠 [Deep Learning](lectures/deep_learning_biomodels.md) (Agustin Corbat)
-- 14:45--15:15 - ☕ **Coffee Break**
-- 15:15--17:00 - 🖥️ [Taller de Cellpose, StarDist and friends](practicals/deep_learning_biomodels.md) (Agustin Corbat)
+
 
 ### 🌃 Noche (17 en adelante)
 - 17:00--en adelante - 🍔🍻 Cena de cierre
