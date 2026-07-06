@@ -1,14 +1,8 @@
-# Home
-
-::: {.columns}
-
-::: {.column width="15%"}
+# Inicio
 
 ![](communications_outreach/inner_ear.png){width="100"}
 
 :::
-
-::: {.column width="85%"}
 
 todo: texto de bienvenida y descripcioni del taller
 
@@ -33,7 +27,7 @@ todo: a quien esta dirigido el taller, sobre que trata el taller, en que nos enf
 
 ::: {.column width="50%"}
 
-### Organizers
+### Organizadores
 
 - Dr. Agustin A. Corbat
 - Dra. Lorena Sigaut
@@ -43,7 +37,7 @@ todo: a quien esta dirigido el taller, sobre que trata el taller, en que nos enf
 
 ::: {.column width="50%"}
 
-### Co-organizers and instructors
+### Instructores
 
 - Dr. Ignacio Sallaberry
 - Mauro Silberberg
@@ -55,7 +49,7 @@ todo: a quien esta dirigido el taller, sobre que trata el taller, en que nos enf
 
 :::
 
-### Support
+### Instituciones
 
 ::: {layout-ncol=2}
 
