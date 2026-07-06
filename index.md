@@ -1,6 +1,6 @@
 # Inicio
 
-![](communications_outreach/inner_ear.png){width="100"}
+![](communications_outreach/inner_ear.png){width="100%"}
 
 :::
 
