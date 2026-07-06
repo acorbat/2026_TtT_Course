@@ -4,7 +4,7 @@
 
 ::: {.column width="15%"}
 
-![](communications_outreach/inenr_ear.png){width="100"}
+![](communications_outreach/inner_ear.png){width="100"}
 
 :::
 
@@ -57,13 +57,11 @@ todo: a quien esta dirigido el taller, sobre que trata el taller, en que nos enf
 
 ### Support
 
-::: {layout-ncol=3}
+::: {layout-ncol=2}
 
-![](media/chan.jpg)
+![](communications_outreach/cma_logo.svg)
 
-![](media/labi.jpg)
-
-![](media/biologists.jpg)
+![](communications_outreach/exactas_logo.svg)
 
 :::
 
