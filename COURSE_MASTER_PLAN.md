@@ -13,6 +13,8 @@ This document is the **working master plan** for organizing a **Train-the-Traine
 - **Regional scope:** Argentina and LATAM, with invited contributions from Uruguay, Sweden, and international bioimage-analysis networks
 - **Current funding reality:** the broader FUNDACEN proposal requested **AR$ 10.004.000**, but only **AR$ 1.000.000** is available for now from FUNDACEN; this makes prioritization essential. Additional funding from the electron microscopy course is still to be determined.
 - **Priority constraints:** participant travel assistance and waivers, local instructor preparation, required pre-course lecture curation, and potential travel support of up to AR$ 300.000 for Dr. Federico Lecumberry.
+- **Recent confirmed planning updates (2026-07-06):**
+  - **Local Instructor Coordination:** Sent coordination email to instructors (see [email_instructors.md](./admin/emails/email_instructors.md)). Set up [Zulip workspace](https://2026-ttt-course.zulipchat.com) for team communication and [When2meet](https://www.when2meet.com/?37353680-nuual) availability tracker.
 - **Recent confirmed planning updates (2026-07-02):**
   - **Registration & Outreach:** Registration has officially opened, and the call was published across X, BlueSky, LinkedIn, emails, and WhatsApp. The application window is open from **July 2nd to July 16th**.
 - **Recent confirmed planning updates (2026-07-01):**
@@ -135,7 +137,7 @@ gantt
 - [x] Prepare a save-the-date announcement.
 - [x] Identify mailing lists, societies, and networks for outreach.
 - [x] Define the official contact email and response owner.
-- [x] Draft invitation/coordination email for local instructors and facilitators.
+- [x] Draft and send invitation/coordination email for local instructors and facilitators (see [email_instructors.md](./admin/emails/email_instructors.md)).
 - [x] Publish the registration call across X, BlueSky, LinkedIn, emails, and WhatsApp (2026-07-02).
 
 
@@ -576,6 +578,11 @@ The FUNDACEN materials make clear that **local teaching staff are a major in-kin
 - Run coordination and co-design during **June-July 2026**.
 - Hold a **single rehearsal** in **late July 2026**.
 
+**Instructor communication & scheduling**
+- **Scheduling availability:** A [When2meet (Availability Tracker)](https://www.when2meet.com/?37353680-nuual) is used to track instructor availability for the specific course sessions and pre-course preparation slots.
+- **Communication channel:** The team uses a dedicated [Zulip Chat Workspace](https://2026-ttt-course.zulipchat.com) for real-time discussion, coordination, and announcements.
+- **Coordination email:** Sent on 2026-07-06 (archived in [email_instructors.md](./admin/emails/email_instructors.md)).
+
 ---
 
 ## Invited professors and facilitators
@@ -714,6 +721,7 @@ The broader proposal uses a differentiated fee scheme and includes waivers for F
 | 2026-07-01 | Confirm local instructors (Mauro, Ignacio, Alejandra, Elizabeth, Gina) and agree to co-prepare practical exercises | Done |
 | 2026-07-01 | Delay pre-course lectures preparation/curation by two weeks | Done |
 | 2026-07-02 | Open registration and publish call across X, BlueSky, LinkedIn, emails, and WhatsApp | Done |
+| 2026-07-06 | Send coordination email to local instructors, launch When2meet availability tracker, and set up Zulip chat workspace | Done |
 
 ---
 
@@ -737,5 +745,6 @@ When new information arrives, update these sections first:
 - FUNDACEN documents estimate this workshop at **AR$ 9.931.000**; only **AR$ 1.000.000** is currently available from the broader FUNDACEN request (with additional funding from the electron microscopy course pending), so budget prioritization is focused on student bursaries/waivers and regional speaker travel.
 - Confirmed/identified local instructors now include Lorena Sigaut, Alejandra Fernández, Mauro Silberberg, Ignacio Sallaberry, Elizabeth Samaniego Onofre, and Gina Ayelen Alongi. They will co-prepare practical exercises.
 - Local instructor preparation should be planned explicitly at roughly **7-11 hours per person**, with a single rehearsal and no dedicated pedagogy onboarding.
+- Local instructor communication is centralized in the [Zulip Chat Workspace](https://2026-ttt-course.zulipchat.com), and availability is collected via the [When2meet availability tracker](https://www.when2meet.com/?37353680-nuual).
 - Main operational workstreams: program, invited professors, local instructor coordination (including practical exercise co-preparation), logistics (self-catering), registration (open July 2nd to July 16th), budget, communications, and pre-course lecture preparation.
 - Folder structure is planned conceptually but intentionally not created yet.
