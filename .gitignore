@@ -1,1 +1,9 @@
 admin/*
+
+# quarto related files
+/.quarto/
+/_site/# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+**/*.quarto_ipynb

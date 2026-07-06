@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Agustin Corbat <acorbat@df.uba.ar>"]
+channels = ["conda-forge"]
+name = "2026_TtT_Course"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+
+[feature.quarto.dependencies]
+quarto = "*"
+
+[environments]
+quarto = { features = ["quarto"], no-default-feature = true }
