@@ -4,7 +4,7 @@
     "href": "program.html",
     "title": "Programa",
     "section": "",
-    "text": "09:00–10:00 - Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Agustin Corbat)\n11:00–12:30 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Lorena Sigaut)\n\n\n\n\n\n\n\n\n13:30–14:30 - 🧠 Segmentación clásica y Cuantificación (Agustín Corbat)\n14:30–15:00 - ☕ Coffee Break\n15:00–17:30 - Segmentación y Cuantificación (Agustin Corbat/Lorena Sigaut)\n\n\n\n\n\n\n\n\n09:00–10:00 - 🧠 Machine Learning (Agustin Corbat)\n10:00–12:00 - 🖥️ Taller de Git y Pixi (Agustin Corbat)\n\n\n\n\n\n\n\n\n13:00–14:00 - 🧠 Workflows reproducibles (Anna Klemm?)\n14:00–14:30 - ☕ Coffee Break\n14:30–17:00 - 🖥️ Taller de Git y Pixi (Mauro Silberberg)\n\n\n\n\n\n\n11:00–11:45 - Object-classification, dimensionality reduction and clustering ()\n\n\n\n\n09:00–10:00 - 🧠 Machine Learning (Agustin Corbat)\n10:00–12:00 - 🖥️ Taller de Git y Pixi (Agustin Corbat)\n\n\n\n\n\n\n\n\n13:00–14:00 - 🧠 Workflows reproducibles (Anna Klemm?)\n14:00–14:30 - ☕ Coffee Break\n14:30–17:00 - 🖥️ Taller de Git y Pixi (Mauro Silberberg)\n11:45–12:30 - 3D Deep Learning Segmentation (Agustín)\n12:30–13:00 - Talk from Bruker\n\n\n\n\n\n\n\n\n14:00–14:30 - ☕ Coffee Break\n14:00–16:00 - Tissue cartography (Bruno)\n16:00–17:30 - Cell tracking (Bruno)\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n11:00–13:00 - 🖥️ Taller de Deep Learning (Agustin Corbat)\n\n\n\n\n\n\n\n\n14:00–14:45 - 🧠 Deep Learning (Agustin Corbat)\n14:45–15:15 - ☕ Coffee Break\n15:15–17:00 - 🖥️ Taller de Cellpose, StarDist and friends (Agustin Corbat)\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursitos? (Rocco D’Antuono?)\n\n\n\n\n\n\n\n\n14:00–14:45 - 🧠 Deep Learning (Agustin Corbat)\n14:45–15:15 - ☕ Coffee Break\n15:15–17:00 - 🖥️ Taller de Cellpose, StarDist and friends (Agustin Corbat)\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre",
+    "text": "09:00–10:00 - Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Agustin Corbat)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Images in Fiji vs Python | File Formats? (Lorena Sigaut)\n\nComparación de herramientas y conceptos de formatos de archivo\n\n\n\n\n\n\n\n\n\n13:30–14:30 - 🧠 Segmentación clásica y Cuantificación (Agustín Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:30–15:00 - ☕ Coffee Break\n15:00–17:30 - Segmentación y Cuantificación (Agustin Corbat/Lorena Sigaut)\n\nSesión práctica de segmentación y cuantificación\n\n\n\n\n\n\n\n\n\n9:00–10:00 - 🧠 Workflows reproducibles (Anna Klemm?)\n\nPrincipios de flujos de trabajo reproducibles\n\n10:00–10:30 - ☕ Coffee Break\n11:00–13:00 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Agustin Corbat)\n\nComparación de GUI, macros y programación\n\n\n\n\n\n\n\n\n\n14:00–16:00 - 🖥️ Taller de Git y Pixi (Mauro Silberberg)\n\nControl de versiones con Git y gestión de entornos con Pixi\n\n16:00–17:00 - 🖥️ Taller de Napari? (Agustin Corbat)\n\nIntroducción a napari para visualización\n\n\n\n\n\n\n\n\n\n09:00–10:00 - 🧠 Machine Learning (Agustin Corbat)\n\nFundamentos de Machine Learning para análisis de bioimágenes\nMachine Learning aplicado a segmentacion y a clasificacion de objetos\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:30 - 🖥️ Machine Learning (Agustin Corbat)\n\nAplicaciones prácticas de ML y ejercicios\n\n\n\n\n\n\n\n\n\n13:30–15:00 - Object-classification, dimensionality reduction and clustering (??)\n\nClasificación de objetos, reducción de dimensionalidad y clustering\n\n14:30–15:00 - ☕ Coffee Break\n15:00–17:00 - Other Tools (??)\n\nExploración de otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, transcriptómica espacial…\n\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n\nTeoría y conceptos de Deep Learning\n\n11:00–13:00 - 🖥️ Taller de Deep Learning (Agustin Corbat)\n\nTaller práctico de Deep Learning\n\n\n\n\n\n\n\n\n\n14:00–14:45 - 🧠 Deep Learning (Agustin Corbat)\n\nModelos típicos usados en análisis de bioimágenes\n\n14:45–15:15 - ☕ Coffee Break\n15:15–17:00 - 🖥️ Taller de Cellpose, StarDist and friends (Agustin Corbat)\n\nHerramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.\n\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursitos? (Rocco D’Antuono?)\n\nDiseño de cursos de capacitación y estrategias de enseñanza\n\n\n\n\n\n\n\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre",
     "crumbs": [
       "Programa"
     ]
@@ -14,17 +14,17 @@
     "href": "program.html#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto",
     "title": "Programa",
     "section": "",
-    "text": "09:00–10:00 - Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Agustin Corbat)\n11:00–12:30 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Lorena Sigaut)\n\n\n\n\n\n\n\n\n13:30–14:30 - 🧠 Segmentación clásica y Cuantificación (Agustín Corbat)\n14:30–15:00 - ☕ Coffee Break\n15:00–17:30 - Segmentación y Cuantificación (Agustin Corbat/Lorena Sigaut)",
+    "text": "09:00–10:00 - Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Agustin Corbat)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Images in Fiji vs Python | File Formats? (Lorena Sigaut)\n\nComparación de herramientas y conceptos de formatos de archivo\n\n\n\n\n\n\n\n\n\n13:30–14:30 - 🧠 Segmentación clásica y Cuantificación (Agustín Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:30–15:00 - ☕ Coffee Break\n15:00–17:30 - Segmentación y Cuantificación (Agustin Corbat/Lorena Sigaut)\n\nSesión práctica de segmentación y cuantificación",
     "crumbs": [
       "Programa"
     ]
   },
   {
-    "objectID": "program.html#día-2-machine-learning-y-workflows-reproducibles-martes-4-de-agosto",
-    "href": "program.html#día-2-machine-learning-y-workflows-reproducibles-martes-4-de-agosto",
+    "objectID": "program.html#día-2-workflows-reproducibles-martes-4-de-agosto",
+    "href": "program.html#día-2-workflows-reproducibles-martes-4-de-agosto",
     "title": "Programa",
     "section": "",
-    "text": "09:00–10:00 - 🧠 Machine Learning (Agustin Corbat)\n10:00–12:00 - 🖥️ Taller de Git y Pixi (Agustin Corbat)\n\n\n\n\n\n\n\n\n13:00–14:00 - 🧠 Workflows reproducibles (Anna Klemm?)\n14:00–14:30 - ☕ Coffee Break\n14:30–17:00 - 🖥️ Taller de Git y Pixi (Mauro Silberberg)",
+    "text": "9:00–10:00 - 🧠 Workflows reproducibles (Anna Klemm?)\n\nPrincipios de flujos de trabajo reproducibles\n\n10:00–10:30 - ☕ Coffee Break\n11:00–13:00 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Agustin Corbat)\n\nComparación de GUI, macros y programación\n\n\n\n\n\n\n\n\n\n14:00–16:00 - 🖥️ Taller de Git y Pixi (Mauro Silberberg)\n\nControl de versiones con Git y gestión de entornos con Pixi\n\n16:00–17:00 - 🖥️ Taller de Napari? (Agustin Corbat)\n\nIntroducción a napari para visualización",
     "crumbs": [
       "Programa"
     ]
@@ -34,7 +34,7 @@
     "href": "program.html#day-3-miércoles-5-de-agosto",
     "title": "Programa",
     "section": "",
-    "text": "11:00–11:45 - Object-classification, dimensionality reduction and clustering ()\n\n\n\n\n09:00–10:00 - 🧠 Machine Learning (Agustin Corbat)\n10:00–12:00 - 🖥️ Taller de Git y Pixi (Agustin Corbat)\n\n\n\n\n\n\n\n\n13:00–14:00 - 🧠 Workflows reproducibles (Anna Klemm?)\n14:00–14:30 - ☕ Coffee Break\n14:30–17:00 - 🖥️ Taller de Git y Pixi (Mauro Silberberg)\n11:45–12:30 - 3D Deep Learning Segmentation (Agustín)\n12:30–13:00 - Talk from Bruker\n\n\n\n\n\n\n\n\n14:00–14:30 - ☕ Coffee Break\n14:00–16:00 - Tissue cartography (Bruno)\n16:00–17:30 - Cell tracking (Bruno)",
+    "text": "09:00–10:00 - 🧠 Machine Learning (Agustin Corbat)\n\nFundamentos de Machine Learning para análisis de bioimágenes\nMachine Learning aplicado a segmentacion y a clasificacion de objetos\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:30 - 🖥️ Machine Learning (Agustin Corbat)\n\nAplicaciones prácticas de ML y ejercicios\n\n\n\n\n\n\n\n\n\n13:30–15:00 - Object-classification, dimensionality reduction and clustering (??)\n\nClasificación de objetos, reducción de dimensionalidad y clustering\n\n14:30–15:00 - ☕ Coffee Break\n15:00–17:00 - Other Tools (??)\n\nExploración de otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, transcriptómica espacial…",
     "crumbs": [
       "Programa"
     ]
@@ -44,7 +44,7 @@
     "href": "program.html#day-4-deep-learning-jueves-6-de-agosto",
     "title": "Programa",
     "section": "",
-    "text": "09:00–11:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n11:00–13:00 - 🖥️ Taller de Deep Learning (Agustin Corbat)\n\n\n\n\n\n\n\n\n14:00–14:45 - 🧠 Deep Learning (Agustin Corbat)\n14:45–15:15 - ☕ Coffee Break\n15:15–17:00 - 🖥️ Taller de Cellpose, StarDist and friends (Agustin Corbat)",
+    "text": "09:00–11:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n\nTeoría y conceptos de Deep Learning\n\n11:00–13:00 - 🖥️ Taller de Deep Learning (Agustin Corbat)\n\nTaller práctico de Deep Learning\n\n\n\n\n\n\n\n\n\n14:00–14:45 - 🧠 Deep Learning (Agustin Corbat)\n\nModelos típicos usados en análisis de bioimágenes\n\n14:45–15:15 - ☕ Coffee Break\n15:15–17:00 - 🖥️ Taller de Cellpose, StarDist and friends (Agustin Corbat)\n\nHerramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.",
     "crumbs": [
       "Programa"
     ]
@@ -54,7 +54,7 @@
     "href": "program.html#day-5-haciendo-escuelas-y-cierra-viernes-7-de-agosto",
     "title": "Programa",
     "section": "",
-    "text": "09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursitos? (Rocco D’Antuono?)\n\n\n\n\n\n\n\n\n14:00–14:45 - 🧠 Deep Learning (Agustin Corbat)\n14:45–15:15 - ☕ Coffee Break\n15:15–17:00 - 🖥️ Taller de Cellpose, StarDist and friends (Agustin Corbat)\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre",
+    "text": "09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursitos? (Rocco D’Antuono?)\n\nDiseño de cursos de capacitación y estrategias de enseñanza\n\n\n\n\n\n\n\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre",
     "crumbs": [
       "Programa"
     ]
