@@ -140,6 +140,21 @@ gantt
 - [x] Draft and send invitation/coordination email for local instructors and facilitators (see [email_instructors.md](./admin/emails/email_instructors.md)).
 - [x] Publish the registration call across X, BlueSky, LinkedIn, emails, and WhatsApp (2026-07-02).
 
+## Webpage (Quarto site)
+
+### To‑do list for website
+- [ ] Complete the **Program** page (`program.md`).
+- [ ] Add **Resources** page (`resources.md`).
+- [ ] Create and populate **Pre‑course lectures** section (`pre_course/`).
+- [ ] Build **Course lecture** webpages (`lectures/`).
+- [ ] Build **Course practicals** webpages (`practicals/`).
+- [ ] Add **Instructor bios** and local facilitator pages.
+- [ ] Publish **Speaker profiles** and invited professor details.
+- [ ] Update **Registration** information and deadlines.
+- [ ] Add **FAQ** with venue information page for participants.
+- [ ] Ensure **SEO metadata**, Open Graph tags and social sharing images are set in `_quarto.yml`.
+- [ ] Verify **Accessibility** compliance and language options.
+
 
 ---
 
