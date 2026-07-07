@@ -15,11 +15,12 @@
 
 ### 🌇 Tarde (13:30–17:00)
 
-- 13:30--14:30 - 🧠 [Segmentación clásica y Cuantificación](lectures/segmentation_quantification.md) (Agustin Corbat)
+- 13:30--14:10 - 🧠 [Segmentación clásica y Cuantificación](lectures/segmentation_quantification.md) (Agustin Corbat)
   * *Teoría de segmentación clásica y cuantificación*
-- 14:30--15:00 - ☕ **Coffee Break**
-- 15:00--17:30 - [Segmentación y Cuantificación](practicals/segmentation_quantification.md) (Agustin Corbat/Lorena Sigaut)
+- 14:10--14:40 - ☕ **Coffee Break**
+- 14:40--16:30 - 🖥️ [Segmentación y Cuantificación](practicals/segmentation_quantification.md) (Agustin Corbat/Lorena Sigaut)
   * *Sesión práctica de segmentación y cuantificación*
+- 16:30--17:00 - **Cierre**
 
 ## 🗓️ Día 2: Workflows reproducibles (Martes 4 de Agosto)
 
@@ -35,7 +36,7 @@
 
 ### 🌇 Tarde (14:00–17:00)
 
-- 14:00--16:00 - 🖥️ [Taller de Git y Pixi](practicals/workflows.md) (Mauro Silberberg)
+- 14:00--16:00 - 🖥️ [Taller de Git y Pixi](practicals/git_pixi.md) (Mauro Silberberg)
   * *Control de versiones con Git y gestión de entornos con Pixi*
 - 16:00--17:00 - 🖥️ [Taller de Napari?](practicals/workflows.md) (Agustin Corbat)
   * *Introducción a napari para visualización*
@@ -55,7 +56,7 @@
 
 ### 🌇 Tarde (13:30–17:00)
 
-- 13:30--15:00 - [Object-classification, dimensionality reduction and clustering](practicals/object_classification.md) (??)
+- 13:30--15:00 - 🖥️ [Object-classification, dimensionality reduction and clustering](practicals/object_classification.md) (??)
   * *Clasificación de objetos, reducción de dimensionalidad y clustering*
 - 14:30--15:00 - ☕ **Coffee Break**
 - 15:00--17:00 - [Other Tools](practicals/other_tools.md) (??)
