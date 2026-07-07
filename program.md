@@ -8,14 +8,14 @@
   * *¿Por qué un formato Train-the-Trainer en Latinoamérica?* Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)
 - 10:15--11:00 - 🧠 [Qué es el Análisis de Bioimágenes](lectures/que_es_bia.md) (Agustin Corbat)
   * *Visión general del análisis de bioimágenes*
-- 11:00--12:30 - 🖥️ [Images in Fiji vs Python | File Formats?](practicals/workshop_2d_images.md) (Lorena Sigaut)
+- 11:00--12:30 - 🖥️ [Images in Fiji vs Python | File Formats?](practicals/workshop_2d_images.md) (Lorena Sigaut?)
   * *Comparación de herramientas y conceptos de formatos de archivo*
 
 ### 🥗 Lunch break (12:30--13:30)
 
 ### 🌇 Tarde (13:30–17:00)
 
-- 13:30--14:30 - 🧠 [Segmentación clásica y Cuantificación](lectures/segmentation_quantification.md) (Agustín Corbat)
+- 13:30--14:30 - 🧠 [Segmentación clásica y Cuantificación](lectures/segmentation_quantification.md) (Agustin Corbat)
   * *Teoría de segmentación clásica y cuantificación*
 - 14:30--15:00 - ☕ **Coffee Break**
 - 15:00--17:30 - [Segmentación y Cuantificación](practicals/segmentation_quantification.md) (Agustin Corbat/Lorena Sigaut)
@@ -29,7 +29,7 @@
   * *Principios de flujos de trabajo reproducibles*
 - 10:00--10:30 - ☕ **Coffee Break**
 - 11:00--13:00 - 🖥️ [Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)](practicals/interfaces.md) (Agustin Corbat)
-  * *Comparación de GUI, macros y programación*
+  * *Comparación de GUI, macros y programación de distinto software*
 
 ### 🥗 Lunch break (13:00--14:00)
 
@@ -40,7 +40,7 @@
 - 16:00--17:00 - 🖥️ [Taller de Napari?](practicals/workflows.md) (Agustin Corbat)
   * *Introducción a napari para visualización*
 
-## 🗓️ Day 3: (Miércoles 5 de Agosto)
+## 🗓️ Day 3: Machine Learning (Miércoles 5 de Agosto)
 
 ### 🌅 Mañana (09:00--12:00)
 
@@ -81,7 +81,7 @@
 - 15:15--17:00 - 🖥️ [Taller de Cellpose, StarDist and friends](practicals/deep_learning_biomodels.md) (Agustin Corbat)
   * *Herramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.*
 
-## 🗓️ Day 5: Haciendo escuelas y cierra (Viernes 7 de Agosto)
+## 🗓️ Day 5: Haciendo escuelas y cierre (Viernes 7 de Agosto)
 
 ### 🌅 Mañana (09:00--12:00)
 
@@ -92,7 +92,7 @@
 
 ### 🌇 Tarde (14:00–17:00)
 
-
+- 14:00--16:00 - 🧠 (incluye ☕) [Discusiones sobre AI y como usarla](lectures/ai_in_bia.md) (Agustin Corbat)
 
 ### 🌃 Noche (17 en adelante)
 - 17:00--en adelante - 🍔🍻 Cena de cierre
