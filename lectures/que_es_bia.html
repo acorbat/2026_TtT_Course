@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>program – 🔬 Fundamentos de Análisis de Bioimágenes (*Train-the-Trainer*)</title>
+<title>¿Qué es Análisis de Bioimágenes? – 🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./lectures/que_es_bia.html" rel="next">
-<link href="./media/lisium.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1d32adc25f08519fd678a141d0b51a8b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../program.html" rel="prev">
+<link href="../media/lisium.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1d32adc25f08519fd678a141d0b51a8b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,10 +74,12 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="¿Qué es Análisis de Bioimágenes? – 🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
+<meta property="og:description" content="Una introducción formal a qué es análisis de bioiágenes.">
 <meta property="og:site_name" content="🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
-<meta name="twitter:title" content="🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
+<meta name="twitter:title" content="¿Qué es Análisis de Bioimágenes? – 🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
+<meta name="twitter:description" content="Una introducción formal a qué es análisis de bioiágenes.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -88,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">🔬 Fundamentos de Análisis de Bioimágenes (<em>Train-the-Trainer</em>)</span>
     </a>
   </div>
@@ -103,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./program.html">Programa</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/que_es_bia.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/que_es_bia.html">¿Qué es Análisis de Bioimágenes?</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -117,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./program.html" class="sidebar-item-text sidebar-link active">
+  <a href="../program.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Programa</span></a>
   </div>
 </li>
@@ -132,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lectures/que_es_bia.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/que_es_bia.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">¿Qué es Análisis de Bioimágenes?</span></a>
   </div>
 </li>
@@ -148,218 +150,37 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#programa" id="toc-programa" class="nav-link active" data-scroll-target="#programa">Programa</a>
-  <ul>
-  <li><a href="#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto" id="toc-día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto" class="nav-link" data-scroll-target="#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto">🗓️ Día 1: Fundamentos del Análisis de Imágenes y Procesamiento Clásico (Lunes 3 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001230" id="toc-mañana-09001230" class="nav-link" data-scroll-target="#mañana-09001230">🌅 Mañana (09:00–12:30)</a></li>
-  <li><a href="#lunch-break-12301330" id="toc-lunch-break-12301330" class="nav-link" data-scroll-target="#lunch-break-12301330">🥗 Lunch break (12:30–13:30)</a></li>
-  <li><a href="#tarde-13301700" id="toc-tarde-13301700" class="nav-link" data-scroll-target="#tarde-13301700">🌇 Tarde (13:30–17:00)</a></li>
-  </ul></li>
-  <li><a href="#día-2-workflows-reproducibles-martes-4-de-agosto" id="toc-día-2-workflows-reproducibles-martes-4-de-agosto" class="nav-link" data-scroll-target="#día-2-workflows-reproducibles-martes-4-de-agosto">🗓️ Día 2: Workflows reproducibles (Martes 4 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001200" id="toc-mañana-09001200" class="nav-link" data-scroll-target="#mañana-09001200">🌅 Mañana (09:00–12:00)</a></li>
-  <li><a href="#lunch-break-13001400" id="toc-lunch-break-13001400" class="nav-link" data-scroll-target="#lunch-break-13001400">🥗 Lunch break (13:00–14:00)</a></li>
-  <li><a href="#tarde-14001700" id="toc-tarde-14001700" class="nav-link" data-scroll-target="#tarde-14001700">🌇 Tarde (14:00–17:00)</a></li>
-  </ul></li>
-  <li><a href="#day-3-machine-learning-miércoles-5-de-agosto" id="toc-day-3-machine-learning-miércoles-5-de-agosto" class="nav-link" data-scroll-target="#day-3-machine-learning-miércoles-5-de-agosto">🗓️ Day 3: Machine Learning (Miércoles 5 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001200-1" id="toc-mañana-09001200-1" class="nav-link" data-scroll-target="#mañana-09001200-1">🌅 Mañana (09:00–12:00)</a></li>
-  <li><a href="#lunch-break-12301330-1" id="toc-lunch-break-12301330-1" class="nav-link" data-scroll-target="#lunch-break-12301330-1">🥗 Lunch break (12:30–13:30)</a></li>
-  <li><a href="#tarde-13301700-1" id="toc-tarde-13301700-1" class="nav-link" data-scroll-target="#tarde-13301700-1">🌇 Tarde (13:30–17:00)</a></li>
-  </ul></li>
-  <li><a href="#day-4-deep-learning-jueves-6-de-agosto" id="toc-day-4-deep-learning-jueves-6-de-agosto" class="nav-link" data-scroll-target="#day-4-deep-learning-jueves-6-de-agosto">🗓️ Day 4: Deep Learning (Jueves 6 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001200-2" id="toc-mañana-09001200-2" class="nav-link" data-scroll-target="#mañana-09001200-2">🌅 Mañana (09:00–12:00)</a></li>
-  <li><a href="#lunch-break-13001400-1" id="toc-lunch-break-13001400-1" class="nav-link" data-scroll-target="#lunch-break-13001400-1">🥗 Lunch break (13:00–14:00)</a></li>
-  <li><a href="#tarde-14001700-1" id="toc-tarde-14001700-1" class="nav-link" data-scroll-target="#tarde-14001700-1">🌇 Tarde (14:00–17:00)</a></li>
-  </ul></li>
-  <li><a href="#day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto" id="toc-day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto" class="nav-link" data-scroll-target="#day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto">🗓️ Day 5: Haciendo escuelas y cierre (Viernes 7 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001200-3" id="toc-mañana-09001200-3" class="nav-link" data-scroll-target="#mañana-09001200-3">🌅 Mañana (09:00–12:00)</a></li>
-  <li><a href="#lunch-break-13001400-2" id="toc-lunch-break-13001400-2" class="nav-link" data-scroll-target="#lunch-break-13001400-2">🥗 Lunch break (13:00–14:00)</a></li>
-  <li><a href="#tarde-14001700-2" id="toc-tarde-14001700-2" class="nav-link" data-scroll-target="#tarde-14001700-2">🌇 Tarde (14:00–17:00)</a></li>
-  <li><a href="#noche-17-en-adelante" id="toc-noche-17-en-adelante" class="nav-link" data-scroll-target="#noche-17-en-adelante">🌃 Noche (17 en adelante)</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#objetivos-de-aprendizaje" id="toc-objetivos-de-aprendizaje" class="nav-link active" data-scroll-target="#objetivos-de-aprendizaje">Objetivos de Aprendizaje</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/program.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/lectures/que_es_bia.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/que_es_bia.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/que_es_bia.html">¿Qué es Análisis de Bioimágenes?</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">¿Qué es Análisis de Bioimágenes?</h1>
+<p class="subtitle lead">Una introducción formal a qué es análisis de bioiágenes.</p>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="programa" class="level1">
-<h1>Programa</h1>
-<section id="día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto">🗓️ Día 1: Fundamentos del Análisis de Imágenes y Procesamiento Clásico (Lunes 3 de Agosto)</h2>
-<section id="mañana-09001230" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001230">🌅 Mañana (09:00–12:30)</h3>
-<ul>
-<li>09:00–10:00 - Bienvenida, expectativas de los participantes y presentación de objetivos.
-<ul>
-<li><em>¿Por qué un formato Train-the-Trainer en Latinoamérica?</em> Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)</li>
-</ul></li>
-<li>10:15–11:00 - 🧠 <a href="./lectures/que_es_bia.html">Qué es el Análisis de Bioimágenes</a> (Agustin Corbat)
-<ul>
-<li><em>Visión general del análisis de bioimágenes</em></li>
-</ul></li>
-<li>11:00–12:30 - 🖥️ <a href="practicals/workshop_2d_images.md">Images in Fiji vs Python | File Formats?</a> (Lorena Sigaut?)
-<ul>
-<li><em>Comparación de herramientas y conceptos de formatos de archivo</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-12301330" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-12301330">🥗 Lunch break (12:30–13:30)</h3>
-</section>
-<section id="tarde-13301700" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-13301700">🌇 Tarde (13:30–17:00)</h3>
-<ul>
-<li>13:30–14:30 - 🧠 <a href="lectures/segmentation_quantification.md">Segmentación clásica y Cuantificación</a> (Agustin Corbat)
-<ul>
-<li><em>Teoría de segmentación clásica y cuantificación</em></li>
-</ul></li>
-<li>14:30–15:00 - ☕ <strong>Coffee Break</strong></li>
-<li>15:00–17:30 - <a href="practicals/segmentation_quantification.md">Segmentación y Cuantificación</a> (Agustin Corbat/Lorena Sigaut)
-<ul>
-<li><em>Sesión práctica de segmentación y cuantificación</em></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="día-2-workflows-reproducibles-martes-4-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="día-2-workflows-reproducibles-martes-4-de-agosto">🗓️ Día 2: Workflows reproducibles (Martes 4 de Agosto)</h2>
-<section id="mañana-09001200" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001200">🌅 Mañana (09:00–12:00)</h3>
-<ul>
-<li>9:00–10:00 - 🧠 <a href="lectures/workflows.md">Workflows reproducibles</a> (Anna Klemm?)
-<ul>
-<li><em>Principios de flujos de trabajo reproducibles</em></li>
-</ul></li>
-<li>10:00–10:30 - ☕ <strong>Coffee Break</strong></li>
-<li>11:00–13:00 - 🖥️ <a href="practicals/interfaces.md">Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)</a> (Agustin Corbat)
-<ul>
-<li><em>Comparación de GUI, macros y programación de distinto software</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-13001400" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-13001400">🥗 Lunch break (13:00–14:00)</h3>
-</section>
-<section id="tarde-14001700" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-14001700">🌇 Tarde (14:00–17:00)</h3>
-<ul>
-<li>14:00–16:00 - 🖥️ <a href="practicals/workflows.md">Taller de Git y Pixi</a> (Mauro Silberberg)
-<ul>
-<li><em>Control de versiones con Git y gestión de entornos con Pixi</em></li>
-</ul></li>
-<li>16:00–17:00 - 🖥️ <a href="practicals/workflows.md">Taller de Napari?</a> (Agustin Corbat)
-<ul>
-<li><em>Introducción a napari para visualización</em></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="day-3-machine-learning-miércoles-5-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="day-3-machine-learning-miércoles-5-de-agosto">🗓️ Day 3: Machine Learning (Miércoles 5 de Agosto)</h2>
-<section id="mañana-09001200-1" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001200-1">🌅 Mañana (09:00–12:00)</h3>
-<ul>
-<li>09:00–10:00 - 🧠 <a href="lectures/machine_learning.md">Machine Learning</a> (Agustin Corbat)
-<ul>
-<li><em>Fundamentos de Machine Learning para análisis de bioimágenes</em></li>
-<li><em>Machine Learning aplicado a segmentacion y a clasificacion de objetos</em></li>
-</ul></li>
-<li>10:00–10:30 - ☕ <strong>Coffee Break</strong></li>
-<li>10:30–12:30 - 🖥️ <a href="practicals/machine_learning.md">Machine Learning</a> (Agustin Corbat)
-<ul>
-<li><em>Aplicaciones prácticas de ML y ejercicios</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-12301330-1" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-12301330-1">🥗 Lunch break (12:30–13:30)</h3>
-</section>
-<section id="tarde-13301700-1" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-13301700-1">🌇 Tarde (13:30–17:00)</h3>
-<ul>
-<li>13:30–15:00 - <a href="practicals/object_classification.md">Object-classification, dimensionality reduction and clustering</a> (??)
-<ul>
-<li><em>Clasificación de objetos, reducción de dimensionalidad y clustering</em></li>
-</ul></li>
-<li>14:30–15:00 - ☕ <strong>Coffee Break</strong></li>
-<li>15:00–17:00 - <a href="practicals/other_tools.md">Other Tools</a> (??)
-<ul>
-<li><em>Exploración de otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, transcriptómica espacial…</em></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="day-4-deep-learning-jueves-6-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="day-4-deep-learning-jueves-6-de-agosto">🗓️ Day 4: Deep Learning (Jueves 6 de Agosto)</h2>
-<section id="mañana-09001200-2" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001200-2">🌅 Mañana (09:00–12:00)</h3>
-<ul>
-<li>09:00–11:00 - 🧠 (incluye ☕) <a href="lectures/deep_learning.md">Deep Learning</a> (Enzo Ferrante)
-<ul>
-<li><em>Teoría y conceptos de Deep Learning</em></li>
-</ul></li>
-<li>11:00–13:00 - 🖥️ <a href="practicals/deep_learning_generic.md">Taller de Deep Learning</a> (Agustin Corbat)
-<ul>
-<li><em>Taller práctico de Deep Learning</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-13001400-1" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-13001400-1">🥗 Lunch break (13:00–14:00)</h3>
-</section>
-<section id="tarde-14001700-1" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-14001700-1">🌇 Tarde (14:00–17:00)</h3>
-<ul>
-<li>14:00–14:45 - 🧠 <a href="lectures/deep_learning_biomodels.md">Deep Learning</a> (Agustin Corbat)
-<ul>
-<li><em>Modelos típicos usados en análisis de bioimágenes</em></li>
-</ul></li>
-<li>14:45–15:15 - ☕ <strong>Coffee Break</strong></li>
-<li>15:15–17:00 - 🖥️ <a href="practicals/deep_learning_biomodels.md">Taller de Cellpose, StarDist and friends</a> (Agustin Corbat)
-<ul>
-<li><em>Herramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.</em></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto">🗓️ Day 5: Haciendo escuelas y cierre (Viernes 7 de Agosto)</h2>
-<section id="mañana-09001200-3" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001200-3">🌅 Mañana (09:00–12:00)</h3>
-<ul>
-<li>09:00–11:00 - 🧠 (incluye ☕) <a href="lectures/deep_learning.md">¿Como hacer escuelas y cursitos?</a> (Rocco D’Antuono?)
-<ul>
-<li><em>Diseño de cursos de capacitación y estrategias de enseñanza</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-13001400-2" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-13001400-2">🥗 Lunch break (13:00–14:00)</h3>
-</section>
-<section id="tarde-14001700-2" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-14001700-2">🌇 Tarde (14:00–17:00)</h3>
-<ul>
-<li>14:00–16:00 - 🧠 (incluye ☕) <a href="lectures/ai_in_bia.md">Discusiones sobre AI y como usarla</a> (Agustin Corbat)</li>
-</ul>
-</section>
-<section id="noche-17-en-adelante" class="level3">
-<h3 class="anchored" data-anchor-id="noche-17-en-adelante">🌃 Noche (17 en adelante)</h3>
-<ul>
-<li>17:00–en adelante - 🍔🍻 Cena de cierre</li>
-</ul>
+    
+  
+    
+  </div>
+  
 
 
-</section>
-</section>
+</header>
+
+
+<section id="objetivos-de-aprendizaje" class="level2">
+<h2 class="anchored" data-anchor-id="objetivos-de-aprendizaje">Objetivos de Aprendizaje</h2>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -765,11 +586,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../program.html" class="pagination-link" aria-label="Programa">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Programa</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lectures/que_es_bia.html" class="pagination-link" aria-label="¿Qué es Análisis de Bioimágenes?">
-        <span class="nav-page-text">¿Qué es Análisis de Bioimágenes?</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -786,7 +607,7 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/program.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/lectures/que_es_bia.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
