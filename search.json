@@ -93,5 +93,38 @@
     "title": "Inicio",
     "section": "",
     "text": "Corbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Train-the-Trainer). Zenodo. https://doi.org/10.5281/zenodo.18247226"
+  },
+  {
+    "objectID": "lectures/que_es_bia.html",
+    "href": "lectures/que_es_bia.html",
+    "title": "¿Qué es Análisis de Bioimágenes?",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:",
+    "crumbs": [
+      "Lectures",
+      "¿Qué es Análisis de Bioimágenes?"
+    ]
+  },
+  {
+    "objectID": "lectures/que_es_bia.html#slides",
+    "href": "lectures/que_es_bia.html#slides",
+    "title": "¿Qué es Análisis de Bioimágenes?",
+    "section": "Slides",
+    "text": "Slides",
+    "crumbs": [
+      "Lectures",
+      "¿Qué es Análisis de Bioimágenes?"
+    ]
+  },
+  {
+    "objectID": "lectures/que_es_bia.html#citation",
+    "href": "lectures/que_es_bia.html#citation",
+    "title": "¿Qué es Análisis de Bioimágenes?",
+    "section": "Citation",
+    "text": "Citation\nCuenca, M. B. (2025). Principles of light-sheet microscopy. Light-Sheet Image Analysis Workshop 2026 (LiSIAW2026), Santiago, Chile. Zenodo. https://doi.org/10.5281/zenodo.18106542",
+    "crumbs": [
+      "Lectures",
+      "¿Qué es Análisis de Bioimágenes?"
+    ]
   }
 ]
