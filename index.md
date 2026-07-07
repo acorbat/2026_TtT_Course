@@ -1,7 +1,7 @@
 # Inicio
 
 ::: {.column-screen}
-![](communications_outreach/inner_ear.png){width="75%" alt="Oído interno - Imagen promocional"}
+![](communications_outreach/inner_ear.png){width="75%" fig-align="center" alt="Oído interno - Imagen promocional"}
 :::
 
 ::: {.callout-important}
