@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es Análisis de Bioimágenes?
-subtitle: Una introducción formal a qué es análisis de bioiágenes.
+subtitle: Una introducción formal a qué es el análisis de bioimágenes.
 format: html
 ---
 
