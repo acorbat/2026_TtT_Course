@@ -4,7 +4,7 @@
 
 ### 🌅 Mañana (09:00--12:30)
 
-- 09:00--10:00 - Bienvenida, expectativas de los participantes y presentación de objetivos. 
+- 09:00--10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos. 
   * *¿Por qué un formato Train-the-Trainer en Latinoamérica?* Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)
 - 10:15--11:00 - 🧠 [Qué es el Análisis de Bioimágenes](lectures/que_es_bia.md) (Agustin Corbat)
   * *Visión general del análisis de bioimágenes*
@@ -59,8 +59,8 @@
 - 13:30--15:00 - 🖥️ [Object-classification, dimensionality reduction and clustering](practicals/object_classification.md) (??)
   * *Clasificación de objetos, reducción de dimensionalidad y clustering*
 - 14:30--15:00 - ☕ **Coffee Break**
-- 15:00--17:00 - [Other Tools](practicals/other_tools.md) (??)
-  * *Exploración de otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, transcriptómica espacial...*
+- 15:00--17:00 - [BYOP - Other Tools](practicals/other_tools.md) (??)
+  * *Bring your own problem y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, transcriptómica espacial...*
 
 
 ## 🗓️ Day 4: Deep Learning (Jueves 6 de Agosto)
@@ -95,5 +95,5 @@
 
 - 14:00--16:00 - 🧠 (incluye ☕) [Discusiones sobre AI y como usarla](lectures/ai_in_bia.md) (Agustin Corbat)
 
-### 🌃 Noche (17 en adelante)
+### 🌃 Noche (17:00 en adelante)
 - 17:00--en adelante - 🍔🍻 Cena de cierre
