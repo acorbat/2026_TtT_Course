@@ -58,7 +58,7 @@
 - 13:30--15:00 - 🖥️ [Clasificación de objetos](practicos/object_classification.md) (??)
   * *Clasificación de objetos, reducción de dimensionalidad y clustering*
 - 14:30--15:00 - ☕ **Coffee Break**
-- 15:00--17:00 - [BYOP - Other Tools](practicos/other_tools.md) (??)
+- 15:00--17:00 - 🗫🖥️ [BYOP - Other Tools](practicos/other_tools.md) (??)
   * *Bring your own problem y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial...*
 
 
@@ -88,16 +88,16 @@
 
 - 09:00--11:00 - 🧠 (incluye ☕) [¿Como hacer escuelas y cursitos?](presentaciones/deep_learning.md) (Rocco D'Antuono?)
   * *Diseño de cursos de capacitación y estrategias de enseñanza*
-- 11:00--13:00 - 🧠 [Discusiones sobre AI y como usarla](presentaciones/ai_in_bia.md) (Agustin Corbat)
+- 11:00--13:00 - 🗫 [Discusiones sobre AI y como usarla](presentaciones/ai_in_bia.md) (Agustin Corbat)
   * *Discusión sobre el uso de AI en bioimágenes y diseño de clases*
 
 ### 🥗 Lunch break (13:00--14:00)
 
 ### 🌇 Tarde (14:00–17:00)
 
-- 14:00--16:00 - 🧠 (incluye ☕) **Discusiones sobre los tutoriales de BYOP y otras herramientas**
+- 14:00--16:00 - 🗫 (incluye ☕) **Discusiones sobre los tutoriales de BYOP y otras herramientas**
   * *Puesta en común de las herramientas exploradas en la sesión de BYOP - Other Tools*
-- 16:00--17:00 - 🧠 **Cierre**
+- 16:00--17:00 - **Cierre**
 
 ### 🌃 Noche (17:00 en adelante)
 - 17:00--en adelante - 🍔🍻 Cena de cierre
