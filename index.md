@@ -1,16 +1,21 @@
 # Inicio
 
-::: {.column-screen}
-![](communications_outreach/inner_ear.png){width="75%" fig-align="center" alt="Oído interno - Imagen promocional"}
+::: {.column-screen .d-flex .justify-content-center}
+![](communications_outreach/inner_ear.png){width="75%" alt="Oído interno adquirido por Agustin Corbat - Imagen promocional"}
 :::
 
 ::: {.callout-important}
+
 ## 📢 ¡Inscripciones Abiertas para el Taller!
+
 La convocatoria para postular al taller de **Formación de Formadores en Análisis de Bioimágenes** está abierta.
 
 * **Fecha límite de inscripción:** 16 de julio de 2026 (2026-07-16)
+
 * **Notificación de selección y adjudicación de becas:** A partir del 20 de julio de 2026
+
 * **Formulario de Inscripción:** [¡Inscribite aquí!](https://forms.gle/Ym27rxzptfaWMsrN7){.btn .btn-success .btn-lg .rounded role="button"}
+
 :::
 
 ¡Te damos la bienvenida al portal del **Taller de Fundamentos en Análisis de Bioimágenes (*Train-the-Trainer*)**! 
