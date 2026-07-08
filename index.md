@@ -7,9 +7,10 @@
 ::: {.callout-important}
 ## 📢 ¡Inscripciones Abiertas para el Taller!
 La convocatoria para postular al taller de **Formación de Formadores en Análisis de Bioimágenes** está abierta.
-* **Fecha límite de postulación:** 16 de julio de 2026 (2026-07-16)
+
+* **Fecha límite de inscripción:** 16 de julio de 2026 (2026-07-16)
 * **Notificación de selección y adjudicación de becas:** A partir del 20 de julio de 2026
-* **Formulario de Postulación:** [¡Postulate aquí!](https://forms.gle/Ym27rxzptfaWMsrN7){.btn .btn-success .btn-lg .rounded role="button"}
+* **Formulario de Inscripción:** [¡Inscribite aquí!](https://forms.gle/Ym27rxzptfaWMsrN7){.btn .btn-success .btn-lg .rounded role="button"}
 :::
 
 ¡Te damos la bienvenida al portal del **Taller de Fundamentos en Análisis de Bioimágenes (*Train-the-Trainer*)**! 
@@ -77,7 +78,7 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 ::: {.column width="50%"}
 ### Comité Organizador
 
-* **Dr. Agustín A. Corbat** (CMA - FCEN - UBA)
+* **Dr. Agustín A. Corbat** (DF - FCEN - UBA)
 * **Dra. Lorena Sigaut** (DF - FCEN - UBA & CMA)
 * **Dra. Lía I. Pietrasanta** (DF - FCEN - UBA & CMA)
 :::
@@ -86,9 +87,9 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 ### Instructores y Facilitadores
 
 * **Dr. Ignacio Sallaberry** (FCEN - UBA)
-* **Mauro Silberberg** (FCEN - UBA)
-* **Alejandra Fernández** (FCEN - UBA)
-* **Elizabeth Samaniego Onofre** (FCEN - UBA)
+* **Lic. Mauro Silberberg** (FCEN - UBA)
+* **Lic. Alejandra Fernández** (FCEN - UBA)
+* **Fis. Elizabeth Samaniego Onofre** (FCEN - UBA)
 * **Gina A. Alongi** (FCEN - UBA)
 :::
 
@@ -102,8 +103,10 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 
 ### Instituciones Organizadoras y de Apoyo
 
-::: {layout-ncol=2}
-[![](communications_outreach/cma_logo.svg)](http://cma.exactas.uba.ar)
+::: {layout-ncol=3}
+[![](communications_outreach/cma_logo.svg)](https://cma.fcen.uba.ar/)
+
+[![](communications_outreach/fundacen_logo.svg)](https://fundacen.org.ar/)
 
 [![](communications_outreach/exactas_logo.svg)](https://exactas.uba.ar)
 :::
