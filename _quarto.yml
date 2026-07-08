@@ -6,8 +6,8 @@ project:
     - "!COURSE_MASTER_PLAN.md"
     - "!AGENTS.md"
     - "!README.md"
-    - "pre_course/"
-    - "course/"
+    - "practicos/"
+    - "presentaciones/"
     - "!admin/"
     - "!communications_outreach/"
 
