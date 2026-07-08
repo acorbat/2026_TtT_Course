@@ -12,7 +12,8 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 - Definir análisis de bioimágenes y sus características.
 - Comprender qué es una bioimagen, cómo se forman y sus atributos.
-- Saber ejemplos de formatos para guardar bioimágenes con sus ventajas y desventajas
+- Saber ejemplos de formatos para guardar bioimágenes con sus ventajas y desventajas.
+- Conocer distintas operaciones que pueden aplicarse a bioimágenes.
 
 
 :::
