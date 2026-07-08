@@ -1,8 +1,6 @@
 # Inicio
 
-::: {.column-screen .d-flex .justify-content-center}
 ![](communications_outreach/inner_ear.png){width="75%" fig-align="center" alt="Oído interno adquirido por Agustin Corbat - Imagen promocional"}
-:::
 
 ::: {.callout-important}
 
