@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>🔬 Fundamentos de Análisis de Bioimágenes (&lt;em&gt;Train-the-Trainer&lt;/em&gt;)</title>
+<title>Workflows reproducibles – 🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,27 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./media/lisium.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1d32adc25f08519fd678a141d0b51a8b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../presentaciones/segmentacion_clasica_cuantificacion.html" rel="prev">
+<link href="../media/lisium.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1d32adc25f08519fd678a141d0b51a8b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,21 +74,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://acorbat.github.io/2026_TtT_Course/communications_outreach/inner_ear.png">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Workflows reproducibles – 🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
+<meta property="og:description" content="Introducción a flujos de trabajo reproducibles en bioimágenes.">
 <meta property="og:site_name" content="🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
-<meta property="og:image:alt" content="Oído interno - Imagen promocional">
-<meta property="og:image:height" content="400">
-<meta property="og:image:width" content="979">
-<meta name="twitter:title" content="🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://acorbat.github.io/2026_TtT_Course/communications_outreach/inner_ear.png">
-<meta name="twitter:image:alt" content="Oído interno - Imagen promocional">
-<meta name="twitter:image-height" content="400">
-<meta name="twitter:image-width" content="979">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Workflows reproducibles – 🔬 Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)">
+<meta name="twitter:description" content="Introducción a flujos de trabajo reproducibles en bioimágenes.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -100,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">🔬 Fundamentos de Análisis de Bioimágenes (<em>Train-the-Trainer</em>)</span>
     </a>
   </div>
@@ -115,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../presentaciones/deep_learning.html">Presentaciones</a></li><li class="breadcrumb-item"><a href="../presentaciones/workflows.html">Workflows reproducibles</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -129,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./program.html" class="sidebar-item-text sidebar-link">
+  <a href="../program.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Programa</span></a>
   </div>
 </li>
@@ -144,37 +134,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/deep_learning.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/deep_learning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep Learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep Learning y Modelos Biomodelos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/machine_learning.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/machine_learning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Machine Learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/que_es_bia.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/que_es_bia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">¿Qué es Análisis de Bioimágenes?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/segmentacion_clasica_cuantificacion.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/segmentacion_clasica_cuantificacion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Segmentación clásica y Cuantificación</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/workflows.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/workflows.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Workflows reproducibles</span></a>
   </div>
 </li>
@@ -190,164 +180,56 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#inicio" id="toc-inicio" class="nav-link active" data-scroll-target="#inicio">Inicio</a>
-  <ul>
-  <li><a href="#sobre-el-taller" id="toc-sobre-el-taller" class="nav-link" data-scroll-target="#sobre-el-taller">Sobre el Taller</a>
-  <ul class="collapse">
-  <li><a href="#a-quién-está-dirigido" id="toc-a-quién-está-dirigido" class="nav-link" data-scroll-target="#a-quién-está-dirigido">¿A quién está dirigido?</a></li>
-  <li><a href="#de-qué-trata-el-taller" id="toc-de-qué-trata-el-taller" class="nav-link" data-scroll-target="#de-qué-trata-el-taller">¿De qué trata el taller?</a></li>
-  <li><a href="#en-qué-temas-nos-enfocaremos" id="toc-en-qué-temas-nos-enfocaremos" class="nav-link" data-scroll-target="#en-qué-temas-nos-enfocaremos">¿En qué temas nos enfocaremos?</a></li>
-  </ul></li>
-  <li><a href="#información-clave-y-becas" id="toc-información-clave-y-becas" class="nav-link" data-scroll-target="#información-clave-y-becas">Información Clave y Becas</a></li>
-  <li><a href="#organización-e-instructores" id="toc-organización-e-instructores" class="nav-link" data-scroll-target="#organización-e-instructores">Organización e Instructores</a>
-  <ul class="collapse">
-  <li><a href="#profesores-invitados" id="toc-profesores-invitados" class="nav-link" data-scroll-target="#profesores-invitados">Profesores Invitados</a></li>
-  <li><a href="#instituciones-organizadoras-y-de-apoyo" id="toc-instituciones-organizadoras-y-de-apoyo" class="nav-link" data-scroll-target="#instituciones-organizadoras-y-de-apoyo">Instituciones Organizadoras y de Apoyo</a></li>
-  </ul></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
-  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/index.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/presentaciones/workflows.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
-
-
-
-<section id="inicio" class="level1 page-columns page-full">
-<h1>Inicio</h1>
-<div class="page-columns page-full">
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p class="page-columns page-full"><a href="communications_outreach/inner_ear.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1"><img src="communications_outreach/inner_ear.png" class="img-fluid quarto-figure quarto-figure-center figure-img column-screen" style="width:75.0%" alt="Oído interno - Imagen promocional"></a></p>
-</figure>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../presentaciones/deep_learning.html">Presentaciones</a></li><li class="breadcrumb-item"><a href="../presentaciones/workflows.html">Workflows reproducibles</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Workflows reproducibles</h1>
+<p class="subtitle lead">Introducción a flujos de trabajo reproducibles en bioimágenes.</p>
 </div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>📢 ¡Inscripciones Abiertas para el Taller!
+<span class="screen-reader-only">Tip</span>Objetivos de Aprendizaje
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La convocatoria para postular al taller de <strong>Formación de Formadores en Análisis de Bioimágenes</strong> está abierta.</p>
-<ul>
-<li><strong>Fecha límite de inscripción:</strong> 16 de julio de 2026 (2026-07-16)</li>
-<li><strong>Notificación de selección y adjudicación de becas:</strong> A partir del 20 de julio de 2026</li>
-<li><strong>Formulario de Inscripción:</strong> <a href="https://forms.gle/Ym27rxzptfaWMsrN7" class="btn btn-success btn-lg rounded" role="button">¡Inscribite aquí!</a></li>
-</ul>
+<p>Al finalizar la sesión, los alumnos deberán ser capaces de: - Describir las características de un flujo de trabajo de bioimágenes. - Listar las propiedades que tiene un flujo de trabajo reproducible. - Comprender las razones para que los flujos de trabajos sean reproducibles.</p>
 </div>
 </div>
-<p>¡Te damos la bienvenida al portal del <strong>Taller de Fundamentos en Análisis de Bioimágenes (<em>Train-the-Trainer</em>)</strong>!</p>
-<p>Este taller intensivo y presencial se llevará a cabo del <strong>3 al 7 de agosto de 2026</strong> en el Pabellón 0+Infinito, de la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires (FCEN-UBA) en Buenos Aires, Argentina.</p>
-<p>A diferencia de los cursos puramente técnicos, este taller tiene un formato de <strong>Formación de Formadores (<em>Train-the-Trainer</em>)</strong>. Nuestro propósito principal es capacitar a profesionales del área de bioimágenes para que no solo dominen metodologías de análisis avanzadas, sino que adquieran las herramientas pedagógicas y didácticas necesarias para <strong>enseñar y replicar</strong> de forma sostenible este conocimiento en sus instituciones de origen en Latinoamérica.</p>
-<div style="text-align: center; padding: 1.5rem 0; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-<p><a href="./program.html" class="btn btn-primary rounded">📅 Ver Programa Completo</a> <a href="resources.md" class="btn btn-primary rounded">📚 Recursos del Curso</a></p>
-</div>
-<hr>
-<section id="sobre-el-taller" class="level2">
-<h2 class="anchored" data-anchor-id="sobre-el-taller">Sobre el Taller</h2>
-<section id="a-quién-está-dirigido" class="level3">
-<h3 class="anchored" data-anchor-id="a-quién-está-dirigido">¿A quién está dirigido?</h3>
-<p>Este taller está diseñado para <strong>estudiantes de posgrado, investigadores/as, analistas de imágenes y personal técnico de laboratorios y de centros de microscopía o servicios científicos</strong> de Argentina y de Latinoamérica que deseen: 1. Consolidar sus bases teóricas y metodológicas en el análisis cuantitativo de bioimágenes. 2. Adquirir y poner en práctica herramientas pedagógicas que les permitan diseñar lecciones, dictar talleres prácticos y transferir conocimientos de forma efectiva a otros miembros de su comunidad.</p>
-</section>
-<section id="de-qué-trata-el-taller" class="level3">
-<h3 class="anchored" data-anchor-id="de-qué-trata-el-taller">¿De qué trata el taller?</h3>
-<p>El curso implementa un <strong>modelo de aprendizaje activo híbrido</strong>: * <strong>Fase online asincrónica (a partir de mediados de julio):</strong> Introducción de nivelación con lecturas, videos grabados y preparación de software (Fiji, Python, napari) de cumplimiento obligatorio para centrar el tiempo presencial en dinámicas aplicadas. * <strong>Fase presencial intensiva (3 al 7 de agosto):</strong> Sesiones teórico-prácticas donde cada tema se divide en: 1. <em>Conceptos clave:</em> Breve repaso del tema con resolución de dudas conceptuales complejas. 2. <em>Diseño pedagógico:</em> Trabajo grupal enfocado en cómo enseñar el tema, diseñar ejercicios con muestras reales, evitar errores conceptuales típicos de los estudiantes y estructurar tareas de evaluación.</p>
-</section>
-<section id="en-qué-temas-nos-enfocaremos" class="level3">
-<h3 class="anchored" data-anchor-id="en-qué-temas-nos-enfocaremos">¿En qué temas nos enfocaremos?</h3>
-<ul>
-<li><strong>Procesamiento de imágenes y fundamentos:</strong> Formatos de datos, operaciones espaciales, filtrado y buenas prácticas.</li>
-<li><strong>Segmentación y cuantificación:</strong> Extracción de características métricas de manera rigurosa y reproducible.</li>
-<li><strong>Automatización y flujos de trabajo:</strong> Desarrollo y empaquetado de workflows reproducibles utilizando el ecosistema de Fiji/ImageJ, Python y Napari.</li>
-<li><strong>Machine y Deep Learning:</strong> Introducción a algoritmos de aprendizaje automático para el análisis de bioimágenes, aprendiendo a presentarlos y enseñarlos con expectativas realistas.</li>
-<li><strong>Pedagogía práctica:</strong> Diseño y adaptación de guías de ejercicios a las infraestructuras y contextos de origen de los participantes.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="información-clave-y-becas" class="level2">
-<h2 class="anchored" data-anchor-id="información-clave-y-becas">Información Clave y Becas</h2>
-<div class="grid">
-<section id="fechas-clave" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="fechas-clave">Fechas Clave</h3>
-<ul>
-<li><strong>Cierre de Postulaciones:</strong> 16 de julio de 2026</li>
-<li><strong>Notificación de Aceptación:</strong> A partir del 20 de julio de 2026</li>
-<li><strong>Inicio Fase Asincrónica:</strong> Mediados de julio de 2026</li>
-<li><strong>Taller Presencial:</strong> 3 al 7 de agosto de 2026</li>
-</ul>
-</section>
-<section id="asistencia-económica" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="asistencia-económica">Asistencia Económica</h3>
-<p>Gracias al apoyo parcial de <strong>FUNDACEN</strong> y fondos institucionales, disponemos de <strong>becas de ayuda económica</strong> para viaje y alojamiento, así como <strong>exenciones de aranceles de registro</strong> para participantes seleccionados de la región. * Puedes solicitar el apoyo en la sección correspondiente del <a href="https://forms.gle/Ym27rxzptfaWMsrN7">formulario de inscripción</a>.</p>
-</section>
-</div>
-<hr>
-</section>
-<section id="organización-e-instructores" class="level2">
-<h2 class="anchored" data-anchor-id="organización-e-instructores">Organización e Instructores</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<section id="comité-organizador" class="level3">
-<h3 class="anchored" data-anchor-id="comité-organizador">Comité Organizador</h3>
-<ul>
-<li><strong>Dr.&nbsp;Agustín A. Corbat</strong> (DF - FCEN - UBA)</li>
-<li><strong>Dra. Lorena Sigaut</strong> (DF - FCEN - UBA &amp; CMA)</li>
-<li><strong>Dra. Lía I. Pietrasanta</strong> (DF - FCEN - UBA &amp; CMA)</li>
-</ul>
-</section>
-</div><div class="column" style="width:50%;">
-<section id="instructores-y-facilitadores" class="level3">
-<h3 class="anchored" data-anchor-id="instructores-y-facilitadores">Instructores y Facilitadores</h3>
-<ul>
-<li><strong>Dr.&nbsp;Ignacio Sallaberry</strong> (FCEN - UBA)</li>
-<li><strong>Lic. Mauro Silberberg</strong> (FCEN - UBA)</li>
-<li><strong>Lic. Alejandra Fernández</strong> (FCEN - UBA)</li>
-<li><strong>Fis. Elizabeth Samaniego Onofre</strong> (FCEN - UBA)</li>
-<li><strong>Gina A. Alongi</strong> (FCEN - UBA)</li>
-</ul>
-</section>
-</div>
-</div>
-<section id="profesores-invitados" class="level3">
-<h3 class="anchored" data-anchor-id="profesores-invitados">Profesores Invitados</h3>
-<ul>
-<li><strong>Dr.&nbsp;Enzo Ferrante</strong> (UNL / CONICET, Argentina) – Teoría y fundamentos de Deep Learning aplicados a Bioimágenes.</li>
-<li><strong>Dr.&nbsp;Federico Lecumberry</strong> (Universidad de la República, Uruguay) – <em>Por confirmar</em>.</li>
-</ul>
-<hr>
-</section>
-<section id="instituciones-organizadoras-y-de-apoyo" class="level3">
-<h3 class="anchored" data-anchor-id="instituciones-organizadoras-y-de-apoyo">Instituciones Organizadoras y de Apoyo</h3>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://cma.fcen.uba.ar/"><img src="communications_outreach/cma_logo.svg" class="img-fluid"></a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://fundacen.org.ar/"><img src="communications_outreach/fundacen_logo.svg" class="img-fluid"></a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://exactas.uba.ar"><img src="communications_outreach/exactas_logo.svg" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
-<p><strong>Contacto:</strong> <a href="mailto:cma.taller.ab@gmail.com">cma.taller.ab@gmail.com</a></p>
-<hr>
-</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p><em>TODO: agregar enlace a diapositivas</em></p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p>Corbat, A. A., Sigaut, L., &amp; Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Train-the-Trainer). Zenodo. <a href="https://doi.org/10.5281/zenodo.18247226" class="uri">https://doi.org/10.5281/zenodo.18247226</a></p>
+<p><em>Citar según sea necesario.</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -751,6 +633,15 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../presentaciones/segmentacion_clasica_cuantificacion.html" class="pagination-link" aria-label="Segmentación clásica y Cuantificación">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Segmentación clásica y Cuantificación</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -765,44 +656,12 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/index.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/presentaciones/workflows.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
