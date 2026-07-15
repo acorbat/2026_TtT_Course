@@ -20,11 +20,11 @@ La convocatoria para postular al taller de **Formación de Formadores en Anális
 
 Este taller intensivo y presencial se llevará a cabo del **3 al 7 de agosto de 2026** en el Pabellón 0+Infinito, de la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires (FCEN-UBA) en Buenos Aires, Argentina.
 
-A diferencia de los cursos puramente técnicos, este taller tiene un formato de **Formación de Formadores (*Train-the-Trainer*)**. Nuestro propósito principal es capacitar a profesionales del área de bioimágenes para que no solo dominen metodologías de análisis avanzadas, sino que adquieran las herramientas pedagógicas y didácticas necesarias para **enseñar y replicar** de forma sostenible este conocimiento en sus instituciones de origen en Latinoamérica.
+A diferencia de los talleres puramente técnicos, este taller tiene un formato de **Formación de Formadores (*Train-the-Trainer*)**. Nuestro propósito principal es capacitar a profesionales del área de bioimágenes para que no solo dominen metodologías de análisis avanzadas, sino que adquieran las herramientas pedagógicas y didácticas necesarias para **enseñar y replicar** de forma sostenible este conocimiento en sus instituciones de origen en Latinoamérica.
 
 ::: {style="text-align: center; padding: 1.5rem 0; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;"}
 [📅 Ver Programa Completo](program.md){.btn .btn-primary .rounded}
-[📚 Recursos del Curso](resources.md){.btn .btn-primary .rounded}
+[📚 Recursos del Taller](resources.md){.btn .btn-primary .rounded}
 :::
 
 ---
@@ -37,7 +37,7 @@ Este taller está diseñado para **estudiantes de posgrado, investigadores/as, a
 2. Adquirir y poner en práctica herramientas pedagógicas que les permitan diseñar lecciones, dictar talleres prácticos y transferir conocimientos de forma efectiva a otros miembros de su comunidad.
 
 ### ¿De qué trata el taller?
-El curso implementa un **modelo de aprendizaje activo híbrido**:
+El taller implementa un **modelo de aprendizaje activo híbrido**:
 * **Fase online asincrónica (a partir de mediados de julio):** Introducción de nivelación con lecturas, videos grabados y preparación de software (Fiji, Python, napari) de cumplimiento obligatorio para centrar el tiempo presencial en dinámicas aplicadas.
 * **Fase presencial intensiva (3 al 7 de agosto):** Sesiones teórico-prácticas donde cada tema se divide en:
   1. *Conceptos clave:* Breve repaso del tema con resolución de dudas conceptuales complejas.
