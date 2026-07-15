@@ -49,7 +49,7 @@ gantt
     section Immediate organization
     Update master plan and core decisions         :done, plan, 2026-05-21, 2026-05-23
     Confirm organizing team roles                 :done, roles, 2026-05-21, 2026-07-01
-    Rebuild budget after partial funding result   :active, budget, 2026-05-21, 2026-07-15
+    Rebuild budget after partial funding result   :done, budget, 2026-05-21, 2026-07-15
     Confirm participant selection workflow        :done, selectionflow, 2026-05-26, 2026-06-03
 
     section Academic program
@@ -161,8 +161,8 @@ gantt
 
 ---
 
-## Proposed folder structure plan — do not create yet
-The project should eventually be organized into separate folders, but **they should not be created yet**.
+## Proposed folder structure plan
+The project should eventually be organized into separate folders. Note that `budget-funding/` has been created as explicitly requested.
 
 | Planned folder | Purpose |
 |---|---|
@@ -171,7 +171,7 @@ The project should eventually be organized into separate folders, but **they sho
 | `03_topics/` | one file per topic with rationale, resources, exercises, and lecturer notes |
 | `04_lectures/` | pre-course lecture links, abstracts, slides, recordings |
 | `05_invited-professors/` | invitation tracking, bios, travel, reimbursement, hotel notes |
-| `06_budget-funding/` | budget versions, quotes, sponsor options, registration-fee model |
+| `budget-funding/` | budget versions, quotes, sponsor options, registration-fee model |
 | `07_logistics/` | classroom, catering, AV support, signage, accessibility, local operations |
 | `08_registration-selection/` | call text, form questions, rubric, acceptance and waitlist tracking |
 | `09_communications-outreach/` | website copy, mailing text, posters, social posts |

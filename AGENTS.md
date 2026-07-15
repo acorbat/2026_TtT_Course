@@ -17,12 +17,12 @@ Organize the **Taller de Análisis de Bioimágenes (Train-the-Trainer)**, a Trai
 
 ## Planned folder structure only — do not create unless explicitly requested
 Use this structure as the organizational plan for future work:
-- `01_admin/`
+- `admin/`
 - `02_program/`
 - `03_topics/`
 - `04_lectures/`
 - `05_invited-professors/`
-- `06_budget-funding/`
+- `budget-funding/`
 - `07_logistics/`
 - `08_registration-selection/`
 - `09_communications-outreach/`

@@ -10,6 +10,7 @@ project:
     - "presentaciones/"
     - "!admin/"
     - "!communications_outreach/"
+    - "!budget-funding/"
 
 website:
   title: "🔬 Fundamentos en Análisis de Bioimágenes (*Train-the-Trainer*)"
