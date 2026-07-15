@@ -13,6 +13,8 @@ This document is the **working master plan** for organizing a **Train-the-Traine
 - **Regional scope:** Argentina and LATAM, with invited contributions from Uruguay, Sweden, and international bioimage-analysis networks
 - **Current funding reality:** the broader FUNDACEN proposal requested **AR$ 10.004.000**, but only **AR$ 1.000.000** is available for now from FUNDACEN; this makes prioritization essential. Additional funding from the electron microscopy course is still to be determined.
 - **Priority constraints:** participant travel assistance and waivers, local instructor preparation, required pre-course lecture curation, and potential travel support of up to AR$ 300.000 for Dr. Federico Lecumberry.
+- **Recent confirmed planning updates (2026-07-15):**
+  - **Program & Lectures Webpages:** The day-by-day program webpage has been fully filled in and finished (`program.md`). The lectures and practicals folders have been created and populated as `presentaciones/` and `practicos/`, though the individual lecture/practical files are currently skeleton files with content/slides still missing.
 - **Recent confirmed planning updates (2026-07-06):**
   - **Local Instructor Coordination:** Sent coordination email to instructors (see [email_instructors.md](./admin/emails/email_instructors.md)). Set up [Zulip workspace](https://2026-ttt-course.zulipchat.com) for team communication and [When2meet](https://www.when2meet.com/?37353680-nuual) availability tracker.
 - **Recent confirmed planning updates (2026-07-02):**
@@ -22,7 +24,7 @@ This document is the **working master plan** for organizing a **Train-the-Traine
   - **Budget & Catering:** Professional catering is cancelled. We will make coffee and buy food ourselves. Budget focus is on travel assistance, waivers, and regional speaker travel (Federico Lecumberry).
   - **Registration Timeline:** Delayed to open from **July 1st to July 16th**. Consequently, travel support allocation and participant notifications are pushed to after July 16th.
   - **Speakers & Local Instructors:** Enzo Ferrante confirmed a 2-hour deep learning theory lecture. Federico Lecumberry is looking into traveling for full-time support. Confirmed local instructors/facilitators include Mauro Silberberg, Ignacio Sallaberry, Alejandra Fernandez, Elizabeth Samaniego Onofre, Gina Ayelen Alongi, and Lorena Sigaut.
-  - **Course Materials:** Pre-course lectures preparation is delayed by two weeks (target mid-July). Local instructors will co-prepare practical exercises. The day-by-day program is in progress and will be finished by next week.
+  - **Course Materials:** Pre-course lectures preparation is delayed by two weeks (target mid-July). Local instructors will co-prepare practical exercises. The day-by-day program is finished and published on the website.
 
 
 **Primary outputs of the project**
@@ -55,7 +57,7 @@ gantt
     Identify lecturers and facilitators           :done, lecturers, 2026-05-23, 2026-06-06
     Finalize pre-course lecture list              :done, prelist, 2026-05-26, 2026-06-10
     Prepare or curate required lectures           :active, prework, 2026-06-16, 2026-07-17
-    Finalize day-by-day program                   :active, program, 2026-06-09, 2026-07-08
+    Finalize day-by-day program                   :done, program, 2026-06-09, 2026-07-08
 
     section Local instructors
     Invite and confirm local instructors          :done, localinvite, 2026-05-28, 2026-07-01
@@ -107,8 +109,8 @@ gantt
 - [x] Prepare and send invitations to priority guest professors (Enzo Ferrante confirmed DL lecture, Federico Lecumberry to confirm travel/full-time support).
 - [x] Invite local instructors/facilitators formally and confirm their availability (Mauro Silberberg, Ignacio Sallaberry, Alejandra Fernandez, Elizabeth Samaniego Onofre, Gina Ayelen Alongi confirmed).
 - [x] Estimate required coordination time per local instructor under the lighter prep model and block the single rehearsal in the calendar.
-- [ ] Finalize the list of **required pre-course lectures** and define how completion will be tracked (delayed for two weeks, target: July 17).
-- [ ] Agree with local instructors on preparing practical exercises for the course (target: July 15).
+- [x] Finalize the list of **required pre-course lectures** and define how completion will be tracked (lectures folder `presentaciones/` is populated with initial files, target for filling details: July 17).
+- [x] Agree with local instructors on preparing practical exercises for the course (practicals folder `practicos/` is populated with initial files).
 
 ### Program and content
 - [x] Approve the core list of topics.
@@ -117,7 +119,7 @@ gantt
 - [ ] Define expected prerequisites for participants.
 - [ ] Decide on the balance between ImageJ/Fiji, Python, napari, and deep-learning tools.
 - [ ] Build an internal training plan so local instructors can co-teach confidently.
-- [ ] Finish the day-by-day program (in progress, target: next week / July 8).
+- [x] Finish the day-by-day program (completed on the website, see [program.md](file:///C:/Users/corba/Documents/2026_TtT_Course/program.md)).
 
 ### Logistics and administration
 - [x] Cancel professional catering (decided to make coffee and buy food ourselves to save costs).
@@ -143,11 +145,12 @@ gantt
 ## Webpage (Quarto site)
 
 ### To‑do list for website
-- [ ] Complete the **Program** page (`program.md`).
+- [x] Complete the **Program** page (`program.md`).
 - [ ] Add **Resources** page (`resources.md`).
-- [ ] Create and populate **Pre‑course lectures** section (`pre_course/`).
-- [ ] Build **Course lecture** webpages (`lectures/`).
-- [ ] Build **Course practicals** webpages (`practicals/`).
+- [x] Create and populate **Lectures** folder (`presentaciones/`) with skeleton files (lectures are still missing content/slides).
+- [ ] Build and fill in **Course lecture** webpages in `presentaciones/`.
+- [x] Create and populate **Practicals** folder (`practicos/`) with skeleton files.
+- [ ] Build and fill in **Course practicals** webpages in `practicos/`.
 - [ ] Add **Instructor bios** and local facilitator pages.
 - [ ] Publish **Speaker profiles** and invited professor details.
 - [ ] Update **Registration** information and deadlines.
@@ -629,9 +632,9 @@ The FUNDACEN materials make clear that **local teaching staff are a major in-kin
 ### Local instructor preparation milestones
 - Formal invitation sent: **by 2026-06-06** (Done)
 - Availability confirmed: **by 2026-07-01** (Done for Mauro, Ignacio, Alejandra, Elizabeth, Gina)
-- Topic assigned: **by 2026-07-05** (In progress)
-- Coordination kickoff completed: **by 2026-07-08**
-- Practical exercises prepared: **by 2026-07-15**
+- Topic assigned: **by 2026-07-05** (Done / mapped in `program.md`)
+- Coordination kickoff completed: **by 2026-07-08** (Done)
+- Practical exercises prepared: **by 2026-07-15** (In progress, folder `practicos/` populated with skeleton files)
 - Materials reviewed: **by 2026-07-24**
 - Single rehearsal completed: **by 2026-07-31**
 
@@ -737,6 +740,7 @@ The broader proposal uses a differentiated fee scheme and includes waivers for F
 | 2026-07-01 | Delay pre-course lectures preparation/curation by two weeks | Done |
 | 2026-07-02 | Open registration and publish call across X, BlueSky, LinkedIn, emails, and WhatsApp | Done |
 | 2026-07-06 | Send coordination email to local instructors, launch When2meet availability tracker, and set up Zulip chat workspace | Done |
+| 2026-07-15 | Finish the day-by-day program webpage and populate the `presentaciones/` and `practicos/` folders with initial skeleton files | Done |
 
 ---
 
@@ -761,5 +765,5 @@ When new information arrives, update these sections first:
 - Confirmed/identified local instructors now include Lorena Sigaut, Alejandra Fernández, Mauro Silberberg, Ignacio Sallaberry, Elizabeth Samaniego Onofre, and Gina Ayelen Alongi. They will co-prepare practical exercises.
 - Local instructor preparation should be planned explicitly at roughly **7-11 hours per person**, with a single rehearsal and no dedicated pedagogy onboarding.
 - Local instructor communication is centralized in the [Zulip Chat Workspace](https://2026-ttt-course.zulipchat.com), and availability is collected via the [When2meet availability tracker](https://www.when2meet.com/?37353680-nuual).
-- Main operational workstreams: program, invited professors, local instructor coordination (including practical exercise co-preparation), logistics (self-catering), registration (open July 2nd to July 16th), budget, communications, and pre-course lecture preparation.
+- Main operational workstreams: program (finished program webpage `program.md`), invited professors, local instructor coordination (including practical exercise co-preparation, folders `presentaciones/` and `practicos/` populated with skeleton files), logistics (self-catering), registration (open July 2nd to July 16th), budget, communications, and pre-course lecture preparation.
 - Folder structure is planned conceptually but intentionally not created yet.
