@@ -122,6 +122,89 @@ The project now holds the official course website, which is configured and built
   - To preview changes locally, run: `pixi run -e quarto quarto preview`
   - To render the final static pages into the `_site/` directory, run: `pixi run -e quarto quarto render`
 
+## Course material conventions
+For course materials (presentations and workshops), follow these conventions:
+
+### General workflow
+
+- **Slides & Presentations:** The goal is to publish all slides in Zenodo containing both the raw source files (`.tex` or `.ppt`) and the rendered `.pdf` files. The rendered view (PDF link) must be linked in the corresponding page in the [presentaciones](file:///C:/Users/corba/Documents/2026_TtT_Course/presentaciones) folder, along with its Zenodo citation.
+- **Workshops & Practicals:** Workshops must be published in GitHub, using `pixi` tasks to set up the workspace. A release of the workshop should be published in Zenodo and cited in the workshop page. Inside the [practicos](file:///C:/Users/corba/Documents/2026_TtT_Course/practicos) folder, there should be a link pointing to the workshop repository on GitHub, the data (if necessary), and the Zenodo citation.
+
+### Presentation page layout
+Every presentation file in [presentaciones](file:///C:/Users/corba/Documents/2026_TtT_Course/presentaciones) must follow this structure:
+
+#### English
+1. **Quarto Frontmatter:**
+   ```yaml
+   ---
+   title: "¿Qué es Análisis de Bioimágenes?"
+   subtitle: "Una introducción formal a qué es el análisis de bioimágenes."
+   format: html
+   ---
+   ```
+2. **Learning Objectives Callout:**
+   ```markdown
+   ::: {.callout-tip}
+   ## Objetivos de Aprendizaje
+   Al finalizar la sesión, los alumnos deberán ser capaces de:
+   - <objective_1>
+   - <objective_2>
+   :::
+   ```
+3. **Slides Section (HTML iframe for Zenodo PDF viewer):**
+   ```markdown
+   ## Slides
+   <iframe src="https://docs.google.com/viewer?url=https://zenodo.org/records/<RECORD_ID>/files/<FILENAME>.pdf&embedded=true" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe>
+   ```
+4. **Citation Section:**
+   ```markdown
+   ## Citation
+   <Citation text including Zenodo DOI link>
+   ```
+
+### Practical page layout
+Every practical/workshop file in [practicos](file:///C:/Users/corba/Documents/2026_TtT_Course/practicos) must follow this structure:
+
+#### English & Español
+1. **Quarto Frontmatter:**
+   ```yaml
+   ---
+   title: "Version Control with Git and Environment Management with Pixi"
+   author: "Mauro Silberberg"
+   date: "04 August 2026"
+   format: html
+   ---
+   ```
+2. **Learning Objectives Callout:**
+   ```markdown
+   ::: {.callout-tip}
+   ## Objetivos de Aprendizaje
+   Al finalizar la sesión, los alumnos serán capaces de:
+   - <objective_1>
+   :::
+   ```
+3. **Prerequisites Section (Software, Data, and Knowledge):**
+   ```markdown
+   ## Prerequisitos
+   ### Programas instalados
+   - Git
+   - Pixi
+   ### Datos descargados
+   - [Link a datos](<data_url>)
+   ### Conocimientos previos
+   - <prior_knowledge_requirements>
+   ```
+4. **GitHub Link to Workshop Section:**
+   ```markdown
+   ## Link al taller
+   [Link al taller](<github_workshop_url>)
+   ```
+5. **Citation Section:**
+   ```markdown
+   ## Citation
+   [Add citation here]
+   ```
+
 ## Compact project snapshot
 - Workshop name: **Taller de Análisis de Bioimágenes (Train-the-Trainer)**.
 - Course type: Train-the-Trainer in Bioimage Analysis for LATAM.
