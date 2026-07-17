@@ -60,102 +60,113 @@
     ]
   },
   {
-    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html",
-    "href": "presentaciones/segmentacion_clasica_cuantificacion.html",
-    "title": "Segmentación clásica y Cuantificación",
+    "objectID": "presentaciones/teaching.html",
+    "href": "presentaciones/teaching.html",
+    "title": "¿Cómo hacer escuelas y cursos?",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serrán capaces de:\n\nComprender las diferencias entre los distintos tipos de segmentación.\nConocer las distintas operaciones morfológicas que pueden aplicarse a máscaras.\nEntender cómo interpretar algoritmos de cuantificación, incluyendo sus puntos débiles.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDiscutir puntos de partida y llegada a la hora de diseñar material de enseñanza.\nConocer ejemplos de sitios y redes donde se puede encontrar material de enseñanza.",
     "crumbs": [
       "Presentaciones",
-      "Segmentación clásica y Cuantificación"
+      "¿Cómo hacer escuelas y cursos?"
     ]
   },
   {
-    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html#slides",
-    "href": "presentaciones/segmentacion_clasica_cuantificacion.html#slides",
-    "title": "Segmentación clásica y Cuantificación",
+    "objectID": "presentaciones/teaching.html#slides",
+    "href": "presentaciones/teaching.html#slides",
+    "title": "¿Cómo hacer escuelas y cursos?",
+    "section": "Slides",
+    "text": "Slides\nTODO: agregar enlace a diapositivas",
+    "crumbs": [
+      "Presentaciones",
+      "¿Cómo hacer escuelas y cursos?"
+    ]
+  },
+  {
+    "objectID": "presentaciones/teaching.html#citation",
+    "href": "presentaciones/teaching.html#citation",
+    "title": "¿Cómo hacer escuelas y cursos?",
+    "section": "Citation",
+    "text": "Citation\nCitar según sea necesario.",
+    "crumbs": [
+      "Presentaciones",
+      "¿Cómo hacer escuelas y cursos?"
+    ]
+  },
+  {
+    "objectID": "presentaciones/que_es_bia.html",
+    "href": "presentaciones/que_es_bia.html",
+    "title": "¿Qué es Análisis de Bioimágenes?",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDefinir análisis de bioimágenes y sus características.\nComprender qué es una bioimagen, cómo se forman y sus atributos.\nSaber ejemplos de formatos para guardar bioimágenes con sus ventajas y desventajas.\nConocer distintas operaciones que pueden aplicarse a bioimágenes.",
+    "crumbs": [
+      "Presentaciones",
+      "¿Qué es Análisis de Bioimágenes?"
+    ]
+  },
+  {
+    "objectID": "presentaciones/que_es_bia.html#slides",
+    "href": "presentaciones/que_es_bia.html#slides",
+    "title": "¿Qué es Análisis de Bioimágenes?",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "Segmentación clásica y Cuantificación"
+      "¿Qué es Análisis de Bioimágenes?"
     ]
   },
   {
-    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
-    "href": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
-    "title": "Segmentación clásica y Cuantificación",
+    "objectID": "presentaciones/que_es_bia.html#citation",
+    "href": "presentaciones/que_es_bia.html#citation",
+    "title": "¿Qué es Análisis de Bioimágenes?",
     "section": "Citation",
     "text": "Citation",
     "crumbs": [
       "Presentaciones",
-      "Segmentación clásica y Cuantificación"
+      "¿Qué es Análisis de Bioimágenes?"
     ]
   },
   {
-    "objectID": "presentaciones/machine_learning.html",
-    "href": "presentaciones/machine_learning.html",
-    "title": "Machine Learning",
+    "objectID": "presentaciones/deep_learning_biomodels.html",
+    "href": "presentaciones/deep_learning_biomodels.html",
+    "title": "Deep Learning y Modelos Biomodelos",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos básicos de Machine Learning aplicados a bioimágenes.\nIdentificar cuándo y cómo usar técnicas de ML en análisis de imágenes.\nEvaluar limitaciones y riesgos de los modelos de ML.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nConocer los principales modelos de Deep Learning usados en bioimagen.\nAprender a aplicar Cellpose, StarDist y BioModel Zoo a datos reales.\nEvaluar limitaciones y buenas prácticas al usar modelos biomodelos.",
     "crumbs": [
       "Presentaciones",
-      "Machine Learning"
+      "Deep Learning y Modelos Biomodelos"
     ]
   },
   {
-    "objectID": "presentaciones/machine_learning.html#slides",
-    "href": "presentaciones/machine_learning.html#slides",
-    "title": "Machine Learning",
+    "objectID": "presentaciones/deep_learning_biomodels.html#slides",
+    "href": "presentaciones/deep_learning_biomodels.html#slides",
+    "title": "Deep Learning y Modelos Biomodelos",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "Machine Learning"
+      "Deep Learning y Modelos Biomodelos"
     ]
   },
   {
-    "objectID": "presentaciones/machine_learning.html#citation",
-    "href": "presentaciones/machine_learning.html#citation",
-    "title": "Machine Learning",
+    "objectID": "presentaciones/deep_learning_biomodels.html#citation",
+    "href": "presentaciones/deep_learning_biomodels.html#citation",
+    "title": "Deep Learning y Modelos Biomodelos",
     "section": "Citation",
     "text": "Citation",
     "crumbs": [
       "Presentaciones",
-      "Machine Learning"
+      "Deep Learning y Modelos Biomodelos"
     ]
   },
   {
-    "objectID": "presentaciones/deep_learning.html",
-    "href": "presentaciones/deep_learning.html",
-    "title": "Deep Learning",
+    "objectID": "presentaciones/ai_in_bia.html",
+    "href": "presentaciones/ai_in_bia.html",
+    "title": "Inteligencia Artificial en Análisis de Bioimágenes",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos fundamentales del Deep Learning aplicados a bioimágenes.\nIdentificar arquitecturas comunes y su uso en segmentación de imágenes.\nReconocer limitaciones y consideraciones prácticas al aplicar DL.",
+    "text": "TipObjetivos de la sesión\n\n\n\nDiscutir cómo y en qué casos utilizar inteligencia artificial tanto para generar material educativo como para desarrollar soluciones en proyectos de análisis de bioimágenes.",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning"
-    ]
-  },
-  {
-    "objectID": "presentaciones/deep_learning.html#slides",
-    "href": "presentaciones/deep_learning.html#slides",
-    "title": "Deep Learning",
-    "section": "Slides",
-    "text": "Slides",
-    "crumbs": [
-      "Presentaciones",
-      "Deep Learning"
-    ]
-  },
-  {
-    "objectID": "presentaciones/deep_learning.html#citation",
-    "href": "presentaciones/deep_learning.html#citation",
-    "title": "Deep Learning",
-    "section": "Citation",
-    "text": "Citation",
-    "crumbs": [
-      "Presentaciones",
-      "Deep Learning"
+      "Inteligencia Artificial en Análisis de Bioimágenes"
     ]
   },
   {
@@ -194,69 +205,146 @@
     "text": "Corbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Train-the-Trainer). Zenodo. https://doi.org/10.5281/zenodo.18247226"
   },
   {
-    "objectID": "presentaciones/deep_learning_biomodels.html",
-    "href": "presentaciones/deep_learning_biomodels.html",
-    "title": "Deep Learning y Modelos Biomodelos",
+    "objectID": "practicos/workshop_2d_images.html",
+    "href": "practicos/workshop_2d_images.html",
+    "title": "Visualization of 2D data",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nConocer los principales modelos de Deep Learning usados en bioimagen.\nAprender a aplicar Cellpose, StarDist y BioModel Zoo a datos reales.\nEvaluar limitaciones y buenas prácticas al usar modelos biomodelos.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nListar que ejercicios hay que cubrir para estudiantes que no saben usar software de imágenes hasta estudiantes que si.\nConocer formas de acceder a datos y metadatos en imágenes con distinto software.\nElegir y encontrar operaciones aplicables a imágenes.",
     "crumbs": [
-      "Presentaciones",
-      "Deep Learning y Modelos Biomodelos"
+      "Practicos",
+      "Visualization of 2D data"
     ]
   },
   {
-    "objectID": "presentaciones/deep_learning_biomodels.html#slides",
-    "href": "presentaciones/deep_learning_biomodels.html#slides",
-    "title": "Deep Learning y Modelos Biomodelos",
+    "objectID": "practicos/workshop_2d_images.html#prerequisitos",
+    "href": "practicos/workshop_2d_images.html#prerequisitos",
+    "title": "Visualization of 2D data",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nNingún conocimiento previo requerido",
+    "crumbs": [
+      "Practicos",
+      "Visualization of 2D data"
+    ]
+  },
+  {
+    "objectID": "practicos/workshop_2d_images.html#link-al-taller",
+    "href": "practicos/workshop_2d_images.html#link-al-taller",
+    "title": "Visualization of 2D data",
+    "section": "Link al taller",
+    "text": "Link al taller\nLink al taller",
+    "crumbs": [
+      "Practicos",
+      "Visualization of 2D data"
+    ]
+  },
+  {
+    "objectID": "practicos/workshop_2d_images.html#citation",
+    "href": "practicos/workshop_2d_images.html#citation",
+    "title": "Visualization of 2D data",
+    "section": "Citation",
+    "text": "Citation\nCuenca, M. B. (2025). Principles of light-sheet microscopy. Light-Sheet Image Analysis Workshop 2026 (LiSIAW2026), Santiago, Chile. Zenodo. https://doi.org/10.5281/zenodo.18106542",
+    "crumbs": [
+      "Practicos",
+      "Visualization of 2D data"
+    ]
+  },
+  {
+    "objectID": "presentaciones/deep_learning.html",
+    "href": "presentaciones/deep_learning.html",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos fundamentales del Deep Learning aplicados a bioimágenes.\nIdentificar arquitecturas comunes y su uso en segmentación de imágenes.\nReconocer limitaciones y consideraciones prácticas al aplicar DL.",
+    "crumbs": [
+      "Presentaciones",
+      "Deep Learning"
+    ]
+  },
+  {
+    "objectID": "presentaciones/deep_learning.html#slides",
+    "href": "presentaciones/deep_learning.html#slides",
+    "title": "Deep Learning",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning y Modelos Biomodelos"
+      "Deep Learning"
     ]
   },
   {
-    "objectID": "presentaciones/deep_learning_biomodels.html#citation",
-    "href": "presentaciones/deep_learning_biomodels.html#citation",
-    "title": "Deep Learning y Modelos Biomodelos",
+    "objectID": "presentaciones/deep_learning.html#citation",
+    "href": "presentaciones/deep_learning.html#citation",
+    "title": "Deep Learning",
     "section": "Citation",
     "text": "Citation",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning y Modelos Biomodelos"
+      "Deep Learning"
     ]
   },
   {
-    "objectID": "presentaciones/que_es_bia.html",
-    "href": "presentaciones/que_es_bia.html",
-    "title": "¿Qué es Análisis de Bioimágenes?",
+    "objectID": "presentaciones/machine_learning.html",
+    "href": "presentaciones/machine_learning.html",
+    "title": "Machine Learning",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDefinir análisis de bioimágenes y sus características.\nComprender qué es una bioimagen, cómo se forman y sus atributos.\nSaber ejemplos de formatos para guardar bioimágenes con sus ventajas y desventajas.\nConocer distintas operaciones que pueden aplicarse a bioimágenes.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos básicos de Machine Learning aplicados a bioimágenes.\nIdentificar cuándo y cómo usar técnicas de ML en análisis de imágenes.\nEvaluar limitaciones y riesgos de los modelos de ML.",
     "crumbs": [
       "Presentaciones",
-      "¿Qué es Análisis de Bioimágenes?"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "presentaciones/que_es_bia.html#slides",
-    "href": "presentaciones/que_es_bia.html#slides",
-    "title": "¿Qué es Análisis de Bioimágenes?",
+    "objectID": "presentaciones/machine_learning.html#slides",
+    "href": "presentaciones/machine_learning.html#slides",
+    "title": "Machine Learning",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "¿Qué es Análisis de Bioimágenes?"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "presentaciones/que_es_bia.html#citation",
-    "href": "presentaciones/que_es_bia.html#citation",
-    "title": "¿Qué es Análisis de Bioimágenes?",
+    "objectID": "presentaciones/machine_learning.html#citation",
+    "href": "presentaciones/machine_learning.html#citation",
+    "title": "Machine Learning",
     "section": "Citation",
     "text": "Citation",
     "crumbs": [
       "Presentaciones",
-      "¿Qué es Análisis de Bioimágenes?"
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html",
+    "href": "presentaciones/segmentacion_clasica_cuantificacion.html",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serrán capaces de:\n\nComprender las diferencias entre los distintos tipos de segmentación.\nConocer las distintas operaciones morfológicas que pueden aplicarse a máscaras.\nEntender cómo interpretar algoritmos de cuantificación, incluyendo sus puntos débiles.",
+    "crumbs": [
+      "Presentaciones",
+      "Segmentación clásica y Cuantificación"
+    ]
+  },
+  {
+    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html#slides",
+    "href": "presentaciones/segmentacion_clasica_cuantificacion.html#slides",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "Slides",
+    "text": "Slides",
+    "crumbs": [
+      "Presentaciones",
+      "Segmentación clásica y Cuantificación"
+    ]
+  },
+  {
+    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
+    "href": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "Citation",
+    "text": "Citation",
+    "crumbs": [
+      "Presentaciones",
+      "Segmentación clásica y Cuantificación"
     ]
   },
   {
