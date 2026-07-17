@@ -7,8 +7,13 @@ format: html
 ::: {.callout-tip}
 
 ## Objetivos de Aprendizaje
+
+Al finalizar la sesión, los alumnos deberán ser capaces de:
+
 - Entender los conceptos fundamentales del Deep Learning aplicados a bioimágenes.
+
 - Identificar arquitecturas comunes y su uso en segmentación de imágenes.
+
 - Reconocer limitaciones y consideraciones prácticas al aplicar DL.
 
 :::

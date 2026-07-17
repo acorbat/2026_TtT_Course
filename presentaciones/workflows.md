@@ -8,8 +8,11 @@ format: html
 ## Objetivos de Aprendizaje
 
 Al finalizar la sesión, los alumnos deberán ser capaces de:
+
 - Describir las características de un flujo de trabajo de bioimágenes.
+
 - Listar las propiedades que tiene un flujo de trabajo reproducible.
+
 - Comprender las razones para que los flujos de trabajos sean reproducibles.
 
 :::

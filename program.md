@@ -15,7 +15,7 @@
 
 ### 🌇 Tarde (13:30–17:00)
 
-- 13:30--14:10 - 🧠 [Segmentación clásica y Cuantificación](presentaciones/segmentation_quantification.md) (Agustin Corbat)
+- 13:30--14:10 - 🧠 [Segmentación clásica y Cuantificación](presentaciones/segmentacion_clasica_cuantificacion.md) (Agustin Corbat)
   * *Teoría de segmentación clásica y cuantificación*
 - 14:10--14:40 - ☕ **Coffee Break**
 - 14:40--16:30 - 🖥️ [Segmentación y Cuantificación](practicos/segmentation_quantification.md) (Agustin Corbat/Lorena Sigaut)
@@ -86,7 +86,7 @@
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 09:00--11:00 - 🧠 (incluye ☕) [¿Como hacer escuelas y cursitos?](presentaciones/deep_learning.md) (Rocco D'Antuono?)
+- 09:00--11:00 - 🧠 (incluye ☕) [¿Como hacer escuelas y cursitos?](presentaciones/teaching.md) (Rocco D'Antuono?)
   * *Diseño de cursos de capacitación y estrategias de enseñanza*
 - 11:00--13:00 - 🗫 [Discusiones sobre AI y como usarla](presentaciones/ai_in_bia.md) (Agustin Corbat)
   * *Discusión sobre el uso de AI en bioimágenes y diseño de clases*

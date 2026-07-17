@@ -7,8 +7,13 @@ format: html
 ::: {.callout-tip}
 
 ## Objetivos de Aprendizaje
+
+Al finalizar la sesión, los alumnos deberán ser capaces de:
+
 - Conocer los principales modelos de Deep Learning usados en bioimagen.
+
 - Aprender a aplicar Cellpose, StarDist y BioModel Zoo a datos reales.
+
 - Evaluar limitaciones y buenas prácticas al usar modelos biomodelos.
 
 :::
