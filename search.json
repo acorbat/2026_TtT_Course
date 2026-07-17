@@ -64,7 +64,7 @@
     "href": "presentaciones/segmentacion_clasica_cuantificacion.html",
     "title": "Segmentación clásica y Cuantificación",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serrán capaces de: - Comprender las diferencias entre los distintos tipos de segmentación. - Conocer las distintas operaciones morfológicas que pueden aplicarse a máscaras. - Entender cómo interpretar algoritmos de cuantificación, incluyendo sus puntos débiles.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serrán capaces de:\n\nComprender las diferencias entre los distintos tipos de segmentación.\nConocer las distintas operaciones morfológicas que pueden aplicarse a máscaras.\nEntender cómo interpretar algoritmos de cuantificación, incluyendo sus puntos débiles.",
     "crumbs": [
       "Presentaciones",
       "Segmentación clásica y Cuantificación"
@@ -97,7 +97,7 @@
     "href": "presentaciones/machine_learning.html",
     "title": "Machine Learning",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\n\nEntender los conceptos básicos de Machine Learning aplicados a bioimágenes.\nIdentificar cuándo y cómo usar técnicas de ML en análisis de imágenes.\nEvaluar limitaciones y riesgos de los modelos de ML.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos básicos de Machine Learning aplicados a bioimágenes.\nIdentificar cuándo y cómo usar técnicas de ML en análisis de imágenes.\nEvaluar limitaciones y riesgos de los modelos de ML.",
     "crumbs": [
       "Presentaciones",
       "Machine Learning"
@@ -130,7 +130,7 @@
     "href": "presentaciones/deep_learning.html",
     "title": "Deep Learning",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\n\nEntender los conceptos fundamentales del Deep Learning aplicados a bioimágenes.\nIdentificar arquitecturas comunes y su uso en segmentación de imágenes.\nReconocer limitaciones y consideraciones prácticas al aplicar DL.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos fundamentales del Deep Learning aplicados a bioimágenes.\nIdentificar arquitecturas comunes y su uso en segmentación de imágenes.\nReconocer limitaciones y consideraciones prácticas al aplicar DL.",
     "crumbs": [
       "Presentaciones",
       "Deep Learning"
@@ -198,7 +198,7 @@
     "href": "presentaciones/deep_learning_biomodels.html",
     "title": "Deep Learning y Modelos Biomodelos",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\n\nConocer los principales modelos de Deep Learning usados en bioimagen.\nAprender a aplicar Cellpose, StarDist y BioModel Zoo a datos reales.\nEvaluar limitaciones y buenas prácticas al usar modelos biomodelos.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nConocer los principales modelos de Deep Learning usados en bioimagen.\nAprender a aplicar Cellpose, StarDist y BioModel Zoo a datos reales.\nEvaluar limitaciones y buenas prácticas al usar modelos biomodelos.",
     "crumbs": [
       "Presentaciones",
       "Deep Learning y Modelos Biomodelos"
@@ -231,7 +231,7 @@
     "href": "presentaciones/que_es_bia.html",
     "title": "¿Qué es Análisis de Bioimágenes?",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de: - Definir análisis de bioimágenes y sus características. - Comprender qué es una bioimagen, cómo se forman y sus atributos. - Saber ejemplos de formatos para guardar bioimágenes con sus ventajas y desventajas. - Conocer distintas operaciones que pueden aplicarse a bioimágenes.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDefinir análisis de bioimágenes y sus características.\nComprender qué es una bioimagen, cómo se forman y sus atributos.\nSaber ejemplos de formatos para guardar bioimágenes con sus ventajas y desventajas.\nConocer distintas operaciones que pueden aplicarse a bioimágenes.",
     "crumbs": [
       "Presentaciones",
       "¿Qué es Análisis de Bioimágenes?"
@@ -264,7 +264,7 @@
     "href": "presentaciones/workflows.html",
     "title": "Workflows reproducibles",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de: - Describir las características de un flujo de trabajo de bioimágenes. - Listar las propiedades que tiene un flujo de trabajo reproducible. - Comprender las razones para que los flujos de trabajos sean reproducibles.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDescribir las características de un flujo de trabajo de bioimágenes.\nListar las propiedades que tiene un flujo de trabajo reproducible.\nComprender las razones para que los flujos de trabajos sean reproducibles.",
     "crumbs": [
       "Presentaciones",
       "Workflows reproducibles"
