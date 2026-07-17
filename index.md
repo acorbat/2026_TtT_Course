@@ -106,7 +106,7 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 
 ### Instituciones Organizadoras y de Apoyo
 
-::: {layout-ncol=3}
+::: {layout-ncol=3 layout-valign="center"}
 [![](communications_outreach/cma_logo.svg)](https://cma.fcen.uba.ar/)
 
 [![](communications_outreach/fundacen_logo.svg)](https://fundacen.org.ar/)
