@@ -114,6 +114,10 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 [![](communications_outreach/exactas_logo.svg)](https://exactas.uba.ar)
 :::
 
+::: {layout-ncol=3 layout-valign="center"}
+[![](communications_outreach/labi_logo.svg)](https://labi.lat/)
+:::
+
 **Contacto:** [cma.taller.ab@gmail.com](mailto:cma.taller.ab@gmail.com)
 
 ---
