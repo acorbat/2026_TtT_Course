@@ -3,7 +3,7 @@
 ![](communications_outreach/inner_ear.png){width="100%" fig-align="center" alt="Oído interno adquirido por Agustin Corbat - Imagen promocional"}
 
 ::: {.callout-important}
-
+<!--
 ## 📢 ¡Inscripciones Abiertas para el Taller!
 
 La convocatoria para postular al taller de **Formación de Formadores en Análisis de Bioimágenes** está abierta.
@@ -15,7 +15,7 @@ La convocatoria para postular al taller de **Formación de Formadores en Anális
 * **Formulario de Inscripción:** [¡Inscribite aquí!](https://forms.gle/Ym27rxzptfaWMsrN7){.btn .btn-success .btn-lg .rounded role="button"}
 
 :::
-
+-->
 ¡Te damos la bienvenida al portal del **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)**! 
 
 Este taller intensivo y presencial se llevará a cabo del **3 al 7 de agosto de 2026** en el Pabellón 0+Infinito, de la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires (FCEN-UBA) en Buenos Aires, Argentina.
@@ -100,7 +100,7 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 
 ### Profesores Invitados
 * **Dr. Enzo Ferrante** (UNL / CONICET, Argentina) – Teoría y fundamentos de Deep Learning aplicados a Bioimágenes.
-* **Dr. Federico Lecumberry** (Universidad de la República, Uruguay) – *Por confirmar*.
+* **Dr. Federico Lecumberry** (Universidad de la República, Uruguay).
 
 ---
 
