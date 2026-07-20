@@ -120,7 +120,7 @@ The project now holds the official course website, which is configured and built
 - **Local Development**:
   - The Quarto CLI is managed via Pixi in the `quarto` feature environment.
   - To preview changes locally, run: `pixi run -e quarto quarto preview`
-  - To render the final static pages into the `_site/` directory, run: `pixi run -e quarto quarto render`
+  - To render the final static pages into the `_site/` directory, run: `pixi run -e quarto quarto render` (Note: it is not necessary to render quarto manually as this is done automatically).
 
 ## Course material conventions
 For course materials (presentations and workshops), follow these conventions:
