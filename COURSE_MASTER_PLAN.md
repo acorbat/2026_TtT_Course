@@ -69,8 +69,8 @@ gantt
     section Invitations and travel
     Send invitations to guest professors          :done, invite, 2026-05-21, 2026-05-29
     Receive confirmations                         :done, confirm, 2026-05-26, 2026-07-01
-    Book international travel (Federico L.)       :travel, 2026-07-01, 2026-07-15
-    Reserve hotel rooms                           :hotel, 2026-07-01, 2026-07-15
+    Book international travel (Federico L.)       :done, travel, 2026-07-01, 2026-07-15
+    Reserve hotel rooms                           :done, hotel, 2026-07-01, 2026-07-15
 
     section Logistics
     Classroom booked (Aula 1306)                  :done, classroom, 2026-05-21, 2026-05-21
@@ -103,7 +103,7 @@ gantt
 - [x] Confirm delivery format: **fully on-site, no virtual option**.
 - [x] Confirm course dates: **2026-08-03 to 2026-08-07**.
 - [x] Confirm working language: **English**.
-- [ ] Confirm target participant count: **24**.
+- [x] Confirm target participant count: **21**.
 - [x] Update the budget to reflect that only **AR$ 1.000.000** is available for now from the requested FUNDACEN support.
 - [x] Decide which budget lines this first tranche should protect: allocated mostly to student bursaries/waivers, with up to AR$ 300.000 reserved for Dr. Federico Lecumberry's travel.
 - [x] Prepare and send invitations to priority guest professors (Enzo Ferrante confirmed DL lecture, Federico Lecumberry to confirm travel/full-time support).
@@ -125,13 +125,13 @@ gantt
 - [x] Cancel professional catering (decided to make coffee and buy food ourselves to save costs).
 - [ ] Check coffee and food supplies (cookies, fruit) and participant dietary restrictions (target: around July 15).
 - [ ] Purchase coffee and food supplies (late July).
-- [ ] Define registration categories and fee waivers.
+- [x] Define registration categories and fee waivers.
 - [x] Decide whether hotel booking will be centralized or reimbursed.
 - [ ] Define reimbursement workflow for invited professors.
 - [x] Finalize the registration form and participant selection rubric (form published July 1st).
-- [ ] Run registration window (July 2nd - July 16th) -- IN PROGRESS.
-- [ ] Select participants and allocate travel assistance/waivers (after July 16th, once funding from the electron microscopy course is clarified).
-- [ ] Confirm travel support / travel booking for Federico Lecumberry (AR$ 300.000 max travel budget).
+- [x] Run registration window (July 2nd - July 16th).
+- [x] Select participants and allocate travel assistance/waivers (after July 16th, once funding from the electron microscopy course is clarified).
+- [x] Confirm travel support / travel booking for Federico Lecumberry (AR$ 300.000 max travel budget).
 - [ ] Confirm room layout and daily operational needs for Aula 1306.
 
 ### Communications
@@ -153,10 +153,10 @@ gantt
 - [ ] Build and fill in **Course practicals** webpages in `practicos/`.
 - [ ] Add **Instructor bios** and local facilitator pages.
 - [ ] Publish **Speaker profiles** and invited professor details.
-- [ ] Update **Registration** information and deadlines.
+- [x] Update **Registration** information and deadlines.
 - [ ] Add **FAQ** with venue information page for participants.
 - [ ] Ensure **SEO metadata**, Open Graph tags and social sharing images are set in `_quarto.yml`.
-- [ ] Verify **Accessibility** compliance and language options.
+- [x] Verify **Accessibility** compliance and language options.
 
 
 ---
