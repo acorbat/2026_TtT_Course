@@ -14,7 +14,7 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 - Conocer formas de acceder a datos y metadatos en imágenes con distinto software.
 
-- Elegir y encontrar operaciones aplicables a imágenes.
+- Elegir y encontrar operaciones aplicables a imágenes y sus efectos en la imagen.
 
 :::
 
