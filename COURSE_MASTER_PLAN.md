@@ -83,7 +83,7 @@ gantt
     section Registration
     Publish call and registration form            :done, milestone, call, 2026-07-02, 0d
     Registration open                             :active, regopen, 2026-07-02, 2026-07-16
-    Participant selection and notifications       :selection, 2026-07-17, 2026-07-20
+    Participant selection and notifications       :done, selection, 2026-07-17, 2026-07-20
     Registration fee payment window               :payment, 2026-07-20, 2026-07-27
     Travel support allocation                     :support, 2026-07-20, 2026-07-27
     Pre-course lecture completion window          :lecturewindow, 2026-07-20, 2026-07-31
@@ -152,7 +152,7 @@ gantt
 - [x] Create and populate **Lectures** folder (`presentaciones/`) with skeleton files (lectures are still missing content/slides).
 - [ ] Build and fill in **Course lecture** webpages in `presentaciones/`.
 - [x] Create and populate **Practicals** folder (`practicos/`) with skeleton files.
-- [ ] Build and fill in **Course practicals** webpages in `practicos/`.
+- [x] Build and fill in **Course practicals** webpages in `practicos/`.
 - [ ] Add **Instructor bios** and local facilitator pages.
 - [ ] Publish **Speaker profiles** and invited professor details.
 - [x] Update **Registration** information and deadlines.
