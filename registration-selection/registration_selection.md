@@ -6,6 +6,17 @@ This document contains information about the registration, selection process, an
 All participant registration submissions and status tracking are managed in the following spreadsheet:
 - **Google Sheet:** [Registered Participants Data](https://docs.google.com/spreadsheets/d/16EQqxYvBtvdiJMNDGjvHjDBnu4FAplf43hFbAXeeL_M/edit?resourcekey=&gid=584024504#gid=584024504)
 
+## Waiver Allocation Rationale
+
+Registration fee waivers were allocated by the committee based on the following institutional and geographical criteria:
+- **Full Waiver (1.0):**
+  - Applicants from **FCEN** (Facultad de Ciencias Exactas y Naturales, UBA).
+  - Applicants from **Provincia de Buenos Aires** residing far from Ciudad Autonoma de Buenos Aires.
+- **Partial Waiver (0.5):**
+  - PhD students (**Doctorandos**) from other UBA faculties.
+  - PhD students (**Doctorandos**) from other institutes (e.g., **UCA**).
+  - Support Staff (**CPA**) from **IBYME**.
+
 ---
 
 ## Selection Communication
