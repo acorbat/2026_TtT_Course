@@ -11,6 +11,8 @@ project:
     - "!admin/"
     - "!communications_outreach/"
     - "!budget-funding/"
+    - "!registration-selection/"
+
 
 website:
   title: "🔬 Fundamentos en Análisis de Bioimágenes (*Train-the-Trainer*)"
