@@ -166,18 +166,18 @@ The project should eventually be organized into separate folders. Note that `bud
 
 | Planned folder | Purpose |
 |---|---|
-| `01_admin/` | approvals, official requests, institutional letters, contact list |
-| `02_program/` | overall schedule, day-by-day program, session design |
-| `03_topics/` | one file per topic with rationale, resources, exercises, and lecturer notes |
-| `04_lectures/` | pre-course lecture links, abstracts, slides, recordings |
-| `05_invited-professors/` | invitation tracking, bios, travel, reimbursement, hotel notes |
+| `admin/` | approvals, official requests, institutional letters, contact list |
+| `program/` | overall schedule, day-by-day program, session design |
+| `topics/` | one file per topic with rationale, resources, exercises, and lecturer notes |
+| `lectures/` | pre-course lecture links, abstracts, slides, recordings |
+| `invited-professors/` | invitation tracking, bios, travel, reimbursement, hotel notes |
 | `budget-funding/` | budget versions, quotes, sponsor options, registration-fee model |
-| `07_logistics/` | classroom, catering, AV support, signage, accessibility, local operations |
-| `08_registration-selection/` | call text, form questions, rubric, acceptance and waitlist tracking |
-| `09_communications-outreach/` | website copy, mailing text, posters, social posts |
-| `10_materials-datasets/` | datasets, installation instructions, software environment notes |
-| `11_meetings-notes/` | meeting minutes, action items, decision log |
-| `12_archive/` | deprecated versions and post-course archiving |
+| `logistics/` | classroom, catering, AV support, signage, accessibility, local operations |
+| `registration-selection/` | call text, form questions, rubric, acceptance and waitlist tracking |
+| `communications-outreach/` | website copy, mailing text, posters, social posts |
+| `materials-datasets/` | datasets, installation instructions, software environment notes |
+| `meetings-notes/` | meeting minutes, action items, decision log |
+| `archive/` | deprecated versions and post-course archiving |
 
 ---
 
