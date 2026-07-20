@@ -13,6 +13,8 @@ This document is the **working master plan** for organizing a **Train-the-Traine
 - **Regional scope:** Argentina and LATAM, with invited contributions from Uruguay, Sweden, and international bioimage-analysis networks
 - **Current funding reality:** the broader FUNDACEN proposal requested **AR$ 10.004.000**, but only **AR$ 1.000.000** is available for now from FUNDACEN; this makes prioritization essential. Additional funding from the electron microscopy course is still to be determined.
 - **Priority constraints:** participant travel assistance and waivers, local instructor preparation, required pre-course lecture curation, and potential travel support of up to AR$ 300.000 for Dr. Federico Lecumberry.
+- **Recent confirmed planning updates (2026-07-20):**
+  - **Registration & Selection:** Created the `registration-selection/` directory and `registration_selection.md` with links to registered participant data and email notification templates (acceptance with waiver commitment, and rejection) in Argentinian Spanish.
 - **Recent confirmed planning updates (2026-07-15):**
   - **Program & Lectures Webpages:** The day-by-day program webpage has been fully filled in and finished (`program.md`). The lectures and practicals folders have been created and populated as `presentaciones/` and `practicos/`, though the individual lecture/practical files are currently skeleton files with content/slides still missing.
 - **Recent confirmed planning updates (2026-07-06):**
@@ -162,7 +164,7 @@ gantt
 ---
 
 ## Proposed folder structure plan
-The project should eventually be organized into separate folders. Note that `budget-funding/` has been created as explicitly requested.
+The project should eventually be organized into separate folders. Note that `admin/`, `budget-funding/`, `registration-selection/` and `communications-outreach/` have been created as explicitly requested.
 
 | Planned folder | Purpose |
 |---|---|
