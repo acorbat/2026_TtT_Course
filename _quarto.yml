@@ -15,7 +15,7 @@ project:
 
 
 website:
-  title: "🔬 Fundamentos en Análisis de Bioimágenes (*Train-the-Trainer*)"
+  title: "🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)"
   favicon: "media/lisium.svg"
   open-graph: true
   twitter-card: true

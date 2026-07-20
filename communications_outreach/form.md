@@ -1,6 +1,6 @@
-# Formulario de Inscripción: Curso de Formación de Formadores en Análisis de Bioimágenes
+# Formulario de Inscripción: Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)
 
-¡Bienvenido/a al formulario de inscripción para nuestro curso de "Formación de Formadores" en análisis de bioimágenes!
+¡Bienvenido/a al formulario de inscripción para el **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)**!
 
 Este curso está diseñado para dar herrameintas teóricas y prácticas en análisis de bioimágenes y así fortalecer la capacidad regional, además de la formación de instructores capacitados para replicar y adaptar conocimientos en sus propias instituciones. Buscamos participantes comprometidos que no solo deseen mejorar sus habilidades técnicas, sino que también tengan la motivación para enseñar a otros.
 

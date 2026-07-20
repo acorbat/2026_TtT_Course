@@ -26,7 +26,7 @@ To avoid text clutter in social media posts, the accompanying image should serve
 
 ### Spanish Copy for the Flyer (Texto en Español para el Folleto):
 
-* **Título Principal:** *Curso Train-the-Trainer en Análisis de Bioimágenes (LATAM)*  
+* **Título Principal:** *Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)*  
 * **Llamado a la Acción / Invitación:**  
   ¿Querés potenciar tus habilidades en análisis de imágenes y aprender a enseñar estas herramientas en tu institución?  
 * **Destacados del Contenido / ¿Para quién es?**  
@@ -52,11 +52,11 @@ To avoid text clutter in social media posts, the accompanying image should serve
 
 ### Spanish Version
 
-Subject: Inscripción abierta: Taller de Fundamentos en Análisis de Bioimágenes (Train-the-Trainer)
+Subject: Inscripción abierta: Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)
 
 Estimados,
 
-Nos complace invitarlos a inscribirse en el taller de "Fundamentos en Análisis de Bioimágenes (Train-the-Trainer)", que se llevará a cabo de forma presencial del 3 al 7 de agosto de 2026 en el Pabellón 0+Infinito, FCEN-UBA, Buenos Aires, Argentina.
+Nos complace invitarlos a inscribirse en el "Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)", que se llevará a cabo de forma presencial del 3 al 7 de agosto de 2026 en el Pabellón 0+Infinito, FCEN-UBA, Buenos Aires, Argentina.
 
 Este taller intensivo está especialmente dirigido a estudiantes de posgrado, investigadores, analistas de imágenes y personal técnico de laboratorios y de servicios de microscopía de Argentina y de Latinoamérica. El objetivo principal no es solo impartir conocimientos técnicos avanzados, sino también brindar herramientas pedagógicas para que los participantes puedan replicar y adaptar estos entrenamientos en sus respectivas instituciones de origen.
 
@@ -98,7 +98,7 @@ Contacto: **cma.taller.ab@gmail.com**
 
 ### Spanish Version
 
-📢 \*¡INSCRIPCIÓN ABIERTA\! Taller de Fundamentos Análisis de Bioimágenes (Train-the-Trainer)\* 🔬💻
+📢 \*¡INSCRIPCIÓN ABIERTA\! Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)\* 🔬💻
 
 ¿Trabajás en microscopía o análisis de imágenes en Latinoamérica y querés aprender a enseñar estas herramientas en tu institución? 🎓
 
@@ -124,7 +124,7 @@ Contacto: **cma.taller.ab@gmail.com**
 
 \[POST 1\]
 
-📢 ¡Inscripción abierta\! Taller de Fundamentos Análisis de Bioimágenes (Train-the-Trainer) 🔬💻
+📢 ¡Inscripción abierta\! Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 🔬💻
 
 Para estudiantes, investigadores y personal de centros de servicios que quieran mejorar y enseñar análisis de imágenes en sus instituciones.
 
@@ -166,7 +166,7 @@ Para estudiantes, investigadores y personal de centros de servicios que quieran 
 
 🔬 El análisis de bioimágenes es un pilar de la investigación biológica moderna, pero para que sea sostenible en Latinoamérica necesitamos multiplicar las capacidades locales, incluida la enseñanza.
 
-¡Nos alegra anunciar que abrimos la inscripción para el \*\*Taller de Fundamentos de Análisis de Bioimágenes (Train-the-Trainer)\*\*\!
+¡Nos alegra anunciar que abrimos la inscripción para el \*\*Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)\*\*\!
 
 Este taller intensivo y presencial se dictará del \*\*3 al 7 de agosto de 2026\*\* en el Pabellón 0+Infinito, FCEN-UBA, en Buenos Aires, Argentina.
 
@@ -204,7 +204,7 @@ Organizado por el Dr. Agustín Corbat, Dra. Lorena Sigaut y Dra. Lía Pietrasant
 
 \[POST 1\]
 
-📢 ¡Inscripción abierta\! Taller de Fundamentos Análisis de Bioimágenes (Train-the-Trainer) 🔬💻
+📢 ¡Inscripción abierta\! Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 🔬💻
 
 Para investigadores, estudiantes de posgrado y personal de microscopía de LATAM que busquen mejorar y enseñar el análisis de imágenes.
 

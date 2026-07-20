@@ -1,4 +1,4 @@
-# Taller de Análisis de Bioimágenes (Train-the-Trainer)
+# Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)
 
 This repository contains the organization and materials for the Train-the-Trainer course on Bioimage Analysis for LATAM (2026).
 

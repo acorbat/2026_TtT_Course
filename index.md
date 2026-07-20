@@ -16,7 +16,7 @@ La convocatoria para postular al taller de **Formación de Formadores en Anális
 
 :::
 
-¡Te damos la bienvenida al portal del **Taller de Fundamentos en Análisis de Bioimágenes (*Train-the-Trainer*)**! 
+¡Te damos la bienvenida al portal del **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)**! 
 
 Este taller intensivo y presencial se llevará a cabo del **3 al 7 de agosto de 2026** en el Pabellón 0+Infinito, de la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires (FCEN-UBA) en Buenos Aires, Argentina.
 
@@ -124,4 +124,4 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 
 ## Citation
 
-Corbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Train-the-Trainer). Zenodo. <https://doi.org/10.5281/zenodo.18247226>
+Corbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores). Zenodo. <https://doi.org/10.5281/zenodo.18247226>

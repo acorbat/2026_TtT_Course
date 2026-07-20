@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Project goal
-Organize the **Taller de Análisis de Bioimágenes (Train-the-Trainer)**, a Train-the-Trainer course on Bioimage Analysis for LATAM, with a strong focus on:
+Organize the **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)**, a Train-the-Trainer course on Bioimage Analysis for LATAM, with a strong focus on:
 - technical bioimage analysis content,
 - pedagogy for training future instructors,
 - logistics, budget, and invited-professor coordination,
@@ -206,7 +206,7 @@ Every practical/workshop file in [practicos](file:///C:/Users/corba/Documents/20
    ```
 
 ## Compact project snapshot
-- Workshop name: **Taller de Análisis de Bioimágenes (Train-the-Trainer)**.
+- Workshop name: **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)**.
 - Course type: Train-the-Trainer in Bioimage Analysis for LATAM.
 - Confirmed course dates: **2026-08-03 to 2026-08-07**.
 - Confirmed format: **on-site only**, with required pre-course lectures and in-person Q&A/pedagogy workshops.
