@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Agustin Corbat">
+<meta name="dcterms.date" content="2026-08-03">
 
-<title>program – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)</title>
+<title>Segmentación clásica y Cuantificación – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +28,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./practicos/deep_learning_biomodels.html" rel="next">
-<link href="./media/lisium.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-13b92aa6f2cb0c180eb7ab33121acc0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../practicos/workshop_2d_images.html" rel="next">
+<link href="../practicos/other_tools.html" rel="prev">
+<link href="../media/lisium.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-13b92aa6f2cb0c180eb7ab33121acc0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,10 +77,12 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Segmentación clásica y Cuantificación – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
-<meta name="twitter:title" content="🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
+<meta name="twitter:title" content="Segmentación clásica y Cuantificación – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -88,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)</span>
     </a>
   </div>
@@ -103,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./program.html">Programa</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../practicos/deep_learning_biomodels.html">Practicos</a></li><li class="breadcrumb-item"><a href="../practicos/segmentation_quantification.html">Segmentación clásica y Cuantificación</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -117,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./program.html" class="sidebar-item-text sidebar-link active">
+  <a href="../program.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Programa</span></a>
   </div>
 </li>
@@ -132,55 +137,55 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cellpose, StarDist, and Friends</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/deep_learning_generic.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/deep_learning_generic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep Learning Foundations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/git_pixi.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/git_pixi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Version Control with Git and Environment Management with Pixi</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/interfaces.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/interfaces.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Comparing Graphical User Interfaces (GUI), Macros, and Coding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/machine_learning.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/machine_learning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Machine Learning in Bioimage Analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/object_classification.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/object_classification.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Object Classification, Dimensionality Reduction, and Clustering</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/other_tools.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/other_tools.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Otras herramientas para explorar (BYOP)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/segmentation_quantification.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/segmentation_quantification.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Segmentación clásica y Cuantificación</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./practicos/workshop_2d_images.html" class="sidebar-item-text sidebar-link">
+  <a href="../practicos/workshop_2d_images.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Visualization of 2D data</span></a>
   </div>
 </li>
@@ -197,49 +202,49 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/ai_in_bia.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/ai_in_bia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inteligencia Artificial en Análisis de Bioimágenes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/deep_learning.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/deep_learning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep Learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep Learning y Modelos Biomodelos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/machine_learning.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/machine_learning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Machine Learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/que_es_bia.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/que_es_bia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">¿Qué es Análisis de Bioimágenes?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/segmentacion_clasica_cuantificacion.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/segmentacion_clasica_cuantificacion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Segmentación clásica y Cuantificación</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/teaching.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/teaching.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">¿Cómo hacer escuelas y cursos?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentaciones/workflows.html" class="sidebar-item-text sidebar-link">
+  <a href="../presentaciones/workflows.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Workflows reproducibles</span></a>
   </div>
 </li>
@@ -255,225 +260,101 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#programa" id="toc-programa" class="nav-link active" data-scroll-target="#programa">Programa</a>
+  <li><a href="#prerequisitos" id="toc-prerequisitos" class="nav-link active" data-scroll-target="#prerequisitos">Prerequisitos</a>
   <ul>
-  <li><a href="#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto" id="toc-día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto" class="nav-link" data-scroll-target="#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto">🗓️ Día 1: Fundamentos del Análisis de Imágenes y Procesamiento Clásico (Lunes 3 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001230" id="toc-mañana-09001230" class="nav-link" data-scroll-target="#mañana-09001230">🌅 Mañana (09:00–12:30)</a></li>
-  <li><a href="#lunch-break-12301330" id="toc-lunch-break-12301330" class="nav-link" data-scroll-target="#lunch-break-12301330">🥗 Lunch break (12:30–13:30)</a></li>
-  <li><a href="#tarde-13301700" id="toc-tarde-13301700" class="nav-link" data-scroll-target="#tarde-13301700">🌇 Tarde (13:30–17:00)</a></li>
+  <li><a href="#programas-instalados" id="toc-programas-instalados" class="nav-link" data-scroll-target="#programas-instalados">Programas instalados</a></li>
+  <li><a href="#datos-descargados" id="toc-datos-descargados" class="nav-link" data-scroll-target="#datos-descargados">Datos descargados</a></li>
+  <li><a href="#conocimientos-previos" id="toc-conocimientos-previos" class="nav-link" data-scroll-target="#conocimientos-previos">Conocimientos previos</a></li>
   </ul></li>
-  <li><a href="#día-2-workflows-reproducibles-martes-4-de-agosto" id="toc-día-2-workflows-reproducibles-martes-4-de-agosto" class="nav-link" data-scroll-target="#día-2-workflows-reproducibles-martes-4-de-agosto">🗓️ Día 2: Workflows reproducibles (Martes 4 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001200" id="toc-mañana-09001200" class="nav-link" data-scroll-target="#mañana-09001200">🌅 Mañana (09:00–12:00)</a></li>
-  <li><a href="#lunch-break-13001400" id="toc-lunch-break-13001400" class="nav-link" data-scroll-target="#lunch-break-13001400">🥗 Lunch break (13:00–14:00)</a></li>
-  <li><a href="#tarde-14001700" id="toc-tarde-14001700" class="nav-link" data-scroll-target="#tarde-14001700">🌇 Tarde (14:00–17:00)</a></li>
-  </ul></li>
-  <li><a href="#day-3-machine-learning-miércoles-5-de-agosto" id="toc-day-3-machine-learning-miércoles-5-de-agosto" class="nav-link" data-scroll-target="#day-3-machine-learning-miércoles-5-de-agosto">🗓️ Day 3: Machine Learning (Miércoles 5 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001200-1" id="toc-mañana-09001200-1" class="nav-link" data-scroll-target="#mañana-09001200-1">🌅 Mañana (09:00–12:00)</a></li>
-  <li><a href="#lunch-break-12301330-1" id="toc-lunch-break-12301330-1" class="nav-link" data-scroll-target="#lunch-break-12301330-1">🥗 Lunch break (12:30–13:30)</a></li>
-  <li><a href="#tarde-13301700-1" id="toc-tarde-13301700-1" class="nav-link" data-scroll-target="#tarde-13301700-1">🌇 Tarde (13:30–17:00)</a></li>
-  </ul></li>
-  <li><a href="#day-4-deep-learning-jueves-6-de-agosto" id="toc-day-4-deep-learning-jueves-6-de-agosto" class="nav-link" data-scroll-target="#day-4-deep-learning-jueves-6-de-agosto">🗓️ Day 4: Deep Learning (Jueves 6 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001200-2" id="toc-mañana-09001200-2" class="nav-link" data-scroll-target="#mañana-09001200-2">🌅 Mañana (09:00–12:00)</a></li>
-  <li><a href="#lunch-break-13001400-1" id="toc-lunch-break-13001400-1" class="nav-link" data-scroll-target="#lunch-break-13001400-1">🥗 Lunch break (13:00–14:00)</a></li>
-  <li><a href="#tarde-14001700-1" id="toc-tarde-14001700-1" class="nav-link" data-scroll-target="#tarde-14001700-1">🌇 Tarde (14:00–17:00)</a></li>
-  </ul></li>
-  <li><a href="#day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto" id="toc-day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto" class="nav-link" data-scroll-target="#day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto">🗓️ Day 5: Haciendo escuelas y cierre (Viernes 7 de Agosto)</a>
-  <ul class="collapse">
-  <li><a href="#mañana-09001200-3" id="toc-mañana-09001200-3" class="nav-link" data-scroll-target="#mañana-09001200-3">🌅 Mañana (09:00–12:00)</a></li>
-  <li><a href="#lunch-break-13001400-2" id="toc-lunch-break-13001400-2" class="nav-link" data-scroll-target="#lunch-break-13001400-2">🥗 Lunch break (13:00–14:00)</a></li>
-  <li><a href="#tarde-14001700-2" id="toc-tarde-14001700-2" class="nav-link" data-scroll-target="#tarde-14001700-2">🌇 Tarde (14:00–17:00)</a></li>
-  <li><a href="#noche-1700-en-adelante" id="toc-noche-1700-en-adelante" class="nav-link" data-scroll-target="#noche-1700-en-adelante">🌃 Noche (17:00 en adelante)</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#link-al-taller" id="toc-link-al-taller" class="nav-link" data-scroll-target="#link-al-taller">Link al taller</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/program.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/practicos/segmentation_quantification.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../practicos/deep_learning_biomodels.html">Practicos</a></li><li class="breadcrumb-item"><a href="../practicos/segmentation_quantification.html">Segmentación clásica y Cuantificación</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Segmentación clásica y Cuantificación</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="programa" class="level1">
-<h1>Programa</h1>
-<section id="día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto">🗓️ Día 1: Fundamentos del Análisis de Imágenes y Procesamiento Clásico (Lunes 3 de Agosto)</h2>
-<section id="mañana-09001230" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001230">🌅 Mañana (09:00–12:30)</h3>
-<ul>
-<li>09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.
-<ul>
-<li><em>¿Por qué un formato Train-the-Trainer en Latinoamérica?</em> Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)</li>
-</ul></li>
-<li>10:15–11:00 - 🧠 <a href="./presentaciones/que_es_bia.html">Qué es el Análisis de Bioimágenes</a> (Agustin Corbat)
-<ul>
-<li><em>Visión general del análisis de bioimágenes</em></li>
-</ul></li>
-<li>11:00–12:30 - 🖥️ <a href="./practicos/workshop_2d_images.html">Operaciones en imagenes</a> (Lorena Sigaut?)
-<ul>
-<li><em>Desde como abrir una imagen ahsta las operaciones básicas en y con imágenes</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-12301330" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-12301330">🥗 Lunch break (12:30–13:30)</h3>
-</section>
-<section id="tarde-13301700" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-13301700">🌇 Tarde (13:30–17:00)</h3>
-<ul>
-<li>13:30–14:10 - 🧠 <a href="./presentaciones/segmentacion_clasica_cuantificacion.html">Segmentación clásica y Cuantificación</a> (Agustin Corbat)
-<ul>
-<li><em>Teoría de segmentación clásica y cuantificación</em></li>
-</ul></li>
-<li>14:10–14:40 - ☕ <strong>Coffee Break</strong></li>
-<li>14:40–16:30 - 🖥️ <a href="./practicos/segmentation_quantification.html">Segmentación y Cuantificación</a> (Agustin Corbat/Lorena Sigaut)
-<ul>
-<li><em>Sesión práctica de segmentación y cuantificación</em></li>
-</ul></li>
-<li>16:30–17:00 - <strong>Cierre</strong></li>
-</ul>
-</section>
-</section>
-<section id="día-2-workflows-reproducibles-martes-4-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="día-2-workflows-reproducibles-martes-4-de-agosto">🗓️ Día 2: Workflows reproducibles (Martes 4 de Agosto)</h2>
-<section id="mañana-09001200" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001200">🌅 Mañana (09:00–12:00)</h3>
-<ul>
-<li>9:00–10:00 - 🧠 <a href="./presentaciones/workflows.html">Workflows reproducibles</a> (Anna Klemm?)
-<ul>
-<li><em>Principios de flujos de trabajo reproducibles</em></li>
-</ul></li>
-<li>10:00–10:30 - ☕ <strong>Coffee Break</strong></li>
-<li>11:00–13:00 - 🖥️ <a href="./practicos/interfaces.html">Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)</a> (Agustin Corbat)
-<ul>
-<li><em>Comparación de GUI, macros y programación de distinto software</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-13001400" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-13001400">🥗 Lunch break (13:00–14:00)</h3>
-</section>
-<section id="tarde-14001700" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-14001700">🌇 Tarde (14:00–17:00)</h3>
-<ul>
-<li>14:00–16:30 - 🖥️ <a href="./practicos/git_pixi.html">Taller de Git y Pixi</a> (Mauro Silberberg)
-<ul>
-<li><em>Control de versiones con Git y gestión de entornos con Pixi</em></li>
-</ul></li>
-<li>16:30–17:00 - <strong>Cierre</strong></li>
-</ul>
-</section>
-</section>
-<section id="day-3-machine-learning-miércoles-5-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="day-3-machine-learning-miércoles-5-de-agosto">🗓️ Day 3: Machine Learning (Miércoles 5 de Agosto)</h2>
-<section id="mañana-09001200-1" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001200-1">🌅 Mañana (09:00–12:00)</h3>
-<ul>
-<li>09:00–10:00 - 🧠 <a href="./presentaciones/machine_learning.html">Machine Learning</a> (Agustin Corbat)
-<ul>
-<li><em>Fundamentos de Machine Learning para análisis de bioimágenes</em></li>
-<li><em>Machine Learning aplicado a segmentacion y a clasificacion de objetos</em></li>
-</ul></li>
-<li>10:00–10:30 - ☕ <strong>Coffee Break</strong></li>
-<li>10:30–12:30 - 🖥️ <a href="./practicos/machine_learning.html">Machine Learning</a> (Agustin Corbat)
-<ul>
-<li><em>Aplicaciones de ML a segmentacion de bioimágenes</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-12301330-1" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-12301330-1">🥗 Lunch break (12:30–13:30)</h3>
-</section>
-<section id="tarde-13301700-1" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-13301700-1">🌇 Tarde (13:30–17:00)</h3>
-<ul>
-<li>13:30–15:00 - 🖥️ <a href="./practicos/object_classification.html">Clasificación de objetos</a> (??)
-<ul>
-<li><em>Clasificación de objetos, reducción de dimensionalidad y clustering</em></li>
-</ul></li>
-<li>14:30–15:00 - ☕ <strong>Coffee Break</strong></li>
-<li>15:00–17:00 - 🗫🖥️ <a href="./practicos/other_tools.html">BYOP - Other Tools</a> (??)
-<ul>
-<li><em>Bring your own problem y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial…</em></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="day-4-deep-learning-jueves-6-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="day-4-deep-learning-jueves-6-de-agosto">🗓️ Day 4: Deep Learning (Jueves 6 de Agosto)</h2>
-<section id="mañana-09001200-2" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001200-2">🌅 Mañana (09:00–12:00)</h3>
-<ul>
-<li>09:00–11:00 - 🧠 (incluye ☕) <a href="./presentaciones/deep_learning.html">Deep Learning</a> (Enzo Ferrante)
-<ul>
-<li><em>Teoría y conceptos de Deep Learning</em></li>
-</ul></li>
-<li>11:00–13:00 - 🖥️ <a href="./practicos/deep_learning_generic.html">Taller de Deep Learning</a> (Agustin Corbat)
-<ul>
-<li><em>Taller práctico de Deep Learning</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-13001400-1" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-13001400-1">🥗 Lunch break (13:00–14:00)</h3>
-</section>
-<section id="tarde-14001700-1" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-14001700-1">🌇 Tarde (14:00–17:00)</h3>
-<ul>
-<li>14:00–14:30 - 🧠 <a href="./presentaciones/deep_learning_biomodels.html">Deep Learning</a> (Agustin Corbat)
-<ul>
-<li><em>Modelos típicos usados en análisis de bioimágenes</em></li>
-</ul></li>
-<li>14:30–15:00 - ☕ <strong>Coffee Break</strong></li>
-<li>15:00–16:30 - 🖥️ <a href="./practicos/deep_learning_biomodels.html">Taller de Cellpose, StarDist and friends</a> (Agustin Corbat)
-<ul>
-<li><em>Herramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.</em></li>
-</ul></li>
-<li>16:30–17:00 - <strong>Cierre</strong></li>
-</ul>
-</section>
-</section>
-<section id="day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto" class="level2">
-<h2 class="anchored" data-anchor-id="day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto">🗓️ Day 5: Haciendo escuelas y cierre (Viernes 7 de Agosto)</h2>
-<section id="mañana-09001200-3" class="level3">
-<h3 class="anchored" data-anchor-id="mañana-09001200-3">🌅 Mañana (09:00–12:00)</h3>
-<ul>
-<li>09:00–11:00 - 🧠 (incluye ☕) <a href="./presentaciones/teaching.html">¿Como hacer escuelas y cursitos?</a> (Rocco D’Antuono?)
-<ul>
-<li><em>Diseño de cursos de capacitación y estrategias de enseñanza</em></li>
-</ul></li>
-<li>11:00–13:00 - 🗫 <a href="./presentaciones/ai_in_bia.html">Discusiones sobre AI y como usarla</a> (Agustin Corbat)
-<ul>
-<li><em>Discusión sobre el uso de AI en bioimágenes y diseño de clases</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="lunch-break-13001400-2" class="level3">
-<h3 class="anchored" data-anchor-id="lunch-break-13001400-2">🥗 Lunch break (13:00–14:00)</h3>
-</section>
-<section id="tarde-14001700-2" class="level3">
-<h3 class="anchored" data-anchor-id="tarde-14001700-2">🌇 Tarde (14:00–17:00)</h3>
-<ul>
-<li>14:00–16:00 - 🗫 (incluye ☕) <strong>Discusiones sobre los tutoriales de BYOP y otras herramientas</strong>
-<ul>
-<li><em>Puesta en común de las herramientas exploradas en la sesión de BYOP - Other Tools</em></li>
-</ul></li>
-<li>16:00–17:00 - <strong>Cierre</strong></li>
-</ul>
-</section>
-<section id="noche-1700-en-adelante" class="level3">
-<h3 class="anchored" data-anchor-id="noche-1700-en-adelante">🌃 Noche (17:00 en adelante)</h3>
-<ul>
-<li>17:00–en adelante - 🍔🍻 Cena de cierre</li>
-</ul>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Agustin Corbat </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 3, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Objetivos de Aprendizaje
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Al finalizar la sesión, los alumnos serán capaces de:</p>
+<ul>
+<li><p>Comparar múltiples estrategias de segmentación (basadas en umbral vs flujo clásico) para un mismo set de datos.</p></li>
+<li><p>Extraer mediciones cuantitativas a partir de imágenes segmentadas e identificar sesgos en la medición.</p></li>
+<li><p>Reconocer las limitaciones de la segmentación automatizada y cuándo desconfiar del resultado.</p></li>
+<li><p>Identificar operaciones de preprocesamiento y morfológicas que pueden mejorar la segmentación.</p></li>
+</ul>
+</div>
+</div>
+<section id="prerequisitos" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisitos">Prerequisitos</h2>
+<section id="programas-instalados" class="level3">
+<h3 class="anchored" data-anchor-id="programas-instalados">Programas instalados</h3>
+<ul>
+<li>Fiji / ImageJ</li>
+<li>Python (con scikit-image)</li>
+</ul>
+</section>
+<section id="datos-descargados" class="level3">
+<h3 class="anchored" data-anchor-id="datos-descargados">Datos descargados</h3>
+<ul>
+<li><a href="">Link a datos</a></li>
+</ul>
+</section>
+<section id="conocimientos-previos" class="level3">
+<h3 class="anchored" data-anchor-id="conocimientos-previos">Conocimientos previos</h3>
+<ul>
+<li>Conceptos básicos de procesamiento de imágenes.</li>
+</ul>
 </section>
 </section>
+<section id="link-al-taller" class="level2">
+<h2 class="anchored" data-anchor-id="link-al-taller">Link al taller</h2>
+<p><a href="">Link al taller</a></p>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<p>[Add citation here]</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -879,10 +760,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../practicos/other_tools.html" class="pagination-link" aria-label="Otras herramientas para explorar (BYOP)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Otras herramientas para explorar (BYOP)</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./practicos/deep_learning_biomodels.html" class="pagination-link" aria-label="Cellpose, StarDist, and Friends">
-        <span class="nav-page-text">Cellpose, StarDist, and Friends</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../practicos/workshop_2d_images.html" class="pagination-link" aria-label="Visualization of 2D data">
+        <span class="nav-page-text">Visualization of 2D data</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -900,7 +784,7 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/program.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/practicos/segmentation_quantification.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

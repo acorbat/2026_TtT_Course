@@ -2,46 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/program.html</loc>
-    <lastmod>2026-07-17T18:39:14.311Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.600Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/presentaciones/teaching.html</loc>
-    <lastmod>2026-07-17T18:39:14.311Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.600Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/presentaciones/que_es_bia.html</loc>
-    <lastmod>2026-07-17T18:39:14.311Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.600Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/presentaciones/deep_learning_biomodels.html</loc>
-    <lastmod>2026-07-17T18:39:14.311Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.600Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/presentaciones/ai_in_bia.html</loc>
-    <lastmod>2026-07-17T18:39:14.310Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acorbat.github.io/2026_TtT_Course/practicos/segmentation_quantification.html</loc>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acorbat.github.io/2026_TtT_Course/practicos/object_classification.html</loc>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acorbat.github.io/2026_TtT_Course/practicos/interfaces.html</loc>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acorbat.github.io/2026_TtT_Course/practicos/deep_learning_generic.html</loc>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/index.html</loc>
-    <lastmod>2026-07-17T18:39:14.310Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.597Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acorbat.github.io/2026_TtT_Course/practicos/deep_learning_biomodels.html</loc>
+    <lastmod>2026-07-20T20:10:06.598Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acorbat.github.io/2026_TtT_Course/practicos/git_pixi.html</loc>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acorbat.github.io/2026_TtT_Course/practicos/machine_learning.html</loc>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acorbat.github.io/2026_TtT_Course/practicos/other_tools.html</loc>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/practicos/workshop_2d_images.html</loc>
-    <lastmod>2026-07-17T18:39:14.310Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.599Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/presentaciones/deep_learning.html</loc>
-    <lastmod>2026-07-17T18:39:14.311Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.600Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/presentaciones/machine_learning.html</loc>
-    <lastmod>2026-07-17T18:39:14.311Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.600Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/presentaciones/segmentacion_clasica_cuantificacion.html</loc>
-    <lastmod>2026-07-17T18:39:14.311Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.600Z</lastmod>
   </url>
   <url>
     <loc>https://acorbat.github.io/2026_TtT_Course/presentaciones/workflows.html</loc>
-    <lastmod>2026-07-17T18:39:14.311Z</lastmod>
+    <lastmod>2026-07-20T20:10:06.600Z</lastmod>
   </url>
 </urlset>

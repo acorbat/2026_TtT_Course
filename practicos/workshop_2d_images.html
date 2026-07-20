@@ -9,7 +9,7 @@
 <meta name="author" content="Agustin Corbat">
 <meta name="dcterms.date" content="2026-01-05">
 
-<title>Visualization of 2D data – 🔬 Fundamentos en Análisis de Bioimágenes (Train-the-Trainer)</title>
+<title>Visualization of 2D data – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,7 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../presentaciones/ai_in_bia.html" rel="next">
-<link href="../program.html" rel="prev">
+<link href="../practicos/segmentation_quantification.html" rel="prev">
 <link href="../media/lisium.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -78,10 +78,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Visualization of 2D data – 🔬 Fundamentos en Análisis de Bioimágenes (Train-the-Trainer)">
+<meta property="og:title" content="Visualization of 2D data – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
 <meta property="og:description" content="">
-<meta property="og:site_name" content="🔬 Fundamentos en Análisis de Bioimágenes (Train-the-Trainer)">
-<meta name="twitter:title" content="Visualization of 2D data – 🔬 Fundamentos en Análisis de Bioimágenes (Train-the-Trainer)">
+<meta property="og:site_name" content="🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
+<meta name="twitter:title" content="Visualization of 2D data – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
 <meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">🔬 Fundamentos en Análisis de Bioimágenes (<em>Train-the-Trainer</em>)</span>
+    <span class="navbar-title">🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)</span>
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../practicos/workshop_2d_images.html">Practicos</a></li><li class="breadcrumb-item"><a href="../practicos/workshop_2d_images.html">Visualization of 2D data</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../practicos/deep_learning_biomodels.html">Practicos</a></li><li class="breadcrumb-item"><a href="../practicos/workshop_2d_images.html">Visualization of 2D data</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -135,6 +135,54 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cellpose, StarDist, and Friends</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/deep_learning_generic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deep Learning Foundations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/git_pixi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Version Control with Git and Environment Management with Pixi</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/interfaces.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Comparing Graphical User Interfaces (GUI), Macros, and Coding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/machine_learning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Machine Learning in Bioimage Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/object_classification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Object Classification, Dimensionality Reduction, and Clustering</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/other_tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Otras herramientas para explorar (BYOP)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/segmentation_quantification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Segmentación clásica y Cuantificación</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practicos/workshop_2d_images.html" class="sidebar-item-text sidebar-link active">
@@ -226,7 +274,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../practicos/workshop_2d_images.html">Practicos</a></li><li class="breadcrumb-item"><a href="../practicos/workshop_2d_images.html">Visualization of 2D data</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../practicos/deep_learning_biomodels.html">Practicos</a></li><li class="breadcrumb-item"><a href="../practicos/workshop_2d_images.html">Visualization of 2D data</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Visualization of 2D data</h1>
 </div>
@@ -271,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Listar que ejercicios hay que cubrir para estudiantes que no saben usar software de imágenes hasta estudiantes que si.</p></li>
 <li><p>Conocer formas de acceder a datos y metadatos en imágenes con distinto software.</p></li>
-<li><p>Elegir y encontrar operaciones aplicables a imágenes.</p></li>
+<li><p>Elegir y encontrar operaciones aplicables a imágenes y sus efectos en la imagen.</p></li>
 </ul>
 </div>
 </div>
@@ -710,8 +758,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../program.html" class="pagination-link" aria-label="Programa">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Programa</span>
+      <a href="../practicos/segmentation_quantification.html" class="pagination-link" aria-label="Segmentación clásica y Cuantificación">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Segmentación clásica y Cuantificación</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
