@@ -19,7 +19,7 @@ Al finalizar esta preparación, los participantes serán capaces de:
 
 Aca van a encontrar material educativo básico de como manejar la línea de comandos.
 
-:::
+::: {.callout-note}
 
 Lo primero a determinar es el sistema operativo que usamos. La sintaxis del CMD o PowerShell de Windows es distinta a la de Unix como en Mac o Linux. En el caso de estar usando Windows, hay varias opciones. Mi primer sugerencia es seguir lo que se describe [acá](https://carpentries.github.io/workshop-template/install_instructions/#shell).
 
