@@ -9,7 +9,7 @@
 - 10:15--11:00 - 🧠 [Qué es el Análisis de Bioimágenes](presentaciones/que_es_bia.md) (Agustin Corbat)
   * *Visión general del análisis de bioimágenes*
 - 11:00--12:30 - 🖥️ [Operaciones en imagenes](practicos/workshop_2d_images.md) (Lorena Sigaut?)
-  * *Desde como abrir una imagen ahsta las operaciones básicas en y con imágenes*
+  * *Desde como abrir una imagen hasta las operaciones básicas en y con imágenes*
 
 ### 🥗 Lunch break (12:30--13:30)
 
