@@ -2,8 +2,8 @@
 
 ![](communications_outreach/inner_ear.png){width="100%" fig-align="center" alt="Oído interno adquirido por Agustin Corbat - Imagen promocional"}
 
-::: {.callout-important}
 <!--
+::: {.callout-important}
 ## 📢 ¡Inscripciones Abiertas para el Taller!
 
 La convocatoria para postular al taller de **Formación de Formadores en Análisis de Bioimágenes** está abierta.
