@@ -174,7 +174,7 @@
     "href": "precurso/cli.html",
     "title": "Línea de Comandos (CLI)",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.\nAca van a encontrar material educativo básico de como manejar la línea de comandos.\n:::\nLo primero a determinar es el sistema operativo que usamos. La sintaxis del CMD o PowerShell de Windows es distinta a la de Unix como en Mac o Linux. En el caso de estar usando Windows, hay varias opciones. Mi primer sugerencia es seguir lo que se describe acá.\n:::",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.\nAca van a encontrar material educativo básico de como manejar la línea de comandos.",
     "crumbs": [
       "Material Precurso",
       "Línea de Comandos (CLI)"
