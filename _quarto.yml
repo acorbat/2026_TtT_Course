@@ -6,6 +6,7 @@ project:
     - "!COURSE_MASTER_PLAN.md"
     - "!AGENTS.md"
     - "!README.md"
+    - "precurso/"
     - "practicos/"
     - "presentaciones/"
     - "!admin/"
