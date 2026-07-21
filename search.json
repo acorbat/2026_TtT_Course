@@ -4,7 +4,7 @@
     "href": "program.html",
     "title": "Programa",
     "section": "",
-    "text": "09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Agustin Corbat)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Operaciones en imagenes (Lorena Sigaut?)\n\nDesde como abrir una imagen ahsta las operaciones básicas en y con imágenes\n\n\n\n\n\n\n\n\n\n13:30–14:10 - 🧠 Segmentación clásica y Cuantificación (Agustin Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:10–14:40 - ☕ Coffee Break\n14:40–16:30 - 🖥️ Segmentación y Cuantificación (Agustin Corbat/Lorena Sigaut)\n\nSesión práctica de segmentación y cuantificación\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n9:00–10:00 - 🧠 Workflows reproducibles (Anna Klemm?)\n\nPrincipios de flujos de trabajo reproducibles\n\n10:00–10:30 - ☕ Coffee Break\n11:00–13:00 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Agustin Corbat)\n\nComparación de GUI, macros y programación de distinto software\n\n\n\n\n\n\n\n\n\n14:00–16:30 - 🖥️ Taller de Git y Pixi (Mauro Silberberg)\n\nControl de versiones con Git y gestión de entornos con Pixi\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n09:00–10:00 - 🧠 Machine Learning (Agustin Corbat)\n\nFundamentos de Machine Learning para análisis de bioimágenes\nMachine Learning aplicado a segmentacion y a clasificacion de objetos\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:30 - 🖥️ Machine Learning (Agustin Corbat)\n\nAplicaciones de ML a segmentacion de bioimágenes\n\n\n\n\n\n\n\n\n\n13:30–15:00 - 🖥️ Clasificación de objetos (??)\n\nClasificación de objetos, reducción de dimensionalidad y clustering\n\n14:30–15:00 - ☕ Coffee Break\n15:00–17:00 - 🗫🖥️ BYOP - Other Tools (??)\n\nBring your own problem y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial…\n\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n\nTeoría y conceptos de Deep Learning\n\n11:00–13:00 - 🖥️ Taller de Deep Learning (Agustin Corbat)\n\nTaller práctico de Deep Learning\n\n\n\n\n\n\n\n\n\n14:00–14:30 - 🧠 Deep Learning (Agustin Corbat)\n\nModelos típicos usados en análisis de bioimágenes\n\n14:30–15:00 - ☕ Coffee Break\n15:00–16:30 - 🖥️ Taller de Cellpose, StarDist and friends (Agustin Corbat)\n\nHerramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursitos? (Rocco D’Antuono?)\n\nDiseño de cursos de capacitación y estrategias de enseñanza\n\n11:00–13:00 - 🗫 Discusiones sobre AI y como usarla (Agustin Corbat)\n\nDiscusión sobre el uso de AI en bioimágenes y diseño de clases\n\n\n\n\n\n\n\n\n\n14:00–16:00 - 🗫 (incluye ☕) Discusiones sobre los tutoriales de BYOP y otras herramientas\n\nPuesta en común de las herramientas exploradas en la sesión de BYOP - Other Tools\n\n16:00–17:00 - Cierre\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre",
+    "text": "09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Agustin Corbat)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Operaciones en imagenes (Lorena Sigaut?)\n\nDesde como abrir una imagen hasta las operaciones básicas en y con imágenes\n\n\n\n\n\n\n\n\n\n13:30–14:10 - 🧠 Segmentación clásica y Cuantificación (Agustin Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:10–14:40 - ☕ Coffee Break\n14:40–16:30 - 🖥️ Segmentación y Cuantificación (Agustin Corbat/Lorena Sigaut)\n\nSesión práctica de segmentación y cuantificación\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n9:00–10:00 - 🧠 Workflows reproducibles (Anna Klemm?)\n\nPrincipios de flujos de trabajo reproducibles\n\n10:00–10:30 - ☕ Coffee Break\n11:00–13:00 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Agustin Corbat)\n\nComparación de GUI, macros y programación de distinto software\n\n\n\n\n\n\n\n\n\n14:00–16:30 - 🖥️ Taller de Git y Pixi (Mauro Silberberg)\n\nControl de versiones con Git y gestión de entornos con Pixi\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n09:00–10:00 - 🧠 Machine Learning (Agustin Corbat)\n\nFundamentos de Machine Learning para análisis de bioimágenes\nMachine Learning aplicado a segmentacion y a clasificacion de objetos\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:30 - 🖥️ Machine Learning (Agustin Corbat)\n\nAplicaciones de ML a segmentacion de bioimágenes\n\n\n\n\n\n\n\n\n\n13:30–15:00 - 🖥️ Clasificación de objetos (??)\n\nClasificación de objetos, reducción de dimensionalidad y clustering\n\n14:30–15:00 - ☕ Coffee Break\n15:00–17:00 - 🗫🖥️ BYOP - Other Tools (??)\n\nBring your own problem y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial…\n\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n\nTeoría y conceptos de Deep Learning\n\n11:00–13:00 - 🖥️ Taller de Deep Learning (Agustin Corbat)\n\nTaller práctico de Deep Learning\n\n\n\n\n\n\n\n\n\n14:00–14:30 - 🧠 Deep Learning (Agustin Corbat)\n\nModelos típicos usados en análisis de bioimágenes\n\n14:30–15:00 - ☕ Coffee Break\n15:00–16:30 - 🖥️ Taller de Cellpose, StarDist and friends (Agustin Corbat)\n\nHerramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursitos? (Rocco D’Antuono?)\n\nDiseño de cursos de capacitación y estrategias de enseñanza\n\n11:00–13:00 - 🗫 Discusiones sobre AI y como usarla (Agustin Corbat)\n\nDiscusión sobre el uso de AI en bioimágenes y diseño de clases\n\n\n\n\n\n\n\n\n\n14:00–16:00 - 🗫 (incluye ☕) Discusiones sobre los tutoriales de BYOP y otras herramientas\n\nPuesta en común de las herramientas exploradas en la sesión de BYOP - Other Tools\n\n16:00–17:00 - Cierre\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre",
     "crumbs": [
       "Programa"
     ]
@@ -14,7 +14,7 @@
     "href": "program.html#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto",
     "title": "Programa",
     "section": "",
-    "text": "09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Agustin Corbat)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Operaciones en imagenes (Lorena Sigaut?)\n\nDesde como abrir una imagen ahsta las operaciones básicas en y con imágenes\n\n\n\n\n\n\n\n\n\n13:30–14:10 - 🧠 Segmentación clásica y Cuantificación (Agustin Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:10–14:40 - ☕ Coffee Break\n14:40–16:30 - 🖥️ Segmentación y Cuantificación (Agustin Corbat/Lorena Sigaut)\n\nSesión práctica de segmentación y cuantificación\n\n16:30–17:00 - Cierre",
+    "text": "09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Agustin Corbat)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Operaciones en imagenes (Lorena Sigaut?)\n\nDesde como abrir una imagen hasta las operaciones básicas en y con imágenes\n\n\n\n\n\n\n\n\n\n13:30–14:10 - 🧠 Segmentación clásica y Cuantificación (Agustin Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:10–14:40 - ☕ Coffee Break\n14:40–16:30 - 🖥️ Segmentación y Cuantificación (Agustin Corbat/Lorena Sigaut)\n\nSesión práctica de segmentación y cuantificación\n\n16:30–17:00 - Cierre",
     "crumbs": [
       "Programa"
     ]
@@ -167,6 +167,50 @@
     "crumbs": [
       "Presentaciones",
       "Inteligencia Artificial en Análisis de Bioimágenes"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html",
+    "href": "precurso/cli.html",
+    "title": "Línea de Comandos (CLI)",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.",
+    "crumbs": [
+      "Material Precurso",
+      "Línea de Comandos (CLI)"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html#video",
+    "href": "precurso/cli.html#video",
+    "title": "Línea de Comandos (CLI)",
+    "section": "Video",
+    "text": "Video",
+    "crumbs": [
+      "Material Precurso",
+      "Línea de Comandos (CLI)"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html#taller",
+    "href": "precurso/cli.html#taller",
+    "title": "Línea de Comandos (CLI)",
+    "section": "Taller",
+    "text": "Taller\n\nLink al taller en GitHub",
+    "crumbs": [
+      "Material Precurso",
+      "Línea de Comandos (CLI)"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html#citation",
+    "href": "precurso/cli.html#citation",
+    "title": "Línea de Comandos (CLI)",
+    "section": "Citation",
+    "text": "Citation\n[Add citation here]",
+    "crumbs": [
+      "Material Precurso",
+      "Línea de Comandos (CLI)"
     ]
   },
   {
@@ -598,6 +642,36 @@
     "crumbs": [
       "Practicos",
       "Visualization of 2D data"
+    ]
+  },
+  {
+    "objectID": "precurso/index.html",
+    "href": "precurso/index.html",
+    "title": "Material Precurso",
+    "section": "",
+    "text": "El siguiente material precurso es obligatorio para todos los participantes seleccionados. Los contenidos de este curso asumen que los participantes ya dominan estos temas antes del primer día. Si ya dominas los temas, no hace falta que los realices.\n\n\n\n\n\n\nImportantPrerequisitos del Curso\n\n\n\nAl comenzar el curso, los participantes deberán ser capaces de:\n\n\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.\n\n\n\n\n\nAbrir y visualizar imágenes en FIJI.\nAplicar operaciones básicas de procesamiento (filtros, ajuste de brillo/contraste).\nNavegar menús y plugins de FIJI.\n\n\n\n\n\nConocer la sintaxis básica de Python (variables, tipos de datos, funciones, bucles, condicionales).\nUtilizar Jupyter Notebooks o un entorno interactivo de Python.\nImportar y utilizar bibliotecas estándar (numpy, matplotlib).\nLeer y manipular arreglos numéricos básicos.",
+    "crumbs": [
+      "Material Precurso"
+    ]
+  },
+  {
+    "objectID": "precurso/index.html#acerca-del-material-precurso",
+    "href": "precurso/index.html#acerca-del-material-precurso",
+    "title": "Material Precurso",
+    "section": "",
+    "text": "El siguiente material precurso es obligatorio para todos los participantes seleccionados. Los contenidos de este curso asumen que los participantes ya dominan estos temas antes del primer día. Si ya dominas los temas, no hace falta que los realices.\n\n\n\n\n\n\nImportantPrerequisitos del Curso\n\n\n\nAl comenzar el curso, los participantes deberán ser capaces de:\n\n\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.\n\n\n\n\n\nAbrir y visualizar imágenes en FIJI.\nAplicar operaciones básicas de procesamiento (filtros, ajuste de brillo/contraste).\nNavegar menús y plugins de FIJI.\n\n\n\n\n\nConocer la sintaxis básica de Python (variables, tipos de datos, funciones, bucles, condicionales).\nUtilizar Jupyter Notebooks o un entorno interactivo de Python.\nImportar y utilizar bibliotecas estándar (numpy, matplotlib).\nLeer y manipular arreglos numéricos básicos.",
+    "crumbs": [
+      "Material Precurso"
+    ]
+  },
+  {
+    "objectID": "precurso/index.html#secciones",
+    "href": "precurso/index.html#secciones",
+    "title": "Material Precurso",
+    "section": "Secciones",
+    "text": "Secciones\nCada sección incluye un video introductorio en YouTube y un taller práctico en GitHub para que puedas prepararte a tu propio ritmo.\n\n\n\nTema\nDescripción\n\n\n\n\nLínea de Comandos (CLI)\nFundamentos de la terminal y navegación del sistema de archivos.\n\n\nFIJI / ImageJ\nIntroducción al procesamiento de imágenes con FIJI.\n\n\nPython\nFundamentos de programación en Python para análisis de datos.",
+    "crumbs": [
+      "Material Precurso"
     ]
   },
   {
