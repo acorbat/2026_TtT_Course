@@ -174,7 +174,18 @@
     "href": "precurso/cli.html",
     "title": "Línea de Comandos (CLI)",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.\nAca van a encontrar material educativo básico de como manejar la línea de comandos.\n:::\nLo primero a determinar es el sistema operativo que usamos. La sintaxis del CMD o PowerShell de Windows es distinta a la de Unix como en Mac o Linux. En el caso de estar usando Windows, hay varias opciones. Mi primer sugerencia es seguir lo que se describe acá.\n:::",
+    "crumbs": [
+      "Material Precurso",
+      "Línea de Comandos (CLI)"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html#link-a-workshop",
+    "href": "precurso/cli.html#link-a-workshop",
+    "title": "Línea de Comandos (CLI)",
+    "section": "Link a Workshop",
+    "text": "Link a Workshop\nPara comprender el manejo básico de la línea de comandos sugiero hacer hasta el capítulo 3 (Working with Files and Directories) inclusive del precurso de Software Carpentries shell novice.",
     "crumbs": [
       "Material Precurso",
       "Línea de Comandos (CLI)"
@@ -185,18 +196,7 @@
     "href": "precurso/cli.html#video",
     "title": "Línea de Comandos (CLI)",
     "section": "Video",
-    "text": "Video",
-    "crumbs": [
-      "Material Precurso",
-      "Línea de Comandos (CLI)"
-    ]
-  },
-  {
-    "objectID": "precurso/cli.html#taller",
-    "href": "precurso/cli.html#taller",
-    "title": "Línea de Comandos (CLI)",
-    "section": "Taller",
-    "text": "Taller\n\nLink al taller en GitHub",
+    "text": "Video\nEn el caso de querer ver un video en español, recomeindo ver hasta el tiempo 1:07:00 del taller de Git de la ComCom de 2024.\n\nAunque recomiendo el taller de Git de la ComCom, el miércoles vamos a realizar un taller de Git y Pixi en el taller.",
     "crumbs": [
       "Material Precurso",
       "Línea de Comandos (CLI)"
@@ -207,7 +207,7 @@
     "href": "precurso/cli.html#citation",
     "title": "Línea de Comandos (CLI)",
     "section": "Citation",
-    "text": "Citation\n[Add citation here]",
+    "text": "Citation\nGreg Wilson, Gerard Capes, Gabriel A. Devenyi, Christina Koch, Raniere Silva, Ashwin Srinath, Colin Morris, Mike Jackson, Andrew Boughton, Rémi Emonet, Francis Gacenga, Lex Nederbragt, csqrs, Damien Irving, Erin Alison Becker, Fatma Deniz, Marcel Stimberg, Robert A Beagrie, Daniel McCloy, … Vikram Chhatre. (2019, July 3). swcarpentry/shell-novice: Software Carpentry: the UNIX shell, June 2019. Zenodo. https://doi.org/10.5281/zenodo.3266823",
     "crumbs": [
       "Material Precurso",
       "Línea de Comandos (CLI)"
