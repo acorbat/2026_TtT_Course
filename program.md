@@ -6,9 +6,9 @@
 
 - 09:00--10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos. 
   * *¿Por qué un formato Train-the-Trainer en Latinoamérica?* Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)
-- 10:15--11:00 - 🧠 [Qué es el Análisis de Bioimágenes](presentaciones/que_es_bia.md) (Agustin Corbat)
+- 10:15--11:00 - 🧠 [Qué es el Análisis de Bioimágenes](presentaciones/que_es_bia.md) (Federico Lecumberry)
   * *Visión general del análisis de bioimágenes*
-- 11:00--12:30 - 🖥️ [Operaciones en imagenes](practicos/workshop_2d_images.md) (Lorena Sigaut?)
+- 11:00--12:30 - 🖥️ [Operaciones en imagenes](practicos/workshop_2d_images.md) (Lorena Sigaut)
   * *Desde como abrir una imagen hasta las operaciones básicas en y con imágenes*
 
 ### 🥗 Lunch break (12:30--13:30)
@@ -18,7 +18,7 @@
 - 13:30--14:10 - 🧠 [Segmentación clásica y Cuantificación](presentaciones/segmentacion_clasica_cuantificacion.md) (Agustin Corbat)
   * *Teoría de segmentación clásica y cuantificación*
 - 14:10--14:40 - ☕ **Coffee Break**
-- 14:40--16:30 - 🖥️ [Segmentación y Cuantificación](practicos/segmentation_quantification.md) (Agustin Corbat/Lorena Sigaut)
+- 14:40--16:30 - 🖥️ [Segmentación y Cuantificación](practicos/segmentation_quantification.md) (Agustin Corbat)
   * *Sesión práctica de segmentación y cuantificación*
 - 16:30--17:00 - **Cierre**
 
@@ -44,7 +44,7 @@
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 09:00--10:00 - 🧠 [Machine Learning](presentaciones/machine_learning.md) (Agustin Corbat)
+- 09:00--10:00 - 🧠 [Machine Learning](presentaciones/machine_learning.md) (Federico Lecumberry)
   * *Fundamentos de Machine Learning para análisis de bioimágenes*
   * *Machine Learning aplicado a segmentacion y a clasificacion de objetos*
 - 10:00--10:30 - ☕ **Coffee Break**
@@ -55,10 +55,10 @@
 
 ### 🌇 Tarde (13:30–17:00)
 
-- 13:30--15:00 - 🖥️ [Clasificación de objetos](practicos/object_classification.md) (??)
+- 13:30--15:00 - 🖥️ [Clasificación de objetos](practicos/object_classification.md) (Agustin Corbat)
   * *Clasificación de objetos, reducción de dimensionalidad y clustering*
 - 14:30--15:00 - ☕ **Coffee Break**
-- 15:00--17:00 - 🗫🖥️ [BYOP - Other Tools](practicos/other_tools.md) (??)
+- 15:00--17:00 - 🗫🖥️ [BYOP - Other Tools](practicos/other_tools.md) (Lorena Sigaut)
   * *Bring your own problem y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial...*
 
 
