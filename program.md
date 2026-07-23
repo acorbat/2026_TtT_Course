@@ -26,7 +26,7 @@
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 9:00--10:00 - 🧠 [Workflows reproducibles](presentaciones/workflows.md) (Anna Klemm?)
+- 9:00--10:00 - 🧠 [Workflows reproducibles](presentaciones/workflows.md) (Suganya Sivagurunathan)
   * *Principios de flujos de trabajo reproducibles*
 - 10:00--10:30 - ☕ **Coffee Break**
 - 11:00--13:00 - 🖥️ [Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)](practicos/interfaces.md) (Agustin Corbat)

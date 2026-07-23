@@ -101,6 +101,7 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 ### Profesores Invitados
 * **Dr. Enzo Ferrante** (UNL / CONICET, Argentina) – Teoría y fundamentos de Deep Learning aplicados a Bioimágenes.
 * **Dr. Federico Lecumberry** (Universidad de la República, Uruguay).
+* **Dra. Suganya Sivagurunathan** (BIIF, SciLifeLab / Uppsala University, Suecia) – Workflows reproducibles (virtual).
 
 ---
 

@@ -13,6 +13,8 @@ This document is the **working master plan** for organizing a **Train-the-Traine
 - **Regional scope:** Argentina and LATAM, with invited contributions from Uruguay, Sweden, and international bioimage-analysis networks
 - **Current funding reality:** the broader FUNDACEN proposal requested **AR$ 10.004.000**, but only **AR$ 1.000.000** is available for now from FUNDACEN; this makes prioritization essential. Additional funding from the electron microscopy course is still to be determined.
 - **Priority constraints:** participant travel assistance and waivers, local instructor preparation, required pre-course lecture curation, and potential travel support of up to AR$ 300.000 for Dr. Federico Lecumberry.
+- **Recent confirmed planning updates (2026-07-23):**
+  - **Invited Professors:** Anna Klemm (BIIF) will not be able to attend. Dra. Suganya Sivagurunathan (BIIF, SciLifeLab / Uppsala University, Sweden) confirmed to deliver a virtual session in her place, covering reproducible workflows and train-the-trainer practices.
 - **Recent confirmed planning updates (2026-07-20):**
   - **Registration & Selection:** Created the `registration-selection/` directory and `registration_selection.md` with links to registered participant data and email notification templates (acceptance with waiver commitment, and rejection) in Argentinian Spanish.
 - **Recent confirmed planning updates (2026-07-15):**
@@ -606,7 +608,7 @@ The FUNDACEN materials make clear that **local teaching staff are a major in-kin
 |---|---|---|---|---:|---|---|
 | Dr. Federico Lecumberry | Universidad de la República, Uruguay | Invited expert; possible contribution in segmentation/ML and full-time in-person support | To confirm (looking into traveling) | AR$ 300.000 (travel/accommodation) | Travel budget (allocating AR$ 300.000 max) | High priority to bring in person if travel confirms |
 | Dr. Enzo Ferrante | Universidad Nacional del Litoral / CONICET, Argentina | Theory lecture in Deep Learning foundations | Confirmed (delivering 2-hour virtual/in-person theory lecture) | Low local cost | local/virtual support | Agreed to participate; no major travel cost expected |
-| BIIF representative (1-2) | BioImage Informatics Facility (BIIF), Sweden | train-the-trainer perspective, workflows, good practices | Cancelled / Virtual presentation only | - | None (funding constraints) | Will look into virtual presentation options |
+| Dra. Suganya Sivagurunathan | BioImage Informatics Facility (BIIF), SciLifeLab / Uppsala University, Sweden | Invited expert; reproducible workflows, train-the-trainer perspective, and good practices (virtual session) | Confirmed (virtual) | No travel cost | N/A |
 | GloBIAS representative (e.g. Rocco D'Antuno) | Global BioImaging Analytical Support | global/community perspective | Cancelled / Virtual presentation only | - | None (funding constraints) | Will look into virtual presentation options |
 
 ### Local instructors / facilitators
@@ -622,8 +624,9 @@ The FUNDACEN materials make clear that **local teaching staff are a major in-kin
 
 ### Invitation strategy
 1. Prioritize travel funding (up to AR$ 300.000) for regional speaker (Federico Lecumberry) to attend in person and provide full-time support.
-2. Invite international speakers (BIIF, GloBIAS) to present virtually instead of on-site due to budget constraints.
-3. Coordinate with confirmed local instructors to co-design and prepare practical exercises.
+2. Dra. Suganya Sivagurunathan (BIIF) confirmed to deliver a virtual session. No travel costs.
+3. Invite GloBIAS representative to present virtually instead of on-site due to budget constraints.
+4. Coordinate with confirmed local instructors to co-design and prepare practical exercises.
 
 ### Local instructor preparation milestones
 - Formal invitation sent: **by 2026-06-06** (Done)
@@ -737,6 +740,7 @@ The broader proposal uses a differentiated fee scheme and includes waivers for F
 | 2026-07-02 | Open registration and publish call across X, BlueSky, LinkedIn, emails, and WhatsApp | Done |
 | 2026-07-06 | Send coordination email to local instructors, launch When2meet availability tracker, and set up Zulip chat workspace | Done |
 | 2026-07-15 | Finish the day-by-day program webpage and populate the `presentaciones/` and `practicos/` folders with initial skeleton files | Done |
+| 2026-07-23 | Anna Klemm (BIIF) unable to attend; replaced by Dra. Suganya Sivagurunathan (BIIF, SciLifeLab / Uppsala University, Sweden) as invited professor | Done |
 
 ---
 
