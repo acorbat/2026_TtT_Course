@@ -1,60 +1,46 @@
 ---
 title: Material Precurso
-subtitle: Contenidos y actividades preparatorias requeridas antes del inicio del curso.
+subtitle: Contenidos, software y actividades preparatorias requeridas antes del inicio del curso.
 ---
 
 ## Acerca del material precurso
 
-El siguiente material precurso es **obligatorio** para todos los participantes seleccionados. Los contenidos de este curso asumen que los participantes ya dominan estos temas antes del primer día. Si ya dominas los temas, no hace falta que los realices.
+Para poder aprovechar al máximo las sesiones presenciales, es fundamental realizar una preparación previa. El material precurso es **obligatorio** para todos los participantes seleccionados. El diseño del curso asume que los participantes ya dominan estos conceptos y herramientas antes del primer día, permitiéndonos centrar las clases presenciales en dinámicas de aprendizaje activo, pedagogía y resolución de dudas complejas.
 
-::: {.callout-important}
-## Prerequisitos del Curso
+El material compartido está diseñado para que te prepares a tu propio ritmo e incluye:
+- **Ejercicios prácticos** y guías paso a paso para consolidar lo aprendido.
+- **Material de lectura** y recursos complementarios.
+- **Videos explicativos** con talleres paso a paso o exposiciones teóricas.
 
-Al comenzar el curso, los participantes deberán ser capaces de:
+### ⚠️ Requisitos de Software e Instalación de Datos
 
-### Línea de Comandos (CLI)
+Antes de comenzar el curso, es necesario descargar e instalar varios programas y conjuntos de datos. **La conexión a internet en las aulas de la universidad puede ser lenta o inestable**, por lo que es sumamente importante que realices todas las descargas e instalaciones en tu hogar o lugar de trabajo antes de asistir al taller.
 
-- Navegar el sistema de archivos desde la terminal (`cd`, `ls`/`dir`, `pwd`).
+### 🧠 Conocimientos Básicos Necesarios
 
-- Crear, copiar, mover y eliminar archivos y directorios.
+Además de las herramientas de software, existe una base de conocimientos y terminología conceptual que debes comprender antes del inicio de las clases. Asegúrate de revisar y familiarizarte con estos conceptos básicos para que no te encuentres con barreras lingüísticas o conceptuales durante las discusiones.
 
-- Ejecutar programas y scripts desde la línea de comandos.
+### 💬 Consultas y Resolución de Dudas
 
-### FIJI / ImageJ
+Si tienes preguntas sobre los temas teóricos, problemas al instalar el software o dificultades con los ejercicios prácticos, no dudes en consultar. Puedes solicitar ayuda de las siguientes maneras:
 
-- Abrir y visualizar imágenes en FIJI.
+- A través del chat del curso en **Zulip**.
 
-- Aplicar operaciones básicas de procesamiento (filtros, ajuste de brillo/contraste).
+- Abriendo un **GitHub issue** en el repositorio oficial del curso: [GitHub Issues](https://github.com/acorbat/2026_TtT_Course/issues).
 
-- Navegar menús y plugins de FIJI.
+---
 
-### Python
+## Programas y Material para el Curso
 
-- Conocer la sintaxis básica de Python (variables, tipos de datos, funciones, bucles, condicionales).
-
-- Utilizar Jupyter Notebooks o un entorno interactivo de Python.
-
-- Importar y utilizar bibliotecas estándar (`numpy`, `matplotlib`).
-
-- Leer y manipular arreglos numéricos básicos.
-
-:::
-
-## Programas y material para el curso
-
-::: {.callout-important}
-
-Es fuertemente recomendado instalar varios programas y descargar paquetes de datos antes del curso ya que puede que las descargas desde la universidad sean lentas. Para eso recomendamos realizar todos los pasos de ésta sección.
-
-:::
+Recomendamos instalar y configurar las siguientes herramientas antes de asistir:
 
 ### Pixi
 
-[Pixi](https://pixi.prefix.dev/latest/) es un administrador de paquetes y puede instalarse siguiendo los pasos descriptos [aquí](https://pixi.prefix.dev/latest/#installation).
+[Pixi](https://pixi.prefix.dev/latest/) es un moderno gestor de paquetes y entornos que utilizaremos para asegurar que todos trabajemos con las mismas versiones de software. Sigue los pasos de instalación en [Pixi Installation](https://pixi.prefix.dev/latest/#installation).
 
 ### Git
 
-Una vez instalado `Pixi`, lo mejor es instalar `Git` a traves de `Pixi` con el siguiente comando
+Una vez que tengas Pixi en tu sistema, la forma recomendada de instalar Git de manera global es ejecutando en tu terminal:
 
 ```bash
 pixi global install git
@@ -62,26 +48,70 @@ pixi global install git
 
 ### Fiji
 
-[Fiji](https://imagej.net/software/fiji/) es un paquete para procesamiento de imágenes, también llamado ImageJ2 con baterias. Se distribuye en una versión [portable](https://imagej.net/software/fiji/downloads), es decir, que no hace falta instalarlo.
-
-### Material del curso
-
-Para descargar el material del curso, 
+[Fiji](https://imagej.net/software/fiji/) es una distribución de ImageJ preconfigurada con una amplia colección de plugins. Se distribuye como una versión portable (no requiere instalación formal, solo descomprimir). Descarga la versión adecuada para tu sistema operativo desde la [página de descargas de Fiji](https://imagej.net/software/fiji/downloads).
 
 ### ilastik
 
-Para descargar e instalar ilastik, recomendamos seguir los pasos en su [página](https://www.ilastik.org/documentation/basics/installation#basic-installation).
+[ilastik](https://www.ilastik.org/) es una herramienta interactiva para segmentación y clasificación de imágenes basada en aprendizaje automático. Consulta la [guía de instalación de ilastik](https://www.ilastik.org/documentation/basics/installation#basic-installation).
 
-### QuPath (opcional)
+### QuPath (Opcional)
 
-Si soles trabajar con muestras de histología o histopatología, muestras teñidas de gran tamaño o afínes, recomendamos que instales QuPath desde [su página](https://qupath.github.io/). Aunque no hay talleres específicamente dedicados, abordaremos algunos temas y habrá tiempo para que lo explores.
+Si tu trabajo está relacionado con muestras histológicas o imágenes de gran tamaño (WSI), te sugerimos instalar QuPath desde [su página oficial](https://qupath.github.io/). Aunque no forma parte de los talleres principales, abordaremos conceptos compatibles y dispondrás de espacio para resolver dudas sobre su uso.
 
-## Secciones
+---
 
-Cada sección incluye un video introductorio en YouTube y un taller práctico en GitHub para que puedas prepararte a tu propio ritmo.
+## Secciones y Temas Preparatorios
 
-| Tema | Descripción |
-|------|-------------|
-| [Línea de Comandos (CLI)](cli.md) | Fundamentos de la terminal y navegación del sistema de archivos. |
-| [FIJI / ImageJ](fiji.md) | Introducción al procesamiento de imágenes con FIJI. |
-| [Python](python.md) | Fundamentos de programación en Python para análisis de datos. |
+A continuación, se detallan los temas del precurso. Debes ingresar a cada página, completar las lecturas, ver los videos correspondientes y resolver los talleres prácticos indicados. Si manejas los temas descriptos en los objetivos de aprendizaje, no es necesario que hagas los ejercicios.
+
+### 💻 [Línea de Comandos (CLI)](cli.md)
+
+**Resumen:** Introducción a la terminal y comandos básicos para la navegación del sistema de archivos. Indispensable para ejecutar herramientas de desarrollo, versionado y automatización de flujos de trabajo.
+
+* **Objetivos de Aprendizaje:**
+
+  - Navegar el sistema de archivos desde la terminal (`cd`, `ls`/`dir`, `pwd`).
+
+  - Crear, copiar, mover y eliminar archivos y directorios.
+
+  - Ejecutar programas y scripts desde la línea de comandos.
+
+---
+
+### 🔬 [FIJI / ImageJ](fiji.md)
+
+**Resumen:** Introducción al procesamiento y análisis cuantitativo de bioimágenes utilizando la Fiji.
+
+* **Objetivos de Aprendizaje:**
+
+  - Abrir y visualizar imágenes en FIJI.
+
+  - Utilizar herramientas de selección y medición (ROIs).
+
+  - Navegar menús y plugins de FIJI.
+
+---
+
+### 🐍 [Python](python.md)
+
+**Resumen:** Fundamentos de sintaxis y programación en Python utilizando entornos interactivos, que servirán de base para las herramientas de análisis y automatización avanzadas.
+
+* **Objetivos de Aprendizaje:**
+
+  - Conocer la sintaxis básica de Python (variables, tipos de datos, funciones, bucles, condicionales).
+
+  - Utilizar Jupyter Notebooks o un entorno interactivo de Python.
+
+  - Importar y utilizar bibliotecas estándar (`numpy`, `matplotlib`).
+
+  - Leer y manipular arreglos numéricos básicos.
+
+---
+
+## 📚 Conceptos Básicos y Lenguaje Técnico
+
+Antes de iniciar el taller, es fundamental hablar el mismo idioma en cuanto a los términos propios de la disciplina. Te recomendamos dedicar un tiempo a estudiar la introducción y el glosario de términos esenciales de análisis de bioimágenes (píxeles, bits, dimensiones, formatos de archivo, etc.). A continuación encontrarás una clase de imagen digital dictada en el Curso de Fundamentos de Microscopía Óptica y de FLuorescencia de 2026 donde se abordan estos temas.
+
+{{< video https://www.youtube.com/watch?v=FPcSHpwuAYc>}}
+
+Corbat, A. A. (2026, May 11). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. https://doi.org/10.5281/zenodo.20126291
