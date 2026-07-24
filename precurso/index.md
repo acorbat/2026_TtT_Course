@@ -8,8 +8,11 @@ subtitle: Contenidos, software y actividades preparatorias requeridas antes del 
 Para poder aprovechar al máximo las sesiones presenciales, es fundamental realizar una preparación previa. El material precurso es **obligatorio** para todos los participantes seleccionados. El diseño del curso asume que los participantes ya dominan estos conceptos y herramientas antes del primer día, permitiéndonos centrar las clases presenciales en dinámicas de aprendizaje activo, pedagogía y resolución de dudas complejas.
 
 El material compartido está diseñado para que te prepares a tu propio ritmo e incluye:
+
 - **Ejercicios prácticos** y guías paso a paso para consolidar lo aprendido.
+
 - **Material de lectura** y recursos complementarios.
+
 - **Videos explicativos** con talleres paso a paso o exposiciones teóricas.
 
 ### ⚠️ Requisitos de Software e Instalación de Datos
