@@ -17,7 +17,7 @@ project:
 
 website:
   title: "🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)"
-  favicon: "media/lisium.svg"
+  favicon: "media/cma_logo.svg"
   open-graph: true
   twitter-card: true
   site-url: https://acorbat.github.io/2026_TtT_Course/
