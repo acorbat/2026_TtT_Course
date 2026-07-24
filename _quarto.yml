@@ -41,8 +41,40 @@ website:
         text: GitHub
 
   sidebar:
-    style: "floating"
-    contents: auto
+    style: "docked"
+    search: true
+    contents:
+      - index.md
+      - section: "Programa"
+        href: program.md
+      - section: "Precurso"
+        href: precurso/index.md
+        contents:
+          - precurso/cli.md
+          - precurso/fiji.md
+          - precurso/python.md
+      - section: "Presentaciones"
+        contents:
+          - presentaciones/que_es_bia.md
+          - presentaciones/segmentacion_clasica_cuantificacion.md
+          - presentaciones/workflows.md
+          - presentaciones/machine_learning.md
+          - presentaciones/deep_learning.md
+          - presentaciones/deep_learning_biomodels.md
+          - presentaciones/teaching.md
+          - presentaciones/ai_in_bia.md
+      - section: "Prácticos"
+        contents:
+          - practicos/workshop_2d_images.md
+          - practicos/segmentation_quantification.md
+          - practicos/interfaces.md
+          - practicos/git_pixi.md
+          - practicos/machine_learning.md
+          - practicos/object_classification.md
+          - practicos/other_tools.md
+          - practicos/deep_learning_generic.md
+          - practicos/deep_learning_biomodels.md
+      - resources.md
 
 bibliography: references.bib
 
