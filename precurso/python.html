@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Otras herramientas para explorar (BYOP) – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)</title>
+<title>Python – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -36,8 +71,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../practicos/deep_learning_generic.html" rel="next">
-<link href="../practicos/object_classification.html" rel="prev">
+<link href="../presentaciones/que_es_bia.html" rel="next">
+<link href="../precurso/cli.html" rel="prev">
 <link href="../media/cma_logo.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -79,11 +114,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Otras herramientas para explorar (BYOP) – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
-<meta property="og:description" content="¿Cómo sigue el análisis de imágenes?">
+<meta property="og:title" content="Python – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
+<meta property="og:description" content="Fundamentos de programación en Python para análisis de datos.">
 <meta property="og:site_name" content="🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
-<meta name="twitter:title" content="Otras herramientas para explorar (BYOP) – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
-<meta name="twitter:description" content="¿Cómo sigue el análisis de imágenes?">
+<meta name="twitter:title" content="Python – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
+<meta name="twitter:description" content="Fundamentos de programación en Python para análisis de datos.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -109,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../practicos/workshop_2d_images.html">Prácticos</a></li><li class="breadcrumb-item"><a href="../practicos/other_tools.html">Otras herramientas para explorar (BYOP)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../precurso/index.html">Precurso</a></li><li class="breadcrumb-item"><a href="../precurso/python.html">Python</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../precurso/python.html" class="sidebar-item-text sidebar-link">
+  <a href="../precurso/python.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Python</span></a>
   </div>
 </li>
@@ -271,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practicos/other_tools.html" class="sidebar-item-text sidebar-link active">
+  <a href="../practicos/other_tools.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Otras herramientas para explorar (BYOP)</span></a>
   </div>
 </li>
@@ -302,28 +337,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#opciones-de-herramientas-a-abordar" id="toc-opciones-de-herramientas-a-abordar" class="nav-link active" data-scroll-target="#opciones-de-herramientas-a-abordar">Opciones de herramientas a abordar</a>
-  <ul>
-  <li><a href="#tracking" id="toc-tracking" class="nav-link" data-scroll-target="#tracking">Tracking</a></li>
-  <li><a href="#colocalización" id="toc-colocalización" class="nav-link" data-scroll-target="#colocalización">Colocalización</a></li>
-  <li><a href="#image-registration" id="toc-image-registration" class="nav-link" data-scroll-target="#image-registration">Image Registration</a></li>
-  <li><a href="#spectral-unmixing" id="toc-spectral-unmixing" class="nav-link" data-scroll-target="#spectral-unmixing">Spectral Unmixing</a></li>
-  <li><a href="#phasors" id="toc-phasors" class="nav-link" data-scroll-target="#phasors">Phasors</a></li>
-  <li><a href="#deconvolution" id="toc-deconvolution" class="nav-link" data-scroll-target="#deconvolution">Deconvolution</a></li>
-  <li><a href="#spatial-transcriptomics" id="toc-spatial-transcriptomics" class="nav-link" data-scroll-target="#spatial-transcriptomics">Spatial Transcriptomics</a></li>
-  </ul></li>
-  <li><a href="#link-al-taller" id="toc-link-al-taller" class="nav-link" data-scroll-target="#link-al-taller">Link al taller</a></li>
+  <li><a href="#taller-y-material-de-referencia" id="toc-taller-y-material-de-referencia" class="nav-link active" data-scroll-target="#taller-y-material-de-referencia">Taller y Material de Referencia</a></li>
+  <li><a href="#configuración-del-entorno-de-trabajo" id="toc-configuración-del-entorno-de-trabajo" class="nav-link" data-scroll-target="#configuración-del-entorno-de-trabajo">Configuración del Entorno de Trabajo</a></li>
+  <li><a href="#actividades-a-realizar" id="toc-actividades-a-realizar" class="nav-link" data-scroll-target="#actividades-a-realizar">Actividades a Realizar</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/practicos/other_tools.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/precurso/python.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../practicos/workshop_2d_images.html">Prácticos</a></li><li class="breadcrumb-item"><a href="../practicos/other_tools.html">Otras herramientas para explorar (BYOP)</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../precurso/index.html">Precurso</a></li><li class="breadcrumb-item"><a href="../precurso/python.html">Python</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Otras herramientas para explorar (BYOP)</h1>
-<p class="subtitle lead">¿Cómo sigue el análisis de imágenes?</p>
+<h1 class="title">Python</h1>
+<p class="subtitle lead">Fundamentos de programación en Python para análisis de datos.</p>
 </div>
 
 
@@ -350,64 +377,47 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Al finalizar la sesión, los alumnos serán capaces de:</p>
+<p>Al finalizar esta preparación, los participantes serán capaces de:</p>
 <ul>
-<li><p>Explorar de forma autónoma herramientas de bioimagen alternativas para problemas específicos.</p></li>
-<li><p>Definir un plan para abordar su propio problema biológico (“Bring Your Own Problem” - BYOP) utilizando las herramientas vistas o nuevas.</p></li>
+<li><p>Conocer la sintaxis básica de Python (variables, tipos de datos, funciones, bucles, condicionales).</p></li>
+<li><p>Utilizar Jupyter Notebooks o un entorno interactivo de Python.</p></li>
+<li><p>Importar y utilizar bibliotecas estándar (<code>numpy</code>, <code>matplotlib</code>).</p></li>
+<li><p>Leer y manipular arreglos numéricos básicos.</p></li>
 </ul>
 </div>
 </div>
-<section id="opciones-de-herramientas-a-abordar" class="level2">
-<h2 class="anchored" data-anchor-id="opciones-de-herramientas-a-abordar">Opciones de herramientas a abordar</h2>
-<section id="tracking" class="level3">
-<h3 class="anchored" data-anchor-id="tracking">Tracking</h3>
+<p>Python es un lenguaje de programación de alto nivel, dinámico y multipropósito, ampliamente utilizado en ciencia de datos y análisis de bioimágenes por su sintaxis clara y su robusto ecosistema de bibliotecas. A continuación se presentan los enlaces al material del taller, aunque realizaremos la instalación de Python de una manera diferente.</p>
+<section id="taller-y-material-de-referencia" class="level2">
+<h2 class="anchored" data-anchor-id="taller-y-material-de-referencia">Taller y Material de Referencia</h2>
+<p>Aunque recomendamos realizar una instalación como la que se describe en la siguiente sección, el material oficial de referencia para este taller se encuentra en:</p>
 <ul>
-<li><p>ultrack</p></li>
-<li><p>TrackMate</p></li>
+<li><p><a href="https://github.com/maurosilber/python-tutorial">Taller de Python en GitHub</a> (repositorio original).</p></li>
+<li><p><a href="https://maurosilber.github.io/python-tutorial">Página web del Tutorial</a>.</p></li>
 </ul>
 </section>
-<section id="colocalización" class="level3">
-<h3 class="anchored" data-anchor-id="colocalización">Colocalización</h3>
-<ul>
-<li>Por ejemplo recomandaciones en el video <a href="https://www.youtube.com/watch?v=oiG-EnpVXKs">Understanding and Measuring Colocalization in Fiji and CellProfiler</a> de Esteban Miglietta en el I2K.</li>
-</ul>
+<section id="configuración-del-entorno-de-trabajo" class="level2">
+<h2 class="anchored" data-anchor-id="configuración-del-entorno-de-trabajo">Configuración del Entorno de Trabajo</h2>
+<p>Para este curso, en lugar de realizar una instalación global de Python o usar otras herramientas, utilizaremos <code>pixi</code> para inicializar y gestionar el entorno de forma reproducible. Sigue estos pasos:</p>
+<ol type="1">
+<li><p><strong>Crear una carpeta de trabajo</strong>: Abre tu terminal y crea un nuevo directorio llamado <code>python-tutorial</code>, luego ingresa a él:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> python-tutorial</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> python-tutorial</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Inicializar el proyecto</strong>: Crea un nuevo proyecto de <code>pixi</code> ejecutando:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pixi</span> init</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Agregar dependencias</strong>: Añade Python, Jupyter y las librerías científicas necesarias corriendo:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pixi</span> add python jupyter numpy matplotlib</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Iniciar Jupyter Notebook</strong>: Para abrir Jupyter Notebook y comenzar a escribir código, ejecuta:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pixi</span> run jupyter notebook</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Esto iniciará el servidor de Jupyter y abrirá la interfaz en tu navegador web. Desde allí podrás crear cuadernos interactivos (<code>.ipynb</code>) y seguir el tutorial.</p></li>
+</ol>
 </section>
-<section id="image-registration" class="level3">
-<h3 class="anchored" data-anchor-id="image-registration">Image Registration</h3>
-<ul>
-<li><p><a href="https://valis.readthedocs.io/en/latest/">Valis</a></p></li>
-<li><p><a href="https://imagej.net/plugins/bdv/warpy/warpy">Warpy</a></p></li>
-</ul>
-</section>
-<section id="spectral-unmixing" class="level3">
-<h3 class="anchored" data-anchor-id="spectral-unmixing">Spectral Unmixing</h3>
-</section>
-<section id="phasors" class="level3">
-<h3 class="anchored" data-anchor-id="phasors">Phasors</h3>
-<ul>
-<li>Phasorpy</li>
-</ul>
-</section>
-<section id="deconvolution" class="level3">
-<h3 class="anchored" data-anchor-id="deconvolution">Deconvolution</h3>
-<ul>
-<li><a href="https://bigwww.epfl.ch/deconvolution/deconvolutionlab2/">DeconvolutionLab2</a></li>
-</ul>
-</section>
-<section id="spatial-transcriptomics" class="level3">
-<h3 class="anchored" data-anchor-id="spatial-transcriptomics">Spatial Transcriptomics</h3>
-<ul>
-<li><a href="https://github.com/BIIFSweden/I2K2024-MTIWorkshop">Multiplexed Tissue Imaging Tools</a></li>
-</ul>
-</section>
-</section>
-<section id="link-al-taller" class="level2">
-<h2 class="anchored" data-anchor-id="link-al-taller">Link al taller</h2>
-<p><a href="">Link al taller</a></p>
+<section id="actividades-a-realizar" class="level2">
+<h2 class="anchored" data-anchor-id="actividades-a-realizar">Actividades a Realizar</h2>
+<p>Debes seguir los pasos del material del taller disponible en <a href="https://maurosilber.github.io/python-tutorial">https://maurosilber.github.io/python-tutorial</a> y completar las explicaciones y ejercicios hasta la sección de <strong>Numpy y matplotlib</strong> inclusive.</p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p>[Add citation here]</p>
+<p>M. Silberberg (2023). Introducción a Python.</p>
 
 
 </section>
@@ -815,13 +825,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../practicos/object_classification.html" class="pagination-link" aria-label="Object Classification, Dimensionality Reduction, and Clustering">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Object Classification, Dimensionality Reduction, and Clustering</span>
+      <a href="../precurso/cli.html" class="pagination-link" aria-label="Línea de Comandos (CLI)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Línea de Comandos (CLI)</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../practicos/deep_learning_generic.html" class="pagination-link" aria-label="Deep Learning Foundations">
-        <span class="nav-page-text">Deep Learning Foundations</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../presentaciones/que_es_bia.html" class="pagination-link" aria-label="¿Qué es Análisis de Bioimágenes?">
+        <span class="nav-page-text">¿Qué es Análisis de Bioimágenes?</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -839,7 +849,7 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/practicos/other_tools.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/precurso/python.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
