@@ -65,4 +65,4 @@ Debes seguir los pasos del material del taller disponible en [https://maurosilbe
 
 ## Citation
 
-M. Silberberg (2023). Introducción a Python.
+Mauro Silberberg. (2026). maurosilber/python-tutorial: 20260724 (Version 20260724) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21539956
