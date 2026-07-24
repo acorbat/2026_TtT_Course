@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -38,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <link href="../precurso/cli.html" rel="next">
 <link href="../program.html" rel="prev">
-<link href="../media/lisium.svg" rel="icon" type="image/svg+xml">
+<link href="../media/cma_logo.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -48,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0f144326a4682f1ec220ca10c77c1cbb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-fe6f6cb496039b3f8e9a6e58b06794c5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,14 +115,14 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Material Precurso – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
-<meta property="og:description" content="Contenidos y actividades preparatorias requeridas antes del inicio del curso.">
+<meta property="og:description" content="Contenidos, software y actividades preparatorias requeridas antes del inicio del curso.">
 <meta property="og:site_name" content="🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
 <meta name="twitter:title" content="Material Precurso – 🔬 Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)">
-<meta name="twitter:description" content="Contenidos y actividades preparatorias requeridas antes del inicio del curso.">
+<meta name="twitter:description" content="Contenidos, software y actividades preparatorias requeridas antes del inicio del curso.">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,45 +144,40 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../precurso/index.html">Material Precurso</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../precurso/index.html">Precurso</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../program.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Programa</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inicio</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../precurso/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Material Precurso</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../precurso/cli.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Línea de Comandos (CLI)</span></a>
-  </div>
-</li>
-      </ul>
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Programa</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Practicos</span></a>
+            <a href="../precurso/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Precurso</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -155,26 +185,108 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practicos/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cellpose, StarDist, and Friends</span></a>
+  <a href="../precurso/cli.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Línea de Comandos (CLI)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+ <span class="menu-text">precurso/fiji.md</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">precurso/python.md</span>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Presentaciones</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../presentaciones/que_es_bia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">¿Qué es Análisis de Bioimágenes?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practicos/deep_learning_generic.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Deep Learning Foundations</span></a>
+  <a href="../presentaciones/segmentacion_clasica_cuantificacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Segmentación clásica y Cuantificación</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practicos/git_pixi.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Version Control with Git and Environment Management with Pixi</span></a>
+  <a href="../presentaciones/workflows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workflows reproducibles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../presentaciones/machine_learning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Machine Learning</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../presentaciones/deep_learning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deep Learning</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../presentaciones/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deep Learning y Modelos Biomodelos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../presentaciones/teaching.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">¿Cómo hacer escuelas y cursos?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../presentaciones/ai_in_bia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inteligencia Artificial en Análisis de Bioimágenes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Prácticos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/workshop_2d_images.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Visualization of 2D data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/segmentation_quantification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Segmentación clásica y Cuantificación</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practicos/interfaces.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Comparing Graphical User Interfaces (GUI), Macros, and Coding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practicos/git_pixi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Version Control with Git and Environment Management with Pixi</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -197,76 +309,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practicos/segmentation_quantification.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Segmentación clásica y Cuantificación</span></a>
+  <a href="../practicos/deep_learning_generic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deep Learning Foundations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practicos/workshop_2d_images.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Visualization of 2D data</span></a>
+  <a href="../practicos/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cellpose, StarDist, and Friends</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Presentaciones</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../presentaciones/ai_in_bia.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Inteligencia Artificial en Análisis de Bioimágenes</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../presentaciones/deep_learning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Deep Learning</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../presentaciones/deep_learning_biomodels.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Deep Learning y Modelos Biomodelos</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../presentaciones/machine_learning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Machine Learning</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../presentaciones/que_es_bia.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">¿Qué es Análisis de Bioimágenes?</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../presentaciones/segmentacion_clasica_cuantificacion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Segmentación clásica y Cuantificación</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../presentaciones/teaching.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">¿Cómo hacer escuelas y cursos?</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../presentaciones/workflows.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workflows reproducibles</span></a>
-  </div>
-</li>
-      </ul>
+        <li class="sidebar-item">
+ <span class="menu-text">resources.md</span>
   </li>
     </ul>
     </div>
@@ -278,8 +334,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#acerca-del-material-precurso" id="toc-acerca-del-material-precurso" class="nav-link active" data-scroll-target="#acerca-del-material-precurso">Acerca del material precurso</a></li>
-  <li><a href="#secciones" id="toc-secciones" class="nav-link" data-scroll-target="#secciones">Secciones</a></li>
+  <li><a href="#acerca-del-material-precurso" id="toc-acerca-del-material-precurso" class="nav-link active" data-scroll-target="#acerca-del-material-precurso">Acerca del material precurso</a>
+  <ul>
+  <li><a href="#requisitos-de-software-e-instalación-de-datos" id="toc-requisitos-de-software-e-instalación-de-datos" class="nav-link" data-scroll-target="#requisitos-de-software-e-instalación-de-datos">⚠️ Requisitos de Software e Instalación de Datos</a></li>
+  <li><a href="#conocimientos-básicos-necesarios" id="toc-conocimientos-básicos-necesarios" class="nav-link" data-scroll-target="#conocimientos-básicos-necesarios">🧠 Conocimientos Básicos Necesarios</a></li>
+  <li><a href="#consultas-y-resolución-de-dudas" id="toc-consultas-y-resolución-de-dudas" class="nav-link" data-scroll-target="#consultas-y-resolución-de-dudas">💬 Consultas y Resolución de Dudas</a></li>
+  </ul></li>
+  <li><a href="#programas-y-material-para-el-curso" id="toc-programas-y-material-para-el-curso" class="nav-link" data-scroll-target="#programas-y-material-para-el-curso">Programas y Material para el Curso</a>
+  <ul>
+  <li><a href="#pixi" id="toc-pixi" class="nav-link" data-scroll-target="#pixi">Pixi</a></li>
+  <li><a href="#git" id="toc-git" class="nav-link" data-scroll-target="#git">Git</a></li>
+  <li><a href="#fiji" id="toc-fiji" class="nav-link" data-scroll-target="#fiji">Fiji</a></li>
+  <li><a href="#ilastik" id="toc-ilastik" class="nav-link" data-scroll-target="#ilastik">ilastik</a></li>
+  <li><a href="#qupath-opcional" id="toc-qupath-opcional" class="nav-link" data-scroll-target="#qupath-opcional">QuPath (Opcional)</a></li>
+  </ul></li>
+  <li><a href="#secciones-y-temas-preparatorios" id="toc-secciones-y-temas-preparatorios" class="nav-link" data-scroll-target="#secciones-y-temas-preparatorios">Secciones y Temas Preparatorios</a>
+  <ul>
+  <li><a href="#línea-de-comandos-cli" id="toc-línea-de-comandos-cli" class="nav-link" data-scroll-target="#línea-de-comandos-cli">💻 Línea de Comandos (CLI)</a></li>
+  <li><a href="#fiji-imagej" id="toc-fiji-imagej" class="nav-link" data-scroll-target="#fiji-imagej">🔬 FIJI / ImageJ</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">🐍 Python</a></li>
+  </ul></li>
+  <li><a href="#conceptos-básicos-y-lenguaje-técnico" id="toc-conceptos-básicos-y-lenguaje-técnico" class="nav-link" data-scroll-target="#conceptos-básicos-y-lenguaje-técnico">📚 Conceptos Básicos y Lenguaje Técnico</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/precurso/index.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -289,7 +364,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Material Precurso</h1>
-<p class="subtitle lead">Contenidos y actividades preparatorias requeridas antes del inicio del curso.</p>
+<p class="subtitle lead">Contenidos, software y actividades preparatorias requeridas antes del inicio del curso.</p>
 </div>
 
 
@@ -308,71 +383,101 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="acerca-del-material-precurso" class="level2">
 <h2 class="anchored" data-anchor-id="acerca-del-material-precurso">Acerca del material precurso</h2>
-<p>El siguiente material precurso es <strong>obligatorio</strong> para todos los participantes seleccionados. Los contenidos de este curso asumen que los participantes ya dominan estos temas antes del primer día. Si ya dominas los temas, no hace falta que los realices.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Prerequisitos del Curso
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Al comenzar el curso, los participantes deberán ser capaces de:</p>
+<p>Para poder aprovechar al máximo las sesiones presenciales, es fundamental realizar una preparación previa. El material precurso es <strong>obligatorio</strong> para todos los participantes seleccionados. El diseño del curso asume que los participantes ya dominan estos conceptos y herramientas antes del primer día, permitiéndonos centrar las clases presenciales en dinámicas de aprendizaje activo, pedagogía y resolución de dudas complejas.</p>
+<p>El material compartido está diseñado para que te prepares a tu propio ritmo e incluye: - <strong>Ejercicios prácticos</strong> y guías paso a paso para consolidar lo aprendido. - <strong>Material de lectura</strong> y recursos complementarios. - <strong>Videos explicativos</strong> con talleres paso a paso o exposiciones teóricas.</p>
+<section id="requisitos-de-software-e-instalación-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="requisitos-de-software-e-instalación-de-datos">⚠️ Requisitos de Software e Instalación de Datos</h3>
+<p>Antes de comenzar el curso, es necesario descargar e instalar varios programas y conjuntos de datos. <strong>La conexión a internet en las aulas de la universidad puede ser lenta o inestable</strong>, por lo que es sumamente importante que realices todas las descargas e instalaciones en tu hogar o lugar de trabajo antes de asistir al taller.</p>
+</section>
+<section id="conocimientos-básicos-necesarios" class="level3">
+<h3 class="anchored" data-anchor-id="conocimientos-básicos-necesarios">🧠 Conocimientos Básicos Necesarios</h3>
+<p>Además de las herramientas de software, existe una base de conocimientos y terminología conceptual que debes comprender antes del inicio de las clases. Asegúrate de revisar y familiarizarte con estos conceptos básicos para que no te encuentres con barreras lingüísticas o conceptuales durante las discusiones.</p>
+</section>
+<section id="consultas-y-resolución-de-dudas" class="level3">
+<h3 class="anchored" data-anchor-id="consultas-y-resolución-de-dudas">💬 Consultas y Resolución de Dudas</h3>
+<p>Si tienes preguntas sobre los temas teóricos, problemas al instalar el software o dificultades con los ejercicios prácticos, no dudes en consultar. Puedes solicitar ayuda de las siguientes maneras:</p>
+<ul>
+<li><p>A través del chat del curso en <strong>Zulip</strong>.</p></li>
+<li><p>Abriendo un <strong>GitHub issue</strong> en el repositorio oficial del curso: <a href="https://github.com/acorbat/2026_TtT_Course/issues">GitHub Issues</a>.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="programas-y-material-para-el-curso" class="level2">
+<h2 class="anchored" data-anchor-id="programas-y-material-para-el-curso">Programas y Material para el Curso</h2>
+<p>Recomendamos instalar y configurar las siguientes herramientas antes de asistir:</p>
+<section id="pixi" class="level3">
+<h3 class="anchored" data-anchor-id="pixi">Pixi</h3>
+<p><a href="https://pixi.prefix.dev/latest/">Pixi</a> es un moderno gestor de paquetes y entornos que utilizaremos para asegurar que todos trabajemos con las mismas versiones de software. Sigue los pasos de instalación en <a href="https://pixi.prefix.dev/latest/#installation">Pixi Installation</a>.</p>
+</section>
+<section id="git" class="level3">
+<h3 class="anchored" data-anchor-id="git">Git</h3>
+<p>Una vez que tengas Pixi en tu sistema, la forma recomendada de instalar Git de manera global es ejecutando en tu terminal:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pixi</span> global install git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="fiji" class="level3">
+<h3 class="anchored" data-anchor-id="fiji">Fiji</h3>
+<p><a href="https://imagej.net/software/fiji/">Fiji</a> es una distribución de ImageJ preconfigurada con una amplia colección de plugins. Se distribuye como una versión portable (no requiere instalación formal, solo descomprimir). Descarga la versión adecuada para tu sistema operativo desde la <a href="https://imagej.net/software/fiji/downloads">página de descargas de Fiji</a>.</p>
+</section>
+<section id="ilastik" class="level3">
+<h3 class="anchored" data-anchor-id="ilastik">ilastik</h3>
+<p><a href="https://www.ilastik.org/">ilastik</a> es una herramienta interactiva para segmentación y clasificación de imágenes basada en aprendizaje automático. Consulta la <a href="https://www.ilastik.org/documentation/basics/installation#basic-installation">guía de instalación de ilastik</a>.</p>
+</section>
+<section id="qupath-opcional" class="level3">
+<h3 class="anchored" data-anchor-id="qupath-opcional">QuPath (Opcional)</h3>
+<p>Si tu trabajo está relacionado con muestras histológicas o imágenes de gran tamaño (WSI), te sugerimos instalar QuPath desde <a href="https://qupath.github.io/">su página oficial</a>. Aunque no forma parte de los talleres principales, abordaremos conceptos compatibles y dispondrás de espacio para resolver dudas sobre su uso.</p>
+<hr>
+</section>
+</section>
+<section id="secciones-y-temas-preparatorios" class="level2">
+<h2 class="anchored" data-anchor-id="secciones-y-temas-preparatorios">Secciones y Temas Preparatorios</h2>
+<p>A continuación, se detallan los temas del precurso. Debes ingresar a cada página, completar las lecturas, ver los videos correspondientes y resolver los talleres prácticos indicados. Si manejas los temas descriptos en los objetivos de aprendizaje, no es necesario que hagas los ejercicios.</p>
 <section id="línea-de-comandos-cli" class="level3">
-<h3 class="anchored" data-anchor-id="línea-de-comandos-cli">Línea de Comandos (CLI)</h3>
+<h3 class="anchored" data-anchor-id="línea-de-comandos-cli">💻 <a href="../precurso/cli.html">Línea de Comandos (CLI)</a></h3>
+<p><strong>Resumen:</strong> Introducción a la terminal y comandos básicos para la navegación del sistema de archivos. Indispensable para ejecutar herramientas de desarrollo, versionado y automatización de flujos de trabajo.</p>
+<ul>
+<li><p><strong>Objetivos de Aprendizaje:</strong></p>
 <ul>
 <li><p>Navegar el sistema de archivos desde la terminal (<code>cd</code>, <code>ls</code>/<code>dir</code>, <code>pwd</code>).</p></li>
 <li><p>Crear, copiar, mover y eliminar archivos y directorios.</p></li>
 <li><p>Ejecutar programas y scripts desde la línea de comandos.</p></li>
+</ul></li>
 </ul>
+<hr>
 </section>
 <section id="fiji-imagej" class="level3">
-<h3 class="anchored" data-anchor-id="fiji-imagej">FIJI / ImageJ</h3>
+<h3 class="anchored" data-anchor-id="fiji-imagej">🔬 <a href="fiji.md">FIJI / ImageJ</a></h3>
+<p><strong>Resumen:</strong> Introducción al procesamiento y análisis cuantitativo de bioimágenes utilizando la Fiji.</p>
+<ul>
+<li><p><strong>Objetivos de Aprendizaje:</strong></p>
 <ul>
 <li><p>Abrir y visualizar imágenes en FIJI.</p></li>
-<li><p>Aplicar operaciones básicas de procesamiento (filtros, ajuste de brillo/contraste).</p></li>
+<li><p>Utilizar herramientas de selección y medición (ROIs).</p></li>
 <li><p>Navegar menús y plugins de FIJI.</p></li>
+</ul></li>
 </ul>
+<hr>
 </section>
 <section id="python" class="level3">
-<h3 class="anchored" data-anchor-id="python">Python</h3>
+<h3 class="anchored" data-anchor-id="python">🐍 <a href="python.md">Python</a></h3>
+<p><strong>Resumen:</strong> Fundamentos de sintaxis y programación en Python utilizando entornos interactivos, que servirán de base para las herramientas de análisis y automatización avanzadas.</p>
+<ul>
+<li><p><strong>Objetivos de Aprendizaje:</strong></p>
 <ul>
 <li><p>Conocer la sintaxis básica de Python (variables, tipos de datos, funciones, bucles, condicionales).</p></li>
 <li><p>Utilizar Jupyter Notebooks o un entorno interactivo de Python.</p></li>
 <li><p>Importar y utilizar bibliotecas estándar (<code>numpy</code>, <code>matplotlib</code>).</p></li>
 <li><p>Leer y manipular arreglos numéricos básicos.</p></li>
+</ul></li>
 </ul>
+<hr>
 </section>
-</div>
-</div>
 </section>
-<section id="secciones" class="level2">
-<h2 class="anchored" data-anchor-id="secciones">Secciones</h2>
-<p>Cada sección incluye un video introductorio en YouTube y un taller práctico en GitHub para que puedas prepararte a tu propio ritmo.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Tema</th>
-<th>Descripción</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="../precurso/cli.html">Línea de Comandos (CLI)</a></td>
-<td>Fundamentos de la terminal y navegación del sistema de archivos.</td>
-</tr>
-<tr class="even">
-<td><a href="fiji.md">FIJI / ImageJ</a></td>
-<td>Introducción al procesamiento de imágenes con FIJI.</td>
-</tr>
-<tr class="odd">
-<td><a href="python.md">Python</a></td>
-<td>Fundamentos de programación en Python para análisis de datos.</td>
-</tr>
-</tbody>
-</table>
+<section id="conceptos-básicos-y-lenguaje-técnico" class="level2">
+<h2 class="anchored" data-anchor-id="conceptos-básicos-y-lenguaje-técnico">📚 Conceptos Básicos y Lenguaje Técnico</h2>
+<p>Antes de iniciar el taller, es fundamental hablar el mismo idioma en cuanto a los términos propios de la disciplina. Te recomendamos dedicar un tiempo a estudiar la introducción y el glosario de términos esenciales de análisis de bioimágenes (píxeles, bits, dimensiones, formatos de archivo, etc.). A continuación encontrarás una clase de imagen digital dictada en el Curso de Fundamentos de Microscopía Óptica y de FLuorescencia de 2026 donde se abordan estos temas.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/FPcSHpwuAYc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Corbat, A. A. (2026, May 11). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. https://doi.org/10.5281/zenodo.20126291</p>
 
 
 </section>
