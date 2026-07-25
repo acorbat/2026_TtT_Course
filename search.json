@@ -214,7 +214,17 @@
     "href": "precurso/index.html#conceptos-básicos-y-lenguaje-técnico",
     "title": "Material Precurso",
     "section": "📚 Conceptos Básicos y Lenguaje Técnico",
-    "text": "📚 Conceptos Básicos y Lenguaje Técnico\nAntes de iniciar el taller, es fundamental hablar el mismo idioma en cuanto a los términos propios de la disciplina. Te recomendamos dedicar un tiempo a estudiar la introducción y el glosario de términos esenciales de análisis de bioimágenes (píxeles, bits, dimensiones, formatos de archivo, etc.). A continuación encontrarás una clase de imagen digital dictada en el Curso de Fundamentos de Microscopía Óptica y de FLuorescencia de 2026 donde se abordan estos temas.\n\nCorbat, A. A. (2026, May 11). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. https://doi.org/10.5281/zenodo.20126291",
+    "text": "📚 Conceptos Básicos y Lenguaje Técnico\n\nImagen Digital\nAntes de iniciar el taller, es fundamental hablar el mismo idioma en cuanto a los términos propios de la disciplina. Te recomendamos dedicar un tiempo a estudiar la introducción y el glosario de términos esenciales de análisis de bioimágenes (píxeles, bits, dimensiones, formatos de archivo, etc.). A continuación encontrarás una clase de imagen digital dictada en el Curso de Fundamentos de Microscopía Óptica y de FLuorescencia de 2026 donde se abordan estos temas.\n\n\n\nIntroducción al Análsiis de Bioimágenes\nDurante el taller repasaremos varios conceptos clave de qué es el análisis de bioimágenes y algunas herramientas típicas. No estará de más entrar en calor con las primeras dos clases del curso desarrollado por Robert Haase.\n\n\nTodos los videos del curso son fuertemente recomendados para usar como inspiración en el desarrollo de otras clases de análisis de bioimágenes.",
+    "crumbs": [
+      "Precurso"
+    ]
+  },
+  {
+    "objectID": "precurso/index.html#citation",
+    "href": "precurso/index.html#citation",
+    "title": "Material Precurso",
+    "section": "Citation",
+    "text": "Citation\nCorbat, A. A. (2026, May 11). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. https://doi.org/10.5281/zenodo.20126291\nHaase, R. (2020). Lecture BioImage Analysis 2020. YouTube. https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U",
     "crumbs": [
       "Precurso"
     ]
