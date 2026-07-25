@@ -113,8 +113,24 @@ A continuación, se detallan los temas del precurso. Debes ingresar a cada pági
 
 ## 📚 Conceptos Básicos y Lenguaje Técnico
 
+### Imagen Digital
+
 Antes de iniciar el taller, es fundamental hablar el mismo idioma en cuanto a los términos propios de la disciplina. Te recomendamos dedicar un tiempo a estudiar la introducción y el glosario de términos esenciales de análisis de bioimágenes (píxeles, bits, dimensiones, formatos de archivo, etc.). A continuación encontrarás una clase de imagen digital dictada en el Curso de Fundamentos de Microscopía Óptica y de FLuorescencia de 2026 donde se abordan estos temas.
 
 {{< video https://www.youtube.com/watch?v=FPcSHpwuAYc>}}
 
+### Introducción al Análsiis de Bioimágenes
+
+Durante el taller repasaremos varios conceptos clave de qué es el análisis de bioimágenes y algunas herramientas típicas. No estará de más entrar en calor con las primeras dos clases del curso desarrollado por Robert Haase.
+
+{{< video https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=1>}}
+
+{{< video https://www.youtube.com/watch?v=Akedfyp5AxY&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=2>}}
+
+Todos los videos del curso son fuertemente recomendados para usar como inspiración en el desarrollo de otras clases de análisis de bioimágenes.
+
+## Citation
+
 Corbat, A. A. (2026, May 11). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. https://doi.org/10.5281/zenodo.20126291
+
+Haase, R. (2020). Lecture BioImage Analysis 2020. YouTube. https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U
