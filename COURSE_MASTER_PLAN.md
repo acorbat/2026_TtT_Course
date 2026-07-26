@@ -13,6 +13,8 @@ This document is the **working master plan** for organizing a **Train-the-Traine
 - **Regional scope:** Argentina and LATAM, with invited contributions from Uruguay, Sweden, and international bioimage-analysis networks
 - **Current funding reality:** the broader FUNDACEN proposal requested **AR$ 10.004.000**, but only **AR$ 1.000.000** is available for now from FUNDACEN; this makes prioritization essential. Additional funding from the electron microscopy course is still to be determined.
 - **Priority constraints:** participant travel assistance and waivers, local instructor preparation, required pre-course lecture curation, and potential travel support of up to AR$ 300.000 for Dr. Federico Lecumberry.
+- **Recent confirmed planning updates (2026-07-26):**
+  - **Follow-up & Pre-course Communication:** Generated and documented the follow-up email templates for selected participants (both with and without registration payment) in `registration-selection/registration_selection.md`.
 - **Recent confirmed planning updates (2026-07-23):**
   - **Invited Professors:** Anna Klemm (BIIF) will not be able to attend. Dra. Suganya Sivagurunathan (BIIF, SciLifeLab / Uppsala University, Sweden) confirmed to deliver a virtual session in her place, covering reproducible workflows and train-the-trainer practices.
 - **Recent confirmed planning updates (2026-07-20):**
@@ -78,7 +80,7 @@ gantt
 
     section Logistics
     Classroom booked (Aula 1306)                  :done, classroom, 2026-05-21, 2026-05-21
-    Check food supplies & dietary restrictions    :milestone, cateringcheck, 2026-07-15, 1d
+    Check food supplies & dietary restrictions    :done, milestone, cateringcheck, 2026-07-15, 1d
     Purchase coffee and food supplies             :cateringpurchase, 2026-07-27, 2026-07-31
     Confirm room setup and local signage          :roomfinal, 2026-07-20, 2026-07-31
 
@@ -86,13 +88,14 @@ gantt
     Publish call and registration form            :done, milestone, call, 2026-07-02, 0d
     Registration open                             :active, regopen, 2026-07-02, 2026-07-16
     Participant selection and notifications       :done, selection, 2026-07-17, 2026-07-20
-    Registration fee payment window               :payment, 2026-07-20, 2026-07-27
-    Travel support allocation                     :support, 2026-07-20, 2026-07-27
-    Pre-course lecture completion window          :lecturewindow, 2026-07-20, 2026-07-31
+    Registration fee payment window               :payment, 2026-07-27, 2026-07-31
+    Travel support allocation                     :support, 2026-07-20, 2026-07-28
+    Pre-course lecture completion window          :done, lecturewindow, 2026-07-27, 2026-08-03
 
     section Final delivery
-    Final participant packet                      :packet, 2026-07-20, 2026-07-28
-    Confirm datasets and software instructions    :software, 2026-07-20, 2026-07-31
+    Final participant packet                      :done, packet, 2026-07-20, 2026-07-28
+    Confirm software instructions    :done, software, 2026-07-20, 2026-07-31
+    Confirm datasets instructions    :datasets, 2026-07-27, 2026-07-31
     Course week                                   :milestone, course, 2026-08-03, 5d
     Post-course follow-up and survey              :followup, 2026-08-10, 2026-08-21
 ```
@@ -118,25 +121,25 @@ gantt
 
 ### Program and content
 - [x] Approve the core list of topics.
-- [ ] Decide which topics need pre-recorded lectures versus live workshop review.
-- [ ] Identify topic leads for each session.
-- [ ] Define expected prerequisites for participants.
-- [ ] Decide on the balance between ImageJ/Fiji, Python, napari, and deep-learning tools.
+- [x] Decide which topics need pre-recorded lectures versus live workshop review.
+- [x] Identify topic leads for each session.
+- [X] Define expected prerequisites for participants.
+- [x] Decide on the balance between ImageJ/Fiji, Python, napari, and deep-learning tools.
 - [ ] Build an internal training plan so local instructors can co-teach confidently.
 - [x] Finish the day-by-day program (completed on the website, see [program.md](file:///C:/Users/corba/Documents/2026_TtT_Course/program.md)).
 
 ### Logistics and administration
 - [x] Cancel professional catering (decided to make coffee and buy food ourselves to save costs).
-- [ ] Check coffee and food supplies (cookies, fruit) and participant dietary restrictions (target: around July 15).
+- [x] Check coffee and food supplies (cookies, fruit) and participant dietary restrictions (target: around July 15).
 - [ ] Purchase coffee and food supplies (late July).
 - [x] Define registration categories and fee waivers.
 - [x] Decide whether hotel booking will be centralized or reimbursed.
-- [ ] Define reimbursement workflow for invited professors.
+- [x] Define reimbursement workflow for invited professors.
 - [x] Finalize the registration form and participant selection rubric (form published July 1st).
 - [x] Run registration window (July 2nd - July 16th).
 - [x] Select participants and allocate travel assistance/waivers (after July 16th, once funding from the electron microscopy course is clarified).
 - [x] Confirm travel support / travel booking for Federico Lecumberry (AR$ 300.000 max travel budget).
-- [ ] Confirm room layout and daily operational needs for Aula 1306.
+- [x] Confirm room layout and daily operational needs for Aula 1306.
 
 ### Communications
 - [x] Draft course description for dissemination.
@@ -741,6 +744,7 @@ The broader proposal uses a differentiated fee scheme and includes waivers for F
 | 2026-07-06 | Send coordination email to local instructors, launch When2meet availability tracker, and set up Zulip chat workspace | Done |
 | 2026-07-15 | Finish the day-by-day program webpage and populate the `presentaciones/` and `practicos/` folders with initial skeleton files | Done |
 | 2026-07-23 | Anna Klemm (BIIF) unable to attend; replaced by Dra. Suganya Sivagurunathan (BIIF, SciLifeLab / Uppsala University, Sweden) as invited professor | Done |
+| 2026-07-26 | Generate follow-up and pre-course welcome email templates in registration_selection.md | Done |
 
 ---
 
