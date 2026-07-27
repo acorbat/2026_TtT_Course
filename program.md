@@ -36,9 +36,9 @@
 
 ### 🌇 Tarde (14:00–17:00)
 
-- 14:00--16:30 - 🖥️ [Taller de Git y Pixi](practicos/git_pixi.md) (Mauro Silberberg)
+- 14:00--16:20 - 🖥️ (incluye ☕) [Taller de Git y Pixi](practicos/git_pixi.md) (Mauro Silberberg)
   * *Control de versiones con Git y gestión de entornos con Pixi*
-- 16:30--17:00 - **Cierre**
+- 16:20--17:00 - **Cierre y organización de BYOW**
 
 ## 🗓️ Day 3: Machine Learning (Miércoles 5 de Agosto)
 
