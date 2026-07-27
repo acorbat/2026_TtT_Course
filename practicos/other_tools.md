@@ -1,5 +1,5 @@
 ---
-title: Otras herramientas para explorar (BYOP)
+title: Otras herramientas para explorar (BYOW)
 subtitle: ¿Cómo sigue el análisis de imágenes?
 format: html
 ---
@@ -12,7 +12,7 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 - Explorar de forma autónoma herramientas de bioimagen alternativas para problemas específicos.
 
-- Definir un plan para abordar su propio problema biológico ("Bring Your Own Problem" - BYOP) utilizando las herramientas vistas o nuevas.
+- Definir un plan para abordar su propio problema biológico ("Build Your Own Workshop" - BYOW) utilizando las herramientas vistas o nuevas.
 
 :::
 
@@ -47,11 +47,3 @@ Al finalizar la sesión, los alumnos serán capaces de:
 ### Spatial Transcriptomics
 
 - [Multiplexed Tissue Imaging Tools](https://github.com/BIIFSweden/I2K2024-MTIWorkshop)
-
-## Link al taller
-
-[Link al taller]()
-
-## Citation
-
-[Add citation here]
