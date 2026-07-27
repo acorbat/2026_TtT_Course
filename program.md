@@ -26,19 +26,20 @@
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 9:00--10:00 - 🧠 [Workflows reproducibles](presentaciones/workflows.md) (Suganya Sivagurunathan)
+- 9:00--10:30 - 🧠 [Workflows reproducibles](presentaciones/workflows.md) (Suganya Sivagurunathan)
   * *Principios de flujos de trabajo reproducibles*
-- 10:00--10:30 - ☕ **Coffee Break**
-- 11:00--13:00 - 🖥️ [Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)](practicos/interfaces.md) (Agustin Corbat)
+- 10:30--11:00 - ☕ **Coffee Break**
+- 11:00--12:30 - 🖥️ [Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)](practicos/interfaces.md) (Agustin Corbat)
   * *Comparación de GUI, macros y programación de distinto software*
+- 12:30--13:00 - **Organización de BYOW**
 
 ### 🥗 Lunch break (13:00--14:00)
 
 ### 🌇 Tarde (14:00–17:00)
 
-- 14:00--16:20 - 🖥️ (incluye ☕) [Taller de Git y Pixi](practicos/git_pixi.md) (Mauro Silberberg)
+- 14:00--16:30 - 🖥️ (incluye ☕) [Taller de Git y Pixi](practicos/git_pixi.md) (Mauro Silberberg)
   * *Control de versiones con Git y gestión de entornos con Pixi*
-- 16:20--17:00 - **Cierre y organización de BYOW**
+- 16:30--17:00 - **Cierre**
 
 ## 🗓️ Day 3: Machine Learning (Miércoles 5 de Agosto)
 
