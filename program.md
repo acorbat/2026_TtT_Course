@@ -32,6 +32,7 @@
 - 11:00--12:30 - 🖥️ [Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding)](practicos/interfaces.md) (Agustin Corbat)
   * *Comparación de GUI, macros y programación de distinto software*
 - 12:30--13:00 - **Organización de BYOW**
+  * [*BYOW - Other Tools*](practicos/other_tools.md)
 
 ### 🥗 Lunch break (13:00--14:00)
 
@@ -65,7 +66,7 @@
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 09:00--10:00 - 🧠 [Deep Learning](presentaciones/deep_learning_biomodels.md) (Agustin Corbat)
+- 09:00--10:00 - 🧠 [Deep Learning for BIA](presentaciones/deep_learning_biomodels.md) (Agustin Corbat)
   * *Modelos típicos usados en análisis de bioimágenes*
 - 10:00--10:30 - ☕ **Coffee Break**
 - 10:30--12:00 - 🖥️ [Taller de Cellpose, StarDist and friends](practicos/deep_learning_biomodels.md) (Agustin Corbat)
@@ -74,7 +75,7 @@
 ### 🥗 Lunch break (12:00--13:00)
 
 ### 🌇 Tarde (13:00–17:00)
-- 13:00--14:30 - 🖥️ [Taller de Deep Learning](practicos/deep_learning_generic.md) (Agustin Corbat)
+- 13:00--14:30 - 🖥️ (incluye ☕) [Taller de Deep Learning](practicos/deep_learning_generic.md) (Agustin Corbat)
   * *Taller práctico de Deep Learning*
 - 14:30--15:30 - 🖥️ [Clasificación de objetos](practicos/object_classification.md) (Agustin Corbat)
   * *Clasificación de objetos, reducción de dimensionalidad y clustering*
@@ -94,8 +95,8 @@
 
 ### 🌇 Tarde (14:00–17:00)
 
-- 14:00--16:00 - 🗫 (incluye ☕) **Discusiones sobre los tutoriales de BYOP y otras herramientas**
-  * *Puesta en común de las herramientas exploradas en la sesión de BYOP - Other Tools*
+- 14:00--16:00 - 🗫 (incluye ☕) **Discusiones sobre los tutoriales de BYOW y otras herramientas**
+  * *Puesta en común de las herramientas exploradas en la sesión de BYOW - Other Tools*
 - 16:00--17:00 - **Cierre**
 
 ### 🌃 Noche (17:00 en adelante)
