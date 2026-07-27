@@ -45,7 +45,7 @@ website:
     search: true
     contents:
       - index.md
-      - section: "Programa"
+      - title: "Programa"
         href: program.md
       - section: "Precurso"
         href: precurso/index.md
