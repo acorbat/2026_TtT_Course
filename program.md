@@ -48,45 +48,43 @@
   * *Fundamentos de Machine Learning para análisis de bioimágenes*
   * *Machine Learning aplicado a segmentacion y a clasificacion de objetos*
 - 10:00--10:30 - ☕ **Coffee Break**
-- 10:30--12:30 - 🖥️ [Machine Learning](practicos/machine_learning.md) (Agustin Corbat)
+- 10:30--12:00 - 🖥️ [Machine Learning](practicos/machine_learning.md) (Agustin Corbat)
   * *Aplicaciones de ML a segmentacion de bioimágenes*
 
-### 🥗 Lunch break (12:30--13:30)
+### 🥗 Lunch break (12:00--13:00)
 
 ### 🌇 Tarde (13:30–17:00)
 
-- 13:30--15:00 - 🖥️ [Clasificación de objetos](practicos/object_classification.md) (Agustin Corbat)
-  * *Clasificación de objetos, reducción de dimensionalidad y clustering*
-- 14:30--15:00 - ☕ **Coffee Break**
-- 15:00--17:00 - 🗫🖥️ [BYOP - Other Tools](practicos/other_tools.md) (Lorena Sigaut)
-  * *Bring your own problem y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial...*
-
+- 13:00--15:00 - 🧠 (incluye ☕) [Deep Learning](presentaciones/deep_learning.md) (Enzo Ferrante)
+  * *Teoría y conceptos de Deep Learning*
+- 15:00--17:00 - 🗫🖥️ [BYOW - Other Tools](practicos/other_tools.md) (Lorena Sigaut)
+  * *Build your own workshop y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial...*
 
 ## 🗓️ Day 4: Deep Learning (Jueves 6 de Agosto)
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 09:00--11:00 - 🧠 (incluye ☕) [Deep Learning](presentaciones/deep_learning.md) (Enzo Ferrante)
-  * *Teoría y conceptos de Deep Learning*
-- 11:00--13:00 - 🖥️ [Taller de Deep Learning](practicos/deep_learning_generic.md) (Agustin Corbat)
-  * *Taller práctico de Deep Learning*
-
-### 🥗 Lunch break (13:00--14:00)
-
-### 🌇 Tarde (14:00–17:00)
-
-- 14:00--14:30 - 🧠 [Deep Learning](presentaciones/deep_learning_biomodels.md) (Agustin Corbat)
+- 09:00--10:00 - 🧠 [Deep Learning](presentaciones/deep_learning_biomodels.md) (Agustin Corbat)
   * *Modelos típicos usados en análisis de bioimágenes*
-- 14:30--15:00 - ☕ **Coffee Break**
-- 15:00--16:30 - 🖥️ [Taller de Cellpose, StarDist and friends](practicos/deep_learning_biomodels.md) (Agustin Corbat)
+- 10:00--10:30 - ☕ **Coffee Break**
+- 10:30--12:00 - 🖥️ [Taller de Cellpose, StarDist and friends](practicos/deep_learning_biomodels.md) (Agustin Corbat)
   * *Herramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.*
+
+### 🥗 Lunch break (12:00--13:00)
+
+### 🌇 Tarde (13:00–17:00)
+- 13:00--14:30 - 🖥️ [Taller de Deep Learning](practicos/deep_learning_generic.md) (Agustin Corbat)
+  * *Taller práctico de Deep Learning*
+- 14:30--15:30 - 🖥️ [Clasificación de objetos](practicos/object_classification.md) (Agustin Corbat)
+  * *Clasificación de objetos, reducción de dimensionalidad y clustering*
+- 15:30--16:30 - 🗫🖥️ [BYOW - Other Tools](practicos/other_tools.md) (Lorena Sigaut)
 - 16:30--17:00 - **Cierre**
 
 ## 🗓️ Day 5: Haciendo escuelas y cierre (Viernes 7 de Agosto)
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 09:00--11:00 - 🧠 (incluye ☕) [¿Como hacer escuelas y cursitos?](presentaciones/teaching.md) (Rocco D'Antuono?)
+- 09:00--11:00 - 🧠 (incluye ☕) [¿Como hacer escuelas y cursos?](presentaciones/teaching.md) (Rocco D'Antuono?)
   * *Diseño de cursos de capacitación y estrategias de enseñanza*
 - 11:00--13:00 - 🗫 [Discusiones sobre AI y como usarla](presentaciones/ai_in_bia.md) (Agustin Corbat)
   * *Discusión sobre el uso de AI en bioimágenes y diseño de clases*
