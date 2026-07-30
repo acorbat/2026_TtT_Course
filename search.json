@@ -289,7 +289,7 @@
     "href": "practicos/segmentation_quantification.html#prerequisitos",
     "title": "Segmentación clásica y Cuantificación",
     "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji / ImageJ\nPython (con scikit-image)\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nConceptos básicos de procesamiento de imágenes.",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji / ImageJ\nPython (con scikit-image y jupyter notebook)\n\n\n\nDatos descargados\n\nLink a datos\n\nImreh, G., Miranda, G., Imreh, G., Corbat, A. A., Le Guyader, S., Le Guyader, S., BioImage Informatics Unit& Karolinska Institutet. (2025). LCI Light Microscopy Course: Noise Level versus Averaging Dataset (Version 1.0) [Dataset]. Zenodo.\n\n\nConocimientos previos\n\nConceptos básicos de procesamiento de imágenes.",
     "crumbs": [
       "Prácticos",
       "Segmentación clásica y Cuantificación"
@@ -311,7 +311,18 @@
     "href": "practicos/segmentation_quantification.html#citation",
     "title": "Segmentación clásica y Cuantificación",
     "section": "Citation",
-    "text": "Citation\n[Add citation here]",
+    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542",
+    "crumbs": [
+      "Prácticos",
+      "Segmentación clásica y Cuantificación"
+    ]
+  },
+  {
+    "objectID": "practicos/segmentation_quantification.html#otros-talleres-de-interés",
+    "href": "practicos/segmentation_quantification.html#otros-talleres-de-interés",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "Otros talleres de interés",
+    "text": "Otros talleres de interés\nLCI Microscopy Course: Image Analysis Workshop\nMiranda, G., Corbat, A. A.& Le Guyader, S. (2025, May 12). LCI Light Microscopy Course: Image Analysis Workshop. Zenodo. https://doi.org/10.5281/zenodo.15390007",
     "crumbs": [
       "Prácticos",
       "Segmentación clásica y Cuantificación"
