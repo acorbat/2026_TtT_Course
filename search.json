@@ -432,7 +432,7 @@
     "href": "practicos/deep_learning_generic.html#prerequisitos",
     "title": "Deep Learning Foundations",
     "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nAcceso a navegador web para Google Colab o entorno local de Python con soporte GPU/CPU\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nFundamentos de machine learning clásico.",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nAcceso a navegador web para Google Colab o entorno local de Python con soporte GPU/CPU\n\n\n\nConocimientos previos\n\nFundamentos de deep learning clásico.",
     "crumbs": [
       "Prácticos",
       "Deep Learning Foundations"
@@ -443,7 +443,7 @@
     "href": "practicos/deep_learning_generic.html#link-al-taller",
     "title": "Deep Learning Foundations",
     "section": "Link al taller",
-    "text": "Link al taller\nLink al taller",
+    "text": "Link al taller\nPara este taller, nos vamos a basar en el material desarrollado por Christophe Avenel en National bioinformatics Infrastructure Sweden (NBIS) para el workshop de Nerual Networks and Deep Learning. En particular, realizaremos el ejercicio de CNN Lab 1: Classification of Human Blood Cells using PyTorch y CNN Lab 2: Segmentation of Human Blood Cells using PyTorch.\nPara el este taller utilizaremos Google Colab que nos permitirá utilziar jupyter conectado a un kernel que corre en un servidor. Además, recuerden que tendremos que cambiar el runtime a T4 GPU para poder utilizar GPU y correr lo necesario más rápidamente.",
     "crumbs": [
       "Prácticos",
       "Deep Learning Foundations"
@@ -454,7 +454,7 @@
     "href": "practicos/deep_learning_generic.html#citation",
     "title": "Deep Learning Foundations",
     "section": "Citation",
-    "text": "Citation\n[Add citation here]",
+    "text": "Citation\nMirabello, C., Sennblad B., Avenel, C., Kierczak, M., Rosén, D., Unneberg, P., Oskolkov, N., Nettelblad, C., Dethlefsen, O., Freyhult, E. (2024). Workshop on Neural Networks and Deep Learning.",
     "crumbs": [
       "Prácticos",
       "Deep Learning Foundations"
@@ -680,7 +680,7 @@
     "href": "practicos/workshop_2d_images.html#prerequisitos",
     "title": "Visualization of 2D data",
     "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nNingún conocimiento previo requerido",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji\n\n\n\nConocimientos previos\n\nNingún conocimiento previo requerido",
     "crumbs": [
       "Prácticos",
       "Visualization of 2D data"
@@ -702,7 +702,7 @@
     "href": "practicos/workshop_2d_images.html#citation",
     "title": "Visualization of 2D data",
     "section": "Citation",
-    "text": "Citation\nCuenca, M. B. (2025). Principles of light-sheet microscopy. Light-Sheet Image Analysis Workshop 2026 (LiSIAW2026), Santiago, Chile. Zenodo. https://doi.org/10.5281/zenodo.18106542",
+    "text": "Citation",
     "crumbs": [
       "Prácticos",
       "Visualization of 2D data"
