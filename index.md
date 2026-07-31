@@ -102,6 +102,7 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 * **Dr. Enzo Ferrante** (UNL / CONICET, Argentina) – Teoría y fundamentos de Deep Learning aplicados a Bioimágenes.
 * **Dr. Federico Lecumberry** (Universidad de la República, Uruguay).
 * **Dra. Suganya Sivagurunathan** (BIIF, SciLifeLab / Uppsala University, Suecia) – Workflows reproducibles (virtual).
+* **Dr. Martin  Schätz** (Viničná Microscopy Core Facility, Faculty of Science, Charles University y Department of Mathematics Informatics and Cybernetics, University of Chemistry and Technology, Praga, Republica Checa) - ¿Como hacer escuelas y cursos? (virtual).
 
 ---
 

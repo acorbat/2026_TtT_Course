@@ -86,7 +86,7 @@
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 09:00--11:00 - 🧠 (incluye ☕) [¿Como hacer escuelas y cursos?](presentaciones/teaching.md) (Rocco D'Antuono?)
+- 09:00--11:00 - 🧠 (incluye ☕) [¿Como hacer escuelas y cursos?](presentaciones/teaching.md) (Martin  Schätz)
   * *Diseño de cursos de capacitación y estrategias de enseñanza*
 - 11:00--13:00 - 🗫 [Discusiones sobre AI y como usarla](presentaciones/ai_in_bia.md) (Agustin Corbat)
   * *Discusión sobre el uso de AI en bioimágenes y diseño de clases*
