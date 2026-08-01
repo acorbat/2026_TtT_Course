@@ -20,9 +20,9 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ### Tracking
 
-- ultrack
+- [ultrack](https://github.com/royerlab/ultrack)
 
-- TrackMate
+- [TrackMate](https://imagej.net/plugins/trackmate/)
 
 ### Colocalización
 
@@ -36,9 +36,13 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ### Spectral Unmixing
 
+### Otras técnicas de segmentación
+
+- [convpaint](https://guiwitz.github.io/napari-convpaint/book/Landing.html)
+
 ### Phasors
 
-- Phasorpy
+- [Phasorpy](https://www.phasorpy.org/)
 
 ### Deconvolution
 
