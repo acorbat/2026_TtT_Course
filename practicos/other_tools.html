@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practicos/workshop_2d_images.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Visualization of 2D data</span></a>
+ <span class="menu-text">Operaciones con imágenes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -313,10 +313,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#colocalización" id="toc-colocalización" class="nav-link" data-scroll-target="#colocalización">Colocalización</a></li>
   <li><a href="#image-registration" id="toc-image-registration" class="nav-link" data-scroll-target="#image-registration">Image Registration</a></li>
   <li><a href="#spectral-unmixing" id="toc-spectral-unmixing" class="nav-link" data-scroll-target="#spectral-unmixing">Spectral Unmixing</a></li>
+  <li><a href="#otras-técnicas-de-segmentación" id="toc-otras-técnicas-de-segmentación" class="nav-link" data-scroll-target="#otras-técnicas-de-segmentación">Otras técnicas de segmentación</a></li>
   <li><a href="#phasors" id="toc-phasors" class="nav-link" data-scroll-target="#phasors">Phasors</a></li>
   <li><a href="#deconvolution" id="toc-deconvolution" class="nav-link" data-scroll-target="#deconvolution">Deconvolution</a></li>
   <li><a href="#spatial-transcriptomics" id="toc-spatial-transcriptomics" class="nav-link" data-scroll-target="#spatial-transcriptomics">Spatial Transcriptomics</a></li>
+  <li><a href="#histología" id="toc-histología" class="nav-link" data-scroll-target="#histología">Histología</a></li>
   </ul></li>
+  <li><a href="#presentación" id="toc-presentación" class="nav-link" data-scroll-target="#presentación">Presentación</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/acorbat/2026_TtT_Course/edit/main/practicos/other_tools.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/acorbat/2026_TtT_Course/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -365,8 +368,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="tracking" class="level3">
 <h3 class="anchored" data-anchor-id="tracking">Tracking</h3>
 <ul>
-<li><p>ultrack</p></li>
-<li><p>TrackMate</p></li>
+<li><p><a href="https://github.com/royerlab/ultrack">ultrack</a></p></li>
+<li><p><a href="https://imagej.net/plugins/trackmate/">TrackMate</a></p></li>
 </ul>
 </section>
 <section id="colocalización" class="level3">
@@ -385,10 +388,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="spectral-unmixing" class="level3">
 <h3 class="anchored" data-anchor-id="spectral-unmixing">Spectral Unmixing</h3>
 </section>
+<section id="otras-técnicas-de-segmentación" class="level3">
+<h3 class="anchored" data-anchor-id="otras-técnicas-de-segmentación">Otras técnicas de segmentación</h3>
+<ul>
+<li><a href="https://guiwitz.github.io/napari-convpaint/book/Landing.html">convpaint</a></li>
+</ul>
+</section>
 <section id="phasors" class="level3">
 <h3 class="anchored" data-anchor-id="phasors">Phasors</h3>
 <ul>
-<li>Phasorpy</li>
+<li><a href="https://www.phasorpy.org/">Phasorpy</a></li>
 </ul>
 </section>
 <section id="deconvolution" class="level3">
@@ -402,9 +411,41 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://github.com/BIIFSweden/I2K2024-MTIWorkshop">Multiplexed Tissue Imaging Tools</a></li>
 </ul>
-
-
 </section>
+<section id="histología" class="level3">
+<h3 class="anchored" data-anchor-id="histología">Histología</h3>
+<ul>
+<li><a href="https://qupath.github.io/">QuPath</a>: software libre y abierto para análisis de imágenes, con foco fuerte en histología y patología digital. Incluye opciones de segmentación como <strong>InstanSeg</strong> (intanseg), entre otras alternativas.</li>
+</ul>
+</section>
+</section>
+<section id="presentación" class="level2">
+<h2 class="anchored" data-anchor-id="presentación">Presentación</h2>
+<p>El objetivo del ejercicio es que cada grupo/estudiante desarrolle un tutorial corto de una herramienta de su interés (pueden usar la lista anterior como sugerencia).</p>
+<p>La presentación será el <strong>viernes</strong> y tendrá el siguiente formato:</p>
+<ul>
+<li><strong>10 minutos</strong> de presentación</li>
+<li><strong>5 minutos</strong> para preguntas</li>
+</ul>
+<p>Pueden presentar con diapositivas o recorrer en vivo el tutorial que hayan desarrollado.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Pro tips
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Pueden usar <strong>git y GitHub</strong> para practicar lo aprendido y dejar el tutorial disponible en línea.</p></li>
+<li><p>El viernes veremos cómo publicar el tutorial en <strong>Zenodo</strong> con una licencia adecuada para que el material sea <strong>FAIR</strong>.</p></li>
+</ul>
+</div>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
