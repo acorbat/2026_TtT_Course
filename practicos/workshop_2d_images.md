@@ -1,6 +1,6 @@
 ---
-title: Visualization of 2D data
-author: Agustin Corbat
+title: Operaciones con imágenes
+author: Lorena Sigaut
 date: 05 January 2026
 ---
 
