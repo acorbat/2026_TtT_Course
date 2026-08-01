@@ -51,3 +51,26 @@ Al finalizar la sesión, los alumnos serán capaces de:
 ### Spatial Transcriptomics
 
 - [Multiplexed Tissue Imaging Tools](https://github.com/BIIFSweden/I2K2024-MTIWorkshop)
+
+### Histología
+
+- [QuPath](https://qupath.github.io/): software libre y abierto para análisis de imágenes, con foco fuerte en histología y patología digital. Incluye opciones de segmentación como **InstanSeg** (intanseg), entre otras alternativas.
+
+## Presentación
+
+El objetivo del ejercicio es que cada grupo/estudiante desarrolle un tutorial corto de una herramienta de su interés (pueden usar la lista anterior como sugerencia).
+
+La presentación será el **viernes** y tendrá el siguiente formato:
+
+- **10 minutos** de presentación
+- **5 minutos** para preguntas
+
+Pueden presentar con diapositivas o recorrer en vivo el tutorial que hayan desarrollado.
+
+::: {.callout-tip}
+## Pro tips
+
+- Pueden usar **git y GitHub** para practicar lo aprendido y dejar el tutorial disponible en línea.
+
+- El viernes veremos cómo publicar el tutorial en **Zenodo** con una licencia adecuada para que el material sea **FAIR**.
+:::
