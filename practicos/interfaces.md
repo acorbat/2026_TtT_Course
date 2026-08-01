@@ -24,20 +24,24 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 - Fiji / ImageJ
 - Python y Jupyter Notebooks
-- napari
+- Napari
 
 ### Datos descargados
 
-- [Link a datos]()
+- [Link a datos](https://drive.google.com/drive/folders/1SRdYVc8e_mst8GRF1NL5iwzKlW3CK3aY?usp=sharing)
+
+- [Link a datos](https://zenodo.org/records/15175309)
+
+Imreh, G., Miranda, G., Imreh, G., Corbat, A. A., Le Guyader, S., Le Guyader, S., BioImage Informatics Unit& Karolinska Institutet. (2025). LCI Light Microscopy Course: Noise Level versus Averaging Dataset (Version 1.0) [Dataset]. [Zenodo](https://doi.org/10.5281/zenodo.15175309).
 
 ### Conocimientos previos
 
-- Conceptos básicos de segmentación clásica y preprocesamiento de imágenes.
+- Conceptos básicos de preprocesamiento y segmentación clásica de imágenes.
 
 ## Link al taller
 
-[Link al taller]()
+[Link al taller](https://github.com/acorbat/workshop_segmentation_quantification)
 
 ## Citation
 
-[Add citation here]
+Corbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542
