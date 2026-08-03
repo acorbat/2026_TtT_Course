@@ -49,6 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-fe6f6cb496039b3f8e9a6e58b06794c5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -359,6 +362,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- <iframe src="https://docs.google.com/viewer?url=https://zenodo.org/records/18106542/files/PrinciplesLSM-Marina.pdf&embedded=true" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe> -->
 <iframe src="https://zenodo.org/records/21777769/files/TtT-2026-CMA-UBA-Fundamentals-of-Bioimages.pdf?download=1" width="100%" height="600" style="border: 1px solid #dee2e6;">
 </iframe>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><embed src="https://zenodo.org/records/21777769/files/TtT-2026-CMA-UBA-Fundamentals-of-Bioimages.pdf?download=1" class="img-fluid"></p>
+<figcaption>Test</figcaption>
+</figure>
+</div>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
@@ -801,6 +810,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
