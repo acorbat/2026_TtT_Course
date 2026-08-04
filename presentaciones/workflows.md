@@ -19,7 +19,7 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Slides
 
-https://docs.google.com/presentation/d/1u0sraasJ1K8fLhCQCrmK9HM55tsce5-ImjbVBk3jtc4/edit?slide=id.g3f9724218cc_0_36#slide=id.g3f9724218cc_0_36
+https://docs.google.com/presentation/d/1460mKx5AMSWvyl1rQxcFLRlT69zfCug9bjZuk2yxiS0/edit?slide=id.g3f606fb40e0_0_757#slide=id.g3f606fb40e0_0_757
 
 ## Citation
 
