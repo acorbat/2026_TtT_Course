@@ -50,7 +50,7 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ### Spatial Transcriptomics
 
-- [Multiplexed Tissue Imaging Tools](https://github.com/BIIFSweden/I2K2024-MTIWorkshop)
+- [Spatial Data](https://spatialdata.scverse.org/en/stable/): Permite combinar varias modalidades de bioimágenes y combinar información para hacer clasificación de células y estudiar espacialidad.
 
 ### Histología
 
