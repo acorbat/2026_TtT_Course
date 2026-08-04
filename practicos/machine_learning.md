@@ -22,12 +22,12 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ### Programas instalados
 
-- ilastik
+- [ilastik](https://www.ilastik.org/)
 - Python y Jupyter Notebooks
 
 ### Datos descargados
 
-- [Link a datos]()
+- [Link a datos](https://drive.google.com/drive/folders/1nBp57uAr2ymSAKNpIYSYOupqeDAgxeoY?usp=drive_link)
 
 ### Conocimientos previos
 
