@@ -22,12 +22,11 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ### Programas instalados
 
-- Git
+Ver instrucciones [aquí](https://maurosilber.github.io/git-tutorial/).
+
 - Pixi
-
-### Datos descargados
-
-- [Link a datos]()
+- Git
+- VS Code (opcional)
 
 ### Conocimientos previos
 
@@ -35,7 +34,7 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ## Link al taller
 
-[Link al taller]()
+[Link al taller](https://maurosilber.github.io/git-tutorial/)
 
 ## Citation
 
