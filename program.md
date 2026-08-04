@@ -50,7 +50,7 @@
   * *Fundamentos de Machine Learning para análisis de bioimágenes*
   * *Machine Learning aplicado a segmentacion y a clasificacion de objetos*
 - 10:00--10:30 - ☕ **Coffee Break**
-- 10:30--12:00 - 🖥️ [Machine Learning](practicos/machine_learning.md) (Agustin Corbat)
+- 10:30--12:00 - 🖥️ [Machine Learning](practicos/machine_learning.md) (Federico Lecumberry)
   * *Aplicaciones de ML a segmentacion de bioimágenes*
 
 ### 🥗 Lunch break (12:00--13:00)
