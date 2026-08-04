@@ -19,8 +19,8 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Slides
 
-_TODO: agregar enlace a diapositivas_
+https://docs.google.com/presentation/d/1460mKx5AMSWvyl1rQxcFLRlT69zfCug9bjZuk2yxiS0/edit?slide=id.g3f606fb40e0_0_757#slide=id.g3f606fb40e0_0_757
 
 ## Citation
 
-_Citar según sea necesario._
+Sivagurunathan, S. (2026, August 4). Reproducible workflows. Zenodo. https://doi.org/10.5281/zenodo.21782259
