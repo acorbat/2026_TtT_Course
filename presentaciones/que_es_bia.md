@@ -22,8 +22,7 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Slides
 
-<!-- <iframe src="https://docs.google.com/viewer?url=https://zenodo.org/records/18106542/files/PrinciplesLSM-Marina.pdf&embedded=true" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe> -->
-[Descargar](https://zenodo.org/records/21777769/files/TtT-2026-CMA-UBA-Fundamentals-of-Bioimages.pdf?download=1)
+<iframe src="https://docs.google.com/viewer?url=https://zenodo.org/records/21777769/files/TtT-2026-CMA-UBA-Fundamentals-of-Bioimages.pdf&embedded=true" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe>
 
 
 ## Citation
