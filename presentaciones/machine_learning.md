@@ -20,7 +20,7 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 ## Slides
 
 <!-- TODO: Add link to slides -->
-<iframe src="https://zenodo.org/records/21796406" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe>
+<iframe src="[https://zenodo.org/records/21796406](https://zenodo.org/records/21796406/files/TtT-2026-CMA-UBA-Machine-Learning-compressed.pdf?download=1)" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe>
 
 
 ## Citation
