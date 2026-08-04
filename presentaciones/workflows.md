@@ -19,7 +19,7 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Slides
 
-https://docs.google.com/presentation/d/1460mKx5AMSWvyl1rQxcFLRlT69zfCug9bjZuk2yxiS0/edit?slide=id.g3f606fb40e0_0_757#slide=id.g3f606fb40e0_0_757
+<iframe src="https://docs.google.com/viewer?url=https://zenodo.org/records/21782259/files/ReproducibleWorkflows_2026_08_04.pdf&embedded=true" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe>
 
 ## Citation
 
