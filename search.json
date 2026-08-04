@@ -922,7 +922,7 @@
     "href": "presentaciones/workflows.html#slides",
     "title": "Workflows reproducibles",
     "section": "Slides",
-    "text": "Slides\nTODO: agregar enlace a diapositivas",
+    "text": "Slides\nhttps://docs.google.com/presentation/d/1460mKx5AMSWvyl1rQxcFLRlT69zfCug9bjZuk2yxiS0/edit?slide=id.g3f606fb40e0_0_757#slide=id.g3f606fb40e0_0_757",
     "crumbs": [
       "Presentaciones",
       "Workflows reproducibles"
@@ -933,7 +933,7 @@
     "href": "presentaciones/workflows.html#citation",
     "title": "Workflows reproducibles",
     "section": "Citation",
-    "text": "Citation\nCitar según sea necesario.",
+    "text": "Citation\nSivagurunathan, S. (2026, August 4). Reproducible workflows. Zenodo. https://doi.org/10.5281/zenodo.21782259",
     "crumbs": [
       "Presentaciones",
       "Workflows reproducibles"
