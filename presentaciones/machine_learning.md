@@ -19,11 +19,8 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Slides
 
-<!-- TODO: Add link to slides -->
 <iframe src="https://docs.google.com/viewer?url=https://zenodo.org/records/21796406/files/TtT-2026-CMA-UBA-Machine-Learning-compressed.pdf&embedded=true" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe>
 
 ## Citation
-
-<!-- Citation pending -->
 
 Lecumberry, F. (2026, August 4). Machine Learning and ilastik. [Zenodo](https://doi.org/10.5281/zenodo.21796406)
