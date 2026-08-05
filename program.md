@@ -55,7 +55,7 @@
 
 ### 🥗 Lunch break (12:00--13:00)
 
-### 🌇 Tarde (13:30–17:00)
+### 🌇 Tarde (13:00–17:00)
 
 - 13:00--15:00 - 🧠 (incluye ☕) [Deep Learning](presentaciones/deep_learning.md) (Enzo Ferrante)
   * *Teoría y conceptos de Deep Learning*
