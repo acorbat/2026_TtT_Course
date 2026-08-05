@@ -344,7 +344,7 @@
     "href": "practicos/object_classification.html#prerequisitos",
     "title": "Object Classification, Dimensionality Reduction, and Clustering",
     "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nilastik\nPython y Jupyter Notebooks\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nFundamentos de machine learning y segmentación de objetos.",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nPython y Jupyter Notebooks\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nFundamentos de machine learning y segmentación de objetos.",
     "crumbs": [
       "Prácticos",
       "Object Classification, Dimensionality Reduction, and Clustering"
@@ -356,17 +356,6 @@
     "title": "Object Classification, Dimensionality Reduction, and Clustering",
     "section": "Link al taller",
     "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Object Classification, Dimensionality Reduction, and Clustering"
-    ]
-  },
-  {
-    "objectID": "practicos/object_classification.html#citation",
-    "href": "practicos/object_classification.html#citation",
-    "title": "Object Classification, Dimensionality Reduction, and Clustering",
-    "section": "Citation",
-    "text": "Citation\n[Add citation here]",
     "crumbs": [
       "Prácticos",
       "Object Classification, Dimensionality Reduction, and Clustering"
