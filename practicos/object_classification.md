@@ -22,12 +22,11 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ### Programas instalados
 
-- ilastik
 - Python y Jupyter Notebooks
 
 ### Datos descargados
 
-- [Link a datos]()
+- [Link a datos](https://github.com/ilastik/ilastik4ij/tree/main/src/test/resources)
 
 ### Conocimientos previos
 
@@ -35,8 +34,4 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ## Link al taller
 
-[Link al taller]()
-
-## Citation
-
-[Add citation here]
+[Link al taller](https://github.com/acorbat/workshop_ml)
