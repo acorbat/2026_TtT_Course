@@ -66,19 +66,20 @@
 
 ### 🌅 Mañana (09:00--12:00)
 
-- 09:00--10:00 - 🧠 [Deep Learning for BIA](presentaciones/deep_learning_biomodels.md) (Agustin Corbat)
-  * *Modelos típicos usados en análisis de bioimágenes*
+- 09:00--10:00 - 🖥️ (incluye ☕) [Taller de Deep Learning](practicos/deep_learning_generic.md) (Agustin Corbat)
+  * *Taller práctico de Deep Learning*
 - 10:00--10:30 - ☕ **Coffee Break**
-- 10:30--12:00 - 🖥️ [Taller de Cellpose, StarDist and friends](practicos/deep_learning_biomodels.md) (Agustin Corbat)
-  * *Herramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.*
+- 10:30--12:00 - 🖥️ [Clasificación de objetos](practicos/object_classification.md) (Agustin Corbat)
+  * *Clasificación de objetos, reducción de dimensionalidad y clustering*
 
 ### 🥗 Lunch break (12:00--13:00)
 
 ### 🌇 Tarde (13:00–17:00)
-- 13:00--14:30 - 🖥️ (incluye ☕) [Taller de Deep Learning](practicos/deep_learning_generic.md) (Agustin Corbat)
-  * *Taller práctico de Deep Learning*
-- 14:30--15:30 - 🖥️ [Clasificación de objetos](practicos/object_classification.md) (Agustin Corbat)
-  * *Clasificación de objetos, reducción de dimensionalidad y clustering*
+- 13:00--13:45 - 🧠 [Deep Learning for BIA](presentaciones/deep_learning_biomodels.md) (Agustin Corbat)
+  * *Modelos típicos usados en análisis de bioimágenes*
+- 13:45--14:00 - ☕ **Coffee Break**
+- 14:00--15:30 - 🖥️ [Taller de Cellpose, StarDist and friends](practicos/deep_learning_biomodels.md) (Ignacio Sallaberry y Agustin Corbat)
+  * *Herramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.*
 - 15:30--16:30 - 🗫🖥️ [BYOW - Other Tools](practicos/other_tools.md) (Lorena Sigaut)
 - 16:30--17:00 - **Cierre**
 
