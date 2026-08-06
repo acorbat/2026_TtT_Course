@@ -101,4 +101,4 @@
 - 16:00--17:00 - **Cierre**
 
 ### 🌃 Noche (17:00 en adelante)
-- 17:00--en adelante - 🍔🍻 Cena de cierre
+- 17:00--en adelante - 🍔🍻 Cena de cierre (Revisar Zulip)
