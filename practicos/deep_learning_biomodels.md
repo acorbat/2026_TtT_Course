@@ -25,17 +25,13 @@ Al finalizar la sesión, los alumnos serán capaces de:
 - napari (con plugins de Cellpose y StarDist)
 - Fiji (con integraciones correspondientes)
 
-### Datos descargados
-
-- [Link a datos]()
-
 ### Conocimientos previos
 
 - Fundamentos de Deep Learning y segmentación clásica.
 
 ## Link al taller
 
-[Link al taller]()
+[Link al taller](https://github.com/IgnacioSallaberry/workshop_2D_dl_segmentation)
 
 ## Citation
 
