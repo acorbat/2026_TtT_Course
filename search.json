@@ -515,7 +515,7 @@
     "href": "practicos/deep_learning_biomodels.html#prerequisitos",
     "title": "Cellpose, StarDist, and Friends",
     "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nnapari (con plugins de Cellpose y StarDist)\nFiji (con integraciones correspondientes)\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nFundamentos de Deep Learning y segmentación clásica.",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nnapari (con plugins de Cellpose y StarDist)\nFiji (con integraciones correspondientes)\n\n\n\nConocimientos previos\n\nFundamentos de Deep Learning y segmentación clásica.",
     "crumbs": [
       "Prácticos",
       "Cellpose, StarDist, and Friends"
