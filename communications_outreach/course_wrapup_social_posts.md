@@ -47,6 +47,8 @@ As someone committed to bioimage analysis education in LATAM, this is exactly wh
 
 We had participants from **Chile** and from multiple provinces of **Argentina**, creating a rich regional community and exchange.
 
+I’m also deeply grateful that the course had such a strong international dimension: **Dr. Federico Lecumberry** joined us on-site as an invited professor for the full duration of the course, and **Dr. Suganya Sivagurunathan** and **Dr. Martin Schätz** joined remote hybrid sessions that enriched the intercontinental exchange.
+
 All materials are open and published:
 - Website: https://acorbat.github.io/2026_TtT_Course/
 - Zenodo: https://doi.org/10.5281/zenodo.18247226
@@ -78,6 +80,8 @@ Highlights included projects around:
 
 This is how we build long-term capacity in LATAM: shared tools, shared pedagogy, shared community.
 
+I’m especially thankful for the international and intercontinental spirit of this edition: Dr. Federico Lecumberry participated on-site throughout the full course, while Dr. Suganya Sivagurunathan and Dr. Martin Schätz contributed through remote hybrid sessions.
+
 🔗 Website: https://acorbat.github.io/2026_TtT_Course/
 🔗 Zenodo: https://doi.org/10.5281/zenodo.18247226
 🔗 License: CC-BY 4.0
@@ -107,6 +111,7 @@ Final projects were publication-ready 🚀
 **Post 3/3**
 Proud to teach bioimage analysis in LATAM. Train-the-trainer has exponential impact.
 Participants joined from Chile + multiple provinces of Argentina.
+Very grateful for the international component: Dr. Federico Lecumberry joined on-site all week, and Dr. Suganya Sivagurunathan + Dr. Martin Schätz joined hybrid remote sessions.
 Website: https://acorbat.github.io/2026_TtT_Course/
 Zenodo: https://doi.org/10.5281/zenodo.18247226
 License: CC-BY 4.0
@@ -118,7 +123,7 @@ Want more courses together? cma.taller.ab@gmail.com
 ### X single-post option (compact)
 Still emotional after this week: our Train-the-Trainer bioimage analysis course was a success 💙
 Participants improved fundamentals, built reproducible workflows (macros, Git, Pixi), and created FAIR teaching materials (Zenodo). Great examples included napari in Colab + Quarto/GitHub Pages resources. Final projects were publication-ready.
-Participants came from Chile + across Argentina.
+Participants came from Chile + across Argentina. I’m also very grateful for the international participation: Dr. Federico Lecumberry joined us on-site for the full course, and Dr. Suganya Sivagurunathan and Dr. Martin Schätz joined hybrid remote sessions.
 Website: https://acorbat.github.io/2026_TtT_Course/
 Zenodo: https://doi.org/10.5281/zenodo.18247226
 License: CC-BY 4.0
@@ -144,6 +149,7 @@ Beautiful examples from final work included:
 ### Bluesky Post 3
 This is why Train-the-Trainer matters in LATAM: impact multiplies.
 Participants joined from Chile and different provinces of Argentina.
+I’m very grateful that the course was also strongly international: Dr. Federico Lecumberry participated on-site for the full course, and Dr. Suganya Sivagurunathan plus Dr. Martin Schätz joined in hybrid remote sessions.
 
 Website: https://acorbat.github.io/2026_TtT_Course/
 Zenodo: https://doi.org/10.5281/zenodo.18247226
