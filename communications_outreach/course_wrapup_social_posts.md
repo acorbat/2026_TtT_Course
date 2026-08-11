@@ -1,58 +1,92 @@
-# Course wrap-up social media posts
+# Course wrap-up social media posts (personal + emotional tone)
 
 Suggested posts to announce the successful completion of:
 **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)**.
 
-Use and adapt names/handles as needed before publishing.
+Use and adapt names/handles before publishing.
 
 ---
 
 ## Links to include
 - **Course website:** https://acorbat.github.io/2026_TtT_Course/
 - **Zenodo record (course):** https://doi.org/10.5281/zenodo.18247226
+- **Contact:** cma.taller.ab@gmail.com
+
+---
+
+## Tag/mention placeholders
+Replace these placeholders with real handles/pages when posting:
+
+- **Institutions:** `[INSTITUTION_1] [INSTITUTION_2] [INSTITUTION_3]`
+  - Suggested from course page: FCEN-UBA / CMA / FUNDACEN
+- **Communities:** `[COMMUNITY_1] [COMMUNITY_2]`
+  - Suggested from course page: LABI / GloBIAS
+- **Organizers:** `[ORGANIZER_1] [ORGANIZER_2] [ORGANIZER_3]`
+- **Teachers / invited professors:** `[TEACHER_1] [TEACHER_2] [TEACHER_3] [TEACHER_4]`
+- **Instructors / facilitators:** `[INSTRUCTOR_1] [INSTRUCTOR_2] [INSTRUCTOR_3] [INSTRUCTOR_4] [INSTRUCTOR_5]`
 
 ---
 
 ## LinkedIn (long-form options)
 
 ### LinkedIn Post 1 (main wrap-up)
-I’m very happy to share that our **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)** was a great success.
+📸 **Reminder: add a group photo or closing-day image here.**
 
-Over this week, participants strengthened core bioimage analysis skills and made major progress in **reproducible workflows** (including macros, version control with Git, and environment management with Pixi). Beyond technical content, they also developed skills to:
-- design and teach tutorials/workflows,
-- teach bioimage analysis topics effectively,
-- publish training outputs in a **FAIR** way using repositories like Zenodo.
+I’m writing this with a full heart: our **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)** was truly a beautiful experience.
 
-One of the most rewarding outcomes: for the final assignment, participants created workflows or tutorials that were already at a stage ready to publish.
+Seeing participants grow in just a few days was incredibly moving. People who came in wanting to strengthen fundamentals made huge progress in their understanding, and they also built **reproducible workflows** using macros, Git, and Pixi.
 
-I’m especially proud to teach bioimage analysis in LATAM and to see how a **train-the-trainer** model can generate exponential impact by enabling participants to train others in their own institutions and communities.
+What made me even prouder is that participants didn’t just learn technical content—they learned how to teach it. Together we worked on how to design tutorials and workflows, how to teach bioimage analysis topics clearly, and how to share training material in a **FAIR** way through Zenodo.
 
-We also had participants from **Chile** and from different provinces of **Argentina**, which made this a truly regional learning space.
+Some wonderful examples from the course:
+- tutorials on **using napari from within Google Colab**,
+- materials on **developing a webpage with Quarto + GitHub Pages**,
+- final assignments where participants built workflows/tutorials that were essentially publication-ready.
 
-All materials are now publicly available:
+As someone committed to bioimage analysis education in LATAM, this is exactly why I believe so strongly in Train-the-Trainer models: when we train trainers, impact grows exponentially.
+
+We had participants from **Chile** and from multiple provinces of **Argentina**, creating a rich regional community and exchange.
+
+All materials are open and published:
 - Website: https://acorbat.github.io/2026_TtT_Course/
 - Zenodo: https://doi.org/10.5281/zenodo.18247226
+- License: **CC-BY 4.0**
 
-Huge thanks to all organizers, teachers, instructors, and participants for their commitment and generosity.
+Deep thanks to everyone who made this possible:
+- Organizers: [ORGANIZER_1], [ORGANIZER_2], [ORGANIZER_3]
+- Teachers: [TEACHER_1], [TEACHER_2], [TEACHER_3], [TEACHER_4]
+- Instructors: [INSTRUCTOR_1], [INSTRUCTOR_2], [INSTRUCTOR_3], [INSTRUCTOR_4], [INSTRUCTOR_5]
+- Institutions and communities: [INSTITUTION_1], [INSTITUTION_2], [INSTITUTION_3], [COMMUNITY_1], [COMMUNITY_2]
+
 Special thanks to **FUNDACEN** for financial support, and to **LABI** and **GloBIAS** for their support and guidance.
 
-#BioimageAnalysis #TrainTheTrainers #OpenScience #FAIR #Reproducibility #LATAM #Microscopy #ImageAnalysis
+If your institution or community is interested in co-developing future courses, please contact us: **cma.taller.ab@gmail.com**
+
+#BioimageAnalysis #TrainTheTrainers #OpenScience #FAIR #Reproducibility #LATAM #Microscopy #ImageAnalysis #Quarto #GitHubPages #Napari
 
 ---
 
 ### LinkedIn Post 2 (impact-focused follow-up)
-A key takeaway from this course: when we teach both **technical foundations** and **pedagogy**, participants don’t just learn tools—they become future trainers.
+A personal reflection after this week: teaching technical skills is important, but helping people become confident teachers is transformative.
 
-In this edition of the Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores), participants left with practical, reproducible, and shareable teaching assets (workflows/tutorials) ready for publication and reuse.
+In this Train-the-Trainer course, participants strengthened fundamentals, built reproducible workflows, and created open teaching materials ready to be reused and adapted in other institutions.
 
-This is exactly the kind of capacity building we need in LATAM: local expertise, open materials, and growing communities of practice.
+Highlights included projects around:
+- napari in Google Colab,
+- website creation with Quarto and GitHub Pages,
+- publishable tutorials/workflows as final assignments.
 
-🔗 Course website: https://acorbat.github.io/2026_TtT_Course/
-🔗 Zenodo record: https://doi.org/10.5281/zenodo.18247226
+This is how we build long-term capacity in LATAM: shared tools, shared pedagogy, shared community.
 
-Thank you again to organizers, instructors, and participants, and to FUNDACEN, LABI, and GloBIAS.
+🔗 Website: https://acorbat.github.io/2026_TtT_Course/
+🔗 Zenodo: https://doi.org/10.5281/zenodo.18247226
+🔗 License: CC-BY 4.0
 
-#CapacityBuilding #Bioimaging #OpenEducationalResources #FAIRData #TrainTheTrainer
+Thank you [INSTITUTION_1] [INSTITUTION_2] [INSTITUTION_3], [COMMUNITY_1] [COMMUNITY_2], all organizers, teachers, instructors, and participants.
+
+Want to co-create similar training in your institution? Contact us: **cma.taller.ab@gmail.com**
+
+#CapacityBuilding #Bioimaging #OpenEducationalResources #TrainTheTrainer #FAIRData
 
 ---
 
@@ -61,53 +95,68 @@ Thank you again to organizers, instructors, and participants, and to FUNDACEN, L
 ### X Thread A (3 posts)
 
 **Post 1/3**
-Our **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)** was a huge success 🎉
-Participants strengthened fundamentals and advanced their reproducible workflows (macros + Git + Pixi).
+Our **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)** just ended, and I’m honestly very happy and grateful 💙
+Participants made huge progress in fundamentals + reproducible workflows (macros, Git, Pixi).
 
 **Post 2/3**
-Beyond technical skills, participants learned how to design/teach tutorials and workflows, and how to make teaching materials FAIR via Zenodo. 
-Final assignment highlight: workflows/tutorials ready to publish 🚀
+A major win: they also learned how to teach.
+We worked on tutorial/workflow design, pedagogy, and FAIR sharing via Zenodo.
+Examples: napari in Google Colab + building webpages with Quarto & GitHub Pages.
+Final projects were publication-ready 🚀
 
 **Post 3/3**
-Proud to teach bioimage analysis in LATAM. Train-the-trainer courses can create exponential impact.
-We had participants from Chile + multiple provinces of Argentina.
-Materials:
+Proud to teach bioimage analysis in LATAM. Train-the-trainer has exponential impact.
+Participants joined from Chile + multiple provinces of Argentina.
 Website: https://acorbat.github.io/2026_TtT_Course/
 Zenodo: https://doi.org/10.5281/zenodo.18247226
-Thanks to all organizers, teachers, instructors, and participants.
-Special thanks: FUNDACEN, LABI, GloBIAS.
+License: CC-BY 4.0
+Thanks [INSTITUTION_1] [INSTITUTION_2] [INSTITUTION_3], [COMMUNITY_1] [COMMUNITY_2], organizers, teachers, instructors, participants.
+Want more courses together? cma.taller.ab@gmail.com
 
 ---
 
 ### X single-post option (compact)
-Our Train-the-Trainer bioimage analysis course was a success! 🎉
-Participants improved fundamentals, built reproducible workflows (macros, Git, Pixi), and developed FAIR teaching materials (Zenodo). Final projects were publication-ready workflows/tutorials.
-Proud of this LATAM effort (participants from Chile + across Argentina).
+Still emotional after this week: our Train-the-Trainer bioimage analysis course was a success 💙
+Participants improved fundamentals, built reproducible workflows (macros, Git, Pixi), and created FAIR teaching materials (Zenodo). Great examples included napari in Colab + Quarto/GitHub Pages resources. Final projects were publication-ready.
+Participants came from Chile + across Argentina.
 Website: https://acorbat.github.io/2026_TtT_Course/
 Zenodo: https://doi.org/10.5281/zenodo.18247226
-Thanks to all organizers, teachers, instructors, participants + FUNDACEN, LABI, GloBIAS.
+License: CC-BY 4.0
+Thanks [INSTITUTION_1] [COMMUNITY_1] [COMMUNITY_2] and all organizers/teachers/instructors/participants.
+Want to co-develop future courses? cma.taller.ab@gmail.com
 
 ---
 
 ## Bluesky post options
 
 ### Bluesky Post 1
-Our **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)** was a great success! Participants improved core skills and built reproducible workflows (macros, Git, Pixi), while also learning how to teach and publish FAIR materials via Zenodo.
+📸 (Add image reminder: group photo / participants working / final presentations)
+
+I’m so proud and grateful after our **Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)**.
+Participants grew a lot in fundamentals and reproducibility (macros, Git, Pixi), and also learned how to teach these skills to others.
 
 ### Bluesky Post 2
-I’m proud of this LATAM Train-the-Trainer effort: participants from Chile and different provinces of Argentina developed final workflows/tutorials ready for publication.
+Beautiful examples from final work included:
+- using napari from Google Colab,
+- developing webpages with Quarto + GitHub Pages,
+- workflows/tutorials ready for publication.
 
-All materials are open:
+### Bluesky Post 3
+This is why Train-the-Trainer matters in LATAM: impact multiplies.
+Participants joined from Chile and different provinces of Argentina.
+
 Website: https://acorbat.github.io/2026_TtT_Course/
 Zenodo: https://doi.org/10.5281/zenodo.18247226
+License: CC-BY 4.0
 
-Thanks to all organizers, teachers, instructors, participants, FUNDACEN, LABI, and GloBIAS 💙
+Thanks [INSTITUTION_1] [INSTITUTION_2] [INSTITUTION_3], [COMMUNITY_1] [COMMUNITY_2], organizers, teachers, instructors, and participants.
+If you’d like to co-create more courses, contact us: cma.taller.ab@gmail.com
 
 ---
 
-## Optional extra points you may want to add before posting
-- Mention 1–2 concrete examples of final student projects.
-- Tag institutions and individual instructors (if they agree).
-- Add 1 group photo + 1 screenshot of course materials page.
-- Add a call to action (e.g., “If your institution is interested in a future edition, contact us.”).
-- If relevant, mention the open license used for materials.
+## Optional final checklist before posting
+- Replace all placeholders with real handles/names.
+- Add one emotional image in the first post.
+- Tag FUNDACEN, LABI, and GloBIAS.
+- Confirm final license wording appears as **CC-BY 4.0** in post text.
+- Add 1–2 links to specific tutorial/workflow outputs if available.
