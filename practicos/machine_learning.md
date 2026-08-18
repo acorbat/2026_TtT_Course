@@ -36,7 +36,3 @@ Al finalizar la sesión, los alumnos serán capaces de:
 ## Link al taller
 
 [Link al taller](https://docs.google.com/document/d/1VO7vbaSS3PTgJG6Np34kpf3WXAOJZNRQuRU8achgl1E/edit?usp=sharing)
-
-## Citation
-
-[Add citation here]
