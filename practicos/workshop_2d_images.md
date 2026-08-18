@@ -30,7 +30,8 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ## Link al taller
 
-[Link al taller](https://docs.google.com/document/d/1zSsq5MJeMadhEf2ltC3uF1IVBt-eDZkb1j52DDOsE28/edit?usp=sharing)
+[Link al taller](https://github.com/acorbat/guia_calculos_de_imagenes)
 
 ## Citation
 
+Sigaut, L., Lecumberry, F., & Corbat, A. A. (2026, August 18). Guía Práctica de Análisis de Bioimágenes: Cálculos de Imágenes, Filtrado y Profundidad de Bits. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22001264
