@@ -152,7 +152,7 @@
     "href": "presentaciones/deep_learning_biomodels.html#citation",
     "title": "Deep Learning y Modelos Biomodelos",
     "section": "Citation",
-    "text": "Citation",
+    "text": "Citation\nCorbat, A. A. (2026, August 1). Deep Learning for Bioimaging. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21746499",
     "crumbs": [
       "Presentaciones",
       "Deep Learning y Modelos Biomodelos"
@@ -621,17 +621,6 @@
     ]
   },
   {
-    "objectID": "practicos/machine_learning.html#citation",
-    "href": "practicos/machine_learning.html#citation",
-    "title": "Machine Learning in Bioimage Analysis",
-    "section": "Citation",
-    "text": "Citation\n[Add citation here]",
-    "crumbs": [
-      "Prácticos",
-      "Machine Learning in Bioimage Analysis"
-    ]
-  },
-  {
     "objectID": "practicos/other_tools.html",
     "href": "practicos/other_tools.html",
     "title": "Otras herramientas para explorar (BYOW)",
@@ -823,7 +812,7 @@
     "href": "presentaciones/deep_learning.html#citation",
     "title": "Deep Learning",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026, August 1). Deep Learning for Bioimaging. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21746499",
+    "text": "Citation",
     "crumbs": [
       "Presentaciones",
       "Deep Learning"
