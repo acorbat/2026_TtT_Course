@@ -38,4 +38,5 @@ Ver instrucciones [aquí](https://maurosilber.github.io/git-tutorial/).
 
 ## Citation
 
-[Add citation here]
+Mauro Silberberg. (2026). maurosilber/git-tutorial: Train-the-Trainer course on Bioimage Analysis for LATAM (2026) (Version 20260804) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21809852
+
