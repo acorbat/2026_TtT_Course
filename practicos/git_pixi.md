@@ -35,7 +35,3 @@ Ver instrucciones [aquí](https://maurosilber.github.io/git-tutorial/).
 ## Link al taller
 
 [Link al taller](https://maurosilber.github.io/git-tutorial/)
-
-## Citation
-
-[Add citation here]
