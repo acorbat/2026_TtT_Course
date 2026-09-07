@@ -1,172 +1,719 @@
 [
   {
-    "objectID": "program.html",
-    "href": "program.html",
-    "title": "Programa",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Recursos del Curso",
     "section": "",
-    "text": "09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Federico Lecumberry)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Operaciones en imagenes (Lorena Sigaut)\n\nDesde como abrir una imagen hasta las operaciones básicas en y con imágenes\n\n\n\n\n\n\n\n\n\n13:30–14:10 - 🧠 Segmentación clásica y Cuantificación (Agustin Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:10–14:40 - ☕ Coffee Break\n14:40–16:30 - 🖥️ Segmentación y Cuantificación (Agustin Corbat)\n\nSesión práctica de segmentación y cuantificación\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n9:00–10:30 - 🧠 Workflows reproducibles (Suganya Sivagurunathan)\n\nPrincipios de flujos de trabajo reproducibles\n\n10:30–11:00 - ☕ Coffee Break\n11:00–12:30 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Agustin Corbat)\n\nComparación de GUI, macros y programación de distinto software\n\n12:30–13:00 - Organización de BYOW\n\nBYOW - Other Tools\n\n\n\n\n\n\n\n\n\n14:00–16:30 - 🖥️ (incluye ☕) Taller de Git y Pixi (Mauro Silberberg)\n\nControl de versiones con Git y gestión de entornos con Pixi\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n09:00–10:00 - 🧠 Machine Learning (Federico Lecumberry)\n\nFundamentos de Machine Learning para análisis de bioimágenes\nMachine Learning aplicado a segmentacion y a clasificacion de objetos\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:00 - 🖥️ Machine Learning (Federico Lecumberry)\n\nAplicaciones de ML a segmentacion de bioimágenes\n\n\n\n\n\n\n\n\n\n13:00–15:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n\nTeoría y conceptos de Deep Learning\n\n15:00–17:00 - 🗫🖥️ BYOW - Other Tools (Lorena Sigaut)\n\nBuild your own workshop y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial…\n\n\n\n\n\n\n\n\n\n09:00–10:00 - 🖥️ (incluye ☕) Taller de Deep Learning (Agustin Corbat)\n\nTaller práctico de Deep Learning\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:00 - 🖥️ Clasificación de objetos (Agustin Corbat)\n\nClasificación de objetos, reducción de dimensionalidad y clustering\n\n\n\n\n\n\n\n\n\n13:00–13:45 - 🧠 Deep Learning for BIA (Agustin Corbat)\n\nModelos típicos usados en análisis de bioimágenes\n\n13:45–14:00 - ☕ Coffee Break\n14:00–15:30 - 🖥️ Taller de Cellpose, StarDist and friends (Ignacio Sallaberry y Agustin Corbat)\n\nHerramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.\n\n15:30–16:30 - 🗫🖥️ BYOW - Other Tools (Lorena Sigaut)\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursos? (Martin Schätz)\n\nDiseño de cursos de capacitación y estrategias de enseñanza\n\n11:00–13:00 - 🗫 Discusiones sobre AI y como usarla (Agustin Corbat)\n\nDiscusión sobre el uso de AI en bioimágenes y diseño de clases\n\n\n\n\n\n\n\n\n\n14:00–16:00 - 🗫 (incluye ☕) Discusiones sobre los tutoriales de BYOW y otras herramientas\n\nPuesta en común de las herramientas exploradas en la sesión de BYOW - Other Tools\n\n16:00–17:00 - Cierre\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre (Revisar Zulip)",
+    "text": "Esta página recopila las herramientas recomendadas, plataformas y bibliografía esencial que utilizaremos a lo largo de la etapa teórica asincrónica y las prácticas presenciales.\n\n\n\nFiji (ImageJ): La plataforma por excelencia para el procesamiento básico de bioimágenes. Descárgala en imagej.net/software/fiji.\nPython: Lenguaje estándar en ciencia de datos. Recomendamos instalarlo a través de administradores de entornos como Miniconda o Pixi.\nnapari: Un visor de imágenes n-dimensionales interactivo y extensible en Python. Más detalles en napari.org.\nCellpose / StarDist: Herramientas basadas en aprendizaje profundo muy eficaces para segmentación celular y nuclear.\nCellpose SAM tutorial video: YouTube\nCellpose training tutorial: YouTube\nCellpose webpage: Sitio oficial. cellpose.org\nStarDist webpage: Sitio oficial. stardist.net\nConvpaint webpage: Documentación y uso con napari. guiwitz.github.io/napari-convpaint\nBioimage Model Zoo: Modelos y recursos para bioimágenes. bioimage.io\nHugging Face Spaces: Demos y apps interactivas de IA. huggingface.co/spaces\nTry Segment Anything Model: Demo oficial interactiva de Meta. aidemos.meta.com/segment-anything\nBia-Bob Readme: Guía e introducción del proyecto. GitHub\n\n\n\n\n\nSoftware Carpentry: Metodologías didácticas y buenas prácticas de enseñanza de código y herramientas digitales en investigación. Ver software-carpentry.org.\nBioimage Analysis Training Resources: Repositorios de ejercicios abiertos en comunidades globales como NEUBIAS y BIIF.\n\n\n\n\n\nImage.sc: Excelente foro para hacer preguntas y discutir análisis de bioimágenes. image.sc\nGloBIAS y BioImage Analyst Database: Recursos de formación y comunidad.\n\nglobias.org\nBioImage Analyst Database",
     "crumbs": [
-      "Programa"
+      "Recursos del Curso"
     ]
   },
   {
-    "objectID": "program.html#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto",
-    "href": "program.html#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto",
-    "title": "Programa",
+    "objectID": "resources.html#herramientas-de-análisis-recomendadas",
+    "href": "resources.html#herramientas-de-análisis-recomendadas",
+    "title": "Recursos del Curso",
     "section": "",
-    "text": "09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Federico Lecumberry)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Operaciones en imagenes (Lorena Sigaut)\n\nDesde como abrir una imagen hasta las operaciones básicas en y con imágenes\n\n\n\n\n\n\n\n\n\n13:30–14:10 - 🧠 Segmentación clásica y Cuantificación (Agustin Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:10–14:40 - ☕ Coffee Break\n14:40–16:30 - 🖥️ Segmentación y Cuantificación (Agustin Corbat)\n\nSesión práctica de segmentación y cuantificación\n\n16:30–17:00 - Cierre",
+    "text": "Fiji (ImageJ): La plataforma por excelencia para el procesamiento básico de bioimágenes. Descárgala en imagej.net/software/fiji.\nPython: Lenguaje estándar en ciencia de datos. Recomendamos instalarlo a través de administradores de entornos como Miniconda o Pixi.\nnapari: Un visor de imágenes n-dimensionales interactivo y extensible en Python. Más detalles en napari.org.\nCellpose / StarDist: Herramientas basadas en aprendizaje profundo muy eficaces para segmentación celular y nuclear.\nCellpose SAM tutorial video: YouTube\nCellpose training tutorial: YouTube\nCellpose webpage: Sitio oficial. cellpose.org\nStarDist webpage: Sitio oficial. stardist.net\nConvpaint webpage: Documentación y uso con napari. guiwitz.github.io/napari-convpaint\nBioimage Model Zoo: Modelos y recursos para bioimágenes. bioimage.io\nHugging Face Spaces: Demos y apps interactivas de IA. huggingface.co/spaces\nTry Segment Anything Model: Demo oficial interactiva de Meta. aidemos.meta.com/segment-anything\nBia-Bob Readme: Guía e introducción del proyecto. GitHub",
     "crumbs": [
-      "Programa"
+      "Recursos del Curso"
     ]
   },
   {
-    "objectID": "program.html#día-2-workflows-reproducibles-martes-4-de-agosto",
-    "href": "program.html#día-2-workflows-reproducibles-martes-4-de-agosto",
-    "title": "Programa",
+    "objectID": "resources.html#material-de-lectura-e-inspiración-pedagógica",
+    "href": "resources.html#material-de-lectura-e-inspiración-pedagógica",
+    "title": "Recursos del Curso",
     "section": "",
-    "text": "9:00–10:30 - 🧠 Workflows reproducibles (Suganya Sivagurunathan)\n\nPrincipios de flujos de trabajo reproducibles\n\n10:30–11:00 - ☕ Coffee Break\n11:00–12:30 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Agustin Corbat)\n\nComparación de GUI, macros y programación de distinto software\n\n12:30–13:00 - Organización de BYOW\n\nBYOW - Other Tools\n\n\n\n\n\n\n\n\n\n14:00–16:30 - 🖥️ (incluye ☕) Taller de Git y Pixi (Mauro Silberberg)\n\nControl de versiones con Git y gestión de entornos con Pixi\n\n16:30–17:00 - Cierre",
+    "text": "Software Carpentry: Metodologías didácticas y buenas prácticas de enseñanza de código y herramientas digitales en investigación. Ver software-carpentry.org.\nBioimage Analysis Training Resources: Repositorios de ejercicios abiertos en comunidades globales como NEUBIAS y BIIF.",
     "crumbs": [
-      "Programa"
+      "Recursos del Curso"
     ]
   },
   {
-    "objectID": "program.html#day-3-machine-learning-miércoles-5-de-agosto",
-    "href": "program.html#day-3-machine-learning-miércoles-5-de-agosto",
-    "title": "Programa",
+    "objectID": "resources.html#comunidad-y-tutoriales-útiles",
+    "href": "resources.html#comunidad-y-tutoriales-útiles",
+    "title": "Recursos del Curso",
     "section": "",
-    "text": "09:00–10:00 - 🧠 Machine Learning (Federico Lecumberry)\n\nFundamentos de Machine Learning para análisis de bioimágenes\nMachine Learning aplicado a segmentacion y a clasificacion de objetos\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:00 - 🖥️ Machine Learning (Federico Lecumberry)\n\nAplicaciones de ML a segmentacion de bioimágenes\n\n\n\n\n\n\n\n\n\n13:00–15:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n\nTeoría y conceptos de Deep Learning\n\n15:00–17:00 - 🗫🖥️ BYOW - Other Tools (Lorena Sigaut)\n\nBuild your own workshop y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial…",
+    "text": "Image.sc: Excelente foro para hacer preguntas y discutir análisis de bioimágenes. image.sc\nGloBIAS y BioImage Analyst Database: Recursos de formación y comunidad.\n\nglobias.org\nBioImage Analyst Database",
     "crumbs": [
-      "Programa"
+      "Recursos del Curso"
     ]
   },
   {
-    "objectID": "program.html#day-4-deep-learning-jueves-6-de-agosto",
-    "href": "program.html#day-4-deep-learning-jueves-6-de-agosto",
-    "title": "Programa",
+    "objectID": "presentaciones/workflows.html",
+    "href": "presentaciones/workflows.html",
+    "title": "Workflows reproducibles",
     "section": "",
-    "text": "09:00–10:00 - 🖥️ (incluye ☕) Taller de Deep Learning (Agustin Corbat)\n\nTaller práctico de Deep Learning\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:00 - 🖥️ Clasificación de objetos (Agustin Corbat)\n\nClasificación de objetos, reducción de dimensionalidad y clustering\n\n\n\n\n\n\n\n\n\n13:00–13:45 - 🧠 Deep Learning for BIA (Agustin Corbat)\n\nModelos típicos usados en análisis de bioimágenes\n\n13:45–14:00 - ☕ Coffee Break\n14:00–15:30 - 🖥️ Taller de Cellpose, StarDist and friends (Ignacio Sallaberry y Agustin Corbat)\n\nHerramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.\n\n15:30–16:30 - 🗫🖥️ BYOW - Other Tools (Lorena Sigaut)\n16:30–17:00 - Cierre",
-    "crumbs": [
-      "Programa"
-    ]
-  },
-  {
-    "objectID": "program.html#day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto",
-    "href": "program.html#day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto",
-    "title": "Programa",
-    "section": "",
-    "text": "09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursos? (Martin Schätz)\n\nDiseño de cursos de capacitación y estrategias de enseñanza\n\n11:00–13:00 - 🗫 Discusiones sobre AI y como usarla (Agustin Corbat)\n\nDiscusión sobre el uso de AI en bioimágenes y diseño de clases\n\n\n\n\n\n\n\n\n\n14:00–16:00 - 🗫 (incluye ☕) Discusiones sobre los tutoriales de BYOW y otras herramientas\n\nPuesta en común de las herramientas exploradas en la sesión de BYOW - Other Tools\n\n16:00–17:00 - Cierre\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre (Revisar Zulip)",
-    "crumbs": [
-      "Programa"
-    ]
-  },
-  {
-    "objectID": "presentaciones/teaching.html",
-    "href": "presentaciones/teaching.html",
-    "title": "¿Cómo hacer escuelas y cursos?",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDiscutir puntos de partida y llegada a la hora de diseñar material de enseñanza.\nConocer ejemplos de sitios y redes donde se puede encontrar material de enseñanza.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDescribir las características de un flujo de trabajo de bioimágenes.\nListar las propiedades que tiene un flujo de trabajo reproducible.\nComprender las razones para que los flujos de trabajos sean reproducibles.",
     "crumbs": [
       "Presentaciones",
-      "¿Cómo hacer escuelas y cursos?"
+      "Workflows reproducibles"
     ]
   },
   {
-    "objectID": "presentaciones/teaching.html#slides",
-    "href": "presentaciones/teaching.html#slides",
-    "title": "¿Cómo hacer escuelas y cursos?",
+    "objectID": "presentaciones/workflows.html#slides",
+    "href": "presentaciones/workflows.html#slides",
+    "title": "Workflows reproducibles",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "¿Cómo hacer escuelas y cursos?"
+      "Workflows reproducibles"
     ]
   },
   {
-    "objectID": "presentaciones/teaching.html#citation",
-    "href": "presentaciones/teaching.html#citation",
-    "title": "¿Cómo hacer escuelas y cursos?",
+    "objectID": "presentaciones/workflows.html#citation",
+    "href": "presentaciones/workflows.html#citation",
+    "title": "Workflows reproducibles",
     "section": "Citation",
-    "text": "Citation\nSchätz, M. (2026, August 6). From Analyst to Trainer - A Practical Toolkit. Zenodo.",
+    "text": "Citation\nSivagurunathan, S. (2026, August 4). Reproducible workflows. Zenodo. https://doi.org/10.5281/zenodo.21782259",
     "crumbs": [
       "Presentaciones",
-      "¿Cómo hacer escuelas y cursos?"
+      "Workflows reproducibles"
     ]
   },
   {
-    "objectID": "presentaciones/que_es_bia.html",
-    "href": "presentaciones/que_es_bia.html",
-    "title": "¿Qué es Análisis de Bioimágenes?",
+    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html",
+    "href": "presentaciones/segmentacion_clasica_cuantificacion.html",
+    "title": "Segmentación clásica y Cuantificación",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDefinir análisis de bioimágenes y sus características.\nComprender qué es una bioimagen, cómo se forman y sus atributos.\nSaber ejemplos de formatos para guardar bioimágenes con sus ventajas y desventajas.\nConocer distintas operaciones que pueden aplicarse a bioimágenes.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serrán capaces de:\n\nComprender las diferencias entre los distintos tipos de segmentación.\nConocer las distintas operaciones morfológicas que pueden aplicarse a máscaras.\nEntender cómo interpretar algoritmos de cuantificación, incluyendo sus puntos débiles.",
     "crumbs": [
       "Presentaciones",
-      "¿Qué es Análisis de Bioimágenes?"
+      "Segmentación clásica y Cuantificación"
     ]
   },
   {
-    "objectID": "presentaciones/que_es_bia.html#slides",
-    "href": "presentaciones/que_es_bia.html#slides",
-    "title": "¿Qué es Análisis de Bioimágenes?",
+    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html#slides",
+    "href": "presentaciones/segmentacion_clasica_cuantificacion.html#slides",
+    "title": "Segmentación clásica y Cuantificación",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "¿Qué es Análisis de Bioimágenes?"
+      "Segmentación clásica y Cuantificación"
     ]
   },
   {
-    "objectID": "presentaciones/que_es_bia.html#citation",
-    "href": "presentaciones/que_es_bia.html#citation",
-    "title": "¿Qué es Análisis de Bioimágenes?",
+    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
+    "href": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
+    "title": "Segmentación clásica y Cuantificación",
     "section": "Citation",
-    "text": "Citation\n\nLecumberry, F. (2026). Fundamentals of Bioimages. Zenodo. https://doi.org/10.5281/zenodo.21777769",
+    "text": "Citation\nCorbat, A. A. (2026, August 1). Segmentation and Quantification. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21744286",
     "crumbs": [
       "Presentaciones",
-      "¿Qué es Análisis de Bioimágenes?"
+      "Segmentación clásica y Cuantificación"
     ]
   },
   {
-    "objectID": "presentaciones/deep_learning_biomodels.html",
-    "href": "presentaciones/deep_learning_biomodels.html",
-    "title": "Deep Learning y Modelos Biomodelos",
+    "objectID": "presentaciones/machine_learning.html",
+    "href": "presentaciones/machine_learning.html",
+    "title": "Machine Learning",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nConocer los principales modelos de Deep Learning usados en bioimagen.\nAprender a aplicar Cellpose, StarDist y BioModel Zoo a datos reales.\nEvaluar limitaciones y buenas prácticas al usar modelos biomodelos.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos básicos de Machine Learning aplicados a bioimágenes.\nIdentificar cuándo y cómo usar técnicas de ML en análisis de imágenes.\nEvaluar limitaciones y riesgos de los modelos de ML.",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning y Modelos Biomodelos"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "presentaciones/deep_learning_biomodels.html#slides",
-    "href": "presentaciones/deep_learning_biomodels.html#slides",
-    "title": "Deep Learning y Modelos Biomodelos",
+    "objectID": "presentaciones/machine_learning.html#slides",
+    "href": "presentaciones/machine_learning.html#slides",
+    "title": "Machine Learning",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning y Modelos Biomodelos"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "presentaciones/deep_learning_biomodels.html#citation",
-    "href": "presentaciones/deep_learning_biomodels.html#citation",
-    "title": "Deep Learning y Modelos Biomodelos",
+    "objectID": "presentaciones/machine_learning.html#citation",
+    "href": "presentaciones/machine_learning.html#citation",
+    "title": "Machine Learning",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026, August 1). Deep Learning for Bioimaging. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21746499",
+    "text": "Citation\nLecumberry, F. (2026, August 4). Machine Learning and ilastik. Zenodo",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning y Modelos Biomodelos"
+      "Machine Learning"
     ]
   },
   {
-    "objectID": "presentaciones/ai_in_bia.html",
-    "href": "presentaciones/ai_in_bia.html",
-    "title": "Inteligencia Artificial en Análisis de Bioimágenes",
+    "objectID": "presentaciones/deep_learning.html",
+    "href": "presentaciones/deep_learning.html",
+    "title": "Deep Learning",
     "section": "",
-    "text": "TipObjetivos de la sesión\n\n\n\nDiscutir cómo y en qué casos utilizar inteligencia artificial tanto para generar material educativo como para desarrollar soluciones en proyectos de análisis de bioimágenes.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos fundamentales del Deep Learning aplicados a bioimágenes.\nIdentificar arquitecturas comunes y su uso en segmentación de imágenes.\nReconocer limitaciones y consideraciones prácticas al aplicar DL.",
     "crumbs": [
       "Presentaciones",
-      "Inteligencia Artificial en Análisis de Bioimágenes"
+      "Deep Learning"
+    ]
+  },
+  {
+    "objectID": "presentaciones/deep_learning.html#slides",
+    "href": "presentaciones/deep_learning.html#slides",
+    "title": "Deep Learning",
+    "section": "Slides",
+    "text": "Slides",
+    "crumbs": [
+      "Presentaciones",
+      "Deep Learning"
+    ]
+  },
+  {
+    "objectID": "presentaciones/deep_learning.html#citation",
+    "href": "presentaciones/deep_learning.html#citation",
+    "title": "Deep Learning",
+    "section": "Citation",
+    "text": "Citation\nFerrante, E. (2026, August 5). Redes Neuronales para Analisis de Bioimágenes. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22647693",
+    "crumbs": [
+      "Presentaciones",
+      "Deep Learning"
+    ]
+  },
+  {
+    "objectID": "precurso/python.html",
+    "href": "precurso/python.html",
+    "title": "Python",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nConocer la sintaxis básica de Python (variables, tipos de datos, funciones, bucles, condicionales).\nUtilizar Jupyter Notebooks o un entorno interactivo de Python.\nImportar y utilizar bibliotecas estándar (numpy, matplotlib).\nLeer y manipular arreglos numéricos básicos.\nPython es un lenguaje de programación de alto nivel, dinámico y multipropósito, ampliamente utilizado en ciencia de datos y análisis de bioimágenes por su sintaxis clara y su robusto ecosistema de bibliotecas. A continuación se presentan los enlaces al material del taller, aunque realizaremos la instalación de Python de una manera diferente.",
+    "crumbs": [
+      "Precurso",
+      "Python"
+    ]
+  },
+  {
+    "objectID": "precurso/python.html#taller-y-material-de-referencia",
+    "href": "precurso/python.html#taller-y-material-de-referencia",
+    "title": "Python",
+    "section": "Taller y Material de Referencia",
+    "text": "Taller y Material de Referencia\nAunque recomendamos realizar una instalación como la que se describe en la siguiente sección, el material oficial de referencia para este taller se encuentra en:\n\nTaller de Python en GitHub (repositorio original).\nPágina web del Tutorial.",
+    "crumbs": [
+      "Precurso",
+      "Python"
+    ]
+  },
+  {
+    "objectID": "precurso/python.html#configuración-del-entorno-de-trabajo",
+    "href": "precurso/python.html#configuración-del-entorno-de-trabajo",
+    "title": "Python",
+    "section": "Configuración del Entorno de Trabajo",
+    "text": "Configuración del Entorno de Trabajo\nPara este curso, en lugar de realizar una instalación global de Python o usar otras herramientas, utilizaremos pixi para inicializar y gestionar el entorno de forma reproducible. Sigue estos pasos:\n\nCrear una carpeta de trabajo: Abre tu terminal y crea un nuevo directorio llamado python-tutorial, luego ingresa a él:\nmkdir python-tutorial\ncd python-tutorial\nInicializar el proyecto: Crea un nuevo proyecto de pixi ejecutando:\npixi init\nAgregar dependencias: Añade Python, Jupyter y las librerías científicas necesarias corriendo:\npixi add python jupyter numpy matplotlib\nIniciar Jupyter Notebook: Para abrir Jupyter Notebook y comenzar a escribir código, ejecuta:\npixi run jupyter notebook\nEsto iniciará el servidor de Jupyter y abrirá la interfaz en tu navegador web. Desde allí podrás crear cuadernos interactivos (.ipynb) y seguir el tutorial.",
+    "crumbs": [
+      "Precurso",
+      "Python"
+    ]
+  },
+  {
+    "objectID": "precurso/python.html#actividades-a-realizar",
+    "href": "precurso/python.html#actividades-a-realizar",
+    "title": "Python",
+    "section": "Actividades a Realizar",
+    "text": "Actividades a Realizar\nDebes seguir los pasos del material del taller disponible en https://maurosilber.github.io/python-tutorial y completar las explicaciones y ejercicios hasta la sección de Numpy y matplotlib inclusive.",
+    "crumbs": [
+      "Precurso",
+      "Python"
+    ]
+  },
+  {
+    "objectID": "precurso/python.html#citation",
+    "href": "precurso/python.html#citation",
+    "title": "Python",
+    "section": "Citation",
+    "text": "Citation\nMauro Silberberg. (2026). maurosilber/python-tutorial: 20260724 (Version 20260724) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21539956",
+    "crumbs": [
+      "Precurso",
+      "Python"
+    ]
+  },
+  {
+    "objectID": "precurso/fiji.html",
+    "href": "precurso/fiji.html",
+    "title": "FIJI / ImageJ",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nAbrir y visualizar imágenes en FIJI (incluyendo stacks e hyperstacks).\nUtilizar herramientas de selección y medición (ROIs).\nNavegar menús y plugins de FIJI.",
+    "crumbs": [
+      "Precurso",
+      "FIJI / ImageJ"
+    ]
+  },
+  {
+    "objectID": "precurso/fiji.html#taller",
+    "href": "precurso/fiji.html#taller",
+    "title": "FIJI / ImageJ",
+    "section": "Taller",
+    "text": "Taller\nPara aprender funciones básicas de Fiji recomiendo seguir la sección correspondiente a Fiji del siguiente taller. La segunda sección no es necesaria y tiene ejemplos para resolver en Napari pero va a hacer falta agregarlo como requerimiento a pixi, ¿Cómo lo harías?",
+    "crumbs": [
+      "Precurso",
+      "FIJI / ImageJ"
+    ]
+  },
+  {
+    "objectID": "precurso/fiji.html#citation",
+    "href": "precurso/fiji.html#citation",
+    "title": "FIJI / ImageJ",
+    "section": "Citation",
+    "text": "Citation\nCorbat, A. A. (2026, January 9). Workshop on 2D Image Visualization: Fiji and Napari. Zenodo. Light-Sheet Image Analysis Workshop 2026, Santiago de Chile, Chile. https://doi.org/10.5281/zenodo.18199647",
+    "crumbs": [
+      "Precurso",
+      "FIJI / ImageJ"
+    ]
+  },
+  {
+    "objectID": "practicos/workshop_2d_images.html",
+    "href": "practicos/workshop_2d_images.html",
+    "title": "Operaciones con imágenes",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nListar que ejercicios hay que cubrir para estudiantes que no saben usar software de imágenes hasta estudiantes que si.\nConocer formas de acceder a datos y metadatos en imágenes con distinto software.\nElegir y encontrar operaciones aplicables a imágenes y sus efectos en la imagen.",
+    "crumbs": [
+      "Prácticos",
+      "Operaciones con imágenes"
+    ]
+  },
+  {
+    "objectID": "practicos/workshop_2d_images.html#prerequisitos",
+    "href": "practicos/workshop_2d_images.html#prerequisitos",
+    "title": "Operaciones con imágenes",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji\n\n\n\nConocimientos previos\n\nNingún conocimiento previo requerido",
+    "crumbs": [
+      "Prácticos",
+      "Operaciones con imágenes"
+    ]
+  },
+  {
+    "objectID": "practicos/workshop_2d_images.html#link-al-taller",
+    "href": "practicos/workshop_2d_images.html#link-al-taller",
+    "title": "Operaciones con imágenes",
+    "section": "Link al taller",
+    "text": "Link al taller\nLink al taller",
+    "crumbs": [
+      "Prácticos",
+      "Operaciones con imágenes"
+    ]
+  },
+  {
+    "objectID": "practicos/workshop_2d_images.html#citation",
+    "href": "practicos/workshop_2d_images.html#citation",
+    "title": "Operaciones con imágenes",
+    "section": "Citation",
+    "text": "Citation\nSigaut, L., Lecumberry, F., & Corbat, A. A. (2026, August 18). Guía Práctica de Análisis de Bioimágenes: Cálculos de Imágenes, Filtrado y Profundidad de Bits. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22001264",
+    "crumbs": [
+      "Prácticos",
+      "Operaciones con imágenes"
+    ]
+  },
+  {
+    "objectID": "practicos/other_tools.html",
+    "href": "practicos/other_tools.html",
+    "title": "Otras herramientas para explorar (BYOW)",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nExplorar de forma autónoma herramientas de bioimagen alternativas para problemas específicos.\nDefinir un plan para abordar su propio problema biológico (“Build Your Own Workshop” - BYOW) utilizando las herramientas vistas o nuevas.",
+    "crumbs": [
+      "Prácticos",
+      "Otras herramientas para explorar (BYOW)"
+    ]
+  },
+  {
+    "objectID": "practicos/other_tools.html#opciones-de-herramientas-a-abordar",
+    "href": "practicos/other_tools.html#opciones-de-herramientas-a-abordar",
+    "title": "Otras herramientas para explorar (BYOW)",
+    "section": "Opciones de herramientas a abordar",
+    "text": "Opciones de herramientas a abordar\n\nTracking\n\nultrack\nTrackMate\n\n\n\nColocalización\n\nPor ejemplo recomandaciones en el video Understanding and Measuring Colocalization in Fiji and CellProfiler de Esteban Miglietta en el I2K.\n\n\n\nImage Registration\n\nValis\nWarpy\n\n\n\nSpectral Unmixing\n\n\nOtras técnicas de segmentación\n\nconvpaint\n\n\n\nPhasors\n\nPhasorpy\n\n\n\nDeconvolution\n\nDeconvolutionLab2\n\n\n\nSpatial Transcriptomics\n\nSpatial Data: Permite combinar varias modalidades de bioimágenes y combinar información para hacer clasificación de células y estudiar espacialidad.\n\n\n\nHistología\n\nQuPath: software libre y abierto para análisis de imágenes, con foco fuerte en histología y patología digital. Incluye opciones de segmentación como InstanSeg (intanseg), entre otras alternativas.",
+    "crumbs": [
+      "Prácticos",
+      "Otras herramientas para explorar (BYOW)"
+    ]
+  },
+  {
+    "objectID": "practicos/other_tools.html#presentación",
+    "href": "practicos/other_tools.html#presentación",
+    "title": "Otras herramientas para explorar (BYOW)",
+    "section": "Presentación",
+    "text": "Presentación\nEl objetivo del ejercicio es que cada grupo/estudiante desarrolle un tutorial corto de una herramienta de su interés (pueden usar la lista anterior como sugerencia).\nLa presentación será el viernes y tendrá el siguiente formato:\n\n10 minutos de presentación\n5 minutos para preguntas\n\nPueden presentar con diapositivas o recorrer en vivo el tutorial que hayan desarrollado.\n\n\n\n\n\n\nTipPro tips\n\n\n\n\nPueden usar git y GitHub para practicar lo aprendido y dejar el tutorial disponible en línea.\nEl viernes veremos cómo publicar el tutorial en Zenodo con una licencia adecuada para que el material sea FAIR.",
+    "crumbs": [
+      "Prácticos",
+      "Otras herramientas para explorar (BYOW)"
+    ]
+  },
+  {
+    "objectID": "practicos/machine_learning.html",
+    "href": "practicos/machine_learning.html",
+    "title": "Machine Learning in Bioimage Analysis",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nExplicar los fundamentos del aprendizaje automático (Machine Learning) clásico aplicado a la clasificación de píxeles y segmentación.\nEntrenar y evaluar clasificadores utilizando características extraídas de imágenes de microscopía.\nDiseñar objetivos de aprendizaje realistas sobre ML para enseñar de manera responsable y sin sobredimensionar la herramienta.",
+    "crumbs": [
+      "Prácticos",
+      "Machine Learning in Bioimage Analysis"
+    ]
+  },
+  {
+    "objectID": "practicos/machine_learning.html#prerequisitos",
+    "href": "practicos/machine_learning.html#prerequisitos",
+    "title": "Machine Learning in Bioimage Analysis",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nilastik\nPython y Jupyter Notebooks\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nFamiliaridad con procesamiento de imágenes y segmentación clásica.",
+    "crumbs": [
+      "Prácticos",
+      "Machine Learning in Bioimage Analysis"
+    ]
+  },
+  {
+    "objectID": "practicos/machine_learning.html#link-al-taller",
+    "href": "practicos/machine_learning.html#link-al-taller",
+    "title": "Machine Learning in Bioimage Analysis",
+    "section": "Link al taller",
+    "text": "Link al taller\nLink al taller",
+    "crumbs": [
+      "Prácticos",
+      "Machine Learning in Bioimage Analysis"
+    ]
+  },
+  {
+    "objectID": "practicos/git_pixi.html",
+    "href": "practicos/git_pixi.html",
+    "title": "Version Control with Git and Environment Management with Pixi",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nComprender y aplicar los fundamentos del control de versiones utilizando Git y GitHub.\nConfigurar y gestionar entornos de desarrollo de Python de manera reproducible usando Pixi.\nCompartir especificaciones de entornos y código de forma robusta con otros colaboradores.",
+    "crumbs": [
+      "Prácticos",
+      "Version Control with Git and Environment Management with Pixi"
+    ]
+  },
+  {
+    "objectID": "practicos/git_pixi.html#prerequisitos",
+    "href": "practicos/git_pixi.html#prerequisitos",
+    "title": "Version Control with Git and Environment Management with Pixi",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\nVer instrucciones aquí.\n\nPixi\nGit\nVS Code (opcional)\n\n\n\nConocimientos previos\n\nNingún conocimiento previo requerido.",
+    "crumbs": [
+      "Prácticos",
+      "Version Control with Git and Environment Management with Pixi"
+    ]
+  },
+  {
+    "objectID": "practicos/git_pixi.html#link-al-taller",
+    "href": "practicos/git_pixi.html#link-al-taller",
+    "title": "Version Control with Git and Environment Management with Pixi",
+    "section": "Link al taller",
+    "text": "Link al taller\nLink al taller",
+    "crumbs": [
+      "Prácticos",
+      "Version Control with Git and Environment Management with Pixi"
+    ]
+  },
+  {
+    "objectID": "practicos/deep_learning_biomodels.html",
+    "href": "practicos/deep_learning_biomodels.html",
+    "title": "Cellpose, StarDist, and Friends",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nAplicar modelos preentrenados de última generación (como Cellpose, StarDist e InstanSeg) para segmentación de instancias.\nRealizar el ajuste fino (fine-tuning) de modelos utilizando datasets personalizados con anotaciones de los propios usuarios.\nUtilizar BioImage Model Zoo y plugins dentro de napari y Fiji para realizar inferencias de Deep Learning.",
+    "crumbs": [
+      "Prácticos",
+      "Cellpose, StarDist, and Friends"
+    ]
+  },
+  {
+    "objectID": "practicos/deep_learning_biomodels.html#prerequisitos",
+    "href": "practicos/deep_learning_biomodels.html#prerequisitos",
+    "title": "Cellpose, StarDist, and Friends",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nnapari (con plugins de Cellpose y StarDist)\nFiji (con integraciones correspondientes)\n\n\n\nConocimientos previos\n\nFundamentos de Deep Learning y segmentación clásica.",
+    "crumbs": [
+      "Prácticos",
+      "Cellpose, StarDist, and Friends"
+    ]
+  },
+  {
+    "objectID": "practicos/deep_learning_biomodels.html#link-al-taller",
+    "href": "practicos/deep_learning_biomodels.html#link-al-taller",
+    "title": "Cellpose, StarDist, and Friends",
+    "section": "Link al taller",
+    "text": "Link al taller\nLink al taller",
+    "crumbs": [
+      "Prácticos",
+      "Cellpose, StarDist, and Friends"
+    ]
+  },
+  {
+    "objectID": "practicos/deep_learning_biomodels.html#citation",
+    "href": "practicos/deep_learning_biomodels.html#citation",
+    "title": "Cellpose, StarDist, and Friends",
+    "section": "Citation",
+    "text": "Citation\nSallaberry, I., & Corbat, A. A. (2026, August 7). Workshop deep learning for bioimage analysis. Zenodo. Taller de Fundamentos en Analisis de Bioimágenes (2026 TtT Course), Buenos Aires - Argentina. https://doi.org/10.5281/zenodo.22259997",
+    "crumbs": [
+      "Prácticos",
+      "Cellpose, StarDist, and Friends"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inicio",
+    "section": "",
+    "text": "¡Te damos la bienvenida al portal del Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)!\nEste taller intensivo y presencial se llevará a cabo del 3 al 7 de agosto de 2026 en el Pabellón 0+Infinito, de la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires (FCEN-UBA) en Buenos Aires, Argentina.\nA diferencia de los talleres puramente técnicos, este taller tiene un formato de Formación de Formadores (Train-the-Trainer). Nuestro propósito principal es capacitar a profesionales del área de bioimágenes para que no solo dominen metodologías de análisis avanzadas, sino que adquieran las herramientas pedagógicas y didácticas necesarias para enseñar y replicar de forma sostenible este conocimiento en sus instituciones de origen en Latinoamérica.\n\n📅 Ver Programa Completo 📚 Recursos del Taller\n\n\n\n\n\n\nEste taller está diseñado para estudiantes de posgrado, investigadores/as, analistas de imágenes y personal técnico de laboratorios y de centros de microscopía o servicios científicos de Argentina y de Latinoamérica que deseen: 1. Consolidar sus bases teóricas y metodológicas en el análisis cuantitativo de bioimágenes. 2. Adquirir y poner en práctica herramientas pedagógicas que les permitan diseñar lecciones, dictar talleres prácticos y transferir conocimientos de forma efectiva a otros miembros de su comunidad.\n\n\n\nEl taller implementa un modelo de aprendizaje activo híbrido: * Fase online asincrónica (a partir de mediados de julio): Introducción de nivelación con lecturas, videos grabados y preparación de software (Fiji, Python, napari) de cumplimiento obligatorio para centrar el tiempo presencial en dinámicas aplicadas. * Fase presencial intensiva (3 al 7 de agosto): Sesiones teórico-prácticas donde cada tema se divide en: 1. Conceptos clave: Breve repaso del tema con resolución de dudas conceptuales complejas. 2. Diseño pedagógico: Trabajo grupal enfocado en cómo enseñar el tema, diseñar ejercicios con muestras reales, evitar errores conceptuales típicos de los estudiantes y estructurar tareas de evaluación.\n\n\n\n\nProcesamiento de imágenes y fundamentos: Formatos de datos, operaciones espaciales, filtrado y buenas prácticas.\nSegmentación y cuantificación: Extracción de características métricas de manera rigurosa y reproducible.\nAutomatización y flujos de trabajo: Desarrollo y empaquetado de workflows reproducibles utilizando el ecosistema de Fiji/ImageJ, Python y Napari.\nMachine y Deep Learning: Introducción a algoritmos de aprendizaje automático para el análisis de bioimágenes, aprendiendo a presentarlos y enseñarlos con expectativas realistas.\nPedagogía práctica: Diseño y adaptación de guías de ejercicios a las infraestructuras y contextos de origen de los participantes.\n\n\n\n\n\n\n\n\n\n\nCierre de Postulaciones: 16 de julio de 2026\nNotificación de Aceptación: A partir del 20 de julio de 2026\nInicio Fase Asincrónica: Mediados de julio de 2026\nTaller Presencial: 3 al 7 de agosto de 2026\n\n\n\n\nGracias al apoyo parcial de FUNDACEN y fondos institucionales, disponemos de becas de ayuda económica para viaje y alojamiento, así como exenciones de aranceles de registro para participantes seleccionados de la región. * Puedes solicitar el apoyo en la sección correspondiente del formulario de inscripción.\n\n\n\n\n\n\n\n\n\n\n\nDr. Agustín A. Corbat (DF - FCEN - UBA)\nDra. Lorena Sigaut (DF - FCEN - UBA & CMA)\nDra. Lía I. Pietrasanta (DF - FCEN - UBA & CMA)\n\n\n\n\n\n\nDr. Ignacio Sallaberry (FCEN - UBA)\nLic. Mauro Silberberg (FCEN - UBA)\nLic. Alejandra Fernández (FCEN - UBA)\nFis. Elizabeth Samaniego Onofre (FCEN - UBA)\nGina A. Alongi (FCEN - UBA)\n\n\n\n\n\n\n\nDr. Enzo Ferrante (UNL / CONICET, Argentina) – Teoría y fundamentos de Deep Learning aplicados a Bioimágenes.\nDr. Federico Lecumberry (Universidad de la República, Uruguay).\nDra. Suganya Sivagurunathan (BIIF, SciLifeLab / Uppsala University, Suecia) – Workflows reproducibles (virtual).\nDr. Martin Schätz (Viničná Microscopy Core Facility, Faculty of Science, Charles University y Department of Mathematics Informatics and Cybernetics, University of Chemistry and Technology, Praga, Republica Checa) - ¿Como hacer escuelas y cursos? (virtual).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContacto: cma.taller.ab@gmail.com\n\n\n\n\n\nCorbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores). Zenodo. https://doi.org/10.5281/zenodo.18247226",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#sobre-el-taller",
+    "href": "index.html#sobre-el-taller",
+    "title": "Inicio",
+    "section": "",
+    "text": "Este taller está diseñado para estudiantes de posgrado, investigadores/as, analistas de imágenes y personal técnico de laboratorios y de centros de microscopía o servicios científicos de Argentina y de Latinoamérica que deseen: 1. Consolidar sus bases teóricas y metodológicas en el análisis cuantitativo de bioimágenes. 2. Adquirir y poner en práctica herramientas pedagógicas que les permitan diseñar lecciones, dictar talleres prácticos y transferir conocimientos de forma efectiva a otros miembros de su comunidad.\n\n\n\nEl taller implementa un modelo de aprendizaje activo híbrido: * Fase online asincrónica (a partir de mediados de julio): Introducción de nivelación con lecturas, videos grabados y preparación de software (Fiji, Python, napari) de cumplimiento obligatorio para centrar el tiempo presencial en dinámicas aplicadas. * Fase presencial intensiva (3 al 7 de agosto): Sesiones teórico-prácticas donde cada tema se divide en: 1. Conceptos clave: Breve repaso del tema con resolución de dudas conceptuales complejas. 2. Diseño pedagógico: Trabajo grupal enfocado en cómo enseñar el tema, diseñar ejercicios con muestras reales, evitar errores conceptuales típicos de los estudiantes y estructurar tareas de evaluación.\n\n\n\n\nProcesamiento de imágenes y fundamentos: Formatos de datos, operaciones espaciales, filtrado y buenas prácticas.\nSegmentación y cuantificación: Extracción de características métricas de manera rigurosa y reproducible.\nAutomatización y flujos de trabajo: Desarrollo y empaquetado de workflows reproducibles utilizando el ecosistema de Fiji/ImageJ, Python y Napari.\nMachine y Deep Learning: Introducción a algoritmos de aprendizaje automático para el análisis de bioimágenes, aprendiendo a presentarlos y enseñarlos con expectativas realistas.\nPedagogía práctica: Diseño y adaptación de guías de ejercicios a las infraestructuras y contextos de origen de los participantes.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#información-clave-y-becas",
+    "href": "index.html#información-clave-y-becas",
+    "title": "Inicio",
+    "section": "",
+    "text": "Cierre de Postulaciones: 16 de julio de 2026\nNotificación de Aceptación: A partir del 20 de julio de 2026\nInicio Fase Asincrónica: Mediados de julio de 2026\nTaller Presencial: 3 al 7 de agosto de 2026\n\n\n\n\nGracias al apoyo parcial de FUNDACEN y fondos institucionales, disponemos de becas de ayuda económica para viaje y alojamiento, así como exenciones de aranceles de registro para participantes seleccionados de la región. * Puedes solicitar el apoyo en la sección correspondiente del formulario de inscripción.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#organización-e-instructores",
+    "href": "index.html#organización-e-instructores",
+    "title": "Inicio",
+    "section": "",
+    "text": "Dr. Agustín A. Corbat (DF - FCEN - UBA)\nDra. Lorena Sigaut (DF - FCEN - UBA & CMA)\nDra. Lía I. Pietrasanta (DF - FCEN - UBA & CMA)\n\n\n\n\n\n\nDr. Ignacio Sallaberry (FCEN - UBA)\nLic. Mauro Silberberg (FCEN - UBA)\nLic. Alejandra Fernández (FCEN - UBA)\nFis. Elizabeth Samaniego Onofre (FCEN - UBA)\nGina A. Alongi (FCEN - UBA)\n\n\n\n\n\n\n\nDr. Enzo Ferrante (UNL / CONICET, Argentina) – Teoría y fundamentos de Deep Learning aplicados a Bioimágenes.\nDr. Federico Lecumberry (Universidad de la República, Uruguay).\nDra. Suganya Sivagurunathan (BIIF, SciLifeLab / Uppsala University, Suecia) – Workflows reproducibles (virtual).\nDr. Martin Schätz (Viničná Microscopy Core Facility, Faculty of Science, Charles University y Department of Mathematics Informatics and Cybernetics, University of Chemistry and Technology, Praga, Republica Checa) - ¿Como hacer escuelas y cursos? (virtual).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContacto: cma.taller.ab@gmail.com",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Inicio",
+    "section": "",
+    "text": "Corbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores). Zenodo. https://doi.org/10.5281/zenodo.18247226",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "practicos/deep_learning_generic.html",
+    "href": "practicos/deep_learning_generic.html",
+    "title": "Deep Learning Foundations",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nComprender las arquitecturas básicas y terminología en Deep Learning.\nDistinguir los requerimientos de datos, capacidad de cómputo y esfuerzo de anotación para modelos profundos.\nFormular estrategias de validación y métricas de evaluación para el entrenamiento de redes neuronales.",
+    "crumbs": [
+      "Prácticos",
+      "Deep Learning Foundations"
+    ]
+  },
+  {
+    "objectID": "practicos/deep_learning_generic.html#prerequisitos",
+    "href": "practicos/deep_learning_generic.html#prerequisitos",
+    "title": "Deep Learning Foundations",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nAcceso a navegador web para Google Colab o entorno local de Python con soporte GPU/CPU\n\n\n\nConocimientos previos\n\nFundamentos de deep learning clásico.",
+    "crumbs": [
+      "Prácticos",
+      "Deep Learning Foundations"
+    ]
+  },
+  {
+    "objectID": "practicos/deep_learning_generic.html#link-al-taller",
+    "href": "practicos/deep_learning_generic.html#link-al-taller",
+    "title": "Deep Learning Foundations",
+    "section": "Link al taller",
+    "text": "Link al taller\nPara este taller, nos vamos a basar en el material desarrollado por Christophe Avenel en National bioinformatics Infrastructure Sweden (NBIS) para el workshop de Nerual Networks and Deep Learning. En particular, realizaremos el ejercicio de CNN Lab 1: Classification of Human Blood Cells using PyTorch y CNN Lab 2: Segmentation of Human Blood Cells using PyTorch.\nPara el este taller utilizaremos Google Colab que nos permitirá utilziar jupyter conectado a un kernel que corre en un servidor. Además, recuerden que tendremos que cambiar el runtime a T4 GPU para poder utilizar GPU y correr lo necesario más rápidamente.",
+    "crumbs": [
+      "Prácticos",
+      "Deep Learning Foundations"
+    ]
+  },
+  {
+    "objectID": "practicos/deep_learning_generic.html#citation",
+    "href": "practicos/deep_learning_generic.html#citation",
+    "title": "Deep Learning Foundations",
+    "section": "Citation",
+    "text": "Citation\nMirabello, C., Sennblad B., Avenel, C., Kierczak, M., Rosén, D., Unneberg, P., Oskolkov, N., Nettelblad, C., Dethlefsen, O., Freyhult, E. (2024). Workshop on Neural Networks and Deep Learning.",
+    "crumbs": [
+      "Prácticos",
+      "Deep Learning Foundations"
+    ]
+  },
+  {
+    "objectID": "practicos/interfaces.html",
+    "href": "practicos/interfaces.html",
+    "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nComprender las ventajas y desventajas entre interfaces gráficas (GUI), macros/scripts y programación directa para el análisis de bioimágenes.\nEvaluar la accesibilidad, transparencia, escalabilidad y mantenimiento de las distintas herramientas.\nConvertir un flujo de trabajo manual (GUI) en un flujo de trabajo documentado y reproducible.",
+    "crumbs": [
+      "Prácticos",
+      "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
+    ]
+  },
+  {
+    "objectID": "practicos/interfaces.html#prerequisitos",
+    "href": "practicos/interfaces.html#prerequisitos",
+    "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji / ImageJ\nPython y Jupyter Notebooks\nNapari\n\n\n\nDatos descargados\n\nLink a datos\nLink a datos\n\nImreh, G., Miranda, G., Imreh, G., Corbat, A. A., Le Guyader, S., Le Guyader, S., BioImage Informatics Unit& Karolinska Institutet. (2025). LCI Light Microscopy Course: Noise Level versus Averaging Dataset (Version 1.0) [Dataset]. Zenodo.\n\n\nConocimientos previos\n\nConceptos básicos de preprocesamiento y segmentación clásica de imágenes.",
+    "crumbs": [
+      "Prácticos",
+      "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
+    ]
+  },
+  {
+    "objectID": "practicos/interfaces.html#link-al-taller",
+    "href": "practicos/interfaces.html#link-al-taller",
+    "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
+    "section": "Link al taller",
+    "text": "Link al taller\nLink al taller",
+    "crumbs": [
+      "Prácticos",
+      "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
+    ]
+  },
+  {
+    "objectID": "practicos/interfaces.html#citation",
+    "href": "practicos/interfaces.html#citation",
+    "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
+    "section": "Citation",
+    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542",
+    "crumbs": [
+      "Prácticos",
+      "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
+    ]
+  },
+  {
+    "objectID": "practicos/object_classification.html",
+    "href": "practicos/object_classification.html",
+    "title": "Object Classification, Dimensionality Reduction, and Clustering",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nClasificar objetos correctos e incorrectos basados en características morfológicas y de intensidad.\nAplicar técnicas de reducción de dimensionalidad (ej. PCA, t-SNE, UMAP) a características de imágenes complejas.\nRealizar clustering para identificar subpoblaciones celulares y estructurar flujos de cuantificación avanzados.",
+    "crumbs": [
+      "Prácticos",
+      "Object Classification, Dimensionality Reduction, and Clustering"
+    ]
+  },
+  {
+    "objectID": "practicos/object_classification.html#prerequisitos",
+    "href": "practicos/object_classification.html#prerequisitos",
+    "title": "Object Classification, Dimensionality Reduction, and Clustering",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nPython y Jupyter Notebooks\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nFundamentos de machine learning y segmentación de objetos.",
+    "crumbs": [
+      "Prácticos",
+      "Object Classification, Dimensionality Reduction, and Clustering"
+    ]
+  },
+  {
+    "objectID": "practicos/object_classification.html#link-al-taller",
+    "href": "practicos/object_classification.html#link-al-taller",
+    "title": "Object Classification, Dimensionality Reduction, and Clustering",
+    "section": "Link al taller",
+    "text": "Link al taller\nLink al taller",
+    "crumbs": [
+      "Prácticos",
+      "Object Classification, Dimensionality Reduction, and Clustering"
+    ]
+  },
+  {
+    "objectID": "practicos/segmentation_quantification.html",
+    "href": "practicos/segmentation_quantification.html",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nComparar múltiples estrategias de segmentación (basadas en umbral vs flujo clásico) para un mismo set de datos.\nExtraer mediciones cuantitativas a partir de imágenes segmentadas e identificar sesgos en la medición.\nReconocer las limitaciones de la segmentación automatizada y cuándo desconfiar del resultado.\nIdentificar operaciones de preprocesamiento y morfológicas que pueden mejorar la segmentación.",
+    "crumbs": [
+      "Prácticos",
+      "Segmentación clásica y Cuantificación"
+    ]
+  },
+  {
+    "objectID": "practicos/segmentation_quantification.html#prerequisitos",
+    "href": "practicos/segmentation_quantification.html#prerequisitos",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "Prerequisitos",
+    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji / ImageJ\nPython (con scikit-image y jupyter notebook)\n\n\n\nDatos descargados\n\nLink a datos\n\nImreh, G., Miranda, G., Imreh, G., Corbat, A. A., Le Guyader, S., Le Guyader, S., BioImage Informatics Unit& Karolinska Institutet. (2025). LCI Light Microscopy Course: Noise Level versus Averaging Dataset (Version 1.0) [Dataset]. Zenodo.\n\n\nConocimientos previos\n\nConceptos básicos de procesamiento de imágenes.",
+    "crumbs": [
+      "Prácticos",
+      "Segmentación clásica y Cuantificación"
+    ]
+  },
+  {
+    "objectID": "practicos/segmentation_quantification.html#link-al-taller",
+    "href": "practicos/segmentation_quantification.html#link-al-taller",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "Link al taller",
+    "text": "Link al taller\nLink al taller",
+    "crumbs": [
+      "Prácticos",
+      "Segmentación clásica y Cuantificación"
+    ]
+  },
+  {
+    "objectID": "practicos/segmentation_quantification.html#citation",
+    "href": "practicos/segmentation_quantification.html#citation",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "Citation",
+    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542",
+    "crumbs": [
+      "Prácticos",
+      "Segmentación clásica y Cuantificación"
+    ]
+  },
+  {
+    "objectID": "practicos/segmentation_quantification.html#otros-talleres-de-interés",
+    "href": "practicos/segmentation_quantification.html#otros-talleres-de-interés",
+    "title": "Segmentación clásica y Cuantificación",
+    "section": "Otros talleres de interés",
+    "text": "Otros talleres de interés\nLCI Microscopy Course: Image Analysis Workshop\nMiranda, G., Corbat, A. A.& Le Guyader, S. (2025, May 12). LCI Light Microscopy Course: Image Analysis Workshop. Zenodo. https://doi.org/10.5281/zenodo.15390007",
+    "crumbs": [
+      "Prácticos",
+      "Segmentación clásica y Cuantificación"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html",
+    "href": "precurso/cli.html",
+    "title": "Línea de Comandos (CLI)",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.\nAca van a encontrar material educativo básico de como manejar la línea de comandos.",
+    "crumbs": [
+      "Precurso",
+      "Línea de Comandos (CLI)"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html#link-a-workshop",
+    "href": "precurso/cli.html#link-a-workshop",
+    "title": "Línea de Comandos (CLI)",
+    "section": "Link a Workshop",
+    "text": "Link a Workshop\nPara comprender el manejo básico de la línea de comandos sugiero hacer hasta el capítulo 3 (Working with Files and Directories) inclusive del precurso de Software Carpentries shell novice.",
+    "crumbs": [
+      "Precurso",
+      "Línea de Comandos (CLI)"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html#video",
+    "href": "precurso/cli.html#video",
+    "title": "Línea de Comandos (CLI)",
+    "section": "Video",
+    "text": "Video\nEn el caso de querer ver un video en español, recomeindo ver hasta el tiempo 1:07:00 del taller de Git de la ComCom de 2024.\n\nAunque recomiendo el taller de Git de la ComCom, el miércoles vamos a realizar un taller de Git y Pixi en el taller.",
+    "crumbs": [
+      "Precurso",
+      "Línea de Comandos (CLI)"
+    ]
+  },
+  {
+    "objectID": "precurso/cli.html#citation",
+    "href": "precurso/cli.html#citation",
+    "title": "Línea de Comandos (CLI)",
+    "section": "Citation",
+    "text": "Citation\nGreg Wilson, Gerard Capes, Gabriel A. Devenyi, Christina Koch, Raniere Silva, Ashwin Srinath, Colin Morris, Mike Jackson, Andrew Boughton, Rémi Emonet, Francis Gacenga, Lex Nederbragt, csqrs, Damien Irving, Erin Alison Becker, Fatma Deniz, Marcel Stimberg, Robert A Beagrie, Daniel McCloy, … Vikram Chhatre. (2019, July 3). swcarpentry/shell-novice: Software Carpentry: the UNIX shell, June 2019. Zenodo. https://doi.org/10.5281/zenodo.3266823",
+    "crumbs": [
+      "Precurso",
+      "Línea de Comandos (CLI)"
     ]
   },
   {
@@ -230,680 +777,173 @@
     ]
   },
   {
-    "objectID": "precurso/cli.html",
-    "href": "precurso/cli.html",
-    "title": "Línea de Comandos (CLI)",
+    "objectID": "presentaciones/ai_in_bia.html",
+    "href": "presentaciones/ai_in_bia.html",
+    "title": "Inteligencia Artificial en Análisis de Bioimágenes",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nNavegar el sistema de archivos desde la terminal (cd, ls/dir, pwd).\nCrear, copiar, mover y eliminar archivos y directorios.\nEjecutar programas y scripts desde la línea de comandos.\nAca van a encontrar material educativo básico de como manejar la línea de comandos.",
-    "crumbs": [
-      "Precurso",
-      "Línea de Comandos (CLI)"
-    ]
-  },
-  {
-    "objectID": "precurso/cli.html#link-a-workshop",
-    "href": "precurso/cli.html#link-a-workshop",
-    "title": "Línea de Comandos (CLI)",
-    "section": "Link a Workshop",
-    "text": "Link a Workshop\nPara comprender el manejo básico de la línea de comandos sugiero hacer hasta el capítulo 3 (Working with Files and Directories) inclusive del precurso de Software Carpentries shell novice.",
-    "crumbs": [
-      "Precurso",
-      "Línea de Comandos (CLI)"
-    ]
-  },
-  {
-    "objectID": "precurso/cli.html#video",
-    "href": "precurso/cli.html#video",
-    "title": "Línea de Comandos (CLI)",
-    "section": "Video",
-    "text": "Video\nEn el caso de querer ver un video en español, recomeindo ver hasta el tiempo 1:07:00 del taller de Git de la ComCom de 2024.\n\nAunque recomiendo el taller de Git de la ComCom, el miércoles vamos a realizar un taller de Git y Pixi en el taller.",
-    "crumbs": [
-      "Precurso",
-      "Línea de Comandos (CLI)"
-    ]
-  },
-  {
-    "objectID": "precurso/cli.html#citation",
-    "href": "precurso/cli.html#citation",
-    "title": "Línea de Comandos (CLI)",
-    "section": "Citation",
-    "text": "Citation\nGreg Wilson, Gerard Capes, Gabriel A. Devenyi, Christina Koch, Raniere Silva, Ashwin Srinath, Colin Morris, Mike Jackson, Andrew Boughton, Rémi Emonet, Francis Gacenga, Lex Nederbragt, csqrs, Damien Irving, Erin Alison Becker, Fatma Deniz, Marcel Stimberg, Robert A Beagrie, Daniel McCloy, … Vikram Chhatre. (2019, July 3). swcarpentry/shell-novice: Software Carpentry: the UNIX shell, June 2019. Zenodo. https://doi.org/10.5281/zenodo.3266823",
-    "crumbs": [
-      "Precurso",
-      "Línea de Comandos (CLI)"
-    ]
-  },
-  {
-    "objectID": "practicos/segmentation_quantification.html",
-    "href": "practicos/segmentation_quantification.html",
-    "title": "Segmentación clásica y Cuantificación",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nComparar múltiples estrategias de segmentación (basadas en umbral vs flujo clásico) para un mismo set de datos.\nExtraer mediciones cuantitativas a partir de imágenes segmentadas e identificar sesgos en la medición.\nReconocer las limitaciones de la segmentación automatizada y cuándo desconfiar del resultado.\nIdentificar operaciones de preprocesamiento y morfológicas que pueden mejorar la segmentación.",
-    "crumbs": [
-      "Prácticos",
-      "Segmentación clásica y Cuantificación"
-    ]
-  },
-  {
-    "objectID": "practicos/segmentation_quantification.html#prerequisitos",
-    "href": "practicos/segmentation_quantification.html#prerequisitos",
-    "title": "Segmentación clásica y Cuantificación",
-    "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji / ImageJ\nPython (con scikit-image y jupyter notebook)\n\n\n\nDatos descargados\n\nLink a datos\n\nImreh, G., Miranda, G., Imreh, G., Corbat, A. A., Le Guyader, S., Le Guyader, S., BioImage Informatics Unit& Karolinska Institutet. (2025). LCI Light Microscopy Course: Noise Level versus Averaging Dataset (Version 1.0) [Dataset]. Zenodo.\n\n\nConocimientos previos\n\nConceptos básicos de procesamiento de imágenes.",
-    "crumbs": [
-      "Prácticos",
-      "Segmentación clásica y Cuantificación"
-    ]
-  },
-  {
-    "objectID": "practicos/segmentation_quantification.html#link-al-taller",
-    "href": "practicos/segmentation_quantification.html#link-al-taller",
-    "title": "Segmentación clásica y Cuantificación",
-    "section": "Link al taller",
-    "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Segmentación clásica y Cuantificación"
-    ]
-  },
-  {
-    "objectID": "practicos/segmentation_quantification.html#citation",
-    "href": "practicos/segmentation_quantification.html#citation",
-    "title": "Segmentación clásica y Cuantificación",
-    "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542",
-    "crumbs": [
-      "Prácticos",
-      "Segmentación clásica y Cuantificación"
-    ]
-  },
-  {
-    "objectID": "practicos/segmentation_quantification.html#otros-talleres-de-interés",
-    "href": "practicos/segmentation_quantification.html#otros-talleres-de-interés",
-    "title": "Segmentación clásica y Cuantificación",
-    "section": "Otros talleres de interés",
-    "text": "Otros talleres de interés\nLCI Microscopy Course: Image Analysis Workshop\nMiranda, G., Corbat, A. A.& Le Guyader, S. (2025, May 12). LCI Light Microscopy Course: Image Analysis Workshop. Zenodo. https://doi.org/10.5281/zenodo.15390007",
-    "crumbs": [
-      "Prácticos",
-      "Segmentación clásica y Cuantificación"
-    ]
-  },
-  {
-    "objectID": "practicos/object_classification.html",
-    "href": "practicos/object_classification.html",
-    "title": "Object Classification, Dimensionality Reduction, and Clustering",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nClasificar objetos correctos e incorrectos basados en características morfológicas y de intensidad.\nAplicar técnicas de reducción de dimensionalidad (ej. PCA, t-SNE, UMAP) a características de imágenes complejas.\nRealizar clustering para identificar subpoblaciones celulares y estructurar flujos de cuantificación avanzados.",
-    "crumbs": [
-      "Prácticos",
-      "Object Classification, Dimensionality Reduction, and Clustering"
-    ]
-  },
-  {
-    "objectID": "practicos/object_classification.html#prerequisitos",
-    "href": "practicos/object_classification.html#prerequisitos",
-    "title": "Object Classification, Dimensionality Reduction, and Clustering",
-    "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nPython y Jupyter Notebooks\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nFundamentos de machine learning y segmentación de objetos.",
-    "crumbs": [
-      "Prácticos",
-      "Object Classification, Dimensionality Reduction, and Clustering"
-    ]
-  },
-  {
-    "objectID": "practicos/object_classification.html#link-al-taller",
-    "href": "practicos/object_classification.html#link-al-taller",
-    "title": "Object Classification, Dimensionality Reduction, and Clustering",
-    "section": "Link al taller",
-    "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Object Classification, Dimensionality Reduction, and Clustering"
-    ]
-  },
-  {
-    "objectID": "practicos/interfaces.html",
-    "href": "practicos/interfaces.html",
-    "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nComprender las ventajas y desventajas entre interfaces gráficas (GUI), macros/scripts y programación directa para el análisis de bioimágenes.\nEvaluar la accesibilidad, transparencia, escalabilidad y mantenimiento de las distintas herramientas.\nConvertir un flujo de trabajo manual (GUI) en un flujo de trabajo documentado y reproducible.",
-    "crumbs": [
-      "Prácticos",
-      "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
-    ]
-  },
-  {
-    "objectID": "practicos/interfaces.html#prerequisitos",
-    "href": "practicos/interfaces.html#prerequisitos",
-    "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
-    "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji / ImageJ\nPython y Jupyter Notebooks\nNapari\n\n\n\nDatos descargados\n\nLink a datos\nLink a datos\n\nImreh, G., Miranda, G., Imreh, G., Corbat, A. A., Le Guyader, S., Le Guyader, S., BioImage Informatics Unit& Karolinska Institutet. (2025). LCI Light Microscopy Course: Noise Level versus Averaging Dataset (Version 1.0) [Dataset]. Zenodo.\n\n\nConocimientos previos\n\nConceptos básicos de preprocesamiento y segmentación clásica de imágenes.",
-    "crumbs": [
-      "Prácticos",
-      "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
-    ]
-  },
-  {
-    "objectID": "practicos/interfaces.html#link-al-taller",
-    "href": "practicos/interfaces.html#link-al-taller",
-    "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
-    "section": "Link al taller",
-    "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
-    ]
-  },
-  {
-    "objectID": "practicos/interfaces.html#citation",
-    "href": "practicos/interfaces.html#citation",
-    "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
-    "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542",
-    "crumbs": [
-      "Prácticos",
-      "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
-    ]
-  },
-  {
-    "objectID": "practicos/deep_learning_generic.html",
-    "href": "practicos/deep_learning_generic.html",
-    "title": "Deep Learning Foundations",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nComprender las arquitecturas básicas y terminología en Deep Learning.\nDistinguir los requerimientos de datos, capacidad de cómputo y esfuerzo de anotación para modelos profundos.\nFormular estrategias de validación y métricas de evaluación para el entrenamiento de redes neuronales.",
-    "crumbs": [
-      "Prácticos",
-      "Deep Learning Foundations"
-    ]
-  },
-  {
-    "objectID": "practicos/deep_learning_generic.html#prerequisitos",
-    "href": "practicos/deep_learning_generic.html#prerequisitos",
-    "title": "Deep Learning Foundations",
-    "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nAcceso a navegador web para Google Colab o entorno local de Python con soporte GPU/CPU\n\n\n\nConocimientos previos\n\nFundamentos de deep learning clásico.",
-    "crumbs": [
-      "Prácticos",
-      "Deep Learning Foundations"
-    ]
-  },
-  {
-    "objectID": "practicos/deep_learning_generic.html#link-al-taller",
-    "href": "practicos/deep_learning_generic.html#link-al-taller",
-    "title": "Deep Learning Foundations",
-    "section": "Link al taller",
-    "text": "Link al taller\nPara este taller, nos vamos a basar en el material desarrollado por Christophe Avenel en National bioinformatics Infrastructure Sweden (NBIS) para el workshop de Nerual Networks and Deep Learning. En particular, realizaremos el ejercicio de CNN Lab 1: Classification of Human Blood Cells using PyTorch y CNN Lab 2: Segmentation of Human Blood Cells using PyTorch.\nPara el este taller utilizaremos Google Colab que nos permitirá utilziar jupyter conectado a un kernel que corre en un servidor. Además, recuerden que tendremos que cambiar el runtime a T4 GPU para poder utilizar GPU y correr lo necesario más rápidamente.",
-    "crumbs": [
-      "Prácticos",
-      "Deep Learning Foundations"
-    ]
-  },
-  {
-    "objectID": "practicos/deep_learning_generic.html#citation",
-    "href": "practicos/deep_learning_generic.html#citation",
-    "title": "Deep Learning Foundations",
-    "section": "Citation",
-    "text": "Citation\nMirabello, C., Sennblad B., Avenel, C., Kierczak, M., Rosén, D., Unneberg, P., Oskolkov, N., Nettelblad, C., Dethlefsen, O., Freyhult, E. (2024). Workshop on Neural Networks and Deep Learning.",
-    "crumbs": [
-      "Prácticos",
-      "Deep Learning Foundations"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Inicio",
-    "section": "",
-    "text": "¡Te damos la bienvenida al portal del Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores)!\nEste taller intensivo y presencial se llevará a cabo del 3 al 7 de agosto de 2026 en el Pabellón 0+Infinito, de la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires (FCEN-UBA) en Buenos Aires, Argentina.\nA diferencia de los talleres puramente técnicos, este taller tiene un formato de Formación de Formadores (Train-the-Trainer). Nuestro propósito principal es capacitar a profesionales del área de bioimágenes para que no solo dominen metodologías de análisis avanzadas, sino que adquieran las herramientas pedagógicas y didácticas necesarias para enseñar y replicar de forma sostenible este conocimiento en sus instituciones de origen en Latinoamérica.\n\n📅 Ver Programa Completo 📚 Recursos del Taller\n\n\n\n\n\n\nEste taller está diseñado para estudiantes de posgrado, investigadores/as, analistas de imágenes y personal técnico de laboratorios y de centros de microscopía o servicios científicos de Argentina y de Latinoamérica que deseen: 1. Consolidar sus bases teóricas y metodológicas en el análisis cuantitativo de bioimágenes. 2. Adquirir y poner en práctica herramientas pedagógicas que les permitan diseñar lecciones, dictar talleres prácticos y transferir conocimientos de forma efectiva a otros miembros de su comunidad.\n\n\n\nEl taller implementa un modelo de aprendizaje activo híbrido: * Fase online asincrónica (a partir de mediados de julio): Introducción de nivelación con lecturas, videos grabados y preparación de software (Fiji, Python, napari) de cumplimiento obligatorio para centrar el tiempo presencial en dinámicas aplicadas. * Fase presencial intensiva (3 al 7 de agosto): Sesiones teórico-prácticas donde cada tema se divide en: 1. Conceptos clave: Breve repaso del tema con resolución de dudas conceptuales complejas. 2. Diseño pedagógico: Trabajo grupal enfocado en cómo enseñar el tema, diseñar ejercicios con muestras reales, evitar errores conceptuales típicos de los estudiantes y estructurar tareas de evaluación.\n\n\n\n\nProcesamiento de imágenes y fundamentos: Formatos de datos, operaciones espaciales, filtrado y buenas prácticas.\nSegmentación y cuantificación: Extracción de características métricas de manera rigurosa y reproducible.\nAutomatización y flujos de trabajo: Desarrollo y empaquetado de workflows reproducibles utilizando el ecosistema de Fiji/ImageJ, Python y Napari.\nMachine y Deep Learning: Introducción a algoritmos de aprendizaje automático para el análisis de bioimágenes, aprendiendo a presentarlos y enseñarlos con expectativas realistas.\nPedagogía práctica: Diseño y adaptación de guías de ejercicios a las infraestructuras y contextos de origen de los participantes.\n\n\n\n\n\n\n\n\n\n\nCierre de Postulaciones: 16 de julio de 2026\nNotificación de Aceptación: A partir del 20 de julio de 2026\nInicio Fase Asincrónica: Mediados de julio de 2026\nTaller Presencial: 3 al 7 de agosto de 2026\n\n\n\n\nGracias al apoyo parcial de FUNDACEN y fondos institucionales, disponemos de becas de ayuda económica para viaje y alojamiento, así como exenciones de aranceles de registro para participantes seleccionados de la región. * Puedes solicitar el apoyo en la sección correspondiente del formulario de inscripción.\n\n\n\n\n\n\n\n\n\n\n\nDr. Agustín A. Corbat (DF - FCEN - UBA)\nDra. Lorena Sigaut (DF - FCEN - UBA & CMA)\nDra. Lía I. Pietrasanta (DF - FCEN - UBA & CMA)\n\n\n\n\n\n\nDr. Ignacio Sallaberry (FCEN - UBA)\nLic. Mauro Silberberg (FCEN - UBA)\nLic. Alejandra Fernández (FCEN - UBA)\nFis. Elizabeth Samaniego Onofre (FCEN - UBA)\nGina A. Alongi (FCEN - UBA)\n\n\n\n\n\n\n\nDr. Enzo Ferrante (UNL / CONICET, Argentina) – Teoría y fundamentos de Deep Learning aplicados a Bioimágenes.\nDr. Federico Lecumberry (Universidad de la República, Uruguay).\nDra. Suganya Sivagurunathan (BIIF, SciLifeLab / Uppsala University, Suecia) – Workflows reproducibles (virtual).\nDr. Martin Schätz (Viničná Microscopy Core Facility, Faculty of Science, Charles University y Department of Mathematics Informatics and Cybernetics, University of Chemistry and Technology, Praga, Republica Checa) - ¿Como hacer escuelas y cursos? (virtual).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContacto: cma.taller.ab@gmail.com\n\n\n\n\n\nCorbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores). Zenodo. https://doi.org/10.5281/zenodo.18247226",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#sobre-el-taller",
-    "href": "index.html#sobre-el-taller",
-    "title": "Inicio",
-    "section": "",
-    "text": "Este taller está diseñado para estudiantes de posgrado, investigadores/as, analistas de imágenes y personal técnico de laboratorios y de centros de microscopía o servicios científicos de Argentina y de Latinoamérica que deseen: 1. Consolidar sus bases teóricas y metodológicas en el análisis cuantitativo de bioimágenes. 2. Adquirir y poner en práctica herramientas pedagógicas que les permitan diseñar lecciones, dictar talleres prácticos y transferir conocimientos de forma efectiva a otros miembros de su comunidad.\n\n\n\nEl taller implementa un modelo de aprendizaje activo híbrido: * Fase online asincrónica (a partir de mediados de julio): Introducción de nivelación con lecturas, videos grabados y preparación de software (Fiji, Python, napari) de cumplimiento obligatorio para centrar el tiempo presencial en dinámicas aplicadas. * Fase presencial intensiva (3 al 7 de agosto): Sesiones teórico-prácticas donde cada tema se divide en: 1. Conceptos clave: Breve repaso del tema con resolución de dudas conceptuales complejas. 2. Diseño pedagógico: Trabajo grupal enfocado en cómo enseñar el tema, diseñar ejercicios con muestras reales, evitar errores conceptuales típicos de los estudiantes y estructurar tareas de evaluación.\n\n\n\n\nProcesamiento de imágenes y fundamentos: Formatos de datos, operaciones espaciales, filtrado y buenas prácticas.\nSegmentación y cuantificación: Extracción de características métricas de manera rigurosa y reproducible.\nAutomatización y flujos de trabajo: Desarrollo y empaquetado de workflows reproducibles utilizando el ecosistema de Fiji/ImageJ, Python y Napari.\nMachine y Deep Learning: Introducción a algoritmos de aprendizaje automático para el análisis de bioimágenes, aprendiendo a presentarlos y enseñarlos con expectativas realistas.\nPedagogía práctica: Diseño y adaptación de guías de ejercicios a las infraestructuras y contextos de origen de los participantes.",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#información-clave-y-becas",
-    "href": "index.html#información-clave-y-becas",
-    "title": "Inicio",
-    "section": "",
-    "text": "Cierre de Postulaciones: 16 de julio de 2026\nNotificación de Aceptación: A partir del 20 de julio de 2026\nInicio Fase Asincrónica: Mediados de julio de 2026\nTaller Presencial: 3 al 7 de agosto de 2026\n\n\n\n\nGracias al apoyo parcial de FUNDACEN y fondos institucionales, disponemos de becas de ayuda económica para viaje y alojamiento, así como exenciones de aranceles de registro para participantes seleccionados de la región. * Puedes solicitar el apoyo en la sección correspondiente del formulario de inscripción.",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#organización-e-instructores",
-    "href": "index.html#organización-e-instructores",
-    "title": "Inicio",
-    "section": "",
-    "text": "Dr. Agustín A. Corbat (DF - FCEN - UBA)\nDra. Lorena Sigaut (DF - FCEN - UBA & CMA)\nDra. Lía I. Pietrasanta (DF - FCEN - UBA & CMA)\n\n\n\n\n\n\nDr. Ignacio Sallaberry (FCEN - UBA)\nLic. Mauro Silberberg (FCEN - UBA)\nLic. Alejandra Fernández (FCEN - UBA)\nFis. Elizabeth Samaniego Onofre (FCEN - UBA)\nGina A. Alongi (FCEN - UBA)\n\n\n\n\n\n\n\nDr. Enzo Ferrante (UNL / CONICET, Argentina) – Teoría y fundamentos de Deep Learning aplicados a Bioimágenes.\nDr. Federico Lecumberry (Universidad de la República, Uruguay).\nDra. Suganya Sivagurunathan (BIIF, SciLifeLab / Uppsala University, Suecia) – Workflows reproducibles (virtual).\nDr. Martin Schätz (Viničná Microscopy Core Facility, Faculty of Science, Charles University y Department of Mathematics Informatics and Cybernetics, University of Chemistry and Technology, Praga, Republica Checa) - ¿Como hacer escuelas y cursos? (virtual).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContacto: cma.taller.ab@gmail.com",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#citation",
-    "href": "index.html#citation",
-    "title": "Inicio",
-    "section": "",
-    "text": "Corbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores). Zenodo. https://doi.org/10.5281/zenodo.18247226",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "practicos/deep_learning_biomodels.html",
-    "href": "practicos/deep_learning_biomodels.html",
-    "title": "Cellpose, StarDist, and Friends",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nAplicar modelos preentrenados de última generación (como Cellpose, StarDist e InstanSeg) para segmentación de instancias.\nRealizar el ajuste fino (fine-tuning) de modelos utilizando datasets personalizados con anotaciones de los propios usuarios.\nUtilizar BioImage Model Zoo y plugins dentro de napari y Fiji para realizar inferencias de Deep Learning.",
-    "crumbs": [
-      "Prácticos",
-      "Cellpose, StarDist, and Friends"
-    ]
-  },
-  {
-    "objectID": "practicos/deep_learning_biomodels.html#prerequisitos",
-    "href": "practicos/deep_learning_biomodels.html#prerequisitos",
-    "title": "Cellpose, StarDist, and Friends",
-    "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nnapari (con plugins de Cellpose y StarDist)\nFiji (con integraciones correspondientes)\n\n\n\nConocimientos previos\n\nFundamentos de Deep Learning y segmentación clásica.",
-    "crumbs": [
-      "Prácticos",
-      "Cellpose, StarDist, and Friends"
-    ]
-  },
-  {
-    "objectID": "practicos/deep_learning_biomodels.html#link-al-taller",
-    "href": "practicos/deep_learning_biomodels.html#link-al-taller",
-    "title": "Cellpose, StarDist, and Friends",
-    "section": "Link al taller",
-    "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Cellpose, StarDist, and Friends"
-    ]
-  },
-  {
-    "objectID": "practicos/deep_learning_biomodels.html#citation",
-    "href": "practicos/deep_learning_biomodels.html#citation",
-    "title": "Cellpose, StarDist, and Friends",
-    "section": "Citation",
-    "text": "Citation\nSallaberry, I., & Corbat, A. A. (2026, August 7). Workshop deep learning for bioimage analysis. Zenodo. Taller de Fundamentos en Analisis de Bioimágenes (2026 TtT Course), Buenos Aires - Argentina. https://doi.org/10.5281/zenodo.22259997",
-    "crumbs": [
-      "Prácticos",
-      "Cellpose, StarDist, and Friends"
-    ]
-  },
-  {
-    "objectID": "practicos/git_pixi.html",
-    "href": "practicos/git_pixi.html",
-    "title": "Version Control with Git and Environment Management with Pixi",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nComprender y aplicar los fundamentos del control de versiones utilizando Git y GitHub.\nConfigurar y gestionar entornos de desarrollo de Python de manera reproducible usando Pixi.\nCompartir especificaciones de entornos y código de forma robusta con otros colaboradores.",
-    "crumbs": [
-      "Prácticos",
-      "Version Control with Git and Environment Management with Pixi"
-    ]
-  },
-  {
-    "objectID": "practicos/git_pixi.html#prerequisitos",
-    "href": "practicos/git_pixi.html#prerequisitos",
-    "title": "Version Control with Git and Environment Management with Pixi",
-    "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\nVer instrucciones aquí.\n\nPixi\nGit\nVS Code (opcional)\n\n\n\nConocimientos previos\n\nNingún conocimiento previo requerido.",
-    "crumbs": [
-      "Prácticos",
-      "Version Control with Git and Environment Management with Pixi"
-    ]
-  },
-  {
-    "objectID": "practicos/git_pixi.html#link-al-taller",
-    "href": "practicos/git_pixi.html#link-al-taller",
-    "title": "Version Control with Git and Environment Management with Pixi",
-    "section": "Link al taller",
-    "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Version Control with Git and Environment Management with Pixi"
-    ]
-  },
-  {
-    "objectID": "practicos/machine_learning.html",
-    "href": "practicos/machine_learning.html",
-    "title": "Machine Learning in Bioimage Analysis",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nExplicar los fundamentos del aprendizaje automático (Machine Learning) clásico aplicado a la clasificación de píxeles y segmentación.\nEntrenar y evaluar clasificadores utilizando características extraídas de imágenes de microscopía.\nDiseñar objetivos de aprendizaje realistas sobre ML para enseñar de manera responsable y sin sobredimensionar la herramienta.",
-    "crumbs": [
-      "Prácticos",
-      "Machine Learning in Bioimage Analysis"
-    ]
-  },
-  {
-    "objectID": "practicos/machine_learning.html#prerequisitos",
-    "href": "practicos/machine_learning.html#prerequisitos",
-    "title": "Machine Learning in Bioimage Analysis",
-    "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nilastik\nPython y Jupyter Notebooks\n\n\n\nDatos descargados\n\nLink a datos\n\n\n\nConocimientos previos\n\nFamiliaridad con procesamiento de imágenes y segmentación clásica.",
-    "crumbs": [
-      "Prácticos",
-      "Machine Learning in Bioimage Analysis"
-    ]
-  },
-  {
-    "objectID": "practicos/machine_learning.html#link-al-taller",
-    "href": "practicos/machine_learning.html#link-al-taller",
-    "title": "Machine Learning in Bioimage Analysis",
-    "section": "Link al taller",
-    "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Machine Learning in Bioimage Analysis"
-    ]
-  },
-  {
-    "objectID": "practicos/other_tools.html",
-    "href": "practicos/other_tools.html",
-    "title": "Otras herramientas para explorar (BYOW)",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nExplorar de forma autónoma herramientas de bioimagen alternativas para problemas específicos.\nDefinir un plan para abordar su propio problema biológico (“Build Your Own Workshop” - BYOW) utilizando las herramientas vistas o nuevas.",
-    "crumbs": [
-      "Prácticos",
-      "Otras herramientas para explorar (BYOW)"
-    ]
-  },
-  {
-    "objectID": "practicos/other_tools.html#opciones-de-herramientas-a-abordar",
-    "href": "practicos/other_tools.html#opciones-de-herramientas-a-abordar",
-    "title": "Otras herramientas para explorar (BYOW)",
-    "section": "Opciones de herramientas a abordar",
-    "text": "Opciones de herramientas a abordar\n\nTracking\n\nultrack\nTrackMate\n\n\n\nColocalización\n\nPor ejemplo recomandaciones en el video Understanding and Measuring Colocalization in Fiji and CellProfiler de Esteban Miglietta en el I2K.\n\n\n\nImage Registration\n\nValis\nWarpy\n\n\n\nSpectral Unmixing\n\n\nOtras técnicas de segmentación\n\nconvpaint\n\n\n\nPhasors\n\nPhasorpy\n\n\n\nDeconvolution\n\nDeconvolutionLab2\n\n\n\nSpatial Transcriptomics\n\nSpatial Data: Permite combinar varias modalidades de bioimágenes y combinar información para hacer clasificación de células y estudiar espacialidad.\n\n\n\nHistología\n\nQuPath: software libre y abierto para análisis de imágenes, con foco fuerte en histología y patología digital. Incluye opciones de segmentación como InstanSeg (intanseg), entre otras alternativas.",
-    "crumbs": [
-      "Prácticos",
-      "Otras herramientas para explorar (BYOW)"
-    ]
-  },
-  {
-    "objectID": "practicos/other_tools.html#presentación",
-    "href": "practicos/other_tools.html#presentación",
-    "title": "Otras herramientas para explorar (BYOW)",
-    "section": "Presentación",
-    "text": "Presentación\nEl objetivo del ejercicio es que cada grupo/estudiante desarrolle un tutorial corto de una herramienta de su interés (pueden usar la lista anterior como sugerencia).\nLa presentación será el viernes y tendrá el siguiente formato:\n\n10 minutos de presentación\n5 minutos para preguntas\n\nPueden presentar con diapositivas o recorrer en vivo el tutorial que hayan desarrollado.\n\n\n\n\n\n\nTipPro tips\n\n\n\n\nPueden usar git y GitHub para practicar lo aprendido y dejar el tutorial disponible en línea.\nEl viernes veremos cómo publicar el tutorial en Zenodo con una licencia adecuada para que el material sea FAIR.",
-    "crumbs": [
-      "Prácticos",
-      "Otras herramientas para explorar (BYOW)"
-    ]
-  },
-  {
-    "objectID": "practicos/workshop_2d_images.html",
-    "href": "practicos/workshop_2d_images.html",
-    "title": "Operaciones con imágenes",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serán capaces de:\n\nListar que ejercicios hay que cubrir para estudiantes que no saben usar software de imágenes hasta estudiantes que si.\nConocer formas de acceder a datos y metadatos en imágenes con distinto software.\nElegir y encontrar operaciones aplicables a imágenes y sus efectos en la imagen.",
-    "crumbs": [
-      "Prácticos",
-      "Operaciones con imágenes"
-    ]
-  },
-  {
-    "objectID": "practicos/workshop_2d_images.html#prerequisitos",
-    "href": "practicos/workshop_2d_images.html#prerequisitos",
-    "title": "Operaciones con imágenes",
-    "section": "Prerequisitos",
-    "text": "Prerequisitos\n\nProgramas instalados\n\nFiji\n\n\n\nConocimientos previos\n\nNingún conocimiento previo requerido",
-    "crumbs": [
-      "Prácticos",
-      "Operaciones con imágenes"
-    ]
-  },
-  {
-    "objectID": "practicos/workshop_2d_images.html#link-al-taller",
-    "href": "practicos/workshop_2d_images.html#link-al-taller",
-    "title": "Operaciones con imágenes",
-    "section": "Link al taller",
-    "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Operaciones con imágenes"
-    ]
-  },
-  {
-    "objectID": "practicos/workshop_2d_images.html#citation",
-    "href": "practicos/workshop_2d_images.html#citation",
-    "title": "Operaciones con imágenes",
-    "section": "Citation",
-    "text": "Citation\nSigaut, L., Lecumberry, F., & Corbat, A. A. (2026, August 18). Guía Práctica de Análisis de Bioimágenes: Cálculos de Imágenes, Filtrado y Profundidad de Bits. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22001264",
-    "crumbs": [
-      "Prácticos",
-      "Operaciones con imágenes"
-    ]
-  },
-  {
-    "objectID": "precurso/fiji.html",
-    "href": "precurso/fiji.html",
-    "title": "FIJI / ImageJ",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nAbrir y visualizar imágenes en FIJI (incluyendo stacks e hyperstacks).\nUtilizar herramientas de selección y medición (ROIs).\nNavegar menús y plugins de FIJI.",
-    "crumbs": [
-      "Precurso",
-      "FIJI / ImageJ"
-    ]
-  },
-  {
-    "objectID": "precurso/fiji.html#taller",
-    "href": "precurso/fiji.html#taller",
-    "title": "FIJI / ImageJ",
-    "section": "Taller",
-    "text": "Taller\nPara aprender funciones básicas de Fiji recomiendo seguir la sección correspondiente a Fiji del siguiente taller. La segunda sección no es necesaria y tiene ejemplos para resolver en Napari pero va a hacer falta agregarlo como requerimiento a pixi, ¿Cómo lo harías?",
-    "crumbs": [
-      "Precurso",
-      "FIJI / ImageJ"
-    ]
-  },
-  {
-    "objectID": "precurso/fiji.html#citation",
-    "href": "precurso/fiji.html#citation",
-    "title": "FIJI / ImageJ",
-    "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026, January 9). Workshop on 2D Image Visualization: Fiji and Napari. Zenodo. Light-Sheet Image Analysis Workshop 2026, Santiago de Chile, Chile. https://doi.org/10.5281/zenodo.18199647",
-    "crumbs": [
-      "Precurso",
-      "FIJI / ImageJ"
-    ]
-  },
-  {
-    "objectID": "precurso/python.html",
-    "href": "precurso/python.html",
-    "title": "Python",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar esta preparación, los participantes serán capaces de:\n\nConocer la sintaxis básica de Python (variables, tipos de datos, funciones, bucles, condicionales).\nUtilizar Jupyter Notebooks o un entorno interactivo de Python.\nImportar y utilizar bibliotecas estándar (numpy, matplotlib).\nLeer y manipular arreglos numéricos básicos.\nPython es un lenguaje de programación de alto nivel, dinámico y multipropósito, ampliamente utilizado en ciencia de datos y análisis de bioimágenes por su sintaxis clara y su robusto ecosistema de bibliotecas. A continuación se presentan los enlaces al material del taller, aunque realizaremos la instalación de Python de una manera diferente.",
-    "crumbs": [
-      "Precurso",
-      "Python"
-    ]
-  },
-  {
-    "objectID": "precurso/python.html#taller-y-material-de-referencia",
-    "href": "precurso/python.html#taller-y-material-de-referencia",
-    "title": "Python",
-    "section": "Taller y Material de Referencia",
-    "text": "Taller y Material de Referencia\nAunque recomendamos realizar una instalación como la que se describe en la siguiente sección, el material oficial de referencia para este taller se encuentra en:\n\nTaller de Python en GitHub (repositorio original).\nPágina web del Tutorial.",
-    "crumbs": [
-      "Precurso",
-      "Python"
-    ]
-  },
-  {
-    "objectID": "precurso/python.html#configuración-del-entorno-de-trabajo",
-    "href": "precurso/python.html#configuración-del-entorno-de-trabajo",
-    "title": "Python",
-    "section": "Configuración del Entorno de Trabajo",
-    "text": "Configuración del Entorno de Trabajo\nPara este curso, en lugar de realizar una instalación global de Python o usar otras herramientas, utilizaremos pixi para inicializar y gestionar el entorno de forma reproducible. Sigue estos pasos:\n\nCrear una carpeta de trabajo: Abre tu terminal y crea un nuevo directorio llamado python-tutorial, luego ingresa a él:\nmkdir python-tutorial\ncd python-tutorial\nInicializar el proyecto: Crea un nuevo proyecto de pixi ejecutando:\npixi init\nAgregar dependencias: Añade Python, Jupyter y las librerías científicas necesarias corriendo:\npixi add python jupyter numpy matplotlib\nIniciar Jupyter Notebook: Para abrir Jupyter Notebook y comenzar a escribir código, ejecuta:\npixi run jupyter notebook\nEsto iniciará el servidor de Jupyter y abrirá la interfaz en tu navegador web. Desde allí podrás crear cuadernos interactivos (.ipynb) y seguir el tutorial.",
-    "crumbs": [
-      "Precurso",
-      "Python"
-    ]
-  },
-  {
-    "objectID": "precurso/python.html#actividades-a-realizar",
-    "href": "precurso/python.html#actividades-a-realizar",
-    "title": "Python",
-    "section": "Actividades a Realizar",
-    "text": "Actividades a Realizar\nDebes seguir los pasos del material del taller disponible en https://maurosilber.github.io/python-tutorial y completar las explicaciones y ejercicios hasta la sección de Numpy y matplotlib inclusive.",
-    "crumbs": [
-      "Precurso",
-      "Python"
-    ]
-  },
-  {
-    "objectID": "precurso/python.html#citation",
-    "href": "precurso/python.html#citation",
-    "title": "Python",
-    "section": "Citation",
-    "text": "Citation\nMauro Silberberg. (2026). maurosilber/python-tutorial: 20260724 (Version 20260724) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21539956",
-    "crumbs": [
-      "Precurso",
-      "Python"
-    ]
-  },
-  {
-    "objectID": "presentaciones/deep_learning.html",
-    "href": "presentaciones/deep_learning.html",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos fundamentales del Deep Learning aplicados a bioimágenes.\nIdentificar arquitecturas comunes y su uso en segmentación de imágenes.\nReconocer limitaciones y consideraciones prácticas al aplicar DL.",
+    "text": "TipObjetivos de la sesión\n\n\n\nDiscutir cómo y en qué casos utilizar inteligencia artificial tanto para generar material educativo como para desarrollar soluciones en proyectos de análisis de bioimágenes.",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning"
+      "Inteligencia Artificial en Análisis de Bioimágenes"
     ]
   },
   {
-    "objectID": "presentaciones/deep_learning.html#slides",
-    "href": "presentaciones/deep_learning.html#slides",
-    "title": "Deep Learning",
+    "objectID": "presentaciones/deep_learning_biomodels.html",
+    "href": "presentaciones/deep_learning_biomodels.html",
+    "title": "Deep Learning y Modelos Biomodelos",
+    "section": "",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nConocer los principales modelos de Deep Learning usados en bioimagen.\nAprender a aplicar Cellpose, StarDist y BioModel Zoo a datos reales.\nEvaluar limitaciones y buenas prácticas al usar modelos biomodelos.",
+    "crumbs": [
+      "Presentaciones",
+      "Deep Learning y Modelos Biomodelos"
+    ]
+  },
+  {
+    "objectID": "presentaciones/deep_learning_biomodels.html#slides",
+    "href": "presentaciones/deep_learning_biomodels.html#slides",
+    "title": "Deep Learning y Modelos Biomodelos",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning"
+      "Deep Learning y Modelos Biomodelos"
     ]
   },
   {
-    "objectID": "presentaciones/deep_learning.html#citation",
-    "href": "presentaciones/deep_learning.html#citation",
-    "title": "Deep Learning",
+    "objectID": "presentaciones/deep_learning_biomodels.html#citation",
+    "href": "presentaciones/deep_learning_biomodels.html#citation",
+    "title": "Deep Learning y Modelos Biomodelos",
     "section": "Citation",
-    "text": "Citation\nFerrante, E. (2026, August 5). Redes Neuronales para Analisis de Bioimágenes. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22647693",
+    "text": "Citation\nCorbat, A. A. (2026, August 1). Deep Learning for Bioimaging. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21746499",
     "crumbs": [
       "Presentaciones",
-      "Deep Learning"
+      "Deep Learning y Modelos Biomodelos"
     ]
   },
   {
-    "objectID": "presentaciones/machine_learning.html",
-    "href": "presentaciones/machine_learning.html",
-    "title": "Machine Learning",
+    "objectID": "presentaciones/que_es_bia.html",
+    "href": "presentaciones/que_es_bia.html",
+    "title": "¿Qué es Análisis de Bioimágenes?",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nEntender los conceptos básicos de Machine Learning aplicados a bioimágenes.\nIdentificar cuándo y cómo usar técnicas de ML en análisis de imágenes.\nEvaluar limitaciones y riesgos de los modelos de ML.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDefinir análisis de bioimágenes y sus características.\nComprender qué es una bioimagen, cómo se forman y sus atributos.\nSaber ejemplos de formatos para guardar bioimágenes con sus ventajas y desventajas.\nConocer distintas operaciones que pueden aplicarse a bioimágenes.",
     "crumbs": [
       "Presentaciones",
-      "Machine Learning"
+      "¿Qué es Análisis de Bioimágenes?"
     ]
   },
   {
-    "objectID": "presentaciones/machine_learning.html#slides",
-    "href": "presentaciones/machine_learning.html#slides",
-    "title": "Machine Learning",
+    "objectID": "presentaciones/que_es_bia.html#slides",
+    "href": "presentaciones/que_es_bia.html#slides",
+    "title": "¿Qué es Análisis de Bioimágenes?",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "Machine Learning"
+      "¿Qué es Análisis de Bioimágenes?"
     ]
   },
   {
-    "objectID": "presentaciones/machine_learning.html#citation",
-    "href": "presentaciones/machine_learning.html#citation",
-    "title": "Machine Learning",
+    "objectID": "presentaciones/que_es_bia.html#citation",
+    "href": "presentaciones/que_es_bia.html#citation",
+    "title": "¿Qué es Análisis de Bioimágenes?",
     "section": "Citation",
-    "text": "Citation\nLecumberry, F. (2026, August 4). Machine Learning and ilastik. Zenodo",
+    "text": "Citation\n\nLecumberry, F. (2026). Fundamentals of Bioimages. Zenodo. https://doi.org/10.5281/zenodo.21777769",
     "crumbs": [
       "Presentaciones",
-      "Machine Learning"
+      "¿Qué es Análisis de Bioimágenes?"
     ]
   },
   {
-    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html",
-    "href": "presentaciones/segmentacion_clasica_cuantificacion.html",
-    "title": "Segmentación clásica y Cuantificación",
+    "objectID": "presentaciones/teaching.html",
+    "href": "presentaciones/teaching.html",
+    "title": "¿Cómo hacer escuelas y cursos?",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos serrán capaces de:\n\nComprender las diferencias entre los distintos tipos de segmentación.\nConocer las distintas operaciones morfológicas que pueden aplicarse a máscaras.\nEntender cómo interpretar algoritmos de cuantificación, incluyendo sus puntos débiles.",
+    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDiscutir puntos de partida y llegada a la hora de diseñar material de enseñanza.\nConocer ejemplos de sitios y redes donde se puede encontrar material de enseñanza.",
     "crumbs": [
       "Presentaciones",
-      "Segmentación clásica y Cuantificación"
+      "¿Cómo hacer escuelas y cursos?"
     ]
   },
   {
-    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html#slides",
-    "href": "presentaciones/segmentacion_clasica_cuantificacion.html#slides",
-    "title": "Segmentación clásica y Cuantificación",
+    "objectID": "presentaciones/teaching.html#slides",
+    "href": "presentaciones/teaching.html#slides",
+    "title": "¿Cómo hacer escuelas y cursos?",
     "section": "Slides",
     "text": "Slides",
     "crumbs": [
       "Presentaciones",
-      "Segmentación clásica y Cuantificación"
+      "¿Cómo hacer escuelas y cursos?"
     ]
   },
   {
-    "objectID": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
-    "href": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
-    "title": "Segmentación clásica y Cuantificación",
+    "objectID": "presentaciones/teaching.html#citation",
+    "href": "presentaciones/teaching.html#citation",
+    "title": "¿Cómo hacer escuelas y cursos?",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026, August 1). Segmentation and Quantification. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21744286",
+    "text": "Citation\nSchätz, M. (2026, August 6). From Analyst to Trainer - A Practical Toolkit. Zenodo.",
     "crumbs": [
       "Presentaciones",
-      "Segmentación clásica y Cuantificación"
+      "¿Cómo hacer escuelas y cursos?"
     ]
   },
   {
-    "objectID": "presentaciones/workflows.html",
-    "href": "presentaciones/workflows.html",
-    "title": "Workflows reproducibles",
+    "objectID": "program.html",
+    "href": "program.html",
+    "title": "Programa",
     "section": "",
-    "text": "TipObjetivos de Aprendizaje\n\n\n\nAl finalizar la sesión, los alumnos deberán ser capaces de:\n\nDescribir las características de un flujo de trabajo de bioimágenes.\nListar las propiedades que tiene un flujo de trabajo reproducible.\nComprender las razones para que los flujos de trabajos sean reproducibles.",
+    "text": "09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Federico Lecumberry)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Operaciones en imagenes (Lorena Sigaut)\n\nDesde como abrir una imagen hasta las operaciones básicas en y con imágenes\n\n\n\n\n\n\n\n\n\n13:30–14:10 - 🧠 Segmentación clásica y Cuantificación (Agustin Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:10–14:40 - ☕ Coffee Break\n14:40–16:30 - 🖥️ Segmentación y Cuantificación (Agustin Corbat)\n\nSesión práctica de segmentación y cuantificación\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n9:00–10:30 - 🧠 Workflows reproducibles (Suganya Sivagurunathan)\n\nPrincipios de flujos de trabajo reproducibles\n\n10:30–11:00 - ☕ Coffee Break\n11:00–12:30 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Agustin Corbat)\n\nComparación de GUI, macros y programación de distinto software\n\n12:30–13:00 - Organización de BYOW\n\nBYOW - Other Tools\n\n\n\n\n\n\n\n\n\n14:00–16:30 - 🖥️ (incluye ☕) Taller de Git y Pixi (Mauro Silberberg)\n\nControl de versiones con Git y gestión de entornos con Pixi\n\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n09:00–10:00 - 🧠 Machine Learning (Federico Lecumberry)\n\nFundamentos de Machine Learning para análisis de bioimágenes\nMachine Learning aplicado a segmentacion y a clasificacion de objetos\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:00 - 🖥️ Machine Learning (Federico Lecumberry)\n\nAplicaciones de ML a segmentacion de bioimágenes\n\n\n\n\n\n\n\n\n\n13:00–15:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n\nTeoría y conceptos de Deep Learning\n\n15:00–17:00 - 🗫🖥️ BYOW - Other Tools (Lorena Sigaut)\n\nBuild your own workshop y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial…\n\n\n\n\n\n\n\n\n\n09:00–10:00 - 🖥️ (incluye ☕) Taller de Deep Learning (Agustin Corbat)\n\nTaller práctico de Deep Learning\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:00 - 🖥️ Clasificación de objetos (Agustin Corbat)\n\nClasificación de objetos, reducción de dimensionalidad y clustering\n\n\n\n\n\n\n\n\n\n13:00–13:45 - 🧠 Deep Learning for BIA (Agustin Corbat)\n\nModelos típicos usados en análisis de bioimágenes\n\n13:45–14:00 - ☕ Coffee Break\n14:00–15:30 - 🖥️ Taller de Cellpose, StarDist and friends (Ignacio Sallaberry y Agustin Corbat)\n\nHerramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.\n\n15:30–16:30 - 🗫🖥️ BYOW - Other Tools (Lorena Sigaut)\n16:30–17:00 - Cierre\n\n\n\n\n\n\n\n\n09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursos? (Martin Schätz)\n\nDiseño de cursos de capacitación y estrategias de enseñanza\n\n11:00–13:00 - 🗫 Discusiones sobre AI y como usarla (Agustin Corbat)\n\nDiscusión sobre el uso de AI en bioimágenes y diseño de clases\n\n\n\n\n\n\n\n\n\n14:00–16:00 - 🗫 (incluye ☕) Discusiones sobre los tutoriales de BYOW y otras herramientas\n\nPuesta en común de las herramientas exploradas en la sesión de BYOW - Other Tools\n\n16:00–17:00 - Cierre\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre (Revisar Zulip)",
     "crumbs": [
-      "Presentaciones",
-      "Workflows reproducibles"
+      "Programa"
     ]
   },
   {
-    "objectID": "presentaciones/workflows.html#slides",
-    "href": "presentaciones/workflows.html#slides",
-    "title": "Workflows reproducibles",
-    "section": "Slides",
-    "text": "Slides",
+    "objectID": "program.html#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto",
+    "href": "program.html#día-1-fundamentos-del-análisis-de-imágenes-y-procesamiento-clásico-lunes-3-de-agosto",
+    "title": "Programa",
+    "section": "",
+    "text": "09:00–10:00 - 🤗 Bienvenida, expectativas de los participantes y presentación de objetivos.\n\n¿Por qué un formato Train-the-Trainer en Latinoamérica? Ecosistema y sostenibilidad regional. (Agustin Corbat, Lorena Sigaut y Lia Pietrasanta)\n\n10:15–11:00 - 🧠 Qué es el Análisis de Bioimágenes (Federico Lecumberry)\n\nVisión general del análisis de bioimágenes\n\n11:00–12:30 - 🖥️ Operaciones en imagenes (Lorena Sigaut)\n\nDesde como abrir una imagen hasta las operaciones básicas en y con imágenes\n\n\n\n\n\n\n\n\n\n13:30–14:10 - 🧠 Segmentación clásica y Cuantificación (Agustin Corbat)\n\nTeoría de segmentación clásica y cuantificación\n\n14:10–14:40 - ☕ Coffee Break\n14:40–16:30 - 🖥️ Segmentación y Cuantificación (Agustin Corbat)\n\nSesión práctica de segmentación y cuantificación\n\n16:30–17:00 - Cierre",
     "crumbs": [
-      "Presentaciones",
-      "Workflows reproducibles"
+      "Programa"
     ]
   },
   {
-    "objectID": "presentaciones/workflows.html#citation",
-    "href": "presentaciones/workflows.html#citation",
-    "title": "Workflows reproducibles",
-    "section": "Citation",
-    "text": "Citation\nSivagurunathan, S. (2026, August 4). Reproducible workflows. Zenodo. https://doi.org/10.5281/zenodo.21782259",
+    "objectID": "program.html#día-2-workflows-reproducibles-martes-4-de-agosto",
+    "href": "program.html#día-2-workflows-reproducibles-martes-4-de-agosto",
+    "title": "Programa",
+    "section": "",
+    "text": "9:00–10:30 - 🧠 Workflows reproducibles (Suganya Sivagurunathan)\n\nPrincipios de flujos de trabajo reproducibles\n\n10:30–11:00 - ☕ Coffee Break\n11:00–12:30 - 🖥️ Comparación de herramientas: Interfaces gráficas de usuario (GUI), macros y programación (Coding) (Agustin Corbat)\n\nComparación de GUI, macros y programación de distinto software\n\n12:30–13:00 - Organización de BYOW\n\nBYOW - Other Tools\n\n\n\n\n\n\n\n\n\n14:00–16:30 - 🖥️ (incluye ☕) Taller de Git y Pixi (Mauro Silberberg)\n\nControl de versiones con Git y gestión de entornos con Pixi\n\n16:30–17:00 - Cierre",
     "crumbs": [
-      "Presentaciones",
-      "Workflows reproducibles"
+      "Programa"
+    ]
+  },
+  {
+    "objectID": "program.html#day-3-machine-learning-miércoles-5-de-agosto",
+    "href": "program.html#day-3-machine-learning-miércoles-5-de-agosto",
+    "title": "Programa",
+    "section": "",
+    "text": "09:00–10:00 - 🧠 Machine Learning (Federico Lecumberry)\n\nFundamentos de Machine Learning para análisis de bioimágenes\nMachine Learning aplicado a segmentacion y a clasificacion de objetos\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:00 - 🖥️ Machine Learning (Federico Lecumberry)\n\nAplicaciones de ML a segmentacion de bioimágenes\n\n\n\n\n\n\n\n\n\n13:00–15:00 - 🧠 (incluye ☕) Deep Learning (Enzo Ferrante)\n\nTeoría y conceptos de Deep Learning\n\n15:00–17:00 - 🗫🖥️ BYOW - Other Tools (Lorena Sigaut)\n\nBuild your own workshop y aprender a explorar otras herramientas de bioimagen como tracking, colocalización, registro de imágenes, spectral unmixing, phasors, deconvolution, transcriptómica espacial…",
+    "crumbs": [
+      "Programa"
+    ]
+  },
+  {
+    "objectID": "program.html#day-4-deep-learning-jueves-6-de-agosto",
+    "href": "program.html#day-4-deep-learning-jueves-6-de-agosto",
+    "title": "Programa",
+    "section": "",
+    "text": "09:00–10:00 - 🖥️ (incluye ☕) Taller de Deep Learning (Agustin Corbat)\n\nTaller práctico de Deep Learning\n\n10:00–10:30 - ☕ Coffee Break\n10:30–12:00 - 🖥️ Clasificación de objetos (Agustin Corbat)\n\nClasificación de objetos, reducción de dimensionalidad y clustering\n\n\n\n\n\n\n\n\n\n13:00–13:45 - 🧠 Deep Learning for BIA (Agustin Corbat)\n\nModelos típicos usados en análisis de bioimágenes\n\n13:45–14:00 - ☕ Coffee Break\n14:00–15:30 - 🖥️ Taller de Cellpose, StarDist and friends (Ignacio Sallaberry y Agustin Corbat)\n\nHerramientas prácticas de segmentación DL: Cellpose, StarDist, BioModel Zoo, etc.\n\n15:30–16:30 - 🗫🖥️ BYOW - Other Tools (Lorena Sigaut)\n16:30–17:00 - Cierre",
+    "crumbs": [
+      "Programa"
+    ]
+  },
+  {
+    "objectID": "program.html#day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto",
+    "href": "program.html#day-5-haciendo-escuelas-y-cierre-viernes-7-de-agosto",
+    "title": "Programa",
+    "section": "",
+    "text": "09:00–11:00 - 🧠 (incluye ☕) ¿Como hacer escuelas y cursos? (Martin Schätz)\n\nDiseño de cursos de capacitación y estrategias de enseñanza\n\n11:00–13:00 - 🗫 Discusiones sobre AI y como usarla (Agustin Corbat)\n\nDiscusión sobre el uso de AI en bioimágenes y diseño de clases\n\n\n\n\n\n\n\n\n\n14:00–16:00 - 🗫 (incluye ☕) Discusiones sobre los tutoriales de BYOW y otras herramientas\n\nPuesta en común de las herramientas exploradas en la sesión de BYOW - Other Tools\n\n16:00–17:00 - Cierre\n\n\n\n\n\n17:00–en adelante - 🍔🍻 Cena de cierre (Revisar Zulip)",
+    "crumbs": [
+      "Programa"
     ]
   }
 ]
