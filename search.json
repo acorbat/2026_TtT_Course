@@ -75,7 +75,7 @@
     "href": "presentaciones/teaching.html#slides",
     "title": "¿Cómo hacer escuelas y cursos?",
     "section": "Slides",
-    "text": "Slides\nTODO: agregar enlace a diapositivas",
+    "text": "Slides",
     "crumbs": [
       "Presentaciones",
       "¿Cómo hacer escuelas y cursos?"
@@ -86,7 +86,7 @@
     "href": "presentaciones/teaching.html#citation",
     "title": "¿Cómo hacer escuelas y cursos?",
     "section": "Citation",
-    "text": "Citation\nCitar según sea necesario.",
+    "text": "Citation\nSchätz, M. (2026, August 6). From Analyst to Trainer - A Practical Toolkit. Zenodo.",
     "crumbs": [
       "Presentaciones",
       "¿Cómo hacer escuelas y cursos?"
@@ -571,17 +571,6 @@
     "title": "Version Control with Git and Environment Management with Pixi",
     "section": "Link al taller",
     "text": "Link al taller\nLink al taller",
-    "crumbs": [
-      "Prácticos",
-      "Version Control with Git and Environment Management with Pixi"
-    ]
-  },
-  {
-    "objectID": "practicos/git_pixi.html#citation",
-    "href": "practicos/git_pixi.html#citation",
-    "title": "Version Control with Git and Environment Management with Pixi",
-    "section": "Citation",
-    "text": "Citation\n[Add citation here]",
     "crumbs": [
       "Prácticos",
       "Version Control with Git and Environment Management with Pixi"
