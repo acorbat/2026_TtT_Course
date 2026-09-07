@@ -35,4 +35,4 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ## Citation
 
-[Add citation here]
+Sallaberry, I., & Corbat, A. A. (2026, August 7). Workshop deep learning for bioimage analysis. Zenodo. Taller de Fundamentos en Analisis de Bioimágenes (2026 TtT Course), Buenos Aires - Argentina. https://doi.org/10.5281/zenodo.22259997
