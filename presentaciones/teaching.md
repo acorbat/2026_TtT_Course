@@ -17,8 +17,8 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Slides
 
-_TODO: agregar enlace a diapositivas_
+<iframe src="https://docs.google.com/viewer?url=https://zenodo.org/records/21827120/files/From_analyst_to_trainer.pdf&embedded=true" width="100%" height="600" style="border: 1px solid #dee2e6;"></iframe>
 
 ## Citation
 
-_Citar según sea necesario._
+Schätz, M. (2026, August 6). From Analyst to Trainer - A Practical Toolkit. [Zenodo](https://doi.org/10.5281/zenodo.21827120).
