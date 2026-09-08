@@ -128,4 +128,4 @@ Gracias al apoyo parcial de **FUNDACEN** y fondos institucionales, disponemos de
 
 ## Citation
 
-Corbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores). Zenodo. <https://doi.org/10.5281/zenodo.18247226>
+Corbat, A. A., Sigaut, L., & Pietrasanta, L. I. (2026). Taller de Fundamentos en Análisis de Bioimágenes (Formación-de-Formadores). Zenodo. <https://doi.org/10.5281/zenodo.22647867>
