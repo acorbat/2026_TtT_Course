@@ -66,7 +66,7 @@
     "href": "presentaciones/workflows.html#citation",
     "title": "Workflows reproducibles",
     "section": "Citation",
-    "text": "Citation\nSivagurunathan, S. (2026, August 4). Reproducible workflows. Zenodo. https://doi.org/10.5281/zenodo.21782259",
+    "text": "Citation\nSivagurunathan, S. (2026). Reproducible workflows. Zenodo. https://doi.org/10.5281/zenodo.21782259",
     "crumbs": [
       "Presentaciones",
       "Workflows reproducibles"
@@ -99,7 +99,7 @@
     "href": "presentaciones/segmentacion_clasica_cuantificacion.html#citation",
     "title": "Segmentación clásica y Cuantificación",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026, August 1). Segmentation and Quantification. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21744286",
+    "text": "Citation\nCorbat, A. A. (2026). Segmentation and Quantification. Zenodo. https://doi.org/10.5281/zenodo.21744286",
     "crumbs": [
       "Presentaciones",
       "Segmentación clásica y Cuantificación"
@@ -132,7 +132,7 @@
     "href": "presentaciones/machine_learning.html#citation",
     "title": "Machine Learning",
     "section": "Citation",
-    "text": "Citation\nLecumberry, F. (2026, August 4). Machine Learning and ilastik. Zenodo",
+    "text": "Citation\nLecumberry, F. (2026). Machine Learning and ilastik. Zenodo. https://doi.org/10.5281/zenodo.21796406",
     "crumbs": [
       "Presentaciones",
       "Machine Learning"
@@ -165,7 +165,7 @@
     "href": "presentaciones/deep_learning.html#citation",
     "title": "Deep Learning",
     "section": "Citation",
-    "text": "Citation\nFerrante, E. (2026, August 5). Redes Neuronales para Analisis de Bioimágenes. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22647693",
+    "text": "Citation\nFerrante, E. (2026). Redes Neuronales para Analisis de Bioimágenes. Zenodo. https://doi.org/10.5281/zenodo.22647693",
     "crumbs": [
       "Presentaciones",
       "Deep Learning"
@@ -220,7 +220,7 @@
     "href": "precurso/python.html#citation",
     "title": "Python",
     "section": "Citation",
-    "text": "Citation\nMauro Silberberg. (2026). maurosilber/python-tutorial: 20260724 (Version 20260724) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21539956",
+    "text": "Citation\nSilberberg, M. (2026). maurosilber/python-tutorial: 20260724 (Version 20260724) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21539956",
     "crumbs": [
       "Precurso",
       "Python"
@@ -253,7 +253,7 @@
     "href": "precurso/fiji.html#citation",
     "title": "FIJI / ImageJ",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026, January 9). Workshop on 2D Image Visualization: Fiji and Napari. Zenodo. Light-Sheet Image Analysis Workshop 2026, Santiago de Chile, Chile. https://doi.org/10.5281/zenodo.18199647",
+    "text": "Citation\nCorbat, A. A. (2026). Workshop on 2D Image Visualization: Fiji and Napari. Zenodo. https://doi.org/10.5281/zenodo.18199647",
     "crumbs": [
       "Precurso",
       "FIJI / ImageJ"
@@ -297,7 +297,7 @@
     "href": "practicos/workshop_2d_images.html#citation",
     "title": "Operaciones con imágenes",
     "section": "Citation",
-    "text": "Citation\nSigaut, L., Lecumberry, F., & Corbat, A. A. (2026, August 18). Guía Práctica de Análisis de Bioimágenes: Cálculos de Imágenes, Filtrado y Profundidad de Bits. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22001264",
+    "text": "Citation\nSigaut, L., Lecumberry, F., & Corbat, A. A. (2026). Guía Práctica de Análisis de Bioimágenes: Cálculos de Imágenes, Filtrado y Profundidad de Bits. Zenodo. https://doi.org/10.5281/zenodo.22001264",
     "crumbs": [
       "Prácticos",
       "Operaciones con imágenes"
@@ -440,7 +440,7 @@
     "href": "practicos/deep_learning_biomodels.html#citation",
     "title": "Cellpose, StarDist, and Friends",
     "section": "Citation",
-    "text": "Citation\nSallaberry, I., & Corbat, A. A. (2026, August 7). Workshop deep learning for bioimage analysis. Zenodo. Taller de Fundamentos en Analisis de Bioimágenes (2026 TtT Course), Buenos Aires - Argentina. https://doi.org/10.5281/zenodo.22259997",
+    "text": "Citation\nSallaberry, I., & Corbat, A. A. (2026). Workshop deep learning for bioimage analysis. Zenodo. https://doi.org/10.5281/zenodo.22259997",
     "crumbs": [
       "Prácticos",
       "Cellpose, StarDist, and Friends"
@@ -534,7 +534,7 @@
     "href": "practicos/deep_learning_generic.html#citation",
     "title": "Deep Learning Foundations",
     "section": "Citation",
-    "text": "Citation\nMirabello, C., Sennblad B., Avenel, C., Kierczak, M., Rosén, D., Unneberg, P., Oskolkov, N., Nettelblad, C., Dethlefsen, O., Freyhult, E. (2024). Workshop on Neural Networks and Deep Learning.",
+    "text": "Citation\nMirabello, C., Sennblad, B., Avenel, C., Kierczak, M., Rosén, D., Unneberg, P., Oskolkov, N., Nettelblad, C., Dethlefsen, O., & Freyhult, E. (2024). Workshop on Neural Networks and Deep Learning. NBIS. https://nbisweden.github.io/workshop_NN_DL/",
     "crumbs": [
       "Prácticos",
       "Deep Learning Foundations"
@@ -578,7 +578,7 @@
     "href": "practicos/interfaces.html#citation",
     "title": "Comparing Graphical User Interfaces (GUI), Macros, and Coding",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542",
+    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21693542",
     "crumbs": [
       "Prácticos",
       "Comparing Graphical User Interfaces (GUI), Macros, and Coding"
@@ -655,7 +655,7 @@
     "href": "practicos/segmentation_quantification.html#citation",
     "title": "Segmentación clásica y Cuantificación",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542",
+    "text": "Citation\nCorbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21693542",
     "crumbs": [
       "Prácticos",
       "Segmentación clásica y Cuantificación"
@@ -710,7 +710,7 @@
     "href": "precurso/cli.html#citation",
     "title": "Línea de Comandos (CLI)",
     "section": "Citation",
-    "text": "Citation\nGreg Wilson, Gerard Capes, Gabriel A. Devenyi, Christina Koch, Raniere Silva, Ashwin Srinath, Colin Morris, Mike Jackson, Andrew Boughton, Rémi Emonet, Francis Gacenga, Lex Nederbragt, csqrs, Damien Irving, Erin Alison Becker, Fatma Deniz, Marcel Stimberg, Robert A Beagrie, Daniel McCloy, … Vikram Chhatre. (2019, July 3). swcarpentry/shell-novice: Software Carpentry: the UNIX shell, June 2019. Zenodo. https://doi.org/10.5281/zenodo.3266823",
+    "text": "Citation\nWilson, G., Capes, G., Devenyi, G. A., Koch, C., Silva, R., Srinath, A., Morris, C., Jackson, M., Boughton, A., Emonet, R., Gacenga, F., Nederbragt, L., csqrs, Irving, D., Becker, E. A., Deniz, F., Stimberg, M., Beagrie, R. A., McCloy, D., … Chhatre, V. (2019). swcarpentry/shell-novice: Software Carpentry: the UNIX shell, June 2019. Zenodo. https://doi.org/10.5281/zenodo.3266823",
     "crumbs": [
       "Precurso",
       "Línea de Comandos (CLI)"
@@ -771,7 +771,7 @@
     "href": "precurso/index.html#citation",
     "title": "Material Precurso",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026, May 11). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. https://doi.org/10.5281/zenodo.20126291\nHaase, R. (2020). Lecture BioImage Analysis 2020. YouTube. https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U",
+    "text": "Citation\nCorbat, A. A. (2026). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. https://doi.org/10.5281/zenodo.20126291\nHaase, R. (2020). Lecture BioImage Analysis 2020. YouTube. https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U",
     "crumbs": [
       "Precurso"
     ]
@@ -814,7 +814,7 @@
     "href": "presentaciones/deep_learning_biomodels.html#citation",
     "title": "Deep Learning y Modelos Biomodelos",
     "section": "Citation",
-    "text": "Citation\nCorbat, A. A. (2026, August 1). Deep Learning for Bioimaging. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21746499",
+    "text": "Citation\nCorbat, A. A. (2026). Deep Learning for Bioimaging. Zenodo. https://doi.org/10.5281/zenodo.21746499",
     "crumbs": [
       "Presentaciones",
       "Deep Learning y Modelos Biomodelos"
@@ -880,7 +880,7 @@
     "href": "presentaciones/teaching.html#citation",
     "title": "¿Cómo hacer escuelas y cursos?",
     "section": "Citation",
-    "text": "Citation\nSchätz, M. (2026, August 6). From Analyst to Trainer - A Practical Toolkit. Zenodo.",
+    "text": "Citation\nSchätz, M. (2026). From Analyst to Trainer - A Practical Toolkit. Zenodo. https://doi.org/10.5281/zenodo.21827120",
     "crumbs": [
       "Presentaciones",
       "¿Cómo hacer escuelas y cursos?"
