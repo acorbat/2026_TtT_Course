@@ -24,4 +24,4 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Citation
 
-Ferrante, E. (2026, August 5). Redes Neuronales para Analisis de Bioimágenes. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22647693
+Ferrante, E. (2026). Redes Neuronales para Analisis de Bioimágenes. Zenodo. <https://doi.org/10.5281/zenodo.22647693>

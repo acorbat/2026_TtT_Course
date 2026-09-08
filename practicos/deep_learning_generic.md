@@ -36,4 +36,4 @@ Para el este taller utilizaremos [Google Colab](https://colab.research.google.co
 
 ## Citation
 
-Mirabello, C., Sennblad B., Avenel, C., Kierczak, M., Rosén, D., Unneberg, P., Oskolkov, N., Nettelblad, C., Dethlefsen, O., Freyhult, E. (2024). Workshop on Neural Networks and Deep Learning.
+Mirabello, C., Sennblad, B., Avenel, C., Kierczak, M., Rosén, D., Unneberg, P., Oskolkov, N., Nettelblad, C., Dethlefsen, O., & Freyhult, E. (2024). Workshop on Neural Networks and Deep Learning. NBIS. <https://nbisweden.github.io/workshop_NN_DL/>

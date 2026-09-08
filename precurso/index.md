@@ -131,6 +131,6 @@ Todos los videos del curso son fuertemente recomendados para usar como inspiraci
 
 ## Citation
 
-Corbat, A. A. (2026, May 11). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. https://doi.org/10.5281/zenodo.20126291
+Corbat, A. A. (2026). Digital Image Lecture at Curso de Fundamentos de Microscopia Optica. Zenodo. <https://doi.org/10.5281/zenodo.20126291>
 
-Haase, R. (2020). Lecture BioImage Analysis 2020. YouTube. https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U
+Haase, R. (2020). Lecture BioImage Analysis 2020. YouTube. <https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U>

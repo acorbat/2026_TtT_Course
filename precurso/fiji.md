@@ -24,4 +24,4 @@ Para aprender funciones básicas de Fiji recomiendo seguir la sección correspon
 
 ## Citation
 
-Corbat, A. A. (2026, January 9). Workshop on 2D Image Visualization: Fiji and Napari. Zenodo. Light-Sheet Image Analysis Workshop 2026, Santiago de Chile, Chile. https://doi.org/10.5281/zenodo.18199647
+Corbat, A. A. (2026). Workshop on 2D Image Visualization: Fiji and Napari. Zenodo. <https://doi.org/10.5281/zenodo.18199647>

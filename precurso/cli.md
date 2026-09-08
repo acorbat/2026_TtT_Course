@@ -39,4 +39,4 @@ Aunque recomiendo el [taller de Git de la ComCom](https://comcom.dc.uba.ar/talle
 
 ## Citation
 
-Greg Wilson, Gerard Capes, Gabriel A. Devenyi, Christina Koch, Raniere Silva, Ashwin Srinath, Colin Morris, Mike Jackson, Andrew Boughton, Rémi Emonet, Francis Gacenga, Lex Nederbragt, csqrs, Damien Irving, Erin Alison Becker, Fatma Deniz, Marcel Stimberg, Robert A Beagrie, Daniel McCloy, … Vikram Chhatre. (2019, July 3). swcarpentry/shell-novice: Software Carpentry: the UNIX shell, June 2019. Zenodo. https://doi.org/10.5281/zenodo.3266823
+Wilson, G., Capes, G., Devenyi, G. A., Koch, C., Silva, R., Srinath, A., Morris, C., Jackson, M., Boughton, A., Emonet, R., Gacenga, F., Nederbragt, L., csqrs, Irving, D., Becker, E. A., Deniz, F., Stimberg, M., Beagrie, R. A., McCloy, D., … Chhatre, V. (2019). swcarpentry/shell-novice: Software Carpentry: the UNIX shell, June 2019. Zenodo. <https://doi.org/10.5281/zenodo.3266823>

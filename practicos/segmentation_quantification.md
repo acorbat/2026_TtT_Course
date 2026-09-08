@@ -43,7 +43,7 @@ Imreh, G., Miranda, G., Imreh, G., Corbat, A. A., Le Guyader, S., Le Guyader, S.
 
 ## Citation
 
-Corbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21693542
+Corbat, A. A. (2026). Taller de Segmentación y Cuantificación de Imágenes (Version v0.1) [Computer software]. Zenodo. <https://doi.org/10.5281/zenodo.21693542>
 
 ## Otros talleres de interés
 

@@ -23,4 +23,4 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Citation
 
-Lecumberry, F. (2026, August 4). Machine Learning and ilastik. [Zenodo](https://doi.org/10.5281/zenodo.21796406)
+Lecumberry, F. (2026). Machine Learning and ilastik. Zenodo. <https://doi.org/10.5281/zenodo.21796406>

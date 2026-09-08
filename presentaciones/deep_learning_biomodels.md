@@ -24,4 +24,4 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Citation
 
-Corbat, A. A. (2026, August 1). Deep Learning for Bioimaging. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.21746499
+Corbat, A. A. (2026). Deep Learning for Bioimaging. Zenodo. <https://doi.org/10.5281/zenodo.21746499>

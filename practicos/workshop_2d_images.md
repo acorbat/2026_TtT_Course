@@ -34,4 +34,4 @@ Al finalizar la sesión, los alumnos serán capaces de:
 
 ## Citation
 
-Sigaut, L., Lecumberry, F., & Corbat, A. A. (2026, August 18). Guía Práctica de Análisis de Bioimágenes: Cálculos de Imágenes, Filtrado y Profundidad de Bits. Zenodo. Taller de Fundamentos en Análisis de Bioimágenes (Formación de Formadores) 2026 (TFBIA(FdF)), Buenos Aires, Argentina. https://doi.org/10.5281/zenodo.22001264
+Sigaut, L., Lecumberry, F., & Corbat, A. A. (2026). Guía Práctica de Análisis de Bioimágenes: Cálculos de Imágenes, Filtrado y Profundidad de Bits. Zenodo. <https://doi.org/10.5281/zenodo.22001264>

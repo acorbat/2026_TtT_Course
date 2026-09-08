@@ -21,4 +21,4 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Citation
 
-Schätz, M. (2026, August 6). From Analyst to Trainer - A Practical Toolkit. [Zenodo](https://doi.org/10.5281/zenodo.21827120).
+Schätz, M. (2026). From Analyst to Trainer - A Practical Toolkit. Zenodo. <https://doi.org/10.5281/zenodo.21827120>

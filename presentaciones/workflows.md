@@ -23,4 +23,4 @@ Al finalizar la sesión, los alumnos deberán ser capaces de:
 
 ## Citation
 
-Sivagurunathan, S. (2026, August 4). Reproducible workflows. Zenodo. https://doi.org/10.5281/zenodo.21782259
+Sivagurunathan, S. (2026). Reproducible workflows. Zenodo. <https://doi.org/10.5281/zenodo.21782259>
